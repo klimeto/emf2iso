@@ -151,7 +151,7 @@ if ($json){
 		C.2.2 Resource abstract
 		***/
 	$ef_additionalDescription = $json->{'EnvironmentalMonitoringFacility'}->{'ef:additionalDescription'};
-	$gmdXML .= '<gmd:abstract><gco:CharacterString>'. $ef_additionalDescription .'</gco:CharacterString></gmd:abstract>';
+	$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",$ef_additionalDescription) .'</gco:CharacterString></gmd:abstract>';
 	/***
 		C.2.23 Responsible party
 		***/
@@ -620,6 +620,7 @@ if ($json){
 	$ef_purpose = $json->{'EnvironmentalMonitoringFacility'}->{'ef:purpose'}->{'@xlink:href'};
 	
 	$gmdXML .= '</gmd:MD_Metadata>';
+	$gmdXML;
 	$xml = new SimpleXMLElement($gmdXML);
 	echo $xml->asXML();
 }
