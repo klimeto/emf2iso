@@ -2,10 +2,10 @@
 /*
 ** PHP SCRIPT TO GENERATE JSON ENCODING FROM XML ENVIRONMENTAL MONITORING FACILTY DATASET
 */
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
-//ini_set('date.timezone','Europe/Belgrade');
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+ini_set('date.timezone','Europe/Belgrade');
 header('Content-Type: text/xml');
 if (empty($_GET['url'])){
 	$productJsonUrl = "https://data.lter-europe.net/deims/node/10038/json";
@@ -343,6 +343,7 @@ if ($product_paramsArray || $product_kwdsArray){
 		C.2.13 Temporal extent
 		***/
 	$product_date_range_array = explode(" to ",$json->{'nodes'}[0]->{'node'}->{'date_range'});
+	//print_r($product_date_range_array);
 	//var_dump($ef_operationalActivityEndIndeterminate). '<br>'; 
 	if(count($product_date_range_array) == 2){
 		$gmdXML .= '<gmd:extent>
@@ -368,6 +369,7 @@ if ($product_paramsArray || $product_kwdsArray){
 										<gml:TimePeriod gml:id="'.$gmlId.'">
 											<gml:beginPosition>'.$product_date_range_array[0].'</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
+										</gml:TimePeriod>
 									</gmd:extent>
 								</gmd:EX_TemporalExtent>
 							</gmd:temporalElement>

@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Danube Delta river water level
-    [abstract] => River water level measured monthly at different stations for the period 1932-2014	
-    [data_product_type] => Hydrobiology of rivers
-    [keywords] => water level
-    [parameters] => water measure, hydrological property, water level
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Danube Delta Biosphere Reserve - Romania
-    [related_site_uuid] => cdf8ba96-4a30-4eb7-96cc-1c81e8320989
-    [spatial_resolution] => regular sampling
-    [temporal_resolution] => yearly
-    [date_range] => 1932-10-05 to 2014-10-05
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => No
-    [source] => 
-    [uuid] => ca9c7842-283f-4fb0-8871-3dd096f8e41b
-    [reporter] => Mihai Adamescu, Constantin Cazacu
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>ca9c7842-283f-4fb0-8871-3dd096f8e41b</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

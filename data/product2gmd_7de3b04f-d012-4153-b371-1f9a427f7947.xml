@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Soil characteristics and Carbon fluxes
-    [abstract] => Carbon fluxes between soil, vegetation and atmosphere are only partially known for mountain grasslands, also owing to the complex geological matrix, to the wide variations in soil depth and sub-soil characteristics (e.g., solid rock, fractured rocks, coarse moraine material, etc), and to the unknown response of the fluxes to extreme impact events and climate variability. Soil data are measured in selected sites since 2016. Soil samples for chemistry (organic carbon, nitrogen, inorganic carbon, pH, conductivity) were collected in 2016 from grassland plots at different depth (5-15 cm). In addition, carbon fluxes are measured by an accumulation chamber in several points of fixed plots since 2016. Respiration fluxes are measured in dark condition, whereas net flux exchange are measured with a transparent chamber during daylight. Measurements are available during the summer period monthly.
-    [data_product_type] => Soil
-    [keywords] => carbon fluxes, CEC, EC, C and N content, …)
-    [parameters] => soil measure, C/N ratio of soil, inorganic carbon content, percent carbon, percent organic carbon, soil gas flux, Soil PH, soil physics, soil temperature, total organic carbon in soil
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Gran Paradiso National Park - Italy
-    [related_site_uuid] => e33c983a-19ad-4f40-a6fd-1210ee0b3a4b
-    [spatial_resolution] => vertical profile, plot
-    [temporal_resolution] => single measurement, monthly
-    [date_range] => 2016-08-01 to 2016-09-30
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => 
-    [source] => 
-    [uuid] => 7de3b04f-d012-4153-b371-1f9a427f7947
-    [reporter] => Ilaria Baneschi, Antonello Provenzale
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>7de3b04f-d012-4153-b371-1f9a427f7947</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

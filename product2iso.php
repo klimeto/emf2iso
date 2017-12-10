@@ -1,8 +1,8 @@
 <?php
 ini_set('implicit_flush',1);
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 $now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
 $url2 = 'http://klimeto.com/projects/2017/uba/app/lib/productjson2isoxml.php';
@@ -32,9 +32,9 @@ foreach($arr['nodes'] as $key => $value){
 	file_put_contents($file_name, $product2iso_xml_file);
 	echo("LOAD TO: ".$file_name ."<br>");
 	echo("</li>");
-	ob_flush();
-	flush();
-	sleep(2);
+	//ob_flush();
+	//flush();
+	//sleep(2);
 }
 
 echo("</ol>");

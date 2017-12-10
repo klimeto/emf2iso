@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Doñana_Herbivore_counts
-    [abstract] => In Doñana both wild and domestic ungulates are present. Livestock (cows, horses, sheep) is controlled by the Park Management authority (Regional Ministry of Environment) through direct counts conducted each month and by sanitary control of cattle (tuberculosis) that is mandatory. EBD-CSIC collects data on wild ungulates (wild boar, red deer and fallow deer) through seasonal (winter, spring and late summer) line transect counts (distance sampling), done by car at the end of the day and beginning of the night. Twelve transects (15 km each) cover different areas of Doñana. Four transects located in the marshes can only be counted in the dry season (late summer). Apart from ungulates, also rabbits and hares are recorded. Park Management conducts additional counts of red deer and fallow deer (population counts) once a year during the mating season (late summer) dividing the National Park into 20 regions. Summaries are all published in annual reports of the Park. 
-    [data_product_type] => Mammal
-    [keywords] => population dynamics, Changes in population size over time, Species distribution
-    [parameters] => population and community properties, species richness, population size, species presence measure
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Doñana Long-Term Socio-ecological Research Platform - Spain
-    [related_site_uuid] => bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2
-    [spatial_resolution] => transect
-    [temporal_resolution] => seasonally
-    [date_range] => 1986-01-01 to 2016-10-11
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => No
-    [data_notes] => 
-    [open_data] => 
-    [source] => 
-    [uuid] => f3e51a1d-063c-4653-8b65-2d1736f7c234
-    [reporter] => Guyonne Janss, Javier Bustamante, Luis E. Santamaria Galdon, Carlos Rodriguez, Francisco Carro
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>f3e51a1d-063c-4653-8b65-2d1736f7c234</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Basic climate at Las Tablas de Daimiel National Park
-    [abstract] => 
-    [data_product_type] => Meteorology
-    [keywords] => meteorology
-    [parameters] => atmospheric measure, radiation, global radiation, incoming radiation, air measure, dew point, air temperature, air humidity, precipitation, wind, wind direction, wind speed
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Las Tablas de Daimiel National Park - Spain
-    [related_site_uuid] => 3f485cdb-fd8c-433a-910b-7f8c73c1d882
-    [spatial_resolution] => single point
-    [temporal_resolution] => daily
-    [date_range] => 1992-01-01 to 2016-12-31
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => Yes
-    [source] => Basic weather station at TDNP from 1992 to 2016
-    [uuid] => 5eebf1b6-3ad6-4792-86a2-ea20c78982d0
-    [reporter] => Salvador Sánchez-Carrillo
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>5eebf1b6-3ad6-4792-86a2-ea20c78982d0</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

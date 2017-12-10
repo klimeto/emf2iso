@@ -1,0 +1,12 @@
+<br />
+<b>Warning</b>:  SimpleXMLElement::__construct(): Entity: line 25: parser error : xmlParseEntityRef: no name in <b>/var/www/klimeto/projects/2017/uba/app/lib/productjson2isoxml.php</b> on line <b>451</b><br />
+<br />
+<b>Warning</b>:  SimpleXMLElement::__construct(): 						 &lt;gco:CharacterString&gt;Hardangervidda (Norway) Vegetation cover &amp; diversity in <b>/var/www/klimeto/projects/2017/uba/app/lib/productjson2isoxml.php</b> on line <b>451</b><br />
+<br />
+<b>Warning</b>:  SimpleXMLElement::__construct(): 						                                                                ^ in <b>/var/www/klimeto/projects/2017/uba/app/lib/productjson2isoxml.php</b> on line <b>451</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Exception: String could not be parsed as XML in /var/www/klimeto/projects/2017/uba/app/lib/productjson2isoxml.php:451
+Stack trace:
+#0 /var/www/klimeto/projects/2017/uba/app/lib/productjson2isoxml.php(451): SimpleXMLElement-&gt;__construct('&lt;?xml version=&quot;...')
+#1 {main}
+  thrown in <b>/var/www/klimeto/projects/2017/uba/app/lib/productjson2isoxml.php</b> on line <b>451</b><br />

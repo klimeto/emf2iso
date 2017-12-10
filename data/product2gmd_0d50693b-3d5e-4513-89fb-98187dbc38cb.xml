@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Water chemistry and ecological dynamics
-    [abstract] => The major threats to the biodiversity of mountain lakes are growth in tourism, rapid urbanization, pollution, land use intensification, water uptake, progressive eutrophication, introduction of alien species and climate change, with variable weight in different Protected Areas. Typical phenological responses to changing conditions include shifts in timing, magnitude and duration of phytoplankton blooms, as well as altered community composition, nutrient load and pollutants.Waters samples for physical and chemical parameters (major and minor ions, organic carbon, nitrogen, phosphorous, pH, conductivity) and population dynamics (phytoplankton, zooplankton) have been collected since 2008 from alpine lakes, following a depth-integrated sampling. Measurements are carried out two times for year.
-    [data_product_type] => Standing water (Lakes)
-    [keywords] => Alpine lakes, high mountain lake, phenology, water temperature, water properties, water chemistry, phytoplankton, zooplankton, food webs, anions, cations, nitrate
-    [parameters] => ecosystem measure, nitrogen content, ammonium content, ammonium nitrogen content, population and community properties, community composition, Phytoplankton, Zooplankton, species abundance measure, abundance of phytoplankton, abundance of zooplankton, biomass of phytoplankton, biomass of zooplankton, water measure, acidity of water, alkalinity of water, conductivity, specific conductivity, dissolved organic carbon in water, dissolved oxygen, total nitrogen, total organic carbon, total phosphorus, water temperature, lake temperature
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Gran Paradiso National Park - Italy
-    [related_site_uuid] => e33c983a-19ad-4f40-a6fd-1210ee0b3a4b
-    [spatial_resolution] => vertical profile
-    [temporal_resolution] => single measurement, bi-annual
-    [date_range] => 2008-07-01 to 2017-09-30
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => 
-    [source] => 
-    [uuid] => 0d50693b-3d5e-4513-89fb-98187dbc38cb
-    [reporter] => Antonello Provenzale, Ilaria Baneschi
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>0d50693b-3d5e-4513-89fb-98187dbc38cb</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

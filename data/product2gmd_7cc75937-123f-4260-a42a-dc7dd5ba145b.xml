@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Biodiversity Data Project
-    [abstract] => Standardised monitoring of animal taxa (Aves, Lepidoptera Rhopalocera, Orthoptera, Araneae, Coleoptera Staphylinidae, Coleoptera Carabidae, Hymenoptera Formicidae, pollinators), sampled in fixed plots along altitudinal/environmental gradients in the NW Alps. Sampling methodologies and temporal resolution differ among taxa. For each taxonomic group both semi-quantitative data (directly deriving from monitoring activities) and the characteristics of each species (describing its functional role, distribution and vulnerability) have been archived. The fixed plots are essentially the sampling units (circular plots of 100 m radius), in which also environmental, topographic and microclimatic data have been collected.
-    [data_product_type] => Biodiversity and species richness (incl. population)
-    [keywords] => long term monitoring, biodiversity, elevational gradient, climate change, environmental change, mountains
-    [parameters] => ecosystem measure, population and community properties, community composition, diversity measure, biotic diversity, faunistic diversity, species composition, species richness, species diversity, species abundance measure, species presence measure, species traits, ecosystem structures, abiotic environment, biotic environment
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Gran Paradiso National Park - Italy
-    [related_site_uuid] => e33c983a-19ad-4f40-a6fd-1210ee0b3a4b
-    [spatial_resolution] => plot
-    [temporal_resolution] => yearly, every 2-5 years
-    [date_range] => 2006-05-15 to 2016-10-15
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => 
-    [source] => 
-    [uuid] => 7cc75937-123f-4260-a42a-dc7dd5ba145b
-    [reporter] => Ramona Viterbi, Bruno Bassano, Cristiana Cerrato
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>7cc75937-123f-4260-a42a-dc7dd5ba145b</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

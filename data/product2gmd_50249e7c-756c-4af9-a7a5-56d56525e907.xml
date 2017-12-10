@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Doñana_waterbird_counts
-    [abstract] => Data on bird presence and abundance in Doñana is available since the 50ties, even before its protection. EBD-CSIC started standardized monitoring by aerial counts in the 70ties, initially focused on wintering birds but since de early 80ties counts are conducted monthly, and up to 50 bird species are identified in 52 counting areas within the marshes. Terrestrial bird count of main bird concentrations of Doñana have been conducted at the same time (both EBD-CSIC and Park Management) but were not standardized until 2002 by EBD-CSIC. Since then, monthly surveys have been conducted covering about 87 water bodies of the marshes and from fixed observation points (up to 196 water bird species are included). Additionally, each month, a transect (30 km) count of birds (all non-passerine species and Corvus corax) present at the beach and sea shore is done by car. Furthermore, during spring, colonial water bird nests are located and chicks ringed when possible. Several colonies have been monitored since the 80ties. Non-colonial waterbird nests are located monthly during the breeding season using linear transects on horse in the marshes, totalling about 65 km. These transects data are being collected since 2003. Earlier data on non-colonial breeding waterbirds are more disperse, although ringing activities have been done since the 70ties on regular bases.
-    [data_product_type] => Bird
-    [keywords] => water birds, population dynamics, Changes in population size over time, Species distribution
-    [parameters] => ecosystem measure, population and community properties, community composition, diversity measure, biotic diversity, faunistic diversity, species composition, population size, species presence measure, presence of birds
-    [related_dataset_title] => Aerial counts of waterbirds in Doñana marshes
-    [related_datasets_uuid] =>     UUID: a46d62ee-05fb-11e5-870c-005056ab003f
-    [related_site_title] => Doñana Long-Term Socio-ecological Research Platform - Spain
-    [related_site_uuid] => bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2
-    [spatial_resolution] => full area coverage
-    [temporal_resolution] => monthly
-    [date_range] => 1973-01-01 to 2016-10-11
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => It correspond to aerial censuses conducted during 1993
-    [open_data] => 
-    [source] => Censo aéreo 1993
-    [uuid] => 50249e7c-756c-4af9-a7a5-56d56525e907
-    [reporter] => Guyonne Janss, Javier Bustamante, Luis E. Santamaria Galdon, Carlos Rodriguez, Manuel Mañez
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>50249e7c-756c-4af9-a7a5-56d56525e907</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

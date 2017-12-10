@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Kalkalpen National Park (Austria) - Wild animal management
-    [abstract] => 
-    [data_product_type] => Vegetation structure and species cover
-    [keywords] => 
-    [parameters] => 
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Kalkalpen National Park - Austria
-    [related_site_uuid] => 49515dda-1198-4013-8f43-c33e107af081
-    [spatial_resolution] => full area coverage
-    [temporal_resolution] => yearly
-    [date_range] => 2016-01-01 to 2016-09-28
-    [available_for_ecopotential] => No
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => No
-    [source] => 
-    [uuid] => d72bb1f7-cd95-4dc2-b3a1-dd7f43ea4c8b
-    [reporter] => Franziska Pöpperl
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>d72bb1f7-cd95-4dc2-b3a1-dd7f43ea4c8b</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

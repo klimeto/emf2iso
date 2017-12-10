@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Ohrid and Prespa - Macedonia - Standing water (Lakes) 
-    [abstract] => 
-    [data_product_type] => Standing water (Lakes)
-    [keywords] => 
-    [parameters] => ecosystem measure, population and community properties, community composition, diversity measure, trophic structure, species abundance measure, nitrogen content, nutrients, ecosystem structures, habitat structure, atmospheric measure, air temperature, precipitation, soil moisture, water measure, chlorophyll content of water, secchi depth, lake level, water quality, water temperature, lake temperature, river temperature
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Ohrid and Prespa - Macedonia
-    [related_site_uuid] => fd82e174-fe05-4cfa-b30a-82aee361d258
-    [spatial_resolution] => regular sampling, random sampling
-    [temporal_resolution] => daily, monthly, bi-monthly, seasonally
-    [date_range] => 1998-01-01 to 2016-12-31
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => No
-    [source] => PSI Hydrobiological Insitute, Ohrid
-    [uuid] => 53060e05-356e-49ee-8233-5fec7b883b8b
-    [reporter] => 
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>53060e05-356e-49ee-8233-5fec7b883b8b</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Doñana_Groundwater
-    [abstract] => In Doñana official groundwater level and recharge monitoring is done by the Guadalquivir Water Authority (Confederacion Hidrografica del Guadalquivir CHG). Levels are recorded monthly at 195 measurement points distributed throughout the whole area (unsaturated zone) with starting dates between 1974 and 1994. Additional measurements related with groundwater recharge and chemical composition, covering different periods and areas, are made by research entities. Geological and Mining Institute of Spain (IGME) installed soil moisture sensors and piezometers in the sandy soils of Doñana in 2008 and one lysimeter has been installed in 2016
-    [data_product_type] => Groundwater levels
-    [keywords] => groundwater, groundwater level, groundwater recharge, water table, groundwater flow, soil moisture, Soil moisture sensor, soil water, piezometer
-    [parameters] => soil measure, soil moisture, water measure, water table
-    [related_dataset_title] => Physical-chemical characteristics of wetlands at Doñana LTSER Platform (2011-2012)
-    [related_datasets_uuid] =>     UUID: de68cc7a-8715-11e2-b534-005056ab003f
-    [related_site_title] => Doñana Long-Term Socio-ecological Research Platform - Spain
-    [related_site_uuid] => bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2
-    [spatial_resolution] => single point
-    [temporal_resolution] => daily
-    [date_range] => 1974-01-01 to 2016-09-30
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => Yes
-    [source] => Bade de puntos de agua del IGME
-    [uuid] => 6038c371-6e8f-4e7d-9e23-d78e79ab5107
-    [reporter] => 
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>6038c371-6e8f-4e7d-9e23-d78e79ab5107</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

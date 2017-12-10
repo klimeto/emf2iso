@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Danube Delta Water turbidity
-    [abstract] => Water turbidity data based on survey (at different stations located inside the Danube Delta) measured in NTU for the period 2003-2004
-    [data_product_type] => Riverwater physics (temperature, velocity, depth, suspended solids)
-    [keywords] => suspended solids
-    [parameters] => water measure, water quality, suspended solids
-    [related_dataset_title] => LTER_EU_RO_001_Danube Delta
-    [related_datasets_uuid] =>     UUID: 74b37944-4315-11e3-aeb9-005056ab003f
-    [related_site_title] => Danube Delta Biosphere Reserve - Romania
-    [related_site_uuid] => cdf8ba96-4a30-4eb7-96cc-1c81e8320989
-    [spatial_resolution] => regular sampling
-    [temporal_resolution] => other temporal resolution
-    [date_range] => 2003-10-04 to 2004-10-04
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => No
-    [source] => 
-    [uuid] => c5573eec-c586-438b-b05b-b41366d60215
-    [reporter] => Mihai Adamescu, Constantin Cazacu
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>c5573eec-c586-438b-b05b-b41366d60215</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
