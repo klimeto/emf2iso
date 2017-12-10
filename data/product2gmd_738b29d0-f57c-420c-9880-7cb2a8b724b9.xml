@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Weather data from meteorological stations Sierra Nevada
-    [abstract] => It contains the raw data obtained from the multiparameter stations Sierra Nevada.
-    [data_product_type] => Meteorology
-    [keywords] => multiparametric meteorological station, weather
-    [parameters] => atmospheric measure, air measure, air humidity, air temperature, atmospheric pressure, precipitation, rain, snow depth, snow thickness, radiation, net far infrared radiation, solar radiation, wind, wind direction, wind speed
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Sierra Nevada / Granada (ES- SNE) - Spain
-    [related_site_uuid] => e51cee43-dc12-4545-8e5b-dad35431e3f7
-    [spatial_resolution] => single point
-    [temporal_resolution] => daily
-    [date_range] => 2008-01-10 to 2016-07-28
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => Yes
-    [source] => http://linaria.obsnev.es/
-    [uuid] => 738b29d0-f57c-420c-9880-7cb2a8b724b9
-    [reporter] => Ricardo Moreno
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>738b29d0-f57c-420c-9880-7cb2a8b724b9</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => LTER Zöbelboden Austria aerial data
-    [abstract] => Aerial photographs and LiDAR data of the LTER Zöbelboden catchment
-    [data_product_type] => Airborne Images
-    [keywords] => aerial imagery, LiDAR data
-    [parameters] => landscape measure, elevation, land cover, land use, landscape cover
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => LTER Zöbelboden - Austria
-    [related_site_uuid] => 8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6
-    [spatial_resolution] => no spatial design
-    [temporal_resolution] => yearly
-    [date_range] => 1995-07-15 to 2016-07-15
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => will be uploaded to DEIMS soon
-    [open_data] => 
-    [source] => 
-    [uuid] => 8689b125-ee46-4d09-9e46-640f9c5c6eab
-    [reporter] => Johannes Kobler, Thomas Dirnboeck
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>8689b125-ee46-4d09-9e46-640f9c5c6eab</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

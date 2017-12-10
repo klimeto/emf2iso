@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => LTER Zöbelboden Austria forest structure
-    [abstract] => Forest inventory data of LTER Zöbelboden. Beginning in 1992 permanent plots (64-70) have been recorded approximately every 5 years. The data comprises tree species identity and status, tree height, canopy height, breast diameter among other parameters describing forest structure. 
-    [data_product_type] => Terrestrial systems characteristics
-    [keywords] => forest inventory
-    [parameters] => ecosystem measure, species traits, plants traits, trees breast height diameter, wood, dead wood, ecosystem structures, forest structure, canopy cover, biological measure, tree measure, tree height, tree age, tree diameter, tree distribution, canopy measure, canopy height
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => LTER Zöbelboden - Austria
-    [related_site_uuid] => 8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6
-    [spatial_resolution] => regular sampling
-    [temporal_resolution] => every 2-5 years
-    [date_range] => 1992-07-15 to 2014-07-15
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => will be uploaded on DEIMS soon
-    [open_data] => Yes
-    [source] => 
-    [uuid] => 1f23526e-c156-48c6-b795-9b6b0e0358c4
-    [reporter] => Johannes Kobler, Thomas Dirnboeck
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>1f23526e-c156-48c6-b795-9b6b0e0358c4</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

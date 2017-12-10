@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Portuguese Land Cover Map 
-    [abstract] => A map produced by the Portuguese Geographic Institute with a minimum spatial unit of representation of 1 ha. Spatial accuracy 5.5 m and thematic accuracy 85.13%, with an error of 2% for a confidence level of 95%.There are several levels of detail, concerning land occupation. For the moment, only Level 2 is publicly available.
-    [data_product_type] => Historic land cover and habitats
-    [keywords] => landcover, Land use, Landscape cover, Landscape fragmentation, landscape metrics
-    [parameters] => landscape measure, land cover, land use, landscape cover, landscape fragmentation, landscape connectivity, landscape metrics
-    [related_dataset_title] => 
-    [related_datasets_uuid] => 
-    [related_site_title] => Montado in Alentejo Natura 2000 sites - Portugal
-    [related_site_uuid] => 10e6a0e2-a593-43d0-b915-31ec6e2d840e
-    [spatial_resolution] => full area coverage
-    [temporal_resolution] => single measurement
-    [date_range] => 2007-01-01 to 2007-12-31
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => Yes
-    [source] => https://data.lter-europe.net/deims/Portuguese%20General%20Directorate%20for%20th...
-    [uuid] => cd4327f4-a662-451d-aabc-2500cbe7f633
-    [reporter] => Instituto Superior Técnico
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>cd4327f4-a662-451d-aabc-2500cbe7f633</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

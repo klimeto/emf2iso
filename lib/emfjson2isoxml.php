@@ -8,6 +8,8 @@
 ini_set('date.timezone','Europe/Belgrade');
 include_once 'xml2json.php';
 header('Content-Type: text/xml');
+$cswApi = 'https://data.lter-europe.net/pycsw?';
+$getRecById = $cswApi . 'service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=';
 if (empty($_GET['url'])){
 	$emfXMLUrl = "https://data.lter-europe.net/deims/node/8611/emf";
 }
@@ -151,7 +153,7 @@ if ($json){
 		C.2.2 Resource abstract
 		***/
 	$ef_additionalDescription = $json->{'EnvironmentalMonitoringFacility'}->{'ef:additionalDescription'};
-	$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",$ef_additionalDescription) .'</gco:CharacterString></gmd:abstract>';
+	$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",str_replace("&","and",$ef_additionalDescription)) .'</gco:CharacterString></gmd:abstract>';
 	/***
 		C.2.23 Responsible party
 		***/
@@ -494,17 +496,34 @@ if ($json){
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions>";
 	}
+	/**** LINKS TO RELATED DATASET (CSW GETRECORDBYID) ****/
 	$ef_hasObservationArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:hasObservation'};
 	//var_dump($ef_hasObservationArray). '<br>'; 
 	if($ef_hasObservationArray){
 		foreach($ef_hasObservationArray as $dataset){
+			$datasetGmdArray = xmlToArray(simplexml_load_file($dataset->{'@xlink:href'}));
+			$datasetGmdJSON = json_encode($datasetGmdArray);
+			$jsonObject = json_decode($datasetGmdJSON);
+			$uuid = $jsonObject->{'MD_Metadata'}->{'gmd:fileIdentifier'}->{'gco:CharacterString'};
+			if (!empty($uuid)){
+				$gmdURL = $getRecById . $uuid;
+			}
+			else{
+				$gmdURL = $dataset->{'@xlink:href'};
+			}
 			$gmdXML .= '<gmd:transferOptions>
 					<gmd:MD_DigitalTransferOptions>
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>'.$dataset->{'@xlink:href'}.'</gmd:URL>
+									<gmd:URL>'.$gmdURL.'</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>'.$dataset->{'@xlink:title'}.'</gco:CharacterString>
 								</gmd:name>
@@ -572,6 +591,7 @@ if ($json){
 	/***
 		DATA QUALITY INFO METADATA SECTION START 
 	***/
+	$gmdXML .= '<gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/>';
 	// INSPIRE DEAFAULT SPECIFICATION
 	// <gmx:Anchor xlink:href="http://data.europa.eu/eli/reg/2010/1089">COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gmx:Anchor>
 	$gmdXML .= '<gmd:report><gmd:DQ_DomainConsistency><gmd:result>
@@ -609,6 +629,7 @@ if ($json){
 				   </gmd:statement>
 				</gmd:LI_Lineage>
 			 </gmd:lineage>';
+	$gmldXML .= '</gmd:DQ_DataQuality></gmd:dataQualityInfo>';
 	/***
 		DATA QUALITY INFO METADATA SECTION END 
 	***/
@@ -620,7 +641,7 @@ if ($json){
 	$ef_purpose = $json->{'EnvironmentalMonitoringFacility'}->{'ef:purpose'}->{'@xlink:href'};
 	
 	$gmdXML .= '</gmd:MD_Metadata>';
-	$gmdXML;
+	//$gmdXML = str_replace("&","",$gmdXML);
 	$xml = new SimpleXMLElement($gmdXML);
 	echo $xml->asXML();
 }

@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 $now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/emf/harvest_list';
-$url2 = 'http://klimeto.com/projects/2017/uba/app/emfJson2isoXml.php';
+$url2 = 'http://klimeto.com/projects/2017/uba/app/lib/emfjson2isoxml.php';
 $xml = simplexml_load_file($url) or die("feed not loading");
 $arr = json_decode(json_encode($xml), true);
 $zwischen_var = $arr["site"];

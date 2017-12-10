@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => LTER Zöbelboden Austria deposition
-    [abstract] => Deposition data from LTER Zöbelboden. The data comprises monthly wet only and bulk precipitation chemistry from an open area and canopy throughfall chemistry from 2-3 forest plots
-    [data_product_type] => Precipitation chemistry
-    [keywords] => nitrogen deposition, Heavy metal deposition, Base cations deposition
-    [parameters] => atmospheric measure, precipitation, throughfall, air quality
-    [related_dataset_title] => LTER Zöbelboden, Austria, Throughfall, 1993-2012
-    [related_datasets_uuid] =>     UUID: bf4bdb26-5387-11e4-a597-005056ab003f
-    [related_site_title] => LTER Zöbelboden - Austria
-    [related_site_uuid] => 8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6
-    [spatial_resolution] => plot
-    [temporal_resolution] => bi-weekly
-    [date_range] => 1993-01-01 to 2015-12-31
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => DEIMS data sets
-    [open_data] => Yes
-    [source] => 
-    [uuid] => 4efaa2f2-6f4a-4f75-b95c-c3ffb13594a5
-    [reporter] => Thomas Dirnboeck, Johannes Kobler, Ika Djukic
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>4efaa2f2-6f4a-4f75-b95c-c3ffb13594a5</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

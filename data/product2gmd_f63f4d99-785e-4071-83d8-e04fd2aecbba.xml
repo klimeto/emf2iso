@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => LTER Zöbelboden Austria soil, soil water, soil respiration data
-    [abstract] => Soil data of LTER Zöbelboden, Austria. Soil inventory is carried out since 1992 on regular positions (approx 65) in the catchment measuring soil chemistry. Soil water chemistry is measured in forest plots (2-3) using lysimeter sampling and analyses on a bi-weekly to monthly basis. Soil hydraulic characterizations exist for the major soil types in the catchment. Soil CO2 and N2O respiration data is available for some years
-    [data_product_type] => Soil
-    [keywords] => 
-    [parameters] => soil measure, acidity of soil, alkalinity of soil, base saturation, bulk density, soil bulk density, soil dry bulk density, C/N ratio of soil, cation exchange capacity, exchangeable cations, inorganic carbon content, inorganic nitrogen content, percent carbon, percent organic carbon, soil hydraulic measure, perched water table depth, soil matrix water potential, soil volumetric water content, soil water content, soil water holding capacity, soil water potential, soil water retention, soil water retention curve, soil moisture, field capacity, soil moisture content, soil nitrate leaching, Soil PH, soil physics, soil temperature, soil properties, soil respiration, soil solution measure, soil solution chemistry in soil, dissolved organic carbon in soil, dissolved organic nitrogen in soil, soil solution concentration, soil texture, soil wilting point, thickness of soil horizon, total organic carbon in soil
-    [related_dataset_title] => LTER Zöbelboden, Austria, Soil water chemistry, 1993-2012
-    [related_datasets_uuid] =>     UUID: bc717ac6-5dcf-11e4-a597-005056ab003f
-    [related_site_title] => LTER Zöbelboden - Austria
-    [related_site_uuid] => 8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6
-    [spatial_resolution] => regular sampling, plot
-    [temporal_resolution] => bi-weekly, monthly, every 5-10 years
-    [date_range] => 1992-07-15 to 2015-12-31
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => will be uploaded to DEIMS soon
-    [open_data] => 
-    [source] => 
-    [uuid] => f63f4d99-785e-4071-83d8-e04fd2aecbba
-    [reporter] => Johannes Kobler, Thomas Dirnboeck, Ika Djukic
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>f63f4d99-785e-4071-83d8-e04fd2aecbba</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>

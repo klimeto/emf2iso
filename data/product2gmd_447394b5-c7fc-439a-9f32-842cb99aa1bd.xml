@@ -1,25 +1,3 @@
-stdClass Object
-(
-    [title] => Birds Diversity
-    [abstract] => Database built by volunteers from the Portuguese Society for the Study of Birds. Each row is a validated record of an observed species. The information on the number of individuals of that species is not reliable.
-    [data_product_type] => Bird
-    [keywords] => bird diversity
-    [parameters] => diversity measure, biotic diversity, faunistic diversity, species diversity, species presence measure, presence of birds
-    [related_dataset_title] => Vegetation map of the Moor House National Nature Reserve
-    [related_datasets_uuid] =>     UUID: 4f9bf89d-5ecb-41bf-970a-9c69a02cc51b
-    [related_site_title] => Montado in Alentejo Natura 2000 sites - Portugal
-    [related_site_uuid] => 10e6a0e2-a593-43d0-b915-31ec6e2d840e
-    [spatial_resolution] => plot
-    [temporal_resolution] => other temporal resolution
-    [date_range] => 2015-01-01 to 2015-12-31
-    [available_for_ecopotential] => Yes
-    [data_digitally_available] => Yes
-    [data_notes] => 
-    [open_data] => No
-    [source] => Portuguese Society for the Study of Birds
-    [uuid] => 447394b5-c7fc-439a-9f32-842cb99aa1bd
-    [reporter] => Instituto Superior Técnico
-)
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>447394b5-c7fc-439a-9f32-842cb99aa1bd</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
