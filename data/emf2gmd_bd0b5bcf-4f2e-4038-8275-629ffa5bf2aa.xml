@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+				  </gmd:language><gmd:characterSet>
+					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+				  </gmd:characterSet>
+				  <gmd:hierarchyLevel>
+					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+				  </gmd:hierarchyLevel><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Jess K Zimmerman</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>jesskz@ites.upr.edu</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Eda Celina Melendez Colom</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>edacorreo@yahoo.com</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString/>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>National Science Foundation</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString/>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Jess K Zimmerman</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>jesskz@ites.upr.edu</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Eda Celina Melendez Colom</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>edacorreo@yahoo.com</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-06</gco:Date>
+				   </gmd:dateStamp><gmd:referenceSystemInfo>
+					  <gmd:MD_ReferenceSystem>
+						 <gmd:referenceSystemIdentifier>
+							<gmd:RS_Identifier>
+							   <gmd:code>
+								   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+							   </gmd:code>
+							</gmd:RS_Identifier>
+						 </gmd:referenceSystemIdentifier>
+					  </gmd:MD_ReferenceSystem>
+				   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+						 <gco:CharacterString>Luquillo Long-Term Ecological Research</gco:CharacterString>
+					</gmd:title><gmd:identifier>
+					  <gmd:MD_Identifier>
+						 <gmd:code>
+							<gco:CharacterString>https://data.lter-europe.net/deims/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa</gco:CharacterString>
+						 </gmd:code>
+					  </gmd:MD_Identifier>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The majority of the Luquillo Long-Term Ecological Research (LUQ) program takes place in the Luquillo Mountains of Puerto Rico. This tropical setting has steep environmental gradients, a varied natural disturbance regime, and a history of human land use. Of the mountain area, 11,330 hectares are included in the Luquillo Experimental Forest (LEF), which is congruent with El Yunque National Forest, part of the U.S. National Forest system. The mountains rise to over 1075 m. Prevailing winds coming off the ocean from the east drop rain as they rise over the mountains; thus rainfall increases with elevation, ranging from about 3530 mm/year at low elevations to 4850 mm/year higher up. February through April are the drier months, but monthly rainfall is variable. Mean monthly temperatures at lowest elevations range from about 23.5ºC in January to 27ºC in September, and at the highest elevations from 17ºC to 20ºC (Climate and Hydrology). The geology of the Luquillo Mountains is mainly described as igneous rock formed in the Cretaceous, with some intrusive materials from the Tertiary. Soils are deep, weathered, and moderately rich in nutrients. Little humus accumulates, due to rapid decomposition, except in local areas at upper elevations, where decomposition seems to be inhibited by waterlogging. There are four main life zones, delineated on the basis of temperature and precipitation (Holdridge System), in the Luquillo Mountains: subtropical wet and subtropical rain forests are found at low and mid elevations, lower montane rain and lower montane wet forests at high elevations. There is also an area of subtropical moist forest at low elevations on the southwest slope. Natural disturbances in the Luquillo Mountains include hurricanes, landslides, treefalls, droughts, and floods. Human disturbances, mainly in the past, include road construction, charcoal production, clearing for pasture and crops, creation of coffee plantations, and logging. The forests are classified into four types: "tabonuco forest", "palo colorado forest", "palm forest", and "elfin woodland forest". Ascending the Luquillo Mountains through these forest types, shows a distinctive forest dynamic with the average tree height and diameter, number of tree species, and basal area (cross sectional area of tree stems) tend to decrease, while stem density increases. Epiphytes become more common with elevation. The animal community in the Luquillo Mountains exhibits several distinctive characteristics that affect the structure of its food web. The characteristics are a product of tropical location, disturbance regime, and spatial and temporal constraints related to island size, distance and history of isolation from continents. The only native mammal in the area are bats, all other mammals (cats, rats, and mongooses) are introduced. Birds include several species endemic to Puerto Rico, such as the Puerto Rican Tody, an understory insectivore, and the Puerto Rican Parrot, an endangered species. Streams in the Luquillo Mountains have steep channels with many boulders and series of pools and riffles. The dynamics of stream ecosystems are strongly influence by physical factors, such as the rapid change in elevation from headwaters to coastal plains, the intensity and frequency of rainfall events, and the high temporal variability of stream discharge.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Jess K Zimmerman</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>jesskz@ites.upr.edu</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Eda Celina Melendez Colom</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>edacorreo@yahoo.com</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString/>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>National Science Foundation</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString/>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Jess K Zimmerman</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>jesskz@ites.upr.edu</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Eda Celina Melendez Colom</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>edacorreo@yahoo.com</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species list</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trophic structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of soil macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>earth worms abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species group abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>presence of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium nitrate concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent nitrogen</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological cycle</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trees breast height diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil fluxes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anthropogenic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>basal area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy gaps</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hurricane damage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>detritus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>detritus cycle</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ground water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant nitrogen uptake</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irradiance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>light</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>direct radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>albedo</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>NOx concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>SO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>throughfall</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment description</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment name</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment objective</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use class</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape configuration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>albedo of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>available phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil gas flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil solution chemistry in soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water velocity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						  <gco:CharacterString>Terrestrial</gco:CharacterString>
+					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+		 <gmd:keyword>
+			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+		 </gmd:keyword>
+		 <gmd:thesaurusName>
+		 <gmd:CI_Citation>
+			 <gmd:title>
+				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+			 </gmd:title>
+			 <gmd:date>
+				 <gmd:CI_Date>
+					 <gmd:date>
+						<gco:Date>2008-06-01</gco:Date>
+					 </gmd:date>
+					 <gmd:dateType>
+						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+					 </gmd:dateType>
+				 </gmd:CI_Date>
+			 </gmd:date>
+		 </gmd:CI_Citation>
+		 </gmd:thesaurusName>
+	</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>-65.701500000000</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>-65.701500000000</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>18.360700000000</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>18.360700000000</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:temporalElement>
+								<gmd:EX_TemporalExtent>
+									<gmd:extent>
+										<gml:TimePeriod gml:id="timePeriod_bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa">
+											<gml:beginPosition>1876-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>https://data.lter-europe.net/deims/site/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://luq.lternet.edu</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa'amp;outputFormat=application%2Fjson</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/232</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>United States (US LTER)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				 <gmd:DQ_ConformanceResult>
+					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+						 <gmd:CI_Citation>
+							 <gmd:title>
+							 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:title>
+							 <gmd:date>
+								 <gmd:CI_Date>
+									 <gmd:date>
+										<gco:Date>2010-12-08</gco:Date>
+									 </gmd:date>
+									 <gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									 </gmd:dateType>
+								 </gmd:CI_Date>
+							 </gmd:date>
+						 </gmd:CI_Citation>
+					 </gmd:specification>
+					 <gmd:explanation>
+						<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+					 </gmd:explanation>
+					 <gmd:pass>
+						<gco:Boolean>false</gco:Boolean>
+					 </gmd:pass>
+				 </gmd:DQ_ConformanceResult>
+				</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+				<gmd:LI_Lineage>
+				   <gmd:statement>
+					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+				   </gmd:statement>
+				</gmd:LI_Lineage>
+			 </gmd:lineage></gmd:MD_Metadata>

@@ -1,0 +1,152 @@
+stdClass Object
+(
+    [title] => Runoff
+    [abstract] => Runoff generated under different historical scenarios of vegetation cover and soil uses (1956-2007)
+    [data_product_type] => Runoff and discharge
+    [keywords] => runoff, surface runoff
+    [parameters] => water measure, hydrological property, runoff
+    [related_dataset_title] => 
+    [related_datasets_uuid] => 
+    [related_site_title] => Sierra Nevada / Granada (ES- SNE) - Spain
+    [related_site_uuid] => e51cee43-dc12-4545-8e5b-dad35431e3f7
+    [spatial_resolution] => full area coverage
+    [temporal_resolution] => yearly
+    [date_range] => 2007-01-01 to 2007-01-12
+    [available_for_ecopotential] => Yes
+    [data_digitally_available] => Yes
+    [data_notes] => 
+    [open_data] => Yes
+    [source] => http://linaria.obsnev.es/
+    [uuid] => c85f4cba-d7dc-482c-a0f7-c53c0ebe2428
+    [reporter] => Ricardo Moreno
+)
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>c85f4cba-d7dc-482c-a0f7-c53c0ebe2428</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+				  </gmd:language>
+				  <gmd:characterSet>
+					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+				  </gmd:characterSet><gmd:parentIdentifier>
+						<gmx:Anchor xlink:href="https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=e51cee43-dc12-4545-8e5b-dad35431e3f7" xlink:title="Sierra Nevada / Granada (ES- SNE) - Spain"/>
+					</gmd:parentIdentifier><gmd:hierarchyLevel>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:hierarchyLevel>
+					<gmd:hierarchyLevelName>
+						<gco:CharacterString>Data product</gco:CharacterString>
+					</gmd:hierarchyLevelName><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Ricardo Moreno</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-10</gco:Date>
+				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+						 <gco:CharacterString>Runoff</gco:CharacterString>
+					</gmd:title>
+					<gmd:date/><gmd:identifier>
+					  <gmd:MD_Identifier>
+						 <gmd:code>
+							<gco:CharacterString>https://data.lter-europe.net/deims/c85f4cba-d7dc-482c-a0f7-c53c0ebe2428</gco:CharacterString>
+						 </gmd:code>
+					  </gmd:MD_Identifier>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Runoff generated under different historical scenarios of vegetation cover and soil uses (1956-2007)</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Ricardo Moreno</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:resourceMaintenance>
+						<gmd:MD_MaintenanceInformation>
+							<gmd:maintenanceAndUpdateFrequency>
+								<gmd:MD_MaintenanceFrequencyCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy/temporal_resolution_data_products_" codeListValue="yearly">yearly</gmd:MD_MaintenanceFrequencyCode>
+							</gmd:maintenanceAndUpdateFrequency>
+						</gmd:MD_MaintenanceInformation>
+					</gmd:resourceMaintenance><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gco:CharacterString>Runoff and discharge</gco:CharacterString>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>surface runoff</gco:CharacterString></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gco:CharacterString>Open data</gco:CharacterString>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gco:CharacterString>Digital data</gco:CharacterString>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gco:CharacterString>Ecopotential project</gco:CharacterString>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+		 <gmd:keyword>
+			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+		 </gmd:keyword>
+		 <gmd:thesaurusName>
+		 <gmd:CI_Citation>
+			 <gmd:title>
+				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+			 </gmd:title>
+			 <gmd:date>
+				 <gmd:CI_Date>
+					 <gmd:date>
+						<gco:Date>2008-06-01</gco:Date>
+					 </gmd:date>
+					 <gmd:dateType>
+						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+					 </gmd:dateType>
+				 </gmd:CI_Date>
+			 </gmd:date>
+		 </gmd:CI_Citation>
+		 </gmd:thesaurusName>
+	</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords> <gmd:aggregationInfo>
+                <gmd:MD_AggregateInformation>
+                    <gmd:aggregateDataSetIdentifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code><gco:CharacterString/></gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:aggregateDataSetIdentifier>
+                    <gmd:associationType/>
+                </gmd:MD_AggregateInformation>
+            </gmd:aggregationInfo><gmd:spatialRepresentationType>
+							<gmd:MD_SpatialRepresentationTypeCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy_manager/voc/spatial_resolution_data_products_" codeListValue="full area coverage">full area coverage</gmd:MD_SpatialRepresentationTypeCode>
+						</gmd:spatialRepresentationType><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:temporalElement>
+								<gmd:EX_TemporalExtent>
+									<gmd:extent>
+										<gml:TimePeriod gml:id="deims_data_product_c85f4cba-d7dc-482c-a0f7-c53c0ebe2428">
+											<gml:beginPosition>2007-01-01</gml:beginPosition>
+											<gml:endPosition>2007-01-12</gml:endPosition>
+										</gml:TimePeriod>
+									</gmd:extent>
+								</gmd:EX_TemporalExtent>
+							</gmd:temporalElement>
+						</gmd:EX_Extent>
+					</gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>https://data.lter-europe.net/deims/activity/c85f4cba-d7dc-482c-a0f7-c53c0ebe2428</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://linaria.obsnev.es/</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>
+					<gmd:LI_Lineage>
+					   <gmd:statement>
+						  <gco:CharacterString>Data product is based on requirements defined by research projects (e.g. EcoPotential) as well as target stakeholder groups (e.g. LTER) in order to allow a summarised description of a series of data.</gco:CharacterString>
+					   </gmd:statement>
+					</gmd:LI_Lineage>
+				 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+				  </gmd:language><gmd:characterSet>
+					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+				  </gmd:characterSet>
+				  <gmd:hierarchyLevel>
+					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+				  </gmd:hierarchyLevel><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-06</gco:Date>
+				   </gmd:dateStamp><gmd:referenceSystemInfo>
+					  <gmd:MD_ReferenceSystem>
+						 <gmd:referenceSystemIdentifier>
+							<gmd:RS_Identifier>
+							   <gmd:code>
+								   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+							   </gmd:code>
+							</gmd:RS_Identifier>
+						 </gmd:referenceSystemIdentifier>
+					  </gmd:MD_ReferenceSystem>
+				   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+						 <gco:CharacterString>LTsER-Montado</gco:CharacterString>
+					</gmd:title><gmd:identifier>
+					  <gmd:MD_Identifier>
+						 <gmd:code>
+							<gco:CharacterString>https://data.lter-europe.net/deims/ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d</gco:CharacterString>
+						 </gmd:code>
+					  </gmd:MD_Identifier>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Cork (Quercus suber) and holm (Quercus ilex) oaks were probably the dominant oak species in the Iberian Peninsula south of the Cantabrian/ Pyrenean mountains since the end of the last glaciation. Despite a large range overlap between both species, cork-oak was confined to the mild western regions of the Peninsula (thereby encompassing most of the Portuguese territory), occurring only in small patches along the coast further east, while holm oak was and still is the dominant oak over most of the Centre and East of the Peninsula, subjected to a harsher continental climate. Millennia of land clearing driven by human population growth and need for agricultural land lead to the almost complete elimination of cork oaks from the Centre and North of Portugal (and Galicia), where the mountainous relief and relatively high precipitation allowed for the establishment of numerous small farms. However, in the dry lowlands south of river Tajus, the impossibility of land irrigation and the poor soil quality were two of the main drivers that contributed to the establishment of the montado agro-sylvo-pastoral system. Today, roughly 90% of Portuguese cork-oak montados are found in this region (Alentejo) and represent the largest cork-oak montado area in the world. Here, the species basically occurs on two soil types – the skeletal schist soils that result from the weathering of the Palaeozoic hercinic core of the Peninsula and the alluvial plains of the Tajus and Sado rivers, which well drained sandy soils, correspond to an ecological optimum for this species. When compared with holm oaks, cork-oaks are relatively fragile, being unable to withstand severe droughts and continental climates (inland) or calcareous soils (in the Algarve). Therefore, as one proceeds south of the Tajus, the flatlands become divided between the coastal cork-oak montados and the inland holm oak montados. In spite of their physiological differences, holm oak forests were also cleared with different extents in different areas and the same pattern emerged, with most of the Portuguese holm oak montados occurring nowadays in inland Alentejo. These montados are in fact the western limit of the Spanish dehesas; their aggregated area constitutes the largest extension of montado ecosystem in the world. Data series of Alentejo province concerning the main key drivers of change and available to the research team are: Climate (historical time series since 1930 and every thirty years onwards, plus climatic models); Satellite images (1984, 1990, 1994 and 2004 – several series along the year, 2008); Aerial Photographies (1960/70, 1974/80, 1995, 2005); Forestry inventories (60’s/70’s, 1995, 2005). In each of the three core research and monitoring stations encompassing the variety of edapho-climatic conditions to which most montados are subjected, and that are proposed in the current proposal (see research plan), two study case sites were selected to illustrate contrasting human pressures. More relevance was given to cork oak montados, due to the importance of cork industry for the national PIB, as well as to the global importance of the Portuguese territory for this ecosystem. Two main and one secondary contrasts related to human pressures will be monitored: i) vulnerability to dryness (also related to land use), monitored at Machuqueira do Grou and Companhia das Lezírias (less vulnerable) vs Ribeira Abaixo and Sines (more vulnerable); and ii) vulnerability to grazing intensification, monitored at Companhia das Lezírias (more vulnerable) vs Machuqueira do Grou and Ribeira Abaixo (less vulnerable). The same vulnerability to grazing intensification will be monitored at the two holm oak site, where the main contrast is the type of grazer: cattle (Coitadinha) vs game species (Contenda). Finally, the additional contrast refers to the proximity to pollution sources that can be explored by the comparison between Companhia das Lezírias and Sines (more exposed) vs. all other study sites (less exposed).</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>naturalness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape configuration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape metrics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+		 <gmd:keyword>
+			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+		 </gmd:keyword>
+		 <gmd:thesaurusName>
+		 <gmd:CI_Citation>
+			 <gmd:title>
+				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+			 </gmd:title>
+			 <gmd:date>
+				 <gmd:CI_Date>
+					 <gmd:date>
+						<gco:Date>2008-06-01</gco:Date>
+					 </gmd:date>
+					 <gmd:dateType>
+						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+					 </gmd:dateType>
+				 </gmd:CI_Date>
+			 </gmd:date>
+		 </gmd:CI_Citation>
+		 </gmd:thesaurusName>
+	</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>-9.25414</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>-6.93035</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>37.3199</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>39.6657</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>-8.093600000000</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>-8.093600000000</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>38.432500000000</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>38.432500000000</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:temporalElement>
+								<gmd:EX_TemporalExtent>
+									<gmd:extent>
+										<gml:TimePeriod gml:id="timePeriod_ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d">
+											<gml:beginPosition>2011-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>https://data.lter-europe.net/deims/site/ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.ltsermontado.pt/</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'amp;outputFormat=application%2Fjson</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/242</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Portugal (LTER Portugal)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				 <gmd:DQ_ConformanceResult>
+					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+						 <gmd:CI_Citation>
+							 <gmd:title>
+							 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:title>
+							 <gmd:date>
+								 <gmd:CI_Date>
+									 <gmd:date>
+										<gco:Date>2010-12-08</gco:Date>
+									 </gmd:date>
+									 <gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									 </gmd:dateType>
+								 </gmd:CI_Date>
+							 </gmd:date>
+						 </gmd:CI_Citation>
+					 </gmd:specification>
+					 <gmd:explanation>
+						<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+					 </gmd:explanation>
+					 <gmd:pass>
+						<gco:Boolean>false</gco:Boolean>
+					 </gmd:pass>
+				 </gmd:DQ_ConformanceResult>
+				</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+				<gmd:LI_Lineage>
+				   <gmd:statement>
+					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+				   </gmd:statement>
+				</gmd:LI_Lineage>
+			 </gmd:lineage></gmd:MD_Metadata>

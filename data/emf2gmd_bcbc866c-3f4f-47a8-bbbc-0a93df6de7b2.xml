@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+				  </gmd:language><gmd:characterSet>
+					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+				  </gmd:characterSet>
+				  <gmd:hierarchyLevel>
+					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+				  </gmd:hierarchyLevel><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Ricardo Diaz-Delgado</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>rdiaz@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Luis E. Santamaria Galdon</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>lsantamaria@imedea.uib-csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString/>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>Doñana Biological Station, CSIC</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString/>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString/>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>Spanish Council for Research (CSIC)</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString/>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Ricardo Diaz-Delgado</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>rdiaz@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Carlos Rodriguez</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>carlos_r@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Americo Vespucio s/n Seville 41219 ES</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Miguel Angel Bravo-Utrera</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mabravo@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Americo Vespucio s/n Seville 41092 ES</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Ana Cristina Andreu</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>acandreu@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Rocio Fernandez-Zamudio</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>rzamudio@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Americo Vespucio s/n Seville 41092 ES</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Manuel Mañez</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mmanez@ebd.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Americo Vespucio s/n Seville 41092 ES</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-06</gco:Date>
+				   </gmd:dateStamp><gmd:referenceSystemInfo>
+					  <gmd:MD_ReferenceSystem>
+						 <gmd:referenceSystemIdentifier>
+							<gmd:RS_Identifier>
+							   <gmd:code>
+								   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+							   </gmd:code>
+							</gmd:RS_Identifier>
+						 </gmd:referenceSystemIdentifier>
+					  </gmd:MD_ReferenceSystem>
+				   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+						 <gco:CharacterString>Doñana Long-Term Socio-ecological Research Platform</gco:CharacterString>
+					</gmd:title><gmd:identifier>
+					  <gmd:MD_Identifier>
+						 <gmd:code>
+							<gco:CharacterString>https://data.lter-europe.net/deims/bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2</gco:CharacterString>
+						 </gmd:code>
+					  </gmd:MD_Identifier>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Protected in 1968, Doñana National Park (537 km2) is a UNESCO Biosphere Reserve, a Ramsar Site and a Natural World Heritage Site. It contains the largest wetland in Western Europe, a intricate matrix of marshlands (270 km2), phreatic lagoons, a 25 km-long dune ecosystem with its respective shoreline and representative Mediterranean terrestrial plant communities (Figure 1). Conservation objectives include the preservation of critically endangered species (Iberian Lynx, Spanish Imperial Eagle, Marbled Teal), of the abundance of waterfowl, and of Mediterranean wetlands and terrestrial ecosystems. Doñana is both a critical stopover site for Palearctic birds migrating to Africa and an important overwintering site for waterfowl. Doñana LTSER platform comprises both the protected area and the surrounding territories (2736 km2) where a complex landscape matrix composed by rice fields, fisheries, irrigated crops, berry greenhouses, vineyards, olives and pine afforestations hold the tributary streams that pour their water to the fluvial marshland, the main figure of Doñana. Doñana surroundings hold over 180000 permanent inhabitants. More than 60% of the employment is concentrated on the agricultural sector, and another 25% is devoted to the service sector, which is mainly focused on tourism. Inside the protected land, the main 3 ecosystems sustain more than 1550 species of vascular plants, 900 species of arthropods, up to 400 breeding and migratory bird species, 38 mammal species, 72 species of fishes, 40 reptile and amphibian species. Doñana marshes have a typical Mediterranean climate: hydrological cycle starts in September and usually reaches the maximum inundation levels during the end of boreal winter mainly driven by rainfall regime. In late spring, evaporation becomes the most important factor in the water balance and the marsh dries up slowly to complete emptiness by the end of July. At this time, aquifer plays an important role to maintain certain humidity levels. As for most of continental wetlands, interannual variability is basically driven by meteorological trends.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Ricardo Diaz-Delgado</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>rdiaz@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Luis E. Santamaria Galdon</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>lsantamaria@imedea.uib-csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString/>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>Doñana Biological Station, CSIC</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString/>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString/>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>Spanish Council for Research (CSIC)</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString/>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Ricardo Diaz-Delgado</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>rdiaz@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Carlos Rodriguez</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>carlos_r@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>Americo Vespucio s/n Seville 41219 ES</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Miguel Angel Bravo-Utrera</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>mabravo@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>Americo Vespucio s/n Seville 41092 ES</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Ana Cristina Andreu</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>acandreu@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Rocio Fernandez-Zamudio</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>rzamudio@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>Americo Vespucio s/n Seville 41092 ES</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Manuel Mañez</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>LTER Europe</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>mmanez@ebd.csic.es</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>Americo Vespucio s/n Seville 41092 ES</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>age classes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>changes in population size over time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species list</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trophic structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>presence of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>normalized vegetation index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological cycle</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trees breast height diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil fluxes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vegetation reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>latent heat</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flow</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>basal area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ground water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>root growth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irradiance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>direct radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>albedo</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>daylight</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>long wave radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net far infrared radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>reflected radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>reflected global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Radiation below canopy</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vapor pressure deficit (VPD)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Sky temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>weather</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sample size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment description</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment name</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment objective</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use class</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape configuration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape fragmentation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape connectivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape metrics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>patch density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>patch size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>albedo of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sight depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>catchment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>stream order</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water body morphology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water salinity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water table</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>perched water table</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+		 <gmd:keyword>
+			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+		 </gmd:keyword>
+		 <gmd:thesaurusName>
+		 <gmd:CI_Citation>
+			 <gmd:title>
+				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+			 </gmd:title>
+			 <gmd:date>
+				 <gmd:CI_Date>
+					 <gmd:date>
+						<gco:Date>2008-06-01</gco:Date>
+					 </gmd:date>
+					 <gmd:dateType>
+						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+					 </gmd:dateType>
+				 </gmd:CI_Date>
+			 </gmd:date>
+		 </gmd:CI_Citation>
+		 </gmd:thesaurusName>
+	</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>-6.95</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>-6.01</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>36.77</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>37.39</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>-6.390000000000</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>-6.390000000000</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>36.970000000000</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>36.970000000000</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:temporalElement>
+								<gmd:EX_TemporalExtent>
+									<gmd:extent>
+										<gml:TimePeriod gml:id="timePeriod_bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2">
+											<gml:beginPosition>1969-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>https://data.lter-europe.net/deims/site/bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.ebd.csic.es/icts-donana</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.ebd.csic.es/equipo-de-seguimiento</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bcbc866c-3f4f-47a8-bbbc-0a93df6de7b2'amp;outputFormat=application%2Fjson</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8771/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Aboveground Net Primary Production in Doñana National Park for aquatic and terrestrial environments from MODIS NPP product</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/9058/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Aerial counts of waterbirds in Doñana marshes</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8767/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Basic climate at Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/9057/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Breeding habitats for amphibians: phenology and environmental characterization of temporary ponds in Doñana</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8719/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Chlorophyll A at Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/10454/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Counts of Zerynthia rumina in Doñana</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8723/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Cover of CORINE land cover 2006 at Doñana LTSER Platform (2006)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8762/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Direct measurements aboveground grasses biomass at Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8772/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) in Doñana National Park for aquatic and terrestrial environments from MODIS fAPAR product</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8722/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Macrophytes (relative abundance) at Doñana LTSER Platform (2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8782/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Nitrate and Phosphate concentrations at Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8720/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Physical-chemical characteristics of wetlands at Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8769/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Phytoplankton abundance at 2 lagoons in Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8724/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Red Crayfish Consumer Biomass at Doñana LTSER Platform (2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/9047/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Secondary producers: Fish Biomass at Doñana LTSER Platform (2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/9003/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Shore bird census and human uses at the beach of Doñana Natural Space</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/11364/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Soil moisture LTER_EU_SP001 Doñana LTSER (2008-2016)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8888/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Species List of Doñana National Park (2005)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/11458/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Temperature and rainfall at Doñana LTSER Platform (1978-2016)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/8890/iso19139</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Vascular Plant Coverage at Doñana LTSER Platform (2011-2012)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/227</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Spain (LTER-Spain)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/10348</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Doñana_Groundwater</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/10393</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Doñana_Herbivore_counts</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/10344</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Doñana_Meteorology</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/10392</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Doñana_waterbird_counts</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				 <gmd:DQ_ConformanceResult>
+					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+						 <gmd:CI_Citation>
+							 <gmd:title>
+							 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:title>
+							 <gmd:date>
+								 <gmd:CI_Date>
+									 <gmd:date>
+										<gco:Date>2010-12-08</gco:Date>
+									 </gmd:date>
+									 <gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									 </gmd:dateType>
+								 </gmd:CI_Date>
+							 </gmd:date>
+						 </gmd:CI_Citation>
+					 </gmd:specification>
+					 <gmd:explanation>
+						<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+					 </gmd:explanation>
+					 <gmd:pass>
+						<gco:Boolean>false</gco:Boolean>
+					 </gmd:pass>
+				 </gmd:DQ_ConformanceResult>
+				</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+				<gmd:LI_Lineage>
+				   <gmd:statement>
+					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+				   </gmd:statement>
+				</gmd:LI_Lineage>
+			 </gmd:lineage></gmd:MD_Metadata>

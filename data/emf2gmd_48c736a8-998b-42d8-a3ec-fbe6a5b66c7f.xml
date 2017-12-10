@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_48c736a8-998b-42d8-a3ec-fbe6a5b66c7f</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+				  </gmd:language><gmd:characterSet>
+					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+				  </gmd:characterSet>
+				  <gmd:hierarchyLevel>
+					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+				  </gmd:hierarchyLevel><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Hermann Klug</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>hermann.klug@sbg.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Schillerstr. 30 Salzburg 5020 AT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString/>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString/>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString>Hermann Klug</gco:CharacterString>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>hermann.klug@sbg.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Schillerstr. 30 Salzburg 5020 AT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:contact>
+				  <gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+					 <gco:CharacterString/>
+					</gmd:individualName>
+					 <gmd:organisationName>
+						<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+					 </gmd:organisationName>
+					 <gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString/>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>
+					 <gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role>
+				  </gmd:CI_ResponsibleParty>
+			   </gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-06</gco:Date>
+				   </gmd:dateStamp><gmd:referenceSystemInfo>
+					  <gmd:MD_ReferenceSystem>
+						 <gmd:referenceSystemIdentifier>
+							<gmd:RS_Identifier>
+							   <gmd:code>
+								   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+							   </gmd:code>
+							</gmd:RS_Identifier>
+						 </gmd:referenceSystemIdentifier>
+					  </gmd:MD_ReferenceSystem>
+				   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+						 <gco:CharacterString>Landscape Lab in the Mondsee catchment - University of Salzburg</gco:CharacterString>
+					</gmd:title><gmd:identifier>
+					  <gmd:MD_Identifier>
+						 <gmd:code>
+							<gco:CharacterString>https://data.lter-europe.net/deims/48c736a8-998b-42d8-a3ec-fbe6a5b66c7f</gco:CharacterString>
+						 </gmd:code>
+					  </gmd:MD_Identifier>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>While LTER site Lake Mondsee itself is an aquatic study subject, as a subcatchment of the Mondee catchment this study area focusses on a smaller scale terrestrial study area. Particularly the 6 km2 sub-catchment in Koppl, located in the west of the Mondsee catchment, is located at the edge of the Alpine / pre-Alpine environment close to the city of Salzburg, Austria. The catchment wth an elevation average of 715 m in a range from 600 to 955 m asl is instrumented with nine measurement stations measuring atmospheric, hydrolocial and pedologcial parameters. The geoscientific Landscape Lab comprises a wireless sensor network, with a main stations at the 'Meindlbauer'. For the wireless data transmission the ZigBee IEEE 802.15.4 protocol are used. The main station receives continuous sensor measurements every ten minutes from nine stations, and acts as the gateway to the online availabel Sensor Observation Service and Sensor Planning Service by providing the communication channel from the local sensor network to the web-enabled data management infrastructure. Station two, 'Plainfelder Bach', measures discharge and phosphorus loads at the confluence of 'Koppler Bach' and 'Plainfelder Bach', and is of interest for nutrient emission modelling and flood forecasting. This station comprises a Sontek IQ-Plus (discharge), a Water Insitu AnalyZer (three types of phosphorus analysed in a field device), and additional technical infrastructure to support energy supply. Because the station 'Plainfelder Bach' is located in a catchment valley, it cannot establish a reliable wireless ZigBee connection with the main station. Therefore, station 'Plainfelder Bach' utilises a Raspberry PI as a gateway, with a mobile GSM Internet connection for data distribution, and can be considered a second independent WSN. The station 'Plainfelder Bach' is also connected to the joint web-enabled data management infrastructure.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Hermann Klug</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>hermann.klug@sbg.ac.at</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>Schillerstr. 30 Salzburg 5020 AT</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString/>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString/>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Hermann Klug</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>hermann.klug@sbg.ac.at</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>Schillerstr. 30 Salzburg 5020 AT</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:pointOfContact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString/>
+						</gmd:individualName>
+						 <gmd:organisationName>
+							<gco:CharacterString>University of Salzburg, Department of Geoinformatics</gco:CharacterString>
+						 </gmd:organisationName>
+						 <gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString/>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>agricultural measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application frequency</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application method</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>grazing measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>date beginning of grazing period</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>date end of grazing period</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>cutting date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrient availability</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flow</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ground water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irradiance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow water equivalence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow thickness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use class</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape configuration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape metrics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>patch density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>patch size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>available phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>thickness of soil horizon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>catchment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>stream order</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:keyword>
+						  <gco:CharacterString/>
+					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+		 <gmd:keyword>
+			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+		 </gmd:keyword>
+		 <gmd:thesaurusName>
+		 <gmd:CI_Citation>
+			 <gmd:title>
+				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+			 </gmd:title>
+			 <gmd:date>
+				 <gmd:CI_Date>
+					 <gmd:date>
+						<gco:Date>2008-06-01</gco:Date>
+					 </gmd:date>
+					 <gmd:dateType>
+						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+					 </gmd:dateType>
+				 </gmd:CI_Date>
+			 </gmd:date>
+		 </gmd:CI_Citation>
+		 </gmd:thesaurusName>
+	</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>13.154038540465</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>13.154261112213</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>47.817438407116</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>47.817578727998</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+						   <gmd:geographicElement>
+							  <gmd:EX_GeographicBoundingBox>
+								 <gmd:westBoundLongitude>
+									<gco:Decimal>13.153995000000</gco:Decimal>
+								 </gmd:westBoundLongitude>
+								 <gmd:eastBoundLongitude>
+									<gco:Decimal>13.153995000000</gco:Decimal>
+								 </gmd:eastBoundLongitude>
+								 <gmd:southBoundLatitude>
+									<gco:Decimal>47.817399000000</gco:Decimal>
+								 </gmd:southBoundLatitude>
+								 <gmd:northBoundLatitude>
+									<gco:Decimal>47.817399000000</gco:Decimal>
+								 </gmd:northBoundLatitude>
+							  </gmd:EX_GeographicBoundingBox>
+						   </gmd:geographicElement>
+						</gmd:EX_Extent>
+					 </gmd:extent><gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:temporalElement>
+								<gmd:EX_TemporalExtent>
+									<gmd:extent>
+										<gml:TimePeriod gml:id="timePeriod_48c736a8-998b-42d8-a3ec-fbe6a5b66c7f">
+											<gml:beginPosition>2013-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>https://data.lter-europe.net/deims/site/48c736a8-998b-42d8-a3ec-fbe6a5b66c7f</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.zgis.at/index.php/en/research/research-groups/landscape-lab</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://landscapelab.sbg.ac.at/landscapelab/info</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.hermannklug.com/MOBOTIX/meindl/latest.jpg</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='48c736a8-998b-42d8-a3ec-fbe6a5b66c7f'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='48c736a8-998b-42d8-a3ec-fbe6a5b66c7f'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='48c736a8-998b-42d8-a3ec-fbe6a5b66c7f'amp;outputFormat=application%2Fjson</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/node/222</gmd:URL>
+								</gmd:linkage>
+								<gmd:name>
+								<gco:CharacterString>Austria (LTER-Austria)</gco:CharacterString>
+								</gmd:name>
+								<gmd:function>
+									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								</gmd:function>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				 <gmd:DQ_ConformanceResult>
+					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+						 <gmd:CI_Citation>
+							 <gmd:title>
+							 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:title>
+							 <gmd:date>
+								 <gmd:CI_Date>
+									 <gmd:date>
+										<gco:Date>2010-12-08</gco:Date>
+									 </gmd:date>
+									 <gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									 </gmd:dateType>
+								 </gmd:CI_Date>
+							 </gmd:date>
+						 </gmd:CI_Citation>
+					 </gmd:specification>
+					 <gmd:explanation>
+						<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+					 </gmd:explanation>
+					 <gmd:pass>
+						<gco:Boolean>false</gco:Boolean>
+					 </gmd:pass>
+				 </gmd:DQ_ConformanceResult>
+				</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+				<gmd:LI_Lineage>
+				   <gmd:statement>
+					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+				   </gmd:statement>
+				</gmd:LI_Lineage>
+			 </gmd:lineage></gmd:MD_Metadata>
