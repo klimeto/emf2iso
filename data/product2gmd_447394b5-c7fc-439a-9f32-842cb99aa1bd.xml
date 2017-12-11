@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-10</gco:Date>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Birds Diversity</gco:CharacterString>
 					</gmd:title>
@@ -79,7 +79,16 @@
                 <gmd:MD_AggregateInformation>
                     <gmd:aggregateDataSetIdentifier>
                         <gmd:MD_Identifier>
-                            <gmd:code><gco:CharacterString>Vegetation map of the Moor House National Nature Reserve</gco:CharacterString></gmd:code>
+                            <gmd:code><gco:CharacterString>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=4f9bf89d-5ecb-41bf-970a-9c69a02cc51b</gco:CharacterString></gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:aggregateDataSetIdentifier>
+                    <gmd:associationType/>
+                </gmd:MD_AggregateInformation>
+            </gmd:aggregationInfo> <gmd:aggregationInfo>
+                <gmd:MD_AggregateInformation>
+                    <gmd:aggregateDataSetIdentifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code><gco:CharacterString>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=c0e82aa4-1e6e-4642-8e4a-171af7e58681</gco:CharacterString></gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:aggregateDataSetIdentifier>
                     <gmd:associationType/>

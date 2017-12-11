@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Yagil Osem</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,46 +23,17 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>KKL</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Yagil Osem</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -79,13 +46,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -104,85 +68,49 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/bbe2405c-cf54-4c35-8da2-8f755314aad7</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Kedoshim-forest Long Term Ecological Research (LTER) is an experimental set up established in 2008 in a mature Pinus halepensis forest. This long-term research was designed to address silvicultural issues related to the management of mature, first generation, man-made, pine forest ecosystems in Israel and the design of their next generations as sustainable multiple-use forests. The Kedoshim LTER site is part of the Israeli LTER network - MAARAG. The Kedoshim LTER site provides a comprehensive well designed experimental infrastructure to study long-term effects of silvicultural manipulation (specifically overstory thinning) on vegetation dynamics, forest structure and ecosystem function. Four overstory thinning treatments were applied within 70×70 research plots: 1) clear cut, 2) heavy thinning – 100 tree ha-1 (65% reduction in stem basal area), 3) moderate thinning – 300 tree ha-1 (35% reduction in stem basal area) and, 4) control with no thinning – ca. 500 tree ha-1. Additionally, adjacent non-forested area was assigned as a reference. Climate and microclimate and various aspects of vegetation dynamics, forest function and biodiversity are monitored continuously since the application of thinning treatments.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Yagil Osem</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>yagil@agri.gov.il</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>KKL</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Yagil Osem</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>yagil@agri.gov.il</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>age classes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>changes in population size over time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species list</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood decaying rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood position</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>standing crop</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>earth worms abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>insects (arachnids)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pollinisators</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species group abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>normalized vegetation index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>coarse woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fine woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>basal area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy gaps</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>crop growth rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy growth rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy characteristics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Kedoshim-forest Long Term Ecological Research (LTER) is an experimental set up established in 2008 in a mature Pinus halepensis forest. This long-term research was designed to address silvicultural issues related to the management of mature, first generation, man-made, pine forest ecosystems in Israel and the design of their next generations as sustainable multiple-use forests. The Kedoshim LTER site is part of the Israeli LTER network - MAARAG. The Kedoshim LTER site provides a comprehensive well designed experimental infrastructure to study long-term effects of silvicultural manipulation (specifically overstory thinning) on vegetation dynamics, forest structure and ecosystem function. Four overstory thinning treatments were applied within 70×70 research plots: 1) clear cut, 2) heavy thinning – 100 tree ha-1 (65% reduction in stem basal area), 3) moderate thinning – 300 tree ha-1 (35% reduction in stem basal area) and, 4) control with no thinning – ca. 500 tree ha-1. Additionally, adjacent non-forested area was assigned as a reference. Climate and microclimate and various aspects of vegetation dynamics, forest function and biodiversity are monitored continuously since the application of thinning treatments.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Yagil Osem</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>yagil@agri.gov.il</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>KKL</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Yagil Osem</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>yagil@agri.gov.il</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>age classes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>changes in population size over time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species list</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood decaying rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood position</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>standing crop</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>earth worms abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>insects (arachnids)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pollinisators</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species group abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>normalized vegetation index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>coarse woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fine woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>basal area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy gaps</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>crop growth rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy growth rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy characteristics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -259,7 +187,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bbe2405c-cf54-4c35-8da2-8f755314aad7'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='bbe2405c-cf54-4c35-8da2-8f755314aad7'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -275,7 +203,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bbe2405c-cf54-4c35-8da2-8f755314aad7'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='bbe2405c-cf54-4c35-8da2-8f755314aad7'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -291,7 +219,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='bbe2405c-cf54-4c35-8da2-8f755314aad7'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='bbe2405c-cf54-4c35-8da2-8f755314aad7'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -318,7 +246,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -350,4 +278,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

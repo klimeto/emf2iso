@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-10</gco:Date>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>LTER Zöbelboden Austria forest structure</gco:CharacterString>
 					</gmd:title>
@@ -77,16 +77,7 @@
 		 </gmd:CI_Citation>
 		 </gmd:thesaurusName>
 	</gmd:MD_Keywords>
-	</gmd:descriptiveKeywords> <gmd:aggregationInfo>
-                <gmd:MD_AggregateInformation>
-                    <gmd:aggregateDataSetIdentifier>
-                        <gmd:MD_Identifier>
-                            <gmd:code><gco:CharacterString/></gmd:code>
-                        </gmd:MD_Identifier>
-                    </gmd:aggregateDataSetIdentifier>
-                    <gmd:associationType/>
-                </gmd:MD_AggregateInformation>
-            </gmd:aggregationInfo><gmd:spatialRepresentationType>
+	</gmd:descriptiveKeywords><gmd:spatialRepresentationType>
 							<gmd:MD_SpatialRepresentationTypeCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy_manager/voc/spatial_resolution_data_products_" codeListValue="regular sampling">regular sampling</gmd:MD_SpatialRepresentationTypeCode>
 						</gmd:spatialRepresentationType><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
 						<gmd:EX_Extent>

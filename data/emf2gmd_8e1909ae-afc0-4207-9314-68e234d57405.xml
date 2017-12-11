@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Ilaria Rosati</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>CNRS</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString>Via Salaria Km 29,300 Monterotondo Stazione (Roma) RM 00015 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Ilaria Rosati</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>CNRS</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,20 +44,13 @@
 						  <gco:CharacterString>Via Salaria Km 29,300 Monterotondo Stazione (Roma) RM 00015 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Alessandro Oggioni</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>CNR - Institute for Electromagnetic Sensing of the Environment</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,13 +63,10 @@
 						  <gco:CharacterString>Via Bassini, 15 Milano MI 10133 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -106,85 +85,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/8e1909ae-afc0-4207-9314-68e234d57405</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>In the past the Acquatina basin was part of a vast brackish system periodically invaded by the Adriatic Sea. In the ‘30s, during the reclamation work of the marsh areas surrounding the basin, the perimeter of the lake was embanked by a brickwork, prefiguring the current lagoon. The banks of the basin are made of large slabs of rock which are fixed around the perimeter, about 7 km long. Acquatina has a surface of 0,45 sqkm, an average depth of 1.2 m and a maximum depth of 2 m. Its morphology is developed in three branches, one heading north and two heading south. The relatively shallow depth, very limited tidal regime, scarce and unpredictable rainfall, intermittent freshwater inputs and strong evaporation processes ensure the high spatial and temporal heterogeneity of the main lagoon's chemical–physical characteristics:salinity, temperature, oxygen. Due to freshwater inflow, salinity near the mouth of the Giammatteo canal is often lower than in the other parts of the basin. At its southern extremity where the lake directly communicates with the sea, the salinity generally reaches very high values: the highest values, up to 42, are reached in summer in few areas of the basin. With regard to the temperature, as the sea water impedes an excessive cooling down, in winter it is higher where the basin communicates with the sea, and in general near the dune. Dissolved oxygen concentration declines in the areas less exposed to the prevailing winds (NNO). The lowest values occur at the end of the spring and summer months, above all in calm wind conditions. The biological oxygen demand by the decomposers in the sediments is so high that the oxygen concentration reaches zero in few millimeters-deep sediments. The nutrient (nitrogen and phosphorous) supply occurs from agricultural run-off inflowing through the small streams. On the basis of the average annual values of nitrogen and phosphorous the lagoon can be classified as meso-oligotrophic. The bottom is mainly muddy, with some rocky patches near the shore, and is often covered by meadows of Cymodocea nodosa and Ruppia sp. A considerable amount of Posidonia oceanica leaf detritus is present around the main sea inlet and the mouth of the Giammatteo canal. The Acquatina catchment area has a total surface of 78 sqkm. The comparison between the dimensions of the catchment basin and those of the lagoon shows the high vulnerability of this site with respect to the activities in the basin. The most part of the emerged surface area of the catchment basin is cultivated above all with cereals and olives, requiring more than 300 tonnes per year of fertilizers and 3 of pesticide. According to the Habitat Directive 92/43/CEE, the Acquatina lagoon is included in the Site of Community Importance (SCI) “Acquatina Frigole” (CODE IT9150003), which has an extension of 1,6 km. Within this area priority habitats such as coastal lagoons, the Mediterranean salt steppes and grasslands of Posidonia have been identified and require urgent measures of conservation. Currently the lake of Acquatina and the surrounding area are managed by the Department of Biological and Environmental Sciences and Technologies of the University of Salento aiming at the improvement of basic and applied ecological research activities on transitional waters, aquaculture and fishing.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Ilaria Rosati</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>CNRS</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>ilaria.rosati@cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Via Salaria Km 29,300 Monterotondo Stazione (Roma) RM 00015 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Ilaria Rosati</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>CNRS</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>ilaria.rosati@cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Via Salaria Km 29,300 Monterotondo Stazione (Roma) RM 00015 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Alessandro Oggioni</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>CNR - Institute for Electromagnetic Sensing of the Environment</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>oggioni.a@irea.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Via Bassini, 15 Milano MI 10133 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>In the past the Acquatina basin was part of a vast brackish system periodically invaded by the Adriatic Sea. In the ‘30s, during the reclamation work of the marsh areas surrounding the basin, the perimeter of the lake was embanked by a brickwork, prefiguring the current lagoon. The banks of the basin are made of large slabs of rock which are fixed around the perimeter, about 7 km long. Acquatina has a surface of 0,45 sqkm, an average depth of 1.2 m and a maximum depth of 2 m. Its morphology is developed in three branches, one heading north and two heading south. The relatively shallow depth, very limited tidal regime, scarce and unpredictable rainfall, intermittent freshwater inputs and strong evaporation processes ensure the high spatial and temporal heterogeneity of the main lagoon's chemical–physical characteristics:salinity, temperature, oxygen. Due to freshwater inflow, salinity near the mouth of the Giammatteo canal is often lower than in the other parts of the basin. At its southern extremity where the lake directly communicates with the sea, the salinity generally reaches very high values: the highest values, up to 42, are reached in summer in few areas of the basin. With regard to the temperature, as the sea water impedes an excessive cooling down, in winter it is higher where the basin communicates with the sea, and in general near the dune. Dissolved oxygen concentration declines in the areas less exposed to the prevailing winds (NNO). The lowest values occur at the end of the spring and summer months, above all in calm wind conditions. The biological oxygen demand by the decomposers in the sediments is so high that the oxygen concentration reaches zero in few millimeters-deep sediments. The nutrient (nitrogen and phosphorous) supply occurs from agricultural run-off inflowing through the small streams. On the basis of the average annual values of nitrogen and phosphorous the lagoon can be classified as meso-oligotrophic. The bottom is mainly muddy, with some rocky patches near the shore, and is often covered by meadows of Cymodocea nodosa and Ruppia sp. A considerable amount of Posidonia oceanica leaf detritus is present around the main sea inlet and the mouth of the Giammatteo canal. The Acquatina catchment area has a total surface of 78 sqkm. The comparison between the dimensions of the catchment basin and those of the lagoon shows the high vulnerability of this site with respect to the activities in the basin. The most part of the emerged surface area of the catchment basin is cultivated above all with cereals and olives, requiring more than 300 tonnes per year of fertilizers and 3 of pesticide. According to the Habitat Directive 92/43/CEE, the Acquatina lagoon is included in the Site of Community Importance (SCI) “Acquatina Frigole” (CODE IT9150003), which has an extension of 1,6 km. Within this area priority habitats such as coastal lagoons, the Mediterranean salt steppes and grasslands of Posidonia have been identified and require urgent measures of conservation. Currently the lake of Acquatina and the surrounding area are managed by the Department of Biological and Environmental Sciences and Technologies of the University of Salento aiming at the improvement of basic and applied ecological research activities on transitional waters, aquaculture and fishing.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Ilaria Rosati</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>CNRS</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>ilaria.rosati@cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Via Salaria Km 29,300 Monterotondo Stazione (Roma) RM 00015 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Ilaria Rosati</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>CNRS</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>ilaria.rosati@cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Via Salaria Km 29,300 Monterotondo Stazione (Roma) RM 00015 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Alessandro Oggioni</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>CNR - Institute for Electromagnetic Sensing of the Environment</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>oggioni.a@irea.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Via Bassini, 15 Milano MI 10133 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Coastal</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -281,7 +239,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='8e1909ae-afc0-4207-9314-68e234d57405'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='8e1909ae-afc0-4207-9314-68e234d57405'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -297,7 +255,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='8e1909ae-afc0-4207-9314-68e234d57405'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='8e1909ae-afc0-4207-9314-68e234d57405'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -313,7 +271,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='8e1909ae-afc0-4207-9314-68e234d57405'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='8e1909ae-afc0-4207-9314-68e234d57405'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -340,7 +298,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -372,4 +330,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

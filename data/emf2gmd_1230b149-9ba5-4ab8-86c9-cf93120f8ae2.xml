@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Thomas Zechmeister</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Thomas Zechmeister</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,13 +42,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -78,59 +64,45 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/1230b149-9ba5-4ab8-86c9-cf93120f8ae2</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Institutional Structure: The LTSER Neusiedler See Seewinkel is located at the "Biological Station Lake Neusiedl" in Illmitz. Illmitz is situated at Lake Neusiedl in the easternmost province of Austria. It is a service department of the Office of the Provincial Government of the Burgenland and is part of Department 5-Site Law, Environment and Traffic, Main Division Nature and Environmental Protection. The institute is based upon 40 years of experience and today fulfils essential tasks for the entire province of Burgenland and in addition to that for the entire Pannonian Region (Western Slovakia and Western Hungary: Water analyses, rendering of expert opinions, applied cross-sectorial research and natural landscape and national park management. Scope of duties Pursuant to legislation on water, on sanitation in public baths and food laws, the accredited assessment and inspection office, the Biological Station, regularly takes samples in technical installations (before all waterworks, public baths, etc.) and food respectively and writes subject-specific expert opinions in accordance with the laboratory findings of the samples taken. Thus the accredited pure water laboratory provides the legally requested chemical and microbiological tests of drinking waters, outdoor and indoor swimming pools, swimming lakes, ponds, wells/fountains and whirlpool facilities. More than 5000 samples are tested per year. Special focus is placed upon the water quality of Lake Neusiedl; in particular the lake-side swimming areas are inspected continuously. Furthermore, the Biological Station fulfils the legally provided expert and surveying function in the field of nature conservation. Pursuant to nature conservation law, many changes in land use are subject to approval (e.g. buildings in grassland, hydro-engineering measures, crop changes in landscape protection areas) or nature conservationist expert opinions have to be rendered (e.g. re-zoning, amendments of laws). In practice this means that the person applying for the approval has to submit an application together with the respective project documents to the competent authority. The Biological Station Lake Neusiedl will then render a nature conservationist opinion. Thus the Biological Station provides bases for decision making with regard to the development of a balanced cultural landscape considering the nature protectionist frame conditions. Contact Dirctor: Mag. Dr. Thomas Zechmeister Biological Station Lake Neusiedl, 7142 Illmitz, AUSTRIA Tel 0043 2175 2328 Fax 0043 2175 2328 5410 Mobile 0043 664 96 36 704 thomas.zechmeister@bgld.gv.at</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Thomas Zechmeister</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>post.bs-illmitz@speed.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Thomas Zechmeister</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>post.bs-illmitz@speed.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Institutional Structure: The LTSER Neusiedler See Seewinkel is located at the "Biological Station Lake Neusiedl" in Illmitz. Illmitz is situated at Lake Neusiedl in the easternmost province of Austria. It is a service department of the Office of the Provincial Government of the Burgenland and is part of Department 5-Site Law, Environment and Traffic, Main Division Nature and Environmental Protection. The institute is based upon 40 years of experience and today fulfils essential tasks for the entire province of Burgenland and in addition to that for the entire Pannonian Region (Western Slovakia and Western Hungary: Water analyses, rendering of expert opinions, applied cross-sectorial research and natural landscape and national park management. Scope of duties Pursuant to legislation on water, on sanitation in public baths and food laws, the accredited assessment and inspection office, the Biological Station, regularly takes samples in technical installations (before all waterworks, public baths, etc.) and food respectively and writes subject-specific expert opinions in accordance with the laboratory findings of the samples taken. Thus the accredited pure water laboratory provides the legally requested chemical and microbiological tests of drinking waters, outdoor and indoor swimming pools, swimming lakes, ponds, wells/fountains and whirlpool facilities. More than 5000 samples are tested per year. Special focus is placed upon the water quality of Lake Neusiedl; in particular the lake-side swimming areas are inspected continuously. Furthermore, the Biological Station fulfils the legally provided expert and surveying function in the field of nature conservation. Pursuant to nature conservation law, many changes in land use are subject to approval (e.g. buildings in grassland, hydro-engineering measures, crop changes in landscape protection areas) or nature conservationist expert opinions have to be rendered (e.g. re-zoning, amendments of laws). In practice this means that the person applying for the approval has to submit an application together with the respective project documents to the competent authority. The Biological Station Lake Neusiedl will then render a nature conservationist opinion. Thus the Biological Station provides bases for decision making with regard to the development of a balanced cultural landscape considering the nature protectionist frame conditions. Contact Dirctor: Mag. Dr. Thomas Zechmeister Biological Station Lake Neusiedl, 7142 Illmitz, AUSTRIA Tel 0043 2175 2328 Fax 0043 2175 2328 5410 Mobile 0043 664 96 36 704 thomas.zechmeister@bgld.gv.at</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Thomas Zechmeister</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>post.bs-illmitz@speed.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Thomas Zechmeister</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>post.bs-illmitz@speed.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Fresh water Lakes</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -226,7 +198,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='1230b149-9ba5-4ab8-86c9-cf93120f8ae2'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='1230b149-9ba5-4ab8-86c9-cf93120f8ae2'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -242,7 +214,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='1230b149-9ba5-4ab8-86c9-cf93120f8ae2'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='1230b149-9ba5-4ab8-86c9-cf93120f8ae2'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -258,7 +230,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='1230b149-9ba5-4ab8-86c9-cf93120f8ae2'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='1230b149-9ba5-4ab8-86c9-cf93120f8ae2'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -285,7 +257,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -317,4 +289,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

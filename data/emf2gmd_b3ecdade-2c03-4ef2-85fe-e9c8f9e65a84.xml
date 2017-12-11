@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Oliver Sass</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString>Array</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Oliver Sass</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,13 +44,10 @@
 						  <gco:CharacterString>Array</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -80,59 +66,45 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Johnsbach river basin is situated in the Ennstal Alps (Styria) and covers an area of approximately 65 km2. Elevations range from 600–700 m in the valley to over 2,300 m in the summit regions. Due to its status as a comparatively small, high Alpine river headwatershed, research activities have a strong regional context. The Johnsbach valley is an area of high diversity in a variety of aspects, geological framework, relief energy, morphological and hydrological dynamics, or gradients in meteorological variables. Similarly, the economic interests are also varying: forest management, Alpine pasture farming, water resource economics, tourism (mountaineering, recreation, in winter skiing and dog sledding), and "no use" (national park). The catchment is situated in the administrative area of the community Johnsbach, the northern part belongs to the Gesaeuse National Park. The Johnsbachtal test site is located in a high-lying valley in the northern part of Styria and is surrounded by the Gesaeuse mountains in the North, East and West and by the Western Eisenerzer Alps in the South. The landscape is dominated by high Alpine rock formations, forests and meadows with highest elevations found at the sumit of Hochtor (2369 m). The lower altitudes of 700-900 m are partly covered by settlements. The area has been chosen for the construction of a hydrometeorological station network out of various reasons: The complex topographic, hydrological, geological, geomorphological and meteorological conditions found here pose a scientific challenge for all kinds of environmental monitoring and modelling. The region itself is a classic representative of suistanably tourism regions with, compared to other sites, a moderate number of visitors throughout the year. Covering an area of 65 km2, it is of reasonable size to allow the application of environmental models at high temporal and spatial resolution. Finally, its closeness to the city of Graz and the enormous support of the local communities make this region an ideal site for the establishment of an environmental monitoring network. The main concerns of current activities are: - hydroclimatological measurements - geomorphology and sediment budgets - long-term monitoring - research cooperations - education and training - sustainable tourism and management - model development, parameterization and validation To achieve these goals, a network of hydroclimatological stations has been installed at the following locations: - Oberkainz (920 m, recorded parameter: temperature, precipitation, wind speed and direction, humidity, global rad., shortwave rad., longwave rad., snow water equivalent) - Zinödl (2191 m, recorded parameter: temperature, wind speed and direction, humidity, global rad., longwave rad.) - Blaseneck (1969 m, recorded parameter: temperature, wind speed and direction, humidity, global rad., longwave rad.) - Schröckalm (1344 m, recorded parameter: temperature, precipitation, wind speed and direction, humidity, global rad., shortwave rad., longwave rad.) - Kölblwiese (870 m, recorded parameter: temperature, wind speed and direction, humidity, global rad., longwave rad.) - Oberkainz (920 m, recorded parameter: temperature, precipitation, wind speed and direction, humidity, global rad., shortwave rad., longwave rad.) - Gseng (633 m, recorded parameter: river discharge) - Etzbach Gauge and Etzbach spring (850 m, river discharge, water temperature, electrical conductivity) A runoff and bedload measurement station is currently (Dec 2013) under construction at the "Bachbrücke" (catchment outlet). Further meteorological data is available from four stations operated by the local national park adminsitration (Nationalpark Gesäuse), the avalanche service (LWD) and the Central Institute for Meteorology and Geodynamics (ZAMG).</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Oliver Sass</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>oliver.sass@uni-graz.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Array</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Oliver Sass</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>oliver.sass@uni-graz.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Array</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Johnsbach river basin is situated in the Ennstal Alps (Styria) and covers an area of approximately 65 km2. Elevations range from 600–700 m in the valley to over 2,300 m in the summit regions. Due to its status as a comparatively small, high Alpine river headwatershed, research activities have a strong regional context. The Johnsbach valley is an area of high diversity in a variety of aspects, geological framework, relief energy, morphological and hydrological dynamics, or gradients in meteorological variables. Similarly, the economic interests are also varying: forest management, Alpine pasture farming, water resource economics, tourism (mountaineering, recreation, in winter skiing and dog sledding), and "no use" (national park). The catchment is situated in the administrative area of the community Johnsbach, the northern part belongs to the Gesaeuse National Park. The Johnsbachtal test site is located in a high-lying valley in the northern part of Styria and is surrounded by the Gesaeuse mountains in the North, East and West and by the Western Eisenerzer Alps in the South. The landscape is dominated by high Alpine rock formations, forests and meadows with highest elevations found at the sumit of Hochtor (2369 m). The lower altitudes of 700-900 m are partly covered by settlements. The area has been chosen for the construction of a hydrometeorological station network out of various reasons: The complex topographic, hydrological, geological, geomorphological and meteorological conditions found here pose a scientific challenge for all kinds of environmental monitoring and modelling. The region itself is a classic representative of suistanably tourism regions with, compared to other sites, a moderate number of visitors throughout the year. Covering an area of 65 km2, it is of reasonable size to allow the application of environmental models at high temporal and spatial resolution. Finally, its closeness to the city of Graz and the enormous support of the local communities make this region an ideal site for the establishment of an environmental monitoring network. The main concerns of current activities are: - hydroclimatological measurements - geomorphology and sediment budgets - long-term monitoring - research cooperations - education and training - sustainable tourism and management - model development, parameterization and validation To achieve these goals, a network of hydroclimatological stations has been installed at the following locations: - Oberkainz (920 m, recorded parameter: temperature, precipitation, wind speed and direction, humidity, global rad., shortwave rad., longwave rad., snow water equivalent) - Zinödl (2191 m, recorded parameter: temperature, wind speed and direction, humidity, global rad., longwave rad.) - Blaseneck (1969 m, recorded parameter: temperature, wind speed and direction, humidity, global rad., longwave rad.) - Schröckalm (1344 m, recorded parameter: temperature, precipitation, wind speed and direction, humidity, global rad., shortwave rad., longwave rad.) - Kölblwiese (870 m, recorded parameter: temperature, wind speed and direction, humidity, global rad., longwave rad.) - Oberkainz (920 m, recorded parameter: temperature, precipitation, wind speed and direction, humidity, global rad., shortwave rad., longwave rad.) - Gseng (633 m, recorded parameter: river discharge) - Etzbach Gauge and Etzbach spring (850 m, river discharge, water temperature, electrical conductivity) A runoff and bedload measurement station is currently (Dec 2013) under construction at the "Bachbrücke" (catchment outlet). Further meteorological data is available from four stations operated by the local national park adminsitration (Nationalpark Gesäuse), the avalanche service (LWD) and the Central Institute for Meteorology and Geodynamics (ZAMG).</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Oliver Sass</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>oliver.sass@uni-graz.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Array</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Oliver Sass</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>oliver.sass@uni-graz.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Array</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -209,7 +181,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -225,7 +197,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -241,7 +213,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -268,7 +240,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -300,4 +272,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

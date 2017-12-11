@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Jutta Stadler</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,46 +25,17 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>Helmholtz Centre for Environmental Research - UFZ</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Jutta Stadler</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,39 +48,14 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>Helmholtz Centre for Environmental Research - UFZ</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -132,111 +74,53 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/f5493145-a658-4004-b8ef-6942fcdda5f5</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The site is located within a protcted area near Halle and due to the rain shadow of the Harz mountains the annual precipitation in this area is low compared to the general rainfall regime of Central Europe (497 mm). The climate is subcontinental with comparatively high mean yearly temperatures (average 9.1 0C). The area is characterized by a complex topography with a complex mosaic of soils. On rhyolithic bedrocks rankers are dominating while brown soils and tschernosemic soils occur in the valleys between the hills. This mosaic leads to a considerable variation of soil properties. Soil pH varies between 4.6 to 7.4). On the small rhyolitic bedrocks a mosaic of dry grassland communities occurs in correlation to the depth of the soil layer, soil pH as well as exposition. Four plant communities are important: Brachypodietum pinnati (soil-pH: 7.4), Euphorbio-Callunetum (4.8), Festucetum rupicolae (5.8, Thymo-Festucetum (4.6). On top of the hills and on the southern slopes, the shallow soils do not allow the establishment of shrubs and trees. Part of the area was irregularly grazed by sheep. Areas with deeper soils were used as arable fields. In 1990 the grazing regime was partially reduced and the arable fields were transformed into grassland, which is mowed once per year.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Jutta Stadler</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>jutta.stadler@ufz.de</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Helmholtz Centre for Environmental Research - UFZ</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Jutta Stadler</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>jutta.stadler@ufz.de</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Helmholtz Centre for Environmental Research - UFZ</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The site is located within a protcted area near Halle and due to the rain shadow of the Harz mountains the annual precipitation in this area is low compared to the general rainfall regime of Central Europe (497 mm). The climate is subcontinental with comparatively high mean yearly temperatures (average 9.1 0C). The area is characterized by a complex topography with a complex mosaic of soils. On rhyolithic bedrocks rankers are dominating while brown soils and tschernosemic soils occur in the valleys between the hills. This mosaic leads to a considerable variation of soil properties. Soil pH varies between 4.6 to 7.4). On the small rhyolitic bedrocks a mosaic of dry grassland communities occurs in correlation to the depth of the soil layer, soil pH as well as exposition. Four plant communities are important: Brachypodietum pinnati (soil-pH: 7.4), Euphorbio-Callunetum (4.8), Festucetum rupicolae (5.8, Thymo-Festucetum (4.6). On top of the hills and on the southern slopes, the shallow soils do not allow the establishment of shrubs and trees. Part of the area was irregularly grazed by sheep. Areas with deeper soils were used as arable fields. In 1990 the grazing regime was partially reduced and the arable fields were transformed into grassland, which is mowed once per year.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Jutta Stadler</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>jutta.stadler@ufz.de</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>Helmholtz Centre for Environmental Research - UFZ</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Jutta Stadler</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>jutta.stadler@ufz.de</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>Helmholtz Centre for Environmental Research - UFZ</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -293,7 +177,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f5493145-a658-4004-b8ef-6942fcdda5f5'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f5493145-a658-4004-b8ef-6942fcdda5f5'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -309,7 +193,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f5493145-a658-4004-b8ef-6942fcdda5f5'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f5493145-a658-4004-b8ef-6942fcdda5f5'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -325,7 +209,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f5493145-a658-4004-b8ef-6942fcdda5f5'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f5493145-a658-4004-b8ef-6942fcdda5f5'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -352,7 +236,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -384,4 +268,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

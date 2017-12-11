@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Salvador Sánchez-Carrillo</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,46 +23,17 @@
 						  <gco:CharacterString>Serrano 115 dpdo Madrid M 28006 ES</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Manuel Carrasco Redondo</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -79,20 +46,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Salvador Sánchez-Carrillo</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -105,13 +65,10 @@
 						  <gco:CharacterString>Serrano 115 dpdo Madrid M 28006 ES</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -130,111 +87,68 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/3f485cdb-fd8c-433a-910b-7f8c73c1d882</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Las Tablas de Daimiel National Park (TDNP) is a floodplain wetland (16 km2) located at Central Spain in the core of La Mancha Húmeda Biosphere Reserve. Until the 1970s, wetland inundation was due to natural flooding of both the Gigüela and the Guadiana Rivers, and to the aquifer discharge (Llanura Manchega Occidental aquifer of 04.04) as the groundwater table was close to the surface. Historically, the wetland´s inundation was also promoted by small water-mill dams which helped to increase the water-level. TDNP is the typical example of wetland degradation in the Mediterranean Europe, including dessication, agriculture conversion, groundwater overexplotitation and water quality impairing. Most importantly, aquifer overexploitation resulting from excessive agricultural irrigation strongly changed the ecosystem hydrology from a semi-permanent wetland to a highly fluctuating wetland with long periods (several years) of almost complete dryness. In 1950s, floodplain wetland covered around 150 km2 but was shortened until 16 km2 over the last 60 years. From the 1870s until the 1950s, the area was a private hunting park. It then became a National Hunting Reserve and later, in 1973, a National Park. It was included in the Ramsar convention in 1982. Its main environmental values are the large waterfowl populations (particularly those of the red-crested pochard, Netta rufina), the European cut-sedge (Cladium mariscus) and the reed (Phragmites australis) Wetland richness was also supplied by numerous vertebrate and invertebrate taxa, which regrettably disappeared or are undergoing a severe number reduction.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Salvador Sánchez-Carrillo</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>sanchez.carrillo@mncn.csic.es</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Serrano 115 dpdo Madrid M 28006 ES</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Manuel Carrasco Redondo</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>mcarrasco@oapn.es</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Salvador Sánchez-Carrillo</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>sanchez.carrillo@mncn.csic.es</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Serrano 115 dpdo Madrid M 28006 ES</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant carbon concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium nitrate concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant nitrogen concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>normalized vegetation index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant development stage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration rates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>C/N ratio of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water table</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Las Tablas de Daimiel National Park (TDNP) is a floodplain wetland (16 km2) located at Central Spain in the core of La Mancha Húmeda Biosphere Reserve. Until the 1970s, wetland inundation was due to natural flooding of both the Gigüela and the Guadiana Rivers, and to the aquifer discharge (Llanura Manchega Occidental aquifer of 04.04) as the groundwater table was close to the surface. Historically, the wetland´s inundation was also promoted by small water-mill dams which helped to increase the water-level. TDNP is the typical example of wetland degradation in the Mediterranean Europe, including dessication, agriculture conversion, groundwater overexplotitation and water quality impairing. Most importantly, aquifer overexploitation resulting from excessive agricultural irrigation strongly changed the ecosystem hydrology from a semi-permanent wetland to a highly fluctuating wetland with long periods (several years) of almost complete dryness. In 1950s, floodplain wetland covered around 150 km2 but was shortened until 16 km2 over the last 60 years. From the 1870s until the 1950s, the area was a private hunting park. It then became a National Hunting Reserve and later, in 1973, a National Park. It was included in the Ramsar convention in 1982. Its main environmental values are the large waterfowl populations (particularly those of the red-crested pochard, Netta rufina), the European cut-sedge (Cladium mariscus) and the reed (Phragmites australis) Wetland richness was also supplied by numerous vertebrate and invertebrate taxa, which regrettably disappeared or are undergoing a severe number reduction.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Salvador Sánchez-Carrillo</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>sanchez.carrillo@mncn.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Serrano 115 dpdo Madrid M 28006 ES</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Manuel Carrasco Redondo</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mcarrasco@oapn.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Salvador Sánchez-Carrillo</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>National Museum of Natural Sciences - CSIC</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>sanchez.carrillo@mncn.csic.es</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Serrano 115 dpdo Madrid M 28006 ES</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant carbon concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium nitrate concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant nitrogen concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>normalized vegetation index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant development stage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration rates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>C/N ratio of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water table</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString/>
 					   </gmd:keyword><gmd:keyword>
 						  <gco:CharacterString/>
@@ -313,7 +227,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='3f485cdb-fd8c-433a-910b-7f8c73c1d882'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='3f485cdb-fd8c-433a-910b-7f8c73c1d882'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -329,7 +243,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='3f485cdb-fd8c-433a-910b-7f8c73c1d882'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='3f485cdb-fd8c-433a-910b-7f8c73c1d882'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -345,7 +259,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='3f485cdb-fd8c-433a-910b-7f8c73c1d882'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='3f485cdb-fd8c-433a-910b-7f8c73c1d882'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -361,8 +275,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10944/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=93bd5e7c-e462-4773-8ae7-41562204985d</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Class A Evaporation at Las Tablas de Daimiel (1992-2016)</gco:CharacterString>
 								</gmd:name>
@@ -377,8 +297,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10941/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=b49d6ef7-f70c-4cd7-a14c-ff3426ebb532</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Daily meteorology (wind, air temperature, humidity, precipitation, atm pressure, radiation) from 1992-2016</gco:CharacterString>
 								</gmd:name>
@@ -393,8 +319,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10951/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=1fcb52d5-8961-4ac0-8a77-1d03f3704e7f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Monthly inundation/rainfall at Las Tablas de Daimiel (1944-2016)</gco:CharacterString>
 								</gmd:name>
@@ -420,7 +352,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -452,4 +384,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

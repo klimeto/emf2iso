@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Giovanna Flaim</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Ulrike Obertegger</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,20 +44,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Giovanna Flaim</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,13 +63,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -106,85 +85,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/f3146959-ae18-4b4e-a9be-16634b0b530a</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Lake Tovel has a long history of limnological research and over 300 publications since the late 1800s, including an intensive study by E. Baldi in the 1930s, document the continued interest in this lake. Tovel is famous for its clear waters and past red dinoflagellate blooms (Flaim et al. 2004. Phycologia 43:737–743) that no longer occur due to changes in land use (Borghi et al. 2006. Studi Trent. Sci. Nat., Acta Biol. 81:1-472). Besides its intrinsic biological value, Lake Tovel provides irrigation water and electrical energy to the local population, and its location in the heart of the Adamello Brenta Natural Park makes it an important tourist attraction. Following several sporadic surveys, since 1995 the lake is part of an ongoing long-term limnological study conducted by the Fondazione E. Mach (FEM) at S. Michele all’Adige TN, that includes temperature profiling, chemical and biological data taken at monthly intervals during the ice-free period and occasional winter sampling. FEM is well equipped for limnological field work with dinghy with electrical motor, multi-parameter probe, fluoroprobe, underwater quantum sensor, Eckman dredge, plankton nets, water sampling bottles, etc. Laboratory facilities include microscopy (bright field, phase contrast, interferential, fluorescent, inverted microscopes and stereoscopes) with image analysing software, a wet lab and a fine chemistry lab for nutrients and major ions in water as well as organics by ion chromatography and liquid chromatography-Mass Spectrometry (LC-MS). Also available are molecular laboratories equipped with basic (PCR, electrophoresis) and advanced techniques (Sanger and NG sequencing). Limnological data are supported by meteorological data provided by a meteorological station situated in the lake and active since 1976. Recently, sensors for high frequency data (HFD) for temperature, dissolved oxygen, light (at various depths) and water level have been installed on a central lake platform. Notwithstanding its modest altitude (1178 m asl), Tovel has characteristics similar to a 'high altitude' lake because its waters are particularly cold and transparent. The lake is oligotrophic (PT</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Giovanna Flaim</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>giovanna.flaim@fmach.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Ulrike Obertegger</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>ulrike.obertegger@fmach.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Giovanna Flaim</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>giovanna.flaim@fmach.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>redox</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Lake Tovel has a long history of limnological research and over 300 publications since the late 1800s, including an intensive study by E. Baldi in the 1930s, document the continued interest in this lake. Tovel is famous for its clear waters and past red dinoflagellate blooms (Flaim et al. 2004. Phycologia 43:737–743) that no longer occur due to changes in land use (Borghi et al. 2006. Studi Trent. Sci. Nat., Acta Biol. 81:1-472). Besides its intrinsic biological value, Lake Tovel provides irrigation water and electrical energy to the local population, and its location in the heart of the Adamello Brenta Natural Park makes it an important tourist attraction. Following several sporadic surveys, since 1995 the lake is part of an ongoing long-term limnological study conducted by the Fondazione E. Mach (FEM) at S. Michele all’Adige TN, that includes temperature profiling, chemical and biological data taken at monthly intervals during the ice-free period and occasional winter sampling. FEM is well equipped for limnological field work with dinghy with electrical motor, multi-parameter probe, fluoroprobe, underwater quantum sensor, Eckman dredge, plankton nets, water sampling bottles, etc. Laboratory facilities include microscopy (bright field, phase contrast, interferential, fluorescent, inverted microscopes and stereoscopes) with image analysing software, a wet lab and a fine chemistry lab for nutrients and major ions in water as well as organics by ion chromatography and liquid chromatography-Mass Spectrometry (LC-MS). Also available are molecular laboratories equipped with basic (PCR, electrophoresis) and advanced techniques (Sanger and NG sequencing). Limnological data are supported by meteorological data provided by a meteorological station situated in the lake and active since 1976. Recently, sensors for high frequency data (HFD) for temperature, dissolved oxygen, light (at various depths) and water level have been installed on a central lake platform. Notwithstanding its modest altitude (1178 m asl), Tovel has characteristics similar to a 'high altitude' lake because its waters are particularly cold and transparent. The lake is oligotrophic (PT</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Giovanna Flaim</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>giovanna.flaim@fmach.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Ulrike Obertegger</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>ulrike.obertegger@fmach.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Giovanna Flaim</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>giovanna.flaim@fmach.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>redox</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Fresh water Lakes</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -261,7 +219,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f3146959-ae18-4b4e-a9be-16634b0b530a'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f3146959-ae18-4b4e-a9be-16634b0b530a'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -277,7 +235,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f3146959-ae18-4b4e-a9be-16634b0b530a'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f3146959-ae18-4b4e-a9be-16634b0b530a'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -293,7 +251,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f3146959-ae18-4b4e-a9be-16634b0b530a'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f3146959-ae18-4b4e-a9be-16634b0b530a'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -320,7 +278,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -352,4 +310,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

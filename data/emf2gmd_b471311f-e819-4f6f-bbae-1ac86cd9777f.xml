@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Jaana Bäck</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,46 +25,17 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>Department of Forest Sciences, University of Helsinki</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Jaana Bäck</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,13 +48,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -106,85 +70,49 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/b471311f-e819-4f6f-bbae-1ac86cd9777f</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Värriö Subarctic Research Station is located in the Värriö Strict Nature Reserve, Eastern Lapland, in the northern corner of the municipality of Salla. The station represents top scientific research of the University of Helsinki, the highest standards of education and co-operation with civil society in Northeastern Finland. The station has been in operation from 1967, first in mostly ecological studies, but later on also other research fields are represented (atmospheric sciences, palaeoecology etc.). The SMEAR I station (Station for Measuring Ecosystem-Atmosphere Relations) was established to the Värriö Subartic Research Station in 1991 to measure pollution levels in the area, especially those originating from the Kola Peninsula in Russia. The initial measurements focused on sulphur dioxide but during the 90s the scope of measurements were significantly widened to cover e.g. atmospheric aerosols and ozone. Today, among other things, the SMEAR station measures weather, atmospheric aerosols and inorganic gases, carbon and energy fluxes and the relationships between the atmosphere and growth of forests. The station is maintained by the Department of Physics at the University of Helsinki. A similar SMEAR station (II) is located also at the Hyytiälä Forestry Field Station in Juupajoki, Southern Finland.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Jaana Bäck</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>jaana.back@helsinki.fi</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Department of Forest Sciences, University of Helsinki</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Jaana Bäck</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>jaana.back@helsinki.fi</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant carbon concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood decaying rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>presence of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>litter residence time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>senescence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>date of flowering</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trees breast height diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil organic residual</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration rates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration per biomass</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil fluxes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vegetation reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>coarse woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>latent heat</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anthropogenic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treeline</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fire severity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>below ground autotrophic respiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>root density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>root growth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy growth rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>aerodynamic resistance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy characteristics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irradiance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>light</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>duration of sunshine</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>direct radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>daylight</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Radiation below canopy</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Ozone concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vapor pressure deficit (VPD)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>SO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air convection</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>throughfall</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow water equivalence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow thickness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmosphere stability parameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>weather</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sample size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment description</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment name</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment objective</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>C/N ratio of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>exchangeable cations</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic carbon content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>potential evaporation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil gas flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil respiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Värriö Subarctic Research Station is located in the Värriö Strict Nature Reserve, Eastern Lapland, in the northern corner of the municipality of Salla. The station represents top scientific research of the University of Helsinki, the highest standards of education and co-operation with civil society in Northeastern Finland. The station has been in operation from 1967, first in mostly ecological studies, but later on also other research fields are represented (atmospheric sciences, palaeoecology etc.). The SMEAR I station (Station for Measuring Ecosystem-Atmosphere Relations) was established to the Värriö Subartic Research Station in 1991 to measure pollution levels in the area, especially those originating from the Kola Peninsula in Russia. The initial measurements focused on sulphur dioxide but during the 90s the scope of measurements were significantly widened to cover e.g. atmospheric aerosols and ozone. Today, among other things, the SMEAR station measures weather, atmospheric aerosols and inorganic gases, carbon and energy fluxes and the relationships between the atmosphere and growth of forests. The station is maintained by the Department of Physics at the University of Helsinki. A similar SMEAR station (II) is located also at the Hyytiälä Forestry Field Station in Juupajoki, Southern Finland.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Jaana Bäck</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>jaana.back@helsinki.fi</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>Department of Forest Sciences, University of Helsinki</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Jaana Bäck</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>jaana.back@helsinki.fi</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant carbon concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood decaying rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>presence of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>litter residence time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>senescence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>date of flowering</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trees breast height diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil organic residual</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration rates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration per biomass</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil fluxes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vegetation reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>coarse woody debris</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>latent heat</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anthropogenic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treeline</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fire severity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>below ground autotrophic respiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>root density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>root growth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy transpiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy growth rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>aerodynamic resistance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy characteristics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irradiance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>light</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>duration of sunshine</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>direct radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>daylight</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>photosynthetically active radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Radiation below canopy</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Ozone concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vapor pressure deficit (VPD)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>SO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air convection</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>throughfall</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow water equivalence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow thickness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmosphere stability parameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>weather</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sample size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment description</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment name</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment objective</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>C/N ratio of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>exchangeable cations</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic carbon content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>potential evaporation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil gas flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil respiration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -271,7 +199,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='b471311f-e819-4f6f-bbae-1ac86cd9777f'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='b471311f-e819-4f6f-bbae-1ac86cd9777f'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -287,7 +215,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='b471311f-e819-4f6f-bbae-1ac86cd9777f'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='b471311f-e819-4f6f-bbae-1ac86cd9777f'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -303,7 +231,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='b471311f-e819-4f6f-bbae-1ac86cd9777f'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='b471311f-e819-4f6f-bbae-1ac86cd9777f'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -330,7 +258,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -362,4 +290,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Ruben Sommaruga</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Roland Psenner</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,20 +44,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Ruben Sommaruga</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,20 +63,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Birgit Sattler</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -107,13 +82,10 @@
 						  <gco:CharacterString>Array</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -132,111 +104,83 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/6ba80086-3ecc-4dc6-ab2f-a225003f7ba4</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The mountainous Gossenköllesee is located in the Stubaier Alps at an elevation of 2,417 m. The research station on the shore of Gossenkoellesee provides an ideal platform to conduct research related to global change as shown in mountaineous regions. The former UNESCO Gossenköllesee Biosphere Reserve (the smallest in the world) was established in 1977 in order to guarantee long-term ecological research. In the year 2014 this label has been withdrawn due to the incompatibility with the Sevilla strategy to define biosphere reserves. It was defined with an area of 85ha ranging from 2.417 m (lake level) to 2,828 m above sea level (Pirchkogel) at 4714'N and 1101'E. The former Biosphere Reserve comprised the lake itself with the adjacent catchment area. It is characteristic for high alpine regions and has a largely intact natural environment. The centre of scientific interest is the long-term change of alpine lakes, streams and entire catchments. The two lakes, Vorderer and Hinterer Finstertaler See, were converted into a reservoir for hydroelectric power generation in 1974, and dam construction flooded the existing limnological research station, established in 1959 on the shore of the Vorderer Finstertaler See. A new station was built in 1975 on the opposite slope of the Kühtai Valley, the socalled Limnological Station Gossenköllesee, and was completely reshaped and enlarged in 1995. In 2016 it has been entitled after Prof. Roland Pechlaner. After twenty-five years, this is still an attractive and highly relevant subject for both ecological research and environmental protection. During the Ice Age the whole area was glaciated. After the ice retreated at the beginning of the Holocene several lakes were formed, four of which still exist today; the largest of these is Gossenköllesee. The bedrock of the drainage area is granitic and consists of crystalline schist and gneiss. The moraine forming the natural dam of Gossenköllesee is composed of amphibolites, granite gneiss and mica slate. The lake is subpolar, oligotrophic and dimictic in character with a maximum depth of 9.9 m and an area of 16,700 m². It is covered for up to eight months of the year with an alternating sheet of ice, snow and slush, which has a critical influence on light transmission, stratification and nutrient exchange of the pelagic zone. The lake has no surface inflows and outflows, except a small outlet during snowmelt. It harbours one of the last populations of the Danubian brown trout (Salmo trutta), probably descended from fish stocked by the Emperor Maximilian in A.D.1500. It is accessible all year round, lying within an hour’s walking distance from the small village of Kühtai, a well-known ski resort situated about 30 km west of Innsbruck that can be reached daily by car and public transport. Gossenköllesee and its catchment area is a centre of alpine research with a fully equipped research station at the shore of the lake that undertakes the collection (and to some extent analysis) of sensitive samples and maintains automated observation of climate and hydrology on site. The station has accommodation for up to six people, and was modernized and equipped with telephone, modem and electrical energy in 1994, allowing for emission-free heating and operation of the equipment. Additionally, since 2016 we run an automatic weather based on a platform on the lake. A webcam provides online pictures. GLOBAL CHANGE RESEARCH IN MOUNTAIN HABITATS Since 1992, Gossenköllesee has been a key site in various EU projects (ALPE, MOLAR, EMERGE) and is included in the Integrated Project EUROLIMPACS and the Network of Excellence ALTER-NET (6th Framework Programme). Over the last three decades the atmospheric deposition, lakes, streams, soils and vegetation of this area have been subjects of MSc dissertations, PhD theses and international projects. Beginning in 2004, Gossenköllesee, which is unique as a centre of scientific education, will be the principal site for research focus of the Innsbruck University (ALPINER RAUM–ALPINE SPACE). The importance of the station for research and teaching can be illustrated by numerous interviews and TV documentaries. Since 2015 it is member of GLEON (Global Lake Ecological Observation Network) as the only Austrian high mountain lake. The lake and its catchment area lay entirely in the alpine zone, that is, above the present and possibly also the historical treeline. It harbours several alpine plant species such as rhododendron, dwarf shrubs and typical representatives of alpine grass heath. Approximately 10 per cent of the catchment area is covered by thin soils, mostly raw and podsolic soils with low pH. The surroundings are characterized by large rocks and moraines, which offer shelter to marmots, chamois, ermines, foxes and adders. The site, which is part of the local agrarian community, is bordered by a ski resort and can be reached during winter after a short journey using skies or snowshoes. During the summer Gossenköllesee is accessible on foot via a narrow trail (one-hour walk), and in good weather conditions (in late summer) is even accessible by jeep. As a result of the moraine, the lake and the station are hidden from view and therefore rarely visited by hikers or skiers. During the summer sheep graze in Kühtai, and some go as far as the Gossenköllesee catchment, thus providing additional nutrient input.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Ruben Sommaruga</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>ruben.sommaruga@uibk.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Roland Psenner</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>roland.psenner@uibk.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Ruben Sommaruga</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>ruben.sommaruga@uibk.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Birgit Sattler</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>birgit.sattler@uibk.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Array</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow thickness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acid neutralizing capacity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>catchment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The mountainous Gossenköllesee is located in the Stubaier Alps at an elevation of 2,417 m. The research station on the shore of Gossenkoellesee provides an ideal platform to conduct research related to global change as shown in mountaineous regions. The former UNESCO Gossenköllesee Biosphere Reserve (the smallest in the world) was established in 1977 in order to guarantee long-term ecological research. In the year 2014 this label has been withdrawn due to the incompatibility with the Sevilla strategy to define biosphere reserves. It was defined with an area of 85ha ranging from 2.417 m (lake level) to 2,828 m above sea level (Pirchkogel) at 4714'N and 1101'E. The former Biosphere Reserve comprised the lake itself with the adjacent catchment area. It is characteristic for high alpine regions and has a largely intact natural environment. The centre of scientific interest is the long-term change of alpine lakes, streams and entire catchments. The two lakes, Vorderer and Hinterer Finstertaler See, were converted into a reservoir for hydroelectric power generation in 1974, and dam construction flooded the existing limnological research station, established in 1959 on the shore of the Vorderer Finstertaler See. A new station was built in 1975 on the opposite slope of the Kühtai Valley, the socalled Limnological Station Gossenköllesee, and was completely reshaped and enlarged in 1995. In 2016 it has been entitled after Prof. Roland Pechlaner. After twenty-five years, this is still an attractive and highly relevant subject for both ecological research and environmental protection. During the Ice Age the whole area was glaciated. After the ice retreated at the beginning of the Holocene several lakes were formed, four of which still exist today; the largest of these is Gossenköllesee. The bedrock of the drainage area is granitic and consists of crystalline schist and gneiss. The moraine forming the natural dam of Gossenköllesee is composed of amphibolites, granite gneiss and mica slate. The lake is subpolar, oligotrophic and dimictic in character with a maximum depth of 9.9 m and an area of 16,700 m². It is covered for up to eight months of the year with an alternating sheet of ice, snow and slush, which has a critical influence on light transmission, stratification and nutrient exchange of the pelagic zone. The lake has no surface inflows and outflows, except a small outlet during snowmelt. It harbours one of the last populations of the Danubian brown trout (Salmo trutta), probably descended from fish stocked by the Emperor Maximilian in A.D.1500. It is accessible all year round, lying within an hour’s walking distance from the small village of Kühtai, a well-known ski resort situated about 30 km west of Innsbruck that can be reached daily by car and public transport. Gossenköllesee and its catchment area is a centre of alpine research with a fully equipped research station at the shore of the lake that undertakes the collection (and to some extent analysis) of sensitive samples and maintains automated observation of climate and hydrology on site. The station has accommodation for up to six people, and was modernized and equipped with telephone, modem and electrical energy in 1994, allowing for emission-free heating and operation of the equipment. Additionally, since 2016 we run an automatic weather based on a platform on the lake. A webcam provides online pictures. GLOBAL CHANGE RESEARCH IN MOUNTAIN HABITATS Since 1992, Gossenköllesee has been a key site in various EU projects (ALPE, MOLAR, EMERGE) and is included in the Integrated Project EUROLIMPACS and the Network of Excellence ALTER-NET (6th Framework Programme). Over the last three decades the atmospheric deposition, lakes, streams, soils and vegetation of this area have been subjects of MSc dissertations, PhD theses and international projects. Beginning in 2004, Gossenköllesee, which is unique as a centre of scientific education, will be the principal site for research focus of the Innsbruck University (ALPINER RAUM–ALPINE SPACE). The importance of the station for research and teaching can be illustrated by numerous interviews and TV documentaries. Since 2015 it is member of GLEON (Global Lake Ecological Observation Network) as the only Austrian high mountain lake. The lake and its catchment area lay entirely in the alpine zone, that is, above the present and possibly also the historical treeline. It harbours several alpine plant species such as rhododendron, dwarf shrubs and typical representatives of alpine grass heath. Approximately 10 per cent of the catchment area is covered by thin soils, mostly raw and podsolic soils with low pH. The surroundings are characterized by large rocks and moraines, which offer shelter to marmots, chamois, ermines, foxes and adders. The site, which is part of the local agrarian community, is bordered by a ski resort and can be reached during winter after a short journey using skies or snowshoes. During the summer Gossenköllesee is accessible on foot via a narrow trail (one-hour walk), and in good weather conditions (in late summer) is even accessible by jeep. As a result of the moraine, the lake and the station are hidden from view and therefore rarely visited by hikers or skiers. During the summer sheep graze in Kühtai, and some go as far as the Gossenköllesee catchment, thus providing additional nutrient input.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Ruben Sommaruga</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>ruben.sommaruga@uibk.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Roland Psenner</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>roland.psenner@uibk.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Ruben Sommaruga</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>ruben.sommaruga@uibk.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Birgit Sattler</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>birgit.sattler@uibk.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Array</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow thickness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acid neutralizing capacity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>catchment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>PAR (Photosynthetic Active Radiation)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Fresh water Lakes</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -313,7 +257,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='6ba80086-3ecc-4dc6-ab2f-a225003f7ba4'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='6ba80086-3ecc-4dc6-ab2f-a225003f7ba4'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -329,7 +273,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='6ba80086-3ecc-4dc6-ab2f-a225003f7ba4'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='6ba80086-3ecc-4dc6-ab2f-a225003f7ba4'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -345,7 +289,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='6ba80086-3ecc-4dc6-ab2f-a225003f7ba4'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='6ba80086-3ecc-4dc6-ab2f-a225003f7ba4'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -357,38 +301,28 @@
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL/>
-								</gmd:linkage>
-								<gmd:name>
-								<gco:CharacterString/>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL/>
-								</gmd:linkage>
-								<gmd:name>
-								<gco:CharacterString/>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=da219f62-ed74-11e4-870c-005056ab003f</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>HTTP</gco:CharacterString>
+							</gmd:protocol>
+							 <gmd:applicationProfile>
+								<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+							</gmd:applicationProfile>
+							<gmd:name>
+							<gco:CharacterString/>
+							</gmd:name>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions><gmd:transferOptions>
 					<gmd:MD_DigitalTransferOptions>
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
@@ -404,7 +338,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -436,4 +370,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

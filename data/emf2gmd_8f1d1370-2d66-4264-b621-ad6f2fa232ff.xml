@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Olivier RIBOLZI</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString>Array</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Arthorn BOONSANER</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,20 +42,13 @@
 						  <gco:CharacterString>NPWPCD (National Park, Wildlife and Plant Conservation Department), Ladyao, Jatujak, Bangkok 10900 TH</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Arthorn BOONSANER</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -79,13 +61,10 @@
 						  <gco:CharacterString>NPWPCD (National Park, Wildlife and Plant Conservation Department), Ladyao, Jatujak, Bangkok 10900 TH</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -104,85 +83,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/8f1d1370-2d66-4264-b621-ad6f2fa232ff</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Huai Ma Nai is a small agricultural catchment (93 ha) of northern Thailand, 60 km from the city of Phrae, in a sloping land environment where has been monitored since 2001 the impacts of land use changes, from mung bean and soya bean to maize, upron hydrologic and sedimentary budgets. Agricultural practices are very intensive, base on high quantity of fertilizers, herbicides and pesticides. Cultivation is mechanized. The mean slope is 12.9%%. Soils are thin Alfisols and Ultisols with sandy clay loam to clayey texture, high coarse fragment content, low pH, high bulk density and low-medium cation exchange capacity. Equipments include an automatic meterological station since 2001, 3 weirs and 1 flume to monitor discharge from nested catchments, suspended and bedload since 2001, automatic suspended load samplers. This catchment is part of the larger Mae Thang catchment (120 km²) that supplies water to a reservoir which has been built in 1995 and monitored since 2001. More information available on http://www.msec3.net/portal/, and in Valentin et al. (2008), AGEE; Huon et al.(2011), AGEE. The Huai Ma Nai catchment belongs to the MultiScale Environmental Changes Network (MSEC) which is a long term monitoring network of experimental catchments in South-East Asia (Laos, Thailand, Vietnam) and to the French SOERE-RBV Network. It serves as experimental site for three projects funded by the French Agency for Research (ANR).</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Olivier RIBOLZI</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>ribolzi@gmail.com</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Array</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Arthorn BOONSANER</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>arthorn_40@yahoo.com</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>NPWPCD (National Park, Wildlife and Plant Conservation Department), Ladyao, Jatujak, Bangkok 10900 TH</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Arthorn BOONSANER</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>arthorn_40@yahoo.com</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>NPWPCD (National Park, Wildlife and Plant Conservation Department), Ladyao, Jatujak, Bangkok 10900 TH</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sample size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment description</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment name</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment objective</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use class</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>base saturation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil porosity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>redox</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water velocity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Huai Ma Nai is a small agricultural catchment (93 ha) of northern Thailand, 60 km from the city of Phrae, in a sloping land environment where has been monitored since 2001 the impacts of land use changes, from mung bean and soya bean to maize, upron hydrologic and sedimentary budgets. Agricultural practices are very intensive, base on high quantity of fertilizers, herbicides and pesticides. Cultivation is mechanized. The mean slope is 12.9%%. Soils are thin Alfisols and Ultisols with sandy clay loam to clayey texture, high coarse fragment content, low pH, high bulk density and low-medium cation exchange capacity. Equipments include an automatic meterological station since 2001, 3 weirs and 1 flume to monitor discharge from nested catchments, suspended and bedload since 2001, automatic suspended load samplers. This catchment is part of the larger Mae Thang catchment (120 km²) that supplies water to a reservoir which has been built in 1995 and monitored since 2001. More information available on http://www.msec3.net/portal/, and in Valentin et al. (2008), AGEE; Huon et al.(2011), AGEE. The Huai Ma Nai catchment belongs to the MultiScale Environmental Changes Network (MSEC) which is a long term monitoring network of experimental catchments in South-East Asia (Laos, Thailand, Vietnam) and to the French SOERE-RBV Network. It serves as experimental site for three projects funded by the French Agency for Research (ANR).</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Olivier RIBOLZI</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>ribolzi@gmail.com</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Array</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Arthorn BOONSANER</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>arthorn_40@yahoo.com</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>NPWPCD (National Park, Wildlife and Plant Conservation Department), Ladyao, Jatujak, Bangkok 10900 TH</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Arthorn BOONSANER</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>arthorn_40@yahoo.com</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>NPWPCD (National Park, Wildlife and Plant Conservation Department), Ladyao, Jatujak, Bangkok 10900 TH</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sample size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment description</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment name</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treatment objective</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use class</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>base saturation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil porosity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>redox</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water velocity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -259,7 +217,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='8f1d1370-2d66-4264-b621-ad6f2fa232ff'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='8f1d1370-2d66-4264-b621-ad6f2fa232ff'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -275,7 +233,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='8f1d1370-2d66-4264-b621-ad6f2fa232ff'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='8f1d1370-2d66-4264-b621-ad6f2fa232ff'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -291,7 +249,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='8f1d1370-2d66-4264-b621-ad6f2fa232ff'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='8f1d1370-2d66-4264-b621-ad6f2fa232ff'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -302,7 +260,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -334,4 +292,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

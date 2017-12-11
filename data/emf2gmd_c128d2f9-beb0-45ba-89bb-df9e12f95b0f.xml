@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Michela Rogora</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Michela Rogora</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,20 +44,13 @@
 						  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Michela Rogora</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,13 +63,10 @@
 						  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -106,85 +85,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/c128d2f9-beb0-45ba-89bb-df9e12f95b0f</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Lake Paione Inferiore is a high altitude Alpine lake, located at 2002 m a.s.l. in the Bognanco Valley, Province of Verbania, Piedmont Region, Italy. It has a surface area of 0.86 ha and a maximum depth of 13.5 m. It is included in the monitoring sites of the UN-ECE Program ICP WATERS (International Cooperative Programme on Assessment and Monitoring of Acidification of Rivers and Lakes) funded in Italy by Ministry of the Environment and for which the CNR Institute of Ecosystem Study is the National Focal Centre for Italy. The lake has been studied since the late 1970s in the framework of research on the effect of acid deposition on chemistry and biology of sensitive lakes. At present meteorological data are collected continuously by an automatic weather station (AWS) located on the shore of the close lake Paione Superiore. Chemical data are available since 1978 and are still collected on a regular basis (annual or biennial frequency): pH, conductivity, alkalinity, dissolved oxygen, major anions (sulphate, nitrate, chloride) and cations (calcium, magnesium, sodium, potassium), reactive and total phosphorus, reactive silica, total nitrogen, dissolved organic carbon, main trace elements (included heavy metals). Three samples are collected on the water column at the deepest point of the lake. Winter or spring samplings are performed occasionally. Available biological data include phytoplankton, zoo plankton and benthos taxonomic composition, population dynamics of the main species and, limited to 2000-2001, bacteria, epilithic diatoms, and paleolimnological data.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Michela Rogora</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>m.rogora@ise.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Michela Rogora</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>m.rogora@ise.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Michela Rogora</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>m.rogora@ise.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acid neutralizing capacity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Lake Paione Inferiore is a high altitude Alpine lake, located at 2002 m a.s.l. in the Bognanco Valley, Province of Verbania, Piedmont Region, Italy. It has a surface area of 0.86 ha and a maximum depth of 13.5 m. It is included in the monitoring sites of the UN-ECE Program ICP WATERS (International Cooperative Programme on Assessment and Monitoring of Acidification of Rivers and Lakes) funded in Italy by Ministry of the Environment and for which the CNR Institute of Ecosystem Study is the National Focal Centre for Italy. The lake has been studied since the late 1970s in the framework of research on the effect of acid deposition on chemistry and biology of sensitive lakes. At present meteorological data are collected continuously by an automatic weather station (AWS) located on the shore of the close lake Paione Superiore. Chemical data are available since 1978 and are still collected on a regular basis (annual or biennial frequency): pH, conductivity, alkalinity, dissolved oxygen, major anions (sulphate, nitrate, chloride) and cations (calcium, magnesium, sodium, potassium), reactive and total phosphorus, reactive silica, total nitrogen, dissolved organic carbon, main trace elements (included heavy metals). Three samples are collected on the water column at the deepest point of the lake. Winter or spring samplings are performed occasionally. Available biological data include phytoplankton, zoo plankton and benthos taxonomic composition, population dynamics of the main species and, limited to 2000-2001, bacteria, epilithic diatoms, and paleolimnological data.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Michela Rogora</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>m.rogora@ise.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Michela Rogora</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>m.rogora@ise.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Michela Rogora</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>m.rogora@ise.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Largo Tonolli 50 Italia MI 45 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>environmental stress</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acid neutralizing capacity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Fresh water Lakes</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -271,7 +229,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='c128d2f9-beb0-45ba-89bb-df9e12f95b0f'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c128d2f9-beb0-45ba-89bb-df9e12f95b0f'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -287,7 +245,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='c128d2f9-beb0-45ba-89bb-df9e12f95b0f'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c128d2f9-beb0-45ba-89bb-df9e12f95b0f'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -303,7 +261,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='c128d2f9-beb0-45ba-89bb-df9e12f95b0f'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c128d2f9-beb0-45ba-89bb-df9e12f95b0f'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -319,8 +277,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9116/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=40014de8-74b0-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Ammonium in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -335,8 +299,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9108/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=c2ff17c0-73e8-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Anions in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -351,8 +321,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9106/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=8f4b49a8-73cf-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Cations in LTER-Europe research site:Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -367,8 +343,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9112/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=ad494504-73c0-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Conductivity in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -383,8 +365,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9060/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=74c61dc6-0b94-11e5-a766-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Daily standard meteorological data for Lake Paione Inferiore and Lake Paione Superiore (2000-2014)</gco:CharacterString>
 								</gmd:name>
@@ -399,8 +387,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9124/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=dd93eede-74b1-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Nitrate in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -415,8 +409,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9110/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=725fea04-7165-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>pH in LTER-Europe research site: Lake Paione Inferiore (1978-2013)</gco:CharacterString>
 								</gmd:name>
@@ -431,8 +431,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9120/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=90ba70be-73e0-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Reactive Phosphorus in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -447,8 +453,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9122/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=551881b4-73e4-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Reactive Silica in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -463,8 +475,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9104/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=bdc1d68a-70be-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Total alkalinity in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -479,8 +497,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9114/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f7ec99b0-73c7-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Total Nitrogen in LTER-Europe research site: Lake Paione Inferiore (1989-2013)</gco:CharacterString>
 								</gmd:name>
@@ -495,8 +519,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/9118/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=d219496c-73dc-11e4-a976-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Total Phosphorus in LTER-Europe research site: Lake Paione Inferiore (1984-2013)</gco:CharacterString>
 								</gmd:name>
@@ -522,7 +552,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -554,4 +584,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

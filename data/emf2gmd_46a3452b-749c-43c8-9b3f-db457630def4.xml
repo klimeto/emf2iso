@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Marcelo Tabarelli</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Davi Jamelli</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,13 +42,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -78,59 +64,45 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/46a3452b-749c-43c8-9b3f-db457630def4</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The present proposal aims to assess how human disturbance and changes in rainfall regime affect the Caatinga ecosystem’s biota at different levels of biological organization (i.e, from populations to ecosystem level), by correlating these aspects with the theoretical reference shown in macro trends already documented in the tropics. In order to achieve this objective, eight specific objectives are proposed, dividing the project into smaller execution modules as follows: (1) the nature of the disturbances, (2) diversity patterns of communities, (3) structuring processes of communities, (4) plant-animal interactions, (5) nutrient cycling, (6) natural regeneration and forest restoration (7) geographic information system, and (8) training and information transfer. Furthermore, the implementation and achievement of this project’s objectives are centered on: (1) establishment of a set of 30 permanent plots, (2) periodic multi-taxa inventories, (3) continuous monitoring of environmental and anthropogenic variables (4) consolidation of biological, land usage and environmental data on the basis of GIS type and (5) dissemination / transfer of information through a wide range of instruments. The project will be developed in Catimbau National Park, a polygon of approximately 63,000 ha, and one of the most important protected areas in the Caatinga. The Park presents vocation for ecological studies of long-term and thus to become an LTER site due to a series of reasons: (1) it has a biological, archaeological and landscape heritage of inestimable value, (2) it shelters areas with different historical land use and anthropic disturbance on the vegetation of Caatinga, (3) there are already in place several research initiatives and training of human resources, and (4) in term of unit management aspects, logistics and infrastructure are favorable for long-term initiatives. This proposal will be implemented by a network composed of 23 researchers supported by a number of undergraduate / graduate students, all from six national institutions and three other overseas. The main core of the graduate programs are Plant Biology, Biology Animal and Fungal Biology, all at the Federal University of Pernambuco (UFPE). Among the many outcomes expected for the first 42 months of implementation of the project, (1) the publication of at least 15 scientific articles and a book gathering the main findings of the project; (2) the graduation of a dozen of masters and doctors in ecology and conservation biology, in addition to training students, protected areas managers and residents of the local communities; (3) establishment of biodiversity monitoring protocols and assisted restoration of the local vegetation; (4) expansion of scientific partnerships, consolidation of research groups and the formation of strategic thinking groups, which the main focus will be addressed to issues involving the Caatinga’s biota; (5) the creation and consolidation of a LTER site in Catimbau National Park with opportunities for generating scientific knowledge, trained human resource as well as information transfer to broaden range of the society, beyond those already contained within this proposal; and (6) continuous transfer of information to society through a wide range of instruments, reaching from local communities to decision makers at the federal level are included. Although the activities, goals and products described herein have a horizon of 42 months, it is an ecological survey of long-term and the creation / consolidation of a LTER site, with continuous operation perspective. In summary, the "LTER Catimbau National Park" is an important proposal and has the ability to expand knowledge about how dry biota respond to land use changes and precipitation, with all the implications that these answers may have for the management of biodiversity and the achievement of sustainable development in semi-arid regions.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Marcelo Tabarelli</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>mtrelli@ufpe.br</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Davi Jamelli</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>davi.jamelli@gmail.com</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>available phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil hydraulic measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil solution chemistry in soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil wilting point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The present proposal aims to assess how human disturbance and changes in rainfall regime affect the Caatinga ecosystem’s biota at different levels of biological organization (i.e, from populations to ecosystem level), by correlating these aspects with the theoretical reference shown in macro trends already documented in the tropics. In order to achieve this objective, eight specific objectives are proposed, dividing the project into smaller execution modules as follows: (1) the nature of the disturbances, (2) diversity patterns of communities, (3) structuring processes of communities, (4) plant-animal interactions, (5) nutrient cycling, (6) natural regeneration and forest restoration (7) geographic information system, and (8) training and information transfer. Furthermore, the implementation and achievement of this project’s objectives are centered on: (1) establishment of a set of 30 permanent plots, (2) periodic multi-taxa inventories, (3) continuous monitoring of environmental and anthropogenic variables (4) consolidation of biological, land usage and environmental data on the basis of GIS type and (5) dissemination / transfer of information through a wide range of instruments. The project will be developed in Catimbau National Park, a polygon of approximately 63,000 ha, and one of the most important protected areas in the Caatinga. The Park presents vocation for ecological studies of long-term and thus to become an LTER site due to a series of reasons: (1) it has a biological, archaeological and landscape heritage of inestimable value, (2) it shelters areas with different historical land use and anthropic disturbance on the vegetation of Caatinga, (3) there are already in place several research initiatives and training of human resources, and (4) in term of unit management aspects, logistics and infrastructure are favorable for long-term initiatives. This proposal will be implemented by a network composed of 23 researchers supported by a number of undergraduate / graduate students, all from six national institutions and three other overseas. The main core of the graduate programs are Plant Biology, Biology Animal and Fungal Biology, all at the Federal University of Pernambuco (UFPE). Among the many outcomes expected for the first 42 months of implementation of the project, (1) the publication of at least 15 scientific articles and a book gathering the main findings of the project; (2) the graduation of a dozen of masters and doctors in ecology and conservation biology, in addition to training students, protected areas managers and residents of the local communities; (3) establishment of biodiversity monitoring protocols and assisted restoration of the local vegetation; (4) expansion of scientific partnerships, consolidation of research groups and the formation of strategic thinking groups, which the main focus will be addressed to issues involving the Caatinga’s biota; (5) the creation and consolidation of a LTER site in Catimbau National Park with opportunities for generating scientific knowledge, trained human resource as well as information transfer to broaden range of the society, beyond those already contained within this proposal; and (6) continuous transfer of information to society through a wide range of instruments, reaching from local communities to decision makers at the federal level are included. Although the activities, goals and products described herein have a horizon of 42 months, it is an ecological survey of long-term and the creation / consolidation of a LTER site, with continuous operation perspective. In summary, the "LTER Catimbau National Park" is an important proposal and has the ability to expand knowledge about how dry biota respond to land use changes and precipitation, with all the implications that these answers may have for the management of biodiversity and the achievement of sustainable development in semi-arid regions.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Marcelo Tabarelli</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mtrelli@ufpe.br</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Davi Jamelli</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>davi.jamelli@gmail.com</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>available phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil hydraulic measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil solution chemistry in soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil wilting point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -187,7 +159,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='46a3452b-749c-43c8-9b3f-db457630def4'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='46a3452b-749c-43c8-9b3f-db457630def4'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -203,7 +175,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='46a3452b-749c-43c8-9b3f-db457630def4'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='46a3452b-749c-43c8-9b3f-db457630def4'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -219,7 +191,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='46a3452b-749c-43c8-9b3f-db457630def4'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='46a3452b-749c-43c8-9b3f-db457630def4'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -246,7 +218,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -278,4 +250,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Andrew Sier</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
-						<gco:CharacterString>Centre for Ecology  Hydrology</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>Centre for Ecology &amp; Hydrology</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -24,49 +20,20 @@
 						  </gmd:CI_Address>
 						 </gmd:address>
 						 <gmd:contactInstructions>
-						  <gco:CharacterString>Centre for Ecology  Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
+						  <gco:CharacterString>Centre for Ecology &amp; Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
-						<gco:CharacterString>Centre for Ecology  Hydrology</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>Centre for Ecology &amp; Hydrology</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Andrew Sier</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
-						<gco:CharacterString>Centre for Ecology  Hydrology</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>Centre for Ecology &amp; Hydrology</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -76,16 +43,13 @@
 						  </gmd:CI_Address>
 						 </gmd:address>
 						 <gmd:contactInstructions>
-						  <gco:CharacterString>Centre for Ecology  Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
+						  <gco:CharacterString>Centre for Ecology &amp; Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -104,85 +68,49 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/7acc389f-6262-417f-bd45-d38810d45ff5</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>UK ECN site. The River Coln rises at an altitude of about 200m AOD near Sevenhampton in Gloucestershire and flows from the limestone Cotswold Hills in a south-easterly direction to Lechlade where it joins the River Thames at an altitude of about 75m AOD. There are no major tributaries. The sampling site is located in Lechlade about 70m above the confluence with the Thames.The source of the river is in the Inferior Oolite aquifer in which it flows for the first few kilometers, but most of the river runs on the Great Oolite aquifer. Both of the limestone aquifers are sources for water abstration; a total of 55 ml per day are consented from the catchment. The river crosses Oxford Clay before running into the Thames. The catchment is mostly rural, with farming the main industry. The upper catchment is mainly grazing land, and there are large areas of deciduous woodland in the south-west. The upper two-thirds of the catchment is within the Cotswold Area of Outstanding Natural Beauty (AONB), and around Fairford the river has been designated as a Nitrate-sensitive area. There are no large conurbations on the upper catchment, although Cheltenham, from where surface water drains into the limestone above the river's source, has a population of over 100,000. The Coln catchment supports a population of around 9,000. The main sewage inputs to the river are from works at Andoversford, Bibury and Fairford. Bibury Tout farm is the largest discharge into the river, although most of this is 'on-line' through fish-ponds. The river has been subject to various enhancement schemes to improve ecology and fisheries. Water quality was recorded as 'good to fair' in the 1995 General Quality Assessment survey; the classification varies throughout the river, due to the effects of both discharges and low flows. The biological quality of the river is very good. The river supports a brown trout (Salmo trutta) fishery with good spawning beds. Natural populations of grayling (Thymallus thymallus) also exist. Native crayfish (Austropotamobius pallipes) have been recorded but not since 1991; populations of the introduced American signal crayfish (Pacifastacus leniusculus) are also present. Several pollution-sensitive caddisfly and mayfly families have been found, along with true-bugs, beetles and snails.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Andrew Sier</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Centre for Ecology  Hydrology</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>arjs@ceh.ac.uk</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Centre for Ecology  Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Centre for Ecology  Hydrology</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Andrew Sier</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Centre for Ecology  Hydrology</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>arjs@ceh.ac.uk</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Centre for Ecology  Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>stage height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>UK ECN site. The River Coln rises at an altitude of about 200m AOD near Sevenhampton in Gloucestershire and flows from the limestone Cotswold Hills in a south-easterly direction to Lechlade where it joins the River Thames at an altitude of about 75m AOD. There are no major tributaries. The sampling site is located in Lechlade about 70m above the confluence with the Thames.The source of the river is in the Inferior Oolite aquifer in which it flows for the first few kilometers, but most of the river runs on the Great Oolite aquifer. Both of the limestone aquifers are sources for water abstration; a total of 55 ml per day are consented from the catchment. The river crosses Oxford Clay before running into the Thames. The catchment is mostly rural, with farming the main industry. The upper catchment is mainly grazing land, and there are large areas of deciduous woodland in the south-west. The upper two-thirds of the catchment is within the Cotswold Area of Outstanding Natural Beauty (AONB), and around Fairford the river has been designated as a Nitrate-sensitive area. There are no large conurbations on the upper catchment, although Cheltenham, from where surface water drains into the limestone above the river's source, has a population of over 100,000. The Coln catchment supports a population of around 9,000. The main sewage inputs to the river are from works at Andoversford, Bibury and Fairford. Bibury Tout farm is the largest discharge into the river, although most of this is 'on-line' through fish-ponds. The river has been subject to various enhancement schemes to improve ecology and fisheries. Water quality was recorded as 'good to fair' in the 1995 General Quality Assessment survey; the classification varies throughout the river, due to the effects of both discharges and low flows. The biological quality of the river is very good. The river supports a brown trout (Salmo trutta) fishery with good spawning beds. Natural populations of grayling (Thymallus thymallus) also exist. Native crayfish (Austropotamobius pallipes) have been recorded but not since 1991; populations of the introduced American signal crayfish (Pacifastacus leniusculus) are also present. Several pollution-sensitive caddisfly and mayfly families have been found, along with true-bugs, beetles and snails.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Andrew Sier</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>Centre for Ecology &amp; Hydrology</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>arjs@ceh.ac.uk</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Centre for Ecology &amp; Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>Centre for Ecology &amp; Hydrology</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Andrew Sier</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>Centre for Ecology &amp; Hydrology</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>arjs@ceh.ac.uk</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Centre for Ecology &amp; Hydrology Lancaster Lancashire LA1 4AP GB</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>inorganic nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>turbidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>stage height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Fresh water rivers</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -259,7 +187,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='7acc389f-6262-417f-bd45-d38810d45ff5'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='7acc389f-6262-417f-bd45-d38810d45ff5'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -275,7 +203,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='7acc389f-6262-417f-bd45-d38810d45ff5'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='7acc389f-6262-417f-bd45-d38810d45ff5'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -291,7 +219,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='7acc389f-6262-417f-bd45-d38810d45ff5'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='7acc389f-6262-417f-bd45-d38810d45ff5'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -318,7 +246,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -350,4 +278,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

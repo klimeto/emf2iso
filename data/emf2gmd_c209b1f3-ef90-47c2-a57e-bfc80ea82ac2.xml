@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Luboš Purchart</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Jiří Kulhavý</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,20 +42,13 @@
 						  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Jiří Kulhavý</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -79,13 +61,10 @@
 						  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -104,85 +83,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/c209b1f3-ef90-47c2-a57e-bfc80ea82ac2</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The study plot was established by the Institute of Forest Ecology (Mendel University in Brno) in 1968, namely in connection with the UNESCO International Biological Programme (IBP) and the UNESCO programme “Man and the Biosphere” (MAB). Research was aimed at the primary production, element and water cycling and the secondary production of invertebrates, birds and small mammals. It refers to a semi-natural floodplain forest free of management measures characterized by the Ulmeto-Fraxinetum carpineum forest type group. Dominant tree species are as follows: Fraxinus excelsior, Quercus robur, Populus nigra, Tilia platyphyllos, and Acer campestre. In consequence of flood control, the local floodplain forest was affected by changes in the water regime (absence of natural floods, fall of the groundwater table) from 1972. In the course of the 1970s and 1980s, it resulted in the insufficient supply of water. Since the 1990s, revitalization measures have been carried out (increasing the ground water level by means of channels) for improving forest health. Changes in the water regime have resulted in the improving condition of the floodplain forest ecosystem that has been documented owing to LTER on the site. Following research activities are carried out there: (i) monitoring selected parameters of the stand microclimate and mesoclimate, (ii) evaluating the moisture balance in the forest ecosystems, (iii) evaluating the water regime and moisture conditions of the floodplain forest ecosystem, (iv) evaluating temperature and moisture conditions, (v) research into the water relations of trees, (vi) evaluating long-term changes in the synusia of small terrestrial mammals of the floodplain forest, and (vii) evaluating decomposition processes.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Luboš Purchart</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>lubos.purchart@post.cz</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Jiří Kulhavý</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>kulhavy@mendelu.cz</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Jiří Kulhavý</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>kulhavy@mendelu.cz</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>throughfall</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil dry bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>C/N ratio of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pore size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pore size distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>porosity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore architecture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil porosity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>thickness of soil horizon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon in soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water table</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>groundwater permeability</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The study plot was established by the Institute of Forest Ecology (Mendel University in Brno) in 1968, namely in connection with the UNESCO International Biological Programme (IBP) and the UNESCO programme “Man and the Biosphere” (MAB). Research was aimed at the primary production, element and water cycling and the secondary production of invertebrates, birds and small mammals. It refers to a semi-natural floodplain forest free of management measures characterized by the Ulmeto-Fraxinetum carpineum forest type group. Dominant tree species are as follows: Fraxinus excelsior, Quercus robur, Populus nigra, Tilia platyphyllos, and Acer campestre. In consequence of flood control, the local floodplain forest was affected by changes in the water regime (absence of natural floods, fall of the groundwater table) from 1972. In the course of the 1970s and 1980s, it resulted in the insufficient supply of water. Since the 1990s, revitalization measures have been carried out (increasing the ground water level by means of channels) for improving forest health. Changes in the water regime have resulted in the improving condition of the floodplain forest ecosystem that has been documented owing to LTER on the site. Following research activities are carried out there: (i) monitoring selected parameters of the stand microclimate and mesoclimate, (ii) evaluating the moisture balance in the forest ecosystems, (iii) evaluating the water regime and moisture conditions of the floodplain forest ecosystem, (iv) evaluating temperature and moisture conditions, (v) research into the water relations of trees, (vi) evaluating long-term changes in the synusia of small terrestrial mammals of the floodplain forest, and (vii) evaluating decomposition processes.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Luboš Purchart</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>lubos.purchart@post.cz</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Jiří Kulhavý</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>kulhavy@mendelu.cz</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Jiří Kulhavý</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>kulhavy@mendelu.cz</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Zemědělská 3 Brno 61300 CZ</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>throughfall</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil dry bulk density</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>C/N ratio of soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pore size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pore size distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>porosity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil pore architecture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil porosity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil texture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>thickness of soil horizon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon in soil</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water table</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>groundwater permeability</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -239,7 +197,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='c209b1f3-ef90-47c2-a57e-bfc80ea82ac2'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c209b1f3-ef90-47c2-a57e-bfc80ea82ac2'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -255,7 +213,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='c209b1f3-ef90-47c2-a57e-bfc80ea82ac2'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c209b1f3-ef90-47c2-a57e-bfc80ea82ac2'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -271,7 +229,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='c209b1f3-ef90-47c2-a57e-bfc80ea82ac2'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c209b1f3-ef90-47c2-a57e-bfc80ea82ac2'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -298,7 +256,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -330,4 +288,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

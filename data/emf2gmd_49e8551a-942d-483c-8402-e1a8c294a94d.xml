@@ -6,60 +6,18 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>empty empty</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString>Array</gco:CharacterString>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>US National Science Foundation</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -78,59 +36,17 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/49e8551a-942d-483c-8402-e1a8c294a94d</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Kellogg Biological Station (KBS) is located in southwest Michigan in the eastern portion of the U.S. cornbelt, 50 km east of Lake Michigan in the SW corner of the state (42° 24′ N, 85° 24′ W, elevation 288 m). Annual rainfall at KBS averages 1,005 mm/y with about half falling as snow; potential evapotranspiration (PET) exceeds precipitation for about 4 months of the year. Mean annual temperature is 10.1 °C. KBS is 1600 ha of cropping systems, successional communities, and small lakes. Surrounding KBS is a diverse, rural-to-semirural landscape typical of the U.S. Great Lakes and upper Midwest regions. The diversity of land use, soil and vegetation types, and aquatic habitats within a 50-km radius of the Station is high. Most of southwest Michigan is on the pitted outwash plain of the morainic system left by the last retreat of the Wisconsin glaciation, circa 12,000 years ago. Soils in the area developed on glacial till, and include well- and poorly-drained alfisols, mollisols, and entisols. Most regional soils are sandy loam and silty clay loam of moderate fertility, principal Station soils are Typic Hapludalfs. Land use around KBS ranges from urban (Kalamazoo, with a metropolitan population of 180,000, is 20 km south of the Station) to rural; vegetation ranges from cultivated and early successional old fields to older growth oak-hickory and beech-maple forests; and aquatic habitats include more than 200 bodies of water of different morphometries, alkalinities, and degrees of eutrophication within 50 km. Cropping systems in the area are typical of the U.S. cornbelt — mainly corn/soybean rotations with wheat of varying importance, and alfalfa an important forage crop. KBS yields are typical of non-irrigated yields elsewhere in the North Central Region. KBS LTER research is carried out in a variety of experimental systems. The most important of these is the Main Cropping System Experiment (MCSE), which was started in 1989 and consists of 11 different cropping systems or successional plant communities, ranging from annual corn-soybean-wheat rotations to late-successional deciduous forest. All communities are replicated within the landscape.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>empty empty</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>Array</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>US National Science Foundation</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>agricultural measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tillage measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>year in rotation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sowing measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pruning measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>year in the rotation or year since start of treatment application</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>crop measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irrigation measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>litter residence time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant carbon concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration rates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil organic residual</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil fluxes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vegetation reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Kellogg Biological Station (KBS) is located in southwest Michigan in the eastern portion of the U.S. cornbelt, 50 km east of Lake Michigan in the SW corner of the state (42° 24′ N, 85° 24′ W, elevation 288 m). Annual rainfall at KBS averages 1,005 mm/y with about half falling as snow; potential evapotranspiration (PET) exceeds precipitation for about 4 months of the year. Mean annual temperature is 10.1 °C. KBS is 1600 ha of cropping systems, successional communities, and small lakes. Surrounding KBS is a diverse, rural-to-semirural landscape typical of the U.S. Great Lakes and upper Midwest regions. The diversity of land use, soil and vegetation types, and aquatic habitats within a 50-km radius of the Station is high. Most of southwest Michigan is on the pitted outwash plain of the morainic system left by the last retreat of the Wisconsin glaciation, circa 12,000 years ago. Soils in the area developed on glacial till, and include well- and poorly-drained alfisols, mollisols, and entisols. Most regional soils are sandy loam and silty clay loam of moderate fertility, principal Station soils are Typic Hapludalfs. Land use around KBS ranges from urban (Kalamazoo, with a metropolitan population of 180,000, is 20 km south of the Station) to rural; vegetation ranges from cultivated and early successional old fields to older growth oak-hickory and beech-maple forests; and aquatic habitats include more than 200 bodies of water of different morphometries, alkalinities, and degrees of eutrophication within 50 km. Cropping systems in the area are typical of the U.S. cornbelt — mainly corn/soybean rotations with wheat of varying importance, and alfalfa an important forage crop. KBS yields are typical of non-irrigated yields elsewhere in the North Central Region. KBS LTER research is carried out in a variety of experimental systems. The most important of these is the Main Cropping System Experiment (MCSE), which was started in 1989 and consists of 11 different cropping systems or successional plant communities, ranging from annual corn-soybean-wheat rotations to late-successional deciduous forest. All communities are replicated within the landscape.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>empty empty</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>US National Science Foundation</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>agricultural measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tillage measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>year in rotation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sowing measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pruning measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>year in the rotation or year since start of treatment application</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>crop measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>irrigation measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>above ground net primary production</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biogeochemical cycles</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>litter residence time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>percent carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Plant carbon concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>respiration rates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil organic residual</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial ecology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil fluxes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree condition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>vegetation reflectance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString/>
 					   </gmd:keyword><gmd:keyword>
 						  <gco:CharacterString/>
@@ -209,7 +125,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='49e8551a-942d-483c-8402-e1a8c294a94d'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='49e8551a-942d-483c-8402-e1a8c294a94d'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -225,7 +141,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='49e8551a-942d-483c-8402-e1a8c294a94d'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='49e8551a-942d-483c-8402-e1a8c294a94d'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -241,7 +157,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='49e8551a-942d-483c-8402-e1a8c294a94d'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='49e8551a-942d-483c-8402-e1a8c294a94d'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -268,7 +184,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -300,4 +216,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

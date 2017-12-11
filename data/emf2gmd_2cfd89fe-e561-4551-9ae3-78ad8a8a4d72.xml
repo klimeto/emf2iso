@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Szymon Ziobrowski</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString>Tatrzański Park Narodowy Zakopane 34-500 PL</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Marcin Bukowski</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,13 +44,10 @@
 						  <gco:CharacterString>Tatrzański Park Narodowy Zakopane 34-500 PL</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-12</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -80,59 +66,45 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Tatra National Park was established in 1954 to protect the Polish part of the Tatra mountains: both the High Tatras and Western Tatras, plus the northern foothills of the range. The area of the Park is approx. 212 km2, with no formally established buffer zone. Since 1992, the Park has been included in the UNESCO MaB Reserve (covering both Polish and Slovak Tatras - please see its separate description as the "Parent site" here on this website). It is also also included in the Natura 2000 network: both as “bird” Special Protection Area (SPA) and “habitat” Site of Community Importance (SCI) - the code PLC 120001. The Park protects nature, landscape, and cultural heritage of the only truly alpine mountain range in Poland. Although currently devoid of glaciers (however, dotted with a number of beatiful mountain oligotrophic lakes instead) its geomorphology is largely a result of glacial activity which shaped its crystalline, metamorphic and sedimentary bedrocks. The mountains are characterized by climate, soils, hydrological features (mountain springs and lakes), caves and karst areas, and rich biodiversity typical of subalpine and alpine environments. Also characteristic are altitudinal vegetation zones / belts (described elsewhere in this profile), These vegetation zones span from mixed forests, through coniferous forests and dwarf pine to Alpine meadow communities, above which sparse vegetation endures among rocks and screes. About 2/3 of the Tatras are covered by forest ecosystems. Most important tree species are Picea abies and Abies alba, although Pinus sylvestris, Pinus cembra, Larix decidua and Pinus mugo occur as well, accompanied birch (Betula sp.) and rowan (Sorbus sp.). In mixed forests occurring at lower elevations, species of beech (Fagus sp.) and maple (Acer sp.) can be found. The Park's ecosystems can be divided into terrestrial forest ecosystems (occupying almost 13 000 ha), terrestrial non-forest ecosystems (approx. 7770 ha, 49 plant communities) and freshwater ecosystems (approx. 192 ha, out of which lakes occupy approx. 149 ha). As much as 60% of the Park is covered by habitats requiring conservation (32 types of habitats of Community importance) The Park is home to more than 10 000 species (approx. 5500 species of invertebrates, 290 - vertebrates, 1000 - vascular plants, over 1000 - fungi, 700 - lichens, 500 - mosses etc.). Out of them as many as 1000 are endemites. The Tatras are an important centre of endemic fauna and flora, including rare relic species. There are 35 endemic species mong flowering plants alone. Examples for regional endemic species are: Erysimum wahlenbergii, Cochlearia tatrae, Pulsatilla slavica and Erigeron hungaricus. The Alpine meadows are renowned for their diversity. About 300 plant species can be found there. Various species in the Alpine environments are interpreted as glacial relicts, e.g. Ranunculus alpestris, Ranunculus glacialis, Dianthus glacialis, Gentiana frigida, Primula minima and Saxifraga aizoides. In snowbed environments Salix herbacea and Salix reticulata are characteristic. The Tatra Mountains are famous for their large predator species such as the wildcat (Felis silvestris), lynx (Lynx lynx), wolf (Canis lupus) and brown bear (Ursus arctos), which are largely extinct in other parts of Central Europe. Characteristic bird species are the Golden eagle (Aquila chrysaetos), Eurasian nutcracker (Nucifraga caryocatactes), rock ptarmigan (Lagopus muta), Eurasian eagle-owl (Bubo bubo), Western capercaillie (Tetrao urogallus) and black grouse (Tetrao tetrix). An endemic subspecies of the chamois exist in the Tatra as well (Rupicapra rupicapra tatrica). 29 animal and 6 plant species are species of Community importance. The site has code:LTER_EU_PL_017</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Szymon Ziobrowski</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>sekretariat@tpn.pl</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Tatrzański Park Narodowy Zakopane 34-500 PL</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Marcin Bukowski</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>mbukowski@tpn.pl</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Tatrzański Park Narodowy Zakopane 34-500 PL</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape fragmentation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Tatra National Park was established in 1954 to protect the Polish part of the Tatra mountains: both the High Tatras and Western Tatras, plus the northern foothills of the range. The area of the Park is approx. 212 km2, with no formally established buffer zone. Since 1992, the Park has been included in the UNESCO MaB Reserve (covering both Polish and Slovak Tatras - please see its separate description as the "Parent site" here on this website). It is also also included in the Natura 2000 network: both as “bird” Special Protection Area (SPA) and “habitat” Site of Community Importance (SCI) - the code PLC 120001. The Park protects nature, landscape, and cultural heritage of the only truly alpine mountain range in Poland. Although currently devoid of glaciers (however, dotted with a number of beatiful mountain oligotrophic lakes instead) its geomorphology is largely a result of glacial activity which shaped its crystalline, metamorphic and sedimentary bedrocks. The mountains are characterized by climate, soils, hydrological features (mountain springs and lakes), caves and karst areas, and rich biodiversity typical of subalpine and alpine environments. Also characteristic are altitudinal vegetation zones / belts (described elsewhere in this profile), These vegetation zones span from mixed forests, through coniferous forests and dwarf pine to Alpine meadow communities, above which sparse vegetation endures among rocks and screes. About 2/3 of the Tatras are covered by forest ecosystems. Most important tree species are Picea abies and Abies alba, although Pinus sylvestris, Pinus cembra, Larix decidua and Pinus mugo occur as well, accompanied birch (Betula sp.) and rowan (Sorbus sp.). In mixed forests occurring at lower elevations, species of beech (Fagus sp.) and maple (Acer sp.) can be found. The Park's ecosystems can be divided into terrestrial forest ecosystems (occupying almost 13 000 ha), terrestrial non-forest ecosystems (approx. 7770 ha, 49 plant communities) and freshwater ecosystems (approx. 192 ha, out of which lakes occupy approx. 149 ha). As much as 60% of the Park is covered by habitats requiring conservation (32 types of habitats of Community importance) The Park is home to more than 10 000 species (approx. 5500 species of invertebrates, 290 - vertebrates, 1000 - vascular plants, over 1000 - fungi, 700 - lichens, 500 - mosses etc.). Out of them as many as 1000 are endemites. The Tatras are an important centre of endemic fauna and flora, including rare relic species. There are 35 endemic species mong flowering plants alone. Examples for regional endemic species are: Erysimum wahlenbergii, Cochlearia tatrae, Pulsatilla slavica and Erigeron hungaricus. The Alpine meadows are renowned for their diversity. About 300 plant species can be found there. Various species in the Alpine environments are interpreted as glacial relicts, e.g. Ranunculus alpestris, Ranunculus glacialis, Dianthus glacialis, Gentiana frigida, Primula minima and Saxifraga aizoides. In snowbed environments Salix herbacea and Salix reticulata are characteristic. The Tatra Mountains are famous for their large predator species such as the wildcat (Felis silvestris), lynx (Lynx lynx), wolf (Canis lupus) and brown bear (Ursus arctos), which are largely extinct in other parts of Central Europe. Characteristic bird species are the Golden eagle (Aquila chrysaetos), Eurasian nutcracker (Nucifraga caryocatactes), rock ptarmigan (Lagopus muta), Eurasian eagle-owl (Bubo bubo), Western capercaillie (Tetrao urogallus) and black grouse (Tetrao tetrix). An endemic subspecies of the chamois exist in the Tatra as well (Rupicapra rupicapra tatrica). 29 animal and 6 plant species are species of Community importance. The site has code:LTER_EU_PL_017</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Szymon Ziobrowski</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>sekretariat@tpn.pl</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Tatrzański Park Narodowy Zakopane 34-500 PL</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Marcin Bukowski</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mbukowski@tpn.pl</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Tatrzański Park Narodowy Zakopane 34-500 PL</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape fragmentation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -228,7 +200,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='2cfd89fe-e561-4551-9ae3-78ad8a8a4d72'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='2cfd89fe-e561-4551-9ae3-78ad8a8a4d72'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -244,7 +216,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='2cfd89fe-e561-4551-9ae3-78ad8a8a4d72'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='2cfd89fe-e561-4551-9ae3-78ad8a8a4d72'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -260,7 +232,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='2cfd89fe-e561-4551-9ae3-78ad8a8a4d72'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='2cfd89fe-e561-4551-9ae3-78ad8a8a4d72'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -511,7 +483,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -543,4 +515,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

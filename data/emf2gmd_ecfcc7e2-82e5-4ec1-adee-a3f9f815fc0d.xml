@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,13 +42,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -78,59 +64,45 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Cork (Quercus suber) and holm (Quercus ilex) oaks were probably the dominant oak species in the Iberian Peninsula south of the Cantabrian/ Pyrenean mountains since the end of the last glaciation. Despite a large range overlap between both species, cork-oak was confined to the mild western regions of the Peninsula (thereby encompassing most of the Portuguese territory), occurring only in small patches along the coast further east, while holm oak was and still is the dominant oak over most of the Centre and East of the Peninsula, subjected to a harsher continental climate. Millennia of land clearing driven by human population growth and need for agricultural land lead to the almost complete elimination of cork oaks from the Centre and North of Portugal (and Galicia), where the mountainous relief and relatively high precipitation allowed for the establishment of numerous small farms. However, in the dry lowlands south of river Tajus, the impossibility of land irrigation and the poor soil quality were two of the main drivers that contributed to the establishment of the montado agro-sylvo-pastoral system. Today, roughly 90% of Portuguese cork-oak montados are found in this region (Alentejo) and represent the largest cork-oak montado area in the world. Here, the species basically occurs on two soil types – the skeletal schist soils that result from the weathering of the Palaeozoic hercinic core of the Peninsula and the alluvial plains of the Tajus and Sado rivers, which well drained sandy soils, correspond to an ecological optimum for this species. When compared with holm oaks, cork-oaks are relatively fragile, being unable to withstand severe droughts and continental climates (inland) or calcareous soils (in the Algarve). Therefore, as one proceeds south of the Tajus, the flatlands become divided between the coastal cork-oak montados and the inland holm oak montados. In spite of their physiological differences, holm oak forests were also cleared with different extents in different areas and the same pattern emerged, with most of the Portuguese holm oak montados occurring nowadays in inland Alentejo. These montados are in fact the western limit of the Spanish dehesas; their aggregated area constitutes the largest extension of montado ecosystem in the world. Data series of Alentejo province concerning the main key drivers of change and available to the research team are: Climate (historical time series since 1930 and every thirty years onwards, plus climatic models); Satellite images (1984, 1990, 1994 and 2004 – several series along the year, 2008); Aerial Photographies (1960/70, 1974/80, 1995, 2005); Forestry inventories (60’s/70’s, 1995, 2005). In each of the three core research and monitoring stations encompassing the variety of edapho-climatic conditions to which most montados are subjected, and that are proposed in the current proposal (see research plan), two study case sites were selected to illustrate contrasting human pressures. More relevance was given to cork oak montados, due to the importance of cork industry for the national PIB, as well as to the global importance of the Portuguese territory for this ecosystem. Two main and one secondary contrasts related to human pressures will be monitored: i) vulnerability to dryness (also related to land use), monitored at Machuqueira do Grou and Companhia das Lezírias (less vulnerable) vs Ribeira Abaixo and Sines (more vulnerable); and ii) vulnerability to grazing intensification, monitored at Companhia das Lezírias (more vulnerable) vs Machuqueira do Grou and Ribeira Abaixo (less vulnerable). The same vulnerability to grazing intensification will be monitored at the two holm oak site, where the main contrast is the type of grazer: cattle (Coitadinha) vs game species (Contenda). Finally, the additional contrast refers to the proximity to pollution sources that can be explored by the comparison between Companhia das Lezírias and Sines (more exposed) vs. all other study sites (less exposed).</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>naturalness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape configuration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape metrics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Cork (Quercus suber) and holm (Quercus ilex) oaks were probably the dominant oak species in the Iberian Peninsula south of the Cantabrian/ Pyrenean mountains since the end of the last glaciation. Despite a large range overlap between both species, cork-oak was confined to the mild western regions of the Peninsula (thereby encompassing most of the Portuguese territory), occurring only in small patches along the coast further east, while holm oak was and still is the dominant oak over most of the Centre and East of the Peninsula, subjected to a harsher continental climate. Millennia of land clearing driven by human population growth and need for agricultural land lead to the almost complete elimination of cork oaks from the Centre and North of Portugal (and Galicia), where the mountainous relief and relatively high precipitation allowed for the establishment of numerous small farms. However, in the dry lowlands south of river Tajus, the impossibility of land irrigation and the poor soil quality were two of the main drivers that contributed to the establishment of the montado agro-sylvo-pastoral system. Today, roughly 90% of Portuguese cork-oak montados are found in this region (Alentejo) and represent the largest cork-oak montado area in the world. Here, the species basically occurs on two soil types – the skeletal schist soils that result from the weathering of the Palaeozoic hercinic core of the Peninsula and the alluvial plains of the Tajus and Sado rivers, which well drained sandy soils, correspond to an ecological optimum for this species. When compared with holm oaks, cork-oaks are relatively fragile, being unable to withstand severe droughts and continental climates (inland) or calcareous soils (in the Algarve). Therefore, as one proceeds south of the Tajus, the flatlands become divided between the coastal cork-oak montados and the inland holm oak montados. In spite of their physiological differences, holm oak forests were also cleared with different extents in different areas and the same pattern emerged, with most of the Portuguese holm oak montados occurring nowadays in inland Alentejo. These montados are in fact the western limit of the Spanish dehesas; their aggregated area constitutes the largest extension of montado ecosystem in the world. Data series of Alentejo province concerning the main key drivers of change and available to the research team are: Climate (historical time series since 1930 and every thirty years onwards, plus climatic models); Satellite images (1984, 1990, 1994 and 2004 – several series along the year, 2008); Aerial Photographies (1960/70, 1974/80, 1995, 2005); Forestry inventories (60’s/70’s, 1995, 2005). In each of the three core research and monitoring stations encompassing the variety of edapho-climatic conditions to which most montados are subjected, and that are proposed in the current proposal (see research plan), two study case sites were selected to illustrate contrasting human pressures. More relevance was given to cork oak montados, due to the importance of cork industry for the national PIB, as well as to the global importance of the Portuguese territory for this ecosystem. Two main and one secondary contrasts related to human pressures will be monitored: i) vulnerability to dryness (also related to land use), monitored at Machuqueira do Grou and Companhia das Lezírias (less vulnerable) vs Ribeira Abaixo and Sines (more vulnerable); and ii) vulnerability to grazing intensification, monitored at Companhia das Lezírias (more vulnerable) vs Machuqueira do Grou and Ribeira Abaixo (less vulnerable). The same vulnerability to grazing intensification will be monitored at the two holm oak site, where the main contrast is the type of grazer: cattle (Coitadinha) vs game species (Contenda). Finally, the additional contrast refers to the proximity to pollution sources that can be explored by the comparison between Companhia das Lezírias and Sines (more exposed) vs. all other study sites (less exposed).</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Margarida Santos-Reis</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>mmreis@fc.ul.pt</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>naturalness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>experimental design type</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape configuration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape metrics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString/>
 					   </gmd:keyword><gmd:keyword>
 						  <gco:CharacterString/>
@@ -228,7 +200,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -244,7 +216,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -260,7 +232,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='ecfcc7e2-82e5-4ec1-adee-a3f9f815fc0d'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -287,7 +259,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -319,4 +291,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

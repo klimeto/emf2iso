@@ -32,9 +32,9 @@ foreach($arr['nodes'] as $key => $value){
 	file_put_contents($file_name, $product2iso_xml_file);
 	echo("LOAD TO: ".$file_name ."<br>");
 	echo("</li>");
-	//ob_flush();
-	//flush();
-	//sleep(2);
+	ob_flush();
+	flush();
+	sleep(2);
 }
 
 echo("</ol>");

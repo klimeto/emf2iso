@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,20 +42,13 @@
 						  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -79,13 +61,10 @@
 						  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -104,85 +83,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/92fd6fad-99cd-4972-93bd-c491f0be1301</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Northern Adriatic Sea is the northernmost basin of the Mediterranean Sea. It is characterized by a shallow depth and by a dominant cyclonic circulation. The oceanographic and meteorological parameters show a marked seasonal and interannual variability. The remarkable river inputs (along the italian coast), the istro-dalmatian current (bringing high salinity and oligotrophic waters from the southern basin), and the notable sea-level range (relatively to the Mediterranean area), represent major forcings of the system. Of ecological relevance are also the urban and industrial inputs and the hydrodynamic exchange between the Northern Adriatic Sea and the lagoons, located along the italian coast.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>alessandra.pugnetti@ismar.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>alessandra.pugnetti@ismar.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>alessandra.pugnetti@ismar.cnr.it</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Northern Adriatic Sea is the northernmost basin of the Mediterranean Sea. It is characterized by a shallow depth and by a dominant cyclonic circulation. The oceanographic and meteorological parameters show a marked seasonal and interannual variability. The remarkable river inputs (along the italian coast), the istro-dalmatian current (bringing high salinity and oligotrophic waters from the southern basin), and the notable sea-level range (relatively to the Mediterranean area), represent major forcings of the system. Of ecological relevance are also the urban and industrial inputs and the hydrodynamic exchange between the Northern Adriatic Sea and the lagoons, located along the italian coast.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>alessandra.pugnetti@ismar.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>alessandra.pugnetti@ismar.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Alessandra Pugnetti</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>alessandra.pugnetti@ismar.cnr.it</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Riva Sette Martiri 1364/A Castello Venezia VE 30100 IT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString/>
 					   </gmd:keyword><gmd:keyword>
 						  <gco:CharacterString/>
@@ -280,7 +238,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='92fd6fad-99cd-4972-93bd-c491f0be1301'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='92fd6fad-99cd-4972-93bd-c491f0be1301'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -296,7 +254,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='92fd6fad-99cd-4972-93bd-c491f0be1301'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='92fd6fad-99cd-4972-93bd-c491f0be1301'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -312,7 +270,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='92fd6fad-99cd-4972-93bd-c491f0be1301'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='92fd6fad-99cd-4972-93bd-c491f0be1301'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -328,8 +286,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8826/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=d9e91530-e7a8-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Dissolved Oxygen-Gulf of Trieste time-series</gco:CharacterString>
 								</gmd:name>
@@ -344,8 +308,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8825/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=d9e90cf2-e7a8-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Ammonium</gco:CharacterString>
 								</gmd:name>
@@ -360,8 +330,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8889/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f360899a-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Chlorophyll_a</gco:CharacterString>
 								</gmd:name>
@@ -376,8 +352,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8863/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f2ec95b2-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Dissolved_Oxygen</gco:CharacterString>
 								</gmd:name>
@@ -392,8 +374,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8861/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f2cf33f0-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Downwelling_PAR</gco:CharacterString>
 								</gmd:name>
@@ -408,8 +396,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8871/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f39b4814-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Nitrate</gco:CharacterString>
 								</gmd:name>
@@ -424,8 +418,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8864/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f309a9ae-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_pH</gco:CharacterString>
 								</gmd:name>
@@ -440,8 +440,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8872/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f37ce540-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Phosphate</gco:CharacterString>
 								</gmd:name>
@@ -456,8 +462,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8862/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f2915dd2-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Phytoplankton_abundance</gco:CharacterString>
 								</gmd:name>
@@ -472,8 +484,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8866/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f343e10a-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Salinity</gco:CharacterString>
 								</gmd:name>
@@ -488,8 +506,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8860/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f271ca9e-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Secchi_Disk</gco:CharacterString>
 								</gmd:name>
@@ -504,8 +528,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8865/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f326f626-cdfd-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>IT_SI001243_Gulf of Trieste_15052013_Temperature</gco:CharacterString>
 								</gmd:name>
@@ -520,8 +550,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/8827/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=d9e91c38-e7a8-11e2-a655-005056ab003f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Salinity-Gulf of Trieste time-series_2012</gco:CharacterString>
 								</gmd:name>
@@ -547,7 +583,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -579,4 +615,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

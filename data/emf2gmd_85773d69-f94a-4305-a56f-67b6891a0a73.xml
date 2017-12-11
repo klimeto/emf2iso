@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Thomas Hein</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Thomas Hein</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,20 +44,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Peter Chifflard</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,13 +63,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -106,85 +85,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/85773d69-f94a-4305-a56f-67b6891a0a73</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Inter-university center, dedicated to the research and education of freshwater sciences The Interuniversity Centre for Aquatic Ecosystem Research, WasserCluster Lunz GmbH (WKL), is located on the shore of Lake Lunz („Lunzer See“) in the south of the Austrian province of Lower Austria. It is an interdisciplinary freshwater research center and designed to advance and teach freshwater science and to resolve challenges at the environment-society interface. The WasserCluster Lunz is an independent research institute but due to the conjunction with the three Universities (University of Vienna, University of Natural Resources and Applied Life Sciences, Danube University Krems) the different facilities of these universities are also available for the researchers of the WasserCluster Lunz. The scientific expertise ranges from microbial ecology to biogeochemistry, from limnology to landscape ecology, and from ecotoxicology to technology. This combines aquatic ecology and technology in a unique set-up for innovative basic and applied research. The location of the WKL provides an excellent opportunity to study the ecological processes in an ecosystem (terrestrial and aquatic) which is nearly undisturbed by human impacts. Especially the aquatic ecosystems “Lunzer See” (ecosystem lake) and “Oberer Seebach” (ecosystem catchment) are closed by the WKL and are equipped with measurement instruments in a very high quality. Moreover, WKL has a fully equipped laboratory for a lot of biochemical analyses regarding the aquatic research objectives. The WasserCluster Lunz strives to advance aquatic sciences at various ecosystem levels and it is the only scientific institute in Austria which provides such a large know-how in aquatic research. There are four working groups with different research objectives in aquatic systems established: BERG (Prof. Dr. T. Battin): This group focuses on microbial biofilms and their implications for ecosystem functioning and biogeochemistry in streams and their interface with the terrestrial milieu. The goal is to bridge the gap that has evolved between microbial and “macrobial” and particularly ecosystem ecology. Research ranges from cell level activity and organization in biofilms, biofilm architecture, to hydrodynamics and both solute and particle dynamics. Our approach is largely experimental with setups ranging from large streamside flumes (40 m long), intermediate small lab-based flumes (1.5 m long) to the typical flow cells for microscopy. LIPTOX (Dr. M. Kainz): This group investigates processes that govern organic matter pathways to organisms in aquatic ecosystems. The research ranges from molecular to community levels, with the goal of integrating knowledge from ecological, nutritional, and toxicological disciplines and scales to form a predictive, quantitative, and holistic view of aquatic organic matter dynamics. LIPTOX combines aquatic nutrition and ecotoxicology in aquatic food webs. It is focussed on lipids and their fatty acids as especially some polyunsaturated fatty acids are fundamental to somatic development, reproduction, and survival of aquatic organisms. Our goal is to improve knowledge of the structure and function of aquatic food webs, and to develop tools for better management of aquatic ecosystems in the face of future change. BIOFRAMES (Prof. Dr. T. Hein): This working group investigates nutrient cycling and carbon dynamics in surface water dominated wetlands, their role in riverine landscapes and their importance providing ecosystem services. The purpose of the research is to determine how changing conditions at the large scale (climate change) and the local scale (pollution, hydromorphological alterations) interact with the coupling of structure and function and explicitly, the interaction with restoration activities and ecosystem management. Thus, the scope of the research ranges from the community and habitat level to the ecosystem level and integrates field studies with experimental approaches. Access offered by the infrastructure: The laboratory and experimental facilities are complete for conducting biochemical research in fields ranging from ecology to molecular biology with several new and advanced instruments. There is a lab crew with about seven technical assistants who offers an extensive knowledge in biochemical methods. The lab instruments include a molecular lab, gas chromatography-mass spectrometry (GC-MS), high performance liquid chromatography (HPLC), Confocal Laser Scanning Microscopy, Flow cytometry, Transmission electron microscopy (TEM), nutrient and DOC analyser, spectrofluorometer. For field experiments and studies the WasserCluster Lunz operates a motorboat which is equipped with a winch, a measurement platform on the Lunzer See, several unattended automatic water samplers (ISCO), several YSI multi-parameter sondes, remote controlled equipment (two GHG-Sentinel for continuous CO2 and CH4 measurements ), two meteorological stations and runoff respectively piezometer gauges. Access is provided to the large historical ecological dataset with different environmental parameters, results of lab and field experiments in the aquatic ecosystems “Lunzer See” (lake) and “Oberer Seebach” (catchment) starting from 1905.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Thomas Hein</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>thomas.hein@boku.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Thomas Hein</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>thomas.hein@boku.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Peter Chifflard</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>peter.chifflard@wkl.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Inter-university center, dedicated to the research and education of freshwater sciences The Interuniversity Centre for Aquatic Ecosystem Research, WasserCluster Lunz GmbH (WKL), is located on the shore of Lake Lunz („Lunzer See“) in the south of the Austrian province of Lower Austria. It is an interdisciplinary freshwater research center and designed to advance and teach freshwater science and to resolve challenges at the environment-society interface. The WasserCluster Lunz is an independent research institute but due to the conjunction with the three Universities (University of Vienna, University of Natural Resources and Applied Life Sciences, Danube University Krems) the different facilities of these universities are also available for the researchers of the WasserCluster Lunz. The scientific expertise ranges from microbial ecology to biogeochemistry, from limnology to landscape ecology, and from ecotoxicology to technology. This combines aquatic ecology and technology in a unique set-up for innovative basic and applied research. The location of the WKL provides an excellent opportunity to study the ecological processes in an ecosystem (terrestrial and aquatic) which is nearly undisturbed by human impacts. Especially the aquatic ecosystems “Lunzer See” (ecosystem lake) and “Oberer Seebach” (ecosystem catchment) are closed by the WKL and are equipped with measurement instruments in a very high quality. Moreover, WKL has a fully equipped laboratory for a lot of biochemical analyses regarding the aquatic research objectives. The WasserCluster Lunz strives to advance aquatic sciences at various ecosystem levels and it is the only scientific institute in Austria which provides such a large know-how in aquatic research. There are four working groups with different research objectives in aquatic systems established: BERG (Prof. Dr. T. Battin): This group focuses on microbial biofilms and their implications for ecosystem functioning and biogeochemistry in streams and their interface with the terrestrial milieu. The goal is to bridge the gap that has evolved between microbial and “macrobial” and particularly ecosystem ecology. Research ranges from cell level activity and organization in biofilms, biofilm architecture, to hydrodynamics and both solute and particle dynamics. Our approach is largely experimental with setups ranging from large streamside flumes (40 m long), intermediate small lab-based flumes (1.5 m long) to the typical flow cells for microscopy. LIPTOX (Dr. M. Kainz): This group investigates processes that govern organic matter pathways to organisms in aquatic ecosystems. The research ranges from molecular to community levels, with the goal of integrating knowledge from ecological, nutritional, and toxicological disciplines and scales to form a predictive, quantitative, and holistic view of aquatic organic matter dynamics. LIPTOX combines aquatic nutrition and ecotoxicology in aquatic food webs. It is focussed on lipids and their fatty acids as especially some polyunsaturated fatty acids are fundamental to somatic development, reproduction, and survival of aquatic organisms. Our goal is to improve knowledge of the structure and function of aquatic food webs, and to develop tools for better management of aquatic ecosystems in the face of future change. BIOFRAMES (Prof. Dr. T. Hein): This working group investigates nutrient cycling and carbon dynamics in surface water dominated wetlands, their role in riverine landscapes and their importance providing ecosystem services. The purpose of the research is to determine how changing conditions at the large scale (climate change) and the local scale (pollution, hydromorphological alterations) interact with the coupling of structure and function and explicitly, the interaction with restoration activities and ecosystem management. Thus, the scope of the research ranges from the community and habitat level to the ecosystem level and integrates field studies with experimental approaches. Access offered by the infrastructure: The laboratory and experimental facilities are complete for conducting biochemical research in fields ranging from ecology to molecular biology with several new and advanced instruments. There is a lab crew with about seven technical assistants who offers an extensive knowledge in biochemical methods. The lab instruments include a molecular lab, gas chromatography-mass spectrometry (GC-MS), high performance liquid chromatography (HPLC), Confocal Laser Scanning Microscopy, Flow cytometry, Transmission electron microscopy (TEM), nutrient and DOC analyser, spectrofluorometer. For field experiments and studies the WasserCluster Lunz operates a motorboat which is equipped with a winch, a measurement platform on the Lunzer See, several unattended automatic water samplers (ISCO), several YSI multi-parameter sondes, remote controlled equipment (two GHG-Sentinel for continuous CO2 and CH4 measurements ), two meteorological stations and runoff respectively piezometer gauges. Access is provided to the large historical ecological dataset with different environmental parameters, results of lab and field experiments in the aquatic ecosystems “Lunzer See” (lake) and “Oberer Seebach” (catchment) starting from 1905.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Thomas Hein</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>thomas.hein@boku.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Thomas Hein</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>thomas.hein@boku.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Peter Chifflard</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>peter.chifflard@wkl.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString/>
 					   </gmd:keyword><gmd:keyword>
 						  <gco:CharacterString/>
@@ -263,7 +221,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='85773d69-f94a-4305-a56f-67b6891a0a73'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='85773d69-f94a-4305-a56f-67b6891a0a73'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -279,7 +237,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='85773d69-f94a-4305-a56f-67b6891a0a73'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='85773d69-f94a-4305-a56f-67b6891a0a73'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -295,7 +253,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='85773d69-f94a-4305-a56f-67b6891a0a73'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='85773d69-f94a-4305-a56f-67b6891a0a73'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -322,7 +280,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -354,4 +312,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Daniel Kreiner</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,46 +25,17 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
 						<gco:CharacterString>Gesäuse National Park GmbH</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					 </gmd:organisationName><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Daniel Kreiner</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,13 +48,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -106,85 +70,49 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/f475dd9a-968f-4640-bac4-1eac12987e67</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Gesäuse Nationalpark was founded in 2002 and is located in Styria, in the Center of Austria. It is Austrias third largest National Park with an area of about 11,000 hectares. The Gesäuse is characterized by a mountainous landscape which is cut by the river "Enns". Most parts of the Nationalpark are coverd by mountain forests. Other important habitats are alpine grasland, rock and scree habitats and pastures. The Enns with its alluvial forests and its small islands as well as the numerous freshwater springs represent very special habitats within the mountain ranges. Because of the great range of altitude differences within a small area in the Gesäuse National Park, there is a dense concentration of extremely diverse habitats and, consequently, of species of animals and plants. Furthermore the Gesäuse is known for its exeptional richness in endemic species. 200 years ago, the natural beauty of the Gesäuse region, the contrast between the river Enns and the sheer rock faces of Gesäuse mountains with their diverse habitats and species, already attracted researchers and mountaineers to this area in the heart of Austria. As early as 1958, the Gesäuse and the valley of the river Enns leading out of it were designated as the first conservation area in Styria. Persisting plans for hydroelectric power generation on the Enns eventually led to the creation of a national park. The Gesäuse NP was established on 26 October 2002 and internationally recognized in 2003 by the IUCN as Cat. II protected area (national park). Large areas of the national park are also part of the Natura 2000 network in the sense of the EU Fauna Flora Habitat and Birds Directives. With 11 000 ha, it is the third-largest National park in Austria. It is situated in the Ennstal Alps in the province of Styria, which are part of the Northern Limestone Alps and includes essentially the two mountain ranges of Buchstein and Hochtor. In the north it borders on the Eisenwurzen Nature Park and is only ten kilometres away from Kalkalpen NP in Upper Austria. Currently there are six national parks in Austria, which are recognized by the IUCN as Cat. II national parks. Covering an area of 2 350 km², they make up ca. 3 % of the Austrian territory and include some of the ecologically most valuable regions. They are organized under the umbrella of Nationalparks Austria to leverage synergies and to ensure consistent presentation to the general public. The directors of the national parks coordinate and initiate joint activities in cooperation with the Federal Ministry of Agriculture, Forestry, Environment and Water Management and the respective federal provinces. National parks across the world aim to protect areas of outstanding natural beauty, rich diversity of plants and animals, rare or endangered species and special natural phenomena. The label is designed to prevent technical development and economic exploitation and to safeguard natural dynamics. Humans are invited to participate as quiet observers. As internationally recognized IUCN Cat.II protected areas, all national parks in Austria are committed to four basic tasks: -- conservation and protection of biodiversity; -- recreation and nature experience; -- education about nature and the environment; -- research. Research in the Gesäuse NP concentrates in implementing its core tasks of protecting habitats and species. Most of it is therefore research into applied conservation, with basic research taking second place. Applied conservation research includes documenting habitats and species in the national park, basic research includes long-term research and monitoring of changes in the natural landscape. In the Gesäuse NP the focus is on dynamic habitats like avalanche chutes, windthrow areas, scree gullies or gravel banks in the river. Initial results underline the special significance of these ecosystems shaped by extreme weather for biodiversity in the national park. In terms of long-term research, over the last seven years the Gesäuse NP has established a network of permanent monitoring sites in diverse habitats (springs, running waters, forest, high mountain pastures, peaks, etc.). In addition to monitoring the vegetation in these sites, the focus is on identifying various groups of animals as indicator species. These special climate change monitoring projects in the national park include studies of flora and fauna at peaks (GLORIA) and the creation of a network of metereological measuring stations that represents all altitudinal zones and expositions. A project modelling climate and hydrological scenarios is headed by the University of Graz and includes a dozen partners (Johns Creek Valley, http://www.alpinehydroclimatology.net/). The national park works closely with universities on numerous projects. Many theses have been written on issues of the Gesäuse. The national park offers the local infrastructure and the universities bring their special know-how to the research in the national park. All research deliverables in the national park are also available online on the dedicated research web page http://www.nationalpark.co.at/nationalpark/de/forschung.php. The publication series of the Gesäuse NP disseminates the research results annually in analogue format. For further information see http://www.nationalpark.co.at/de/forschung/schriftenreihe</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Daniel Kreiner</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>daniel.kreiner@nationalpark.co.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Gesäuse National Park GmbH</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Daniel Kreiner</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>daniel.kreiner@nationalpark.co.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood decaying rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood position</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of benthic invertebrates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>naturalness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anthropogenic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treeline</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow water equivalence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>genetic measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape fragmentation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape connectivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Gesäuse Nationalpark was founded in 2002 and is located in Styria, in the Center of Austria. It is Austrias third largest National Park with an area of about 11,000 hectares. The Gesäuse is characterized by a mountainous landscape which is cut by the river "Enns". Most parts of the Nationalpark are coverd by mountain forests. Other important habitats are alpine grasland, rock and scree habitats and pastures. The Enns with its alluvial forests and its small islands as well as the numerous freshwater springs represent very special habitats within the mountain ranges. Because of the great range of altitude differences within a small area in the Gesäuse National Park, there is a dense concentration of extremely diverse habitats and, consequently, of species of animals and plants. Furthermore the Gesäuse is known for its exeptional richness in endemic species. 200 years ago, the natural beauty of the Gesäuse region, the contrast between the river Enns and the sheer rock faces of Gesäuse mountains with their diverse habitats and species, already attracted researchers and mountaineers to this area in the heart of Austria. As early as 1958, the Gesäuse and the valley of the river Enns leading out of it were designated as the first conservation area in Styria. Persisting plans for hydroelectric power generation on the Enns eventually led to the creation of a national park. The Gesäuse NP was established on 26 October 2002 and internationally recognized in 2003 by the IUCN as Cat. II protected area (national park). Large areas of the national park are also part of the Natura 2000 network in the sense of the EU Fauna Flora Habitat and Birds Directives. With 11 000 ha, it is the third-largest National park in Austria. It is situated in the Ennstal Alps in the province of Styria, which are part of the Northern Limestone Alps and includes essentially the two mountain ranges of Buchstein and Hochtor. In the north it borders on the Eisenwurzen Nature Park and is only ten kilometres away from Kalkalpen NP in Upper Austria. Currently there are six national parks in Austria, which are recognized by the IUCN as Cat. II national parks. Covering an area of 2 350 km², they make up ca. 3 % of the Austrian territory and include some of the ecologically most valuable regions. They are organized under the umbrella of Nationalparks Austria to leverage synergies and to ensure consistent presentation to the general public. The directors of the national parks coordinate and initiate joint activities in cooperation with the Federal Ministry of Agriculture, Forestry, Environment and Water Management and the respective federal provinces. National parks across the world aim to protect areas of outstanding natural beauty, rich diversity of plants and animals, rare or endangered species and special natural phenomena. The label is designed to prevent technical development and economic exploitation and to safeguard natural dynamics. Humans are invited to participate as quiet observers. As internationally recognized IUCN Cat.II protected areas, all national parks in Austria are committed to four basic tasks: -- conservation and protection of biodiversity; -- recreation and nature experience; -- education about nature and the environment; -- research. Research in the Gesäuse NP concentrates in implementing its core tasks of protecting habitats and species. Most of it is therefore research into applied conservation, with basic research taking second place. Applied conservation research includes documenting habitats and species in the national park, basic research includes long-term research and monitoring of changes in the natural landscape. In the Gesäuse NP the focus is on dynamic habitats like avalanche chutes, windthrow areas, scree gullies or gravel banks in the river. Initial results underline the special significance of these ecosystems shaped by extreme weather for biodiversity in the national park. In terms of long-term research, over the last seven years the Gesäuse NP has established a network of permanent monitoring sites in diverse habitats (springs, running waters, forest, high mountain pastures, peaks, etc.). In addition to monitoring the vegetation in these sites, the focus is on identifying various groups of animals as indicator species. These special climate change monitoring projects in the national park include studies of flora and fauna at peaks (GLORIA) and the creation of a network of metereological measuring stations that represents all altitudinal zones and expositions. A project modelling climate and hydrological scenarios is headed by the University of Graz and includes a dozen partners (Johns Creek Valley, http://www.alpinehydroclimatology.net/). The national park works closely with universities on numerous projects. Many theses have been written on issues of the Gesäuse. The national park offers the local infrastructure and the universities bring their special know-how to the research in the national park. All research deliverables in the national park are also available online on the dedicated research web page http://www.nationalpark.co.at/nationalpark/de/forschung.php. The publication series of the Gesäuse NP disseminates the research results annually in analogue format. For further information see http://www.nationalpark.co.at/de/forschung/schriftenreihe</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Daniel Kreiner</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>daniel.kreiner@nationalpark.co.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+						<gco:CharacterString>Gesäuse National Park GmbH</gco:CharacterString>
+					 </gmd:organisationName><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Daniel Kreiner</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>daniel.kreiner@nationalpark.co.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity within habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer type and coverage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood decaying rate</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood position</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Deadwood volume</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Vegetation layer composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of benthic invertebrates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of macrofauna</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population size</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>naturalness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic heterogeneity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anthropogenic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>habitat structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>treeline</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow water equivalence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>genetic measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape fragmentation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape connectivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString/>
 					   </gmd:keyword><gmd:keyword>
 						  <gco:CharacterString/>
@@ -284,7 +212,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f475dd9a-968f-4640-bac4-1eac12987e67'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f475dd9a-968f-4640-bac4-1eac12987e67'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -300,7 +228,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f475dd9a-968f-4640-bac4-1eac12987e67'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f475dd9a-968f-4640-bac4-1eac12987e67'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -316,7 +244,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f475dd9a-968f-4640-bac4-1eac12987e67'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f475dd9a-968f-4640-bac4-1eac12987e67'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -332,8 +260,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10889/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=f619990c-8ba9-441b-90f3-468c8313886b</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Meteorological Station Brunnstube</gco:CharacterString>
 								</gmd:name>
@@ -348,8 +282,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10888/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=dba71be5-0419-4cea-a068-d3897de7853f</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Meteorological Station Gscheidegg</gco:CharacterString>
 								</gmd:name>
@@ -364,8 +304,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10890/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=aa94e428-88d2-4e25-85cf-d91aa5302104</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Meteorological station Scheuchegg</gco:CharacterString>
 								</gmd:name>
@@ -380,8 +326,14 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/10891/iso19139</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=093fbfd5-fb48-4df4-9c1b-55e8bdf1e3a6</gmd:URL>
 								</gmd:linkage>
+								<gmd:protocol>
+									<gco:CharacterString>HTTP</gco:CharacterString>
+								</gmd:protocol>
+								 <gmd:applicationProfile>
+									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+								</gmd:applicationProfile>
 								<gmd:name>
 								<gco:CharacterString>Meteorological Station Weidendom</gco:CharacterString>
 								</gmd:name>
@@ -407,7 +359,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -439,4 +391,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

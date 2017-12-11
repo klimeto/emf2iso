@@ -214,16 +214,29 @@ if ($product_paramsArray || $product_kwdsArray){
 	</gmd:descriptiveKeywords>';
 	
 	/*** RELATED DATASETS AggregatedInfo https://geo-ide.noaa.gov/wiki/index.php?title=ISO_AggregationInformation ***/
-	$product_related_datasetArray = explode("|",$json->{'nodes'}[0]->{'node'}->{'related_dataset_title'});
+	$length = count($json->{'nodes'});
+	$product_related_dataset_uuid = $json->{'nodes'}[0]->{'node'}->{'related_dataset_uuid'};
 	//print_r($product_related_datasetArray);
 	//print_r($json->{'nodes'}[0]->{'node'});
-	if($product_related_datasetArray){
-		foreach($product_related_datasetArray as $datasetUUID){
+	if($product_related_dataset_uuid && $length == 1){
 			$gmdXML .= ' <gmd:aggregationInfo>
                 <gmd:MD_AggregateInformation>
                     <gmd:aggregateDataSetIdentifier>
                         <gmd:MD_Identifier>
-                            <gmd:code><gco:CharacterString>'.$datasetUUID.'</gco:CharacterString></gmd:code>
+                            <gmd:code><gco:CharacterString>'.$getRecById.$product_related_dataset_uuid.'</gco:CharacterString></gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:aggregateDataSetIdentifier>
+                    <gmd:associationType/>
+                </gmd:MD_AggregateInformation>
+            </gmd:aggregationInfo>';
+	}
+	else if($length > 1){
+		foreach($json->{'nodes'} as $node){
+			$gmdXML .= ' <gmd:aggregationInfo>
+                <gmd:MD_AggregateInformation>
+                    <gmd:aggregateDataSetIdentifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code><gco:CharacterString>'.$getRecById.$node->{'node'}->{'related_dataset_uuid'}.'</gco:CharacterString></gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:aggregateDataSetIdentifier>
                     <gmd:associationType/>

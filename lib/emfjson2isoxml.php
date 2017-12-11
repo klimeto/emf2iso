@@ -2,14 +2,14 @@
 /*
 ** PHP SCRIPT TO GENERATE JSON ENCODING FROM XML ENVIRONMENTAL MONITORING FACILTY DATASET
 */
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 ini_set('date.timezone','Europe/Belgrade');
 include_once 'xml2json.php';
 header('Content-Type: text/xml');
 $cswApi = 'https://data.lter-europe.net/pycsw?';
-$getRecById = $cswApi . 'service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=';
+$getRecById = $cswApi . 'service=CSW&version=3.0.0&request=GetRecordById&ElementSetName=full&outputSchema=http://www.isotc211.org/2005/gmd&outputFormat=application/json&id=';
 if (empty($_GET['url'])){
 	$emfXMLUrl = "https://data.lter-europe.net/deims/node/8611/emf";
 }
@@ -60,15 +60,19 @@ if ($json){
 		$contactInstructions = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:contactInstructions'}->{'gco:CharacterString'};
 		$contactRole = $contact->{'base2:RelatedParty'}->{'base2:role'}->{'@xlink:role'};
 		$contactEmail = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:electronicMailAddress'};
-		$gmdXML .= '<gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+		$gmdXML .= '<gmd:contact><gmd:CI_ResponsibleParty>';
+		if(!empty($individualName)){
+			$gmdXML .= '<gmd:individualName>
 					 <gco:CharacterString>'.$individualName.'</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName>';
+		}
+		if(!empty($organisationName)){
+			$gmdXML .= '<gmd:organisationName>
 						<gco:CharacterString>'.$organisationName.'</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName>';
+		}
+		if(!empty($contactEmail) || !empty($contactInstructions)){
+			$gmdXML .='<gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -81,12 +85,12 @@ if ($json){
 						  <gco:CharacterString>'.$contactInstructions.'</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo>';
+		}
+		$gmdXML .= '<gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact>';
+					 </gmd:role>';
+		$gmdXML .= '</gmd:CI_ResponsibleParty></gmd:contact>';
 	}
 	/***
 		C.2.26 Metadata date
@@ -163,33 +167,37 @@ if ($json){
 		$contactInstructions = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:contactInstructions'}->{'gco:CharacterString'};
 		$contactRole = $contact->{'base2:RelatedParty'}->{'base2:role'}->{'@xlink:role'};
 		$contactEmail = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:electronicMailAddress'};
-		$gmdXML .= '<gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>'.$individualName.'</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>'.$organisationName.'</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>'.$contactEmail.'</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>'.$contactInstructions.'</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact>';
+		$gmdXML .= '<gmd:pointOfContact><gmd:CI_ResponsibleParty>';
+		if(!empty($individualName)){
+			$gmdXML .= '<gmd:individualName>
+					 <gco:CharacterString>'.$individualName.'</gco:CharacterString>
+					</gmd:individualName>';
+		}
+		if(!empty($organisationName)){
+			$gmdXML .= '<gmd:organisationName>
+						<gco:CharacterString>'.$organisationName.'</gco:CharacterString>
+					 </gmd:organisationName>';
+		}
+		if(!empty($contactEmail) || !empty($contactInstructions)){
+			$gmdXML .='<gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>'.$contactEmail.'</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>'.$contactInstructions.'</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo>';
+		}
+		$gmdXML .= '<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+					 </gmd:role>';
+		$gmdXML .= '</gmd:CI_ResponsibleParty></gmd:pointOfContact>';
 	}
 	/***
 		C.2.10 Keyword value
@@ -443,7 +451,7 @@ if ($json){
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='".$base_localId."'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=deims:lter_all_formal&CQL_FILTER=uuid='".$base_localId."'&outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -463,7 +471,7 @@ if ($json){
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='".$base_localId."'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=deims:lter_all_formal&CQL_FILTER=uuid='".$base_localId."'&outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -483,7 +491,7 @@ if ($json){
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='".$base_localId."'&amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=deims:lter_all_formal&CQL_FILTER=uuid='".$base_localId."'&outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -497,9 +505,8 @@ if ($json){
 				</gmd:transferOptions>";
 	}
 	/**** LINKS TO RELATED DATASET (CSW GETRECORDBYID) ****/
-	$ef_hasObservationArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:hasObservation'};
-	//var_dump($ef_hasObservationArray). '<br>'; 
-	if($ef_hasObservationArray){
+	$ef_hasObservationArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:hasObservation'}; 
+	if($ef_hasObservationArray && count($ef_hasObservationArray) > 1){
 		foreach($ef_hasObservationArray as $dataset){
 			$datasetGmdArray = xmlToArray(simplexml_load_file($dataset->{'@xlink:href'}));
 			$datasetGmdJSON = json_encode($datasetGmdArray);
@@ -535,6 +542,41 @@ if ($json){
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions>';
 		}
+	}
+	else if(count($ef_hasObservationArray) == 1){
+		$datasetGmdArray = xmlToArray(simplexml_load_file($ef_hasObservationArray->{'@xlink:href'}));
+		$datasetGmdJSON = json_encode($datasetGmdArray);
+		$jsonObject = json_decode($datasetGmdJSON);
+		$uuid = $jsonObject->{'MD_Metadata'}->{'gmd:fileIdentifier'}->{'gco:CharacterString'};
+		if (!empty($uuid)){
+			$gmdURL = $getRecById . $uuid;
+		}
+		else{
+			$gmdURL = $dataset->{'@xlink:href'};
+		}
+		$gmdXML .= '<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>'.$gmdURL.'</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>HTTP</gco:CharacterString>
+							</gmd:protocol>
+							 <gmd:applicationProfile>
+								<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+							</gmd:applicationProfile>
+							<gmd:name>
+							<gco:CharacterString>'.$dataset->{'@xlink:title'}.'</gco:CharacterString>
+							</gmd:name>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>';
 	}
 	$ef_belongsToArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:belongsTo'};
 	if($ef_belongsToArray){
@@ -629,7 +671,7 @@ if ($json){
 				   </gmd:statement>
 				</gmd:LI_Lineage>
 			 </gmd:lineage>';
-	$gmldXML .= '</gmd:DQ_DataQuality></gmd:dataQualityInfo>';
+	$gmdXML .= '</gmd:DQ_DataQuality></gmd:dataQualityInfo>';
 	/***
 		DATA QUALITY INFO METADATA SECTION END 
 	***/
@@ -641,7 +683,7 @@ if ($json){
 	$ef_purpose = $json->{'EnvironmentalMonitoringFacility'}->{'ef:purpose'}->{'@xlink:href'};
 	
 	$gmdXML .= '</gmd:MD_Metadata>';
-	//$gmdXML = str_replace("&","",$gmdXML);
+	$gmdXML = str_replace("&","&amp;",$gmdXML);
 	$xml = new SimpleXMLElement($gmdXML);
 	echo $xml->asXML();
 }

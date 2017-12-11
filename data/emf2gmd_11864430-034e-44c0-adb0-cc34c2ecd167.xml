@@ -8,15 +8,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Markus Oismüller</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>Vienna University of Technology</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -29,20 +25,13 @@
 						  <gco:CharacterString>Pollnbergstraße 1 Petzenkirchen 3252 AT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Markus Oismüller</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>Vienna University of Technology</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -55,13 +44,10 @@
 						  <gco:CharacterString>Pollnbergstraße 1 Petzenkirchen 3252 AT</gco:CharacterString>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-12</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -80,59 +66,45 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/11864430-034e-44c0-adb0-cc34c2ecd167</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Petzenkirchen HOAL (Hydrology Open Air Laboratory) catchment is situated in the western part of Lower Austria (48°9' N, 15°9' E). The catchment area at the outlet (termed MW) is 66 ha. The elevation of the catchment ranges from 268 to 323ma.s.l. with a mean slope of 8 %. At present, 87% of the catchment area is arable land, 5% is used as pasture, 6% is forested and 2% is paved. The crops are mainly winter wheat and maize. The climate can be characterised as humid with a mean annual temperature of 9.5°C and a mean annual precipitation of 823mm/yr from 1990 to 2014. Precipitation tends to be higher in summer than in winter. Crop evapotranspiration (ETc) estimated by the FAO (1998) method using local climate data and crop growth information for this period was 471mm/yr. Annual evapotranspiration estimated by the water balance ranged from 435 to 841 with a mean of 628mm/yr (1990–2014) (assuming deep percolation is negligible). The natural surface water outlet of the catchment is known as the Seitengraben stream. Mean annual flow from the catchment in this stream is 4.1 L/s (or 195mm/yr) (1990–2014). Mean flows tend to peak in the spring. The largest flood events on record occurred in 1949 and 2002 with estimated peak discharges of 2.800 and 2.000 L/s, respectively. The highest discharge in recent times occurred in summer 2013 with 660 L/s. The subsurface consists of Tertiary sediments of the Molasse zone and fractured siltstone. The dominant soil types are Cambisols and Planosols with medium to poor infiltration capacities. Gleysols occur close to the stream. (Blöschl et al., 2016)</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Markus Oismüller</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Vienna University of Technology</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>oismueller@hydro.tuwien.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Pollnbergstraße 1 Petzenkirchen 3252 AT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Markus Oismüller</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>Vienna University of Technology</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>oismueller@hydro.tuwien.ac.at</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Pollnbergstraße 1 Petzenkirchen 3252 AT</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>agricultural measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>mowing date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pesticide application date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sowing measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sowing date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tillage measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tillage operation date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>long wave radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil hydraulic measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Petzenkirchen HOAL (Hydrology Open Air Laboratory) catchment is situated in the western part of Lower Austria (48°9' N, 15°9' E). The catchment area at the outlet (termed MW) is 66 ha. The elevation of the catchment ranges from 268 to 323ma.s.l. with a mean slope of 8 %. At present, 87% of the catchment area is arable land, 5% is used as pasture, 6% is forested and 2% is paved. The crops are mainly winter wheat and maize. The climate can be characterised as humid with a mean annual temperature of 9.5°C and a mean annual precipitation of 823mm/yr from 1990 to 2014. Precipitation tends to be higher in summer than in winter. Crop evapotranspiration (ETc) estimated by the FAO (1998) method using local climate data and crop growth information for this period was 471mm/yr. Annual evapotranspiration estimated by the water balance ranged from 435 to 841 with a mean of 628mm/yr (1990–2014) (assuming deep percolation is negligible). The natural surface water outlet of the catchment is known as the Seitengraben stream. Mean annual flow from the catchment in this stream is 4.1 L/s (or 195mm/yr) (1990–2014). Mean flows tend to peak in the spring. The largest flood events on record occurred in 1949 and 2002 with estimated peak discharges of 2.800 and 2.000 L/s, respectively. The highest discharge in recent times occurred in summer 2013 with 660 L/s. The subsurface consists of Tertiary sediments of the Molasse zone and fractured siltstone. The dominant soil types are Cambisols and Planosols with medium to poor infiltration capacities. Gleysols occur close to the stream. (Blöschl et al., 2016)</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Markus Oismüller</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>Vienna University of Technology</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>oismueller@hydro.tuwien.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Pollnbergstraße 1 Petzenkirchen 3252 AT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Markus Oismüller</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>Vienna University of Technology</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>oismueller@hydro.tuwien.ac.at</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString>Pollnbergstraße 1 Petzenkirchen 3252 AT</gco:CharacterString>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>agricultural measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fertilizer application date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>harvesting date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>mowing date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>pesticide application date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sowing measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>sowing date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tillage measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tillage operation date</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>heat flux</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>incoming radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>long wave radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>land use</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil hydraulic measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>suspended solids</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>river temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
 					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
 		<gmd:MD_Keywords>
@@ -226,7 +198,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='11864430-034e-44c0-adb0-cc34c2ecd167'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='11864430-034e-44c0-adb0-cc34c2ecd167'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -242,7 +214,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='11864430-034e-44c0-adb0-cc34c2ecd167'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='11864430-034e-44c0-adb0-cc34c2ecd167'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -258,7 +230,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='11864430-034e-44c0-adb0-cc34c2ecd167'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='11864430-034e-44c0-adb0-cc34c2ecd167'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -285,7 +257,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -317,4 +289,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

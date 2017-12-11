@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-10</gco:Date>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Doñana_waterbird_counts</gco:CharacterString>
 					</gmd:title>
@@ -79,7 +79,7 @@
                 <gmd:MD_AggregateInformation>
                     <gmd:aggregateDataSetIdentifier>
                         <gmd:MD_Identifier>
-                            <gmd:code><gco:CharacterString>Aerial counts of waterbirds in Doñana marshes</gco:CharacterString></gmd:code>
+                            <gmd:code><gco:CharacterString>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=a46d62ee-05fb-11e5-870c-005056ab003f</gco:CharacterString></gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:aggregateDataSetIdentifier>
                     <gmd:associationType/>

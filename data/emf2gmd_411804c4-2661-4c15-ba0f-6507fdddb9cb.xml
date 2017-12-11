@@ -6,34 +6,10 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
-						<gco:CharacterString/>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -52,33 +28,9 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/411804c4-2661-4c15-ba0f-6507fdddb9cb</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Itanhaém River basin is located in the Center-South coastal of São Paulo State, Brazil(23° 50’ a 24° 15’ S; 46° 35’ a 47° 00’) have an area of 944.3 Km2, and is the larger coastal basin exclusively of the state. Itanhaém River basin has a great diversity of natural characteristics and different land uses that determines the occurrence of rivers and streams with distinct limnological characteristics. Within the PELD-ITA we aim to study different aquatic communities (fish, aquatic macrophytes, macroinvertebrates and perifiton) with concomitant samples and within a georeferenced basin. We already have data about landscape, riparian zone, and limnological variables that allows us to monitor spatial and temporal changes in the land use and relate these changes with biotic and abiotic characteristics of water bodies. The data on fish and aquatic macrophytes distribution clearly show a mouth-headwater gradient in the watershed. Fish communities form four fish zones based in the dominance of families that are determined by the marine influence (salt and brackish water), declivity, barriers and food availability. Aquatic macrophytes also show a longitudinal gradient, with species tolerant to salinity in the lower portion of the watershed (Spartina alterniflora, Crinum procerum) and submersed species close to the headwaters (Egeria densa, Cabomba furcata). The spatial distribution of macrophytes is also related with water temperature, turbidity and nutrient concentrations, and canal characteristics (depth, margin declivity, riparian plant cover). The Itanhaém watershed has rivers with different water types (white, black and clear). Limnological characteristics of these rivers are distinct and black waters have low pH values (4 – 5), whereas white waters have higher turbidity ​​and higher nitrogen and phosphorus concentrations. However, only the perifiton respond to different water types. In the white water, perifiton has higher values of biomass (2.5) than in black waters (1.8 µg.cm-2 chlorophyll a). Macroinvertebrates from headwater streams have characteristic taxa of coastal basins, such as shrimps and freshwater decapods, and characteristic groups of preserved streams with well-oxygenated water and rocky substratum, such as plecopterans and riffle beetles. Regarding the temporal scale, our analyses suggest that taxonomic composition of most groups remain constant throughout the year. It seems the rainy season only reduces species abundance but not species occurrence.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString/>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Itanhaém River basin is located in the Center-South coastal of São Paulo State, Brazil(23° 50’ a 24° 15’ S; 46° 35’ a 47° 00’) have an area of 944.3 Km2, and is the larger coastal basin exclusively of the state. Itanhaém River basin has a great diversity of natural characteristics and different land uses that determines the occurrence of rivers and streams with distinct limnological characteristics. Within the PELD-ITA we aim to study different aquatic communities (fish, aquatic macrophytes, macroinvertebrates and perifiton) with concomitant samples and within a georeferenced basin. We already have data about landscape, riparian zone, and limnological variables that allows us to monitor spatial and temporal changes in the land use and relate these changes with biotic and abiotic characteristics of water bodies. The data on fish and aquatic macrophytes distribution clearly show a mouth-headwater gradient in the watershed. Fish communities form four fish zones based in the dominance of families that are determined by the marine influence (salt and brackish water), declivity, barriers and food availability. Aquatic macrophytes also show a longitudinal gradient, with species tolerant to salinity in the lower portion of the watershed (Spartina alterniflora, Crinum procerum) and submersed species close to the headwaters (Egeria densa, Cabomba furcata). The spatial distribution of macrophytes is also related with water temperature, turbidity and nutrient concentrations, and canal characteristics (depth, margin declivity, riparian plant cover). The Itanhaém watershed has rivers with different water types (white, black and clear). Limnological characteristics of these rivers are distinct and black waters have low pH values (4 – 5), whereas white waters have higher turbidity ​​and higher nitrogen and phosphorus concentrations. However, only the perifiton respond to different water types. In the white water, perifiton has higher values of biomass (2.5) than in black waters (1.8 µg.cm-2 chlorophyll a). Macroinvertebrates from headwater streams have characteristic taxa of coastal basins, such as shrimps and freshwater decapods, and characteristic groups of preserved streams with well-oxygenated water and rocky substratum, such as plecopterans and riffle beetles. Regarding the temporal scale, our analyses suggest that taxonomic composition of most groups remain constant throughout the year. It seems the rainy season only reduces species abundance but not species occurrence.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nutrients</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Fresh water rivers</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -135,7 +87,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='411804c4-2661-4c15-ba0f-6507fdddb9cb'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='411804c4-2661-4c15-ba0f-6507fdddb9cb'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -151,7 +103,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='411804c4-2661-4c15-ba0f-6507fdddb9cb'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='411804c4-2661-4c15-ba0f-6507fdddb9cb'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -167,7 +119,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='411804c4-2661-4c15-ba0f-6507fdddb9cb'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='411804c4-2661-4c15-ba0f-6507fdddb9cb'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -194,7 +146,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -226,4 +178,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

@@ -6,34 +6,10 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString/>
-					</gmd:individualName>
-					 <gmd:organisationName>
-						<gco:CharacterString/>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString/>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -52,33 +28,9 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/153c699b-2237-445d-9b9c-29f8acc697ab</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Warra Tall Eucalypt SuperSite is a member of the Australian SuperSite Network (SuperSites, http://www.supersites.net.au/), a facility within the Australian Terrestrial Ecosystem Network (TERN, http://www.tern.org.au/). SuperSites aims to answer both network wide and site-specific science questions through long term monitoring using both sensor technology and classical field methods. The Warra Tall Eucalypt SuperSite is located in southern Tasmania, where tall, wet Eucalyptus obliqua forests predominate, and are part of the cool, temperate wet forest biome. These forests are among the most productive terrestrial ecosystems in the world and their management generates a disproportionately high social and political interest. The site also includes some areas of moorland, temperate rainforest, riparian and montane conifer forest and scrubs. Warra is partly within the Tasmanian Wilderness World Heritage Area, which is managed for conservation, and partly within State forest, which is managed for multiple purposes including wood production. Warra Tall Eucalypt was established as a Long-term Ecological Research (LTER) site in 1995, and is one of Australia’s most scientifically productive. It is a hub for intensive, multi-disciplinary research to understand the fundamental ecological processes in E. obliqua forests and the long-term effects that management has on those processes in contrast with natural disturbance. Current research is focussing on the bio-physical processes that support the biota and how they fluctuate across scales both spatial and temporal. Detailed knowledge exists for many elements of the biota at Warra Tall Eucalypt their habitats, their distribution and their response to disturbance. Importantly, research done at Warra Tall Eucalypt has directly driven improvements in forest management more generally, e.g. the introduction of variable retention silviculture in mature tall, wet eucalypt forests. Key research objectives - What are the fundamental ecological processes in E. obliqua wet forests? - What are the current biodiversity and geodiversity of the site and how are these changing, evolving and interacting? - What are the long-term effects of different forest management and fire regimes on biodiversity, geodiversity and ecological processes? - What are the flows of water, nutrients and energy, the biota through which those flows occur, and how do they assemble, interact, and change over time? - How do disturbances, both natural and human-induced alter the biological, physical and geochemical properties of the ecosystem? In particular, what are the mechanisms through which the ecosystem recovers following disturbance, what are the feedbacks that determine or alter those responses, and what are the thresholds beyond which state changes occur?</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString/>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString/>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString/>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>weather</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fire severity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological cycle</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trees breast height diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Warra Tall Eucalypt SuperSite is a member of the Australian SuperSite Network (SuperSites, http://www.supersites.net.au/), a facility within the Australian Terrestrial Ecosystem Network (TERN, http://www.tern.org.au/). SuperSites aims to answer both network wide and site-specific science questions through long term monitoring using both sensor technology and classical field methods. The Warra Tall Eucalypt SuperSite is located in southern Tasmania, where tall, wet Eucalyptus obliqua forests predominate, and are part of the cool, temperate wet forest biome. These forests are among the most productive terrestrial ecosystems in the world and their management generates a disproportionately high social and political interest. The site also includes some areas of moorland, temperate rainforest, riparian and montane conifer forest and scrubs. Warra is partly within the Tasmanian Wilderness World Heritage Area, which is managed for conservation, and partly within State forest, which is managed for multiple purposes including wood production. Warra Tall Eucalypt was established as a Long-term Ecological Research (LTER) site in 1995, and is one of Australia’s most scientifically productive. It is a hub for intensive, multi-disciplinary research to understand the fundamental ecological processes in E. obliqua forests and the long-term effects that management has on those processes in contrast with natural disturbance. Current research is focussing on the bio-physical processes that support the biota and how they fluctuate across scales both spatial and temporal. Detailed knowledge exists for many elements of the biota at Warra Tall Eucalypt their habitats, their distribution and their response to disturbance. Importantly, research done at Warra Tall Eucalypt has directly driven improvements in forest management more generally, e.g. the introduction of variable retention silviculture in mature tall, wet eucalypt forests. Key research objectives - What are the fundamental ecological processes in E. obliqua wet forests? - What are the current biodiversity and geodiversity of the site and how are these changing, evolving and interacting? - What are the long-term effects of different forest management and fire regimes on biodiversity, geodiversity and ecological processes? - What are the flows of water, nutrients and energy, the biota through which those flows occur, and how do they assemble, interact, and change over time? - How do disturbances, both natural and human-induced alter the biological, physical and geochemical properties of the ecosystem? In particular, what are the mechanisms through which the ecosystem recovers following disturbance, what are the feedbacks that determine or alter those responses, and what are the thresholds beyond which state changes occur?</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>weather</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plant physiology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance pattern</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fire severity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>forest structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>canopy cover</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>leaf area index</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenological cycle</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil microbial diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>plants traits</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trees breast height diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dead wood</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil moisture content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Soil PH</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil physics</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
 					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
 		<gmd:MD_Keywords>
@@ -153,7 +105,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='153c699b-2237-445d-9b9c-29f8acc697ab'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='153c699b-2237-445d-9b9c-29f8acc697ab'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -169,7 +121,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='153c699b-2237-445d-9b9c-29f8acc697ab'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='153c699b-2237-445d-9b9c-29f8acc697ab'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -185,7 +137,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='153c699b-2237-445d-9b9c-29f8acc697ab'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='153c699b-2237-445d-9b9c-29f8acc697ab'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -212,7 +164,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -244,4 +196,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

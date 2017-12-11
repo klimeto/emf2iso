@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-10</gco:Date>
+					  <gco:Date>2017-12-11</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Doñana_Meteorology</gco:CharacterString>
 					</gmd:title>
@@ -81,7 +81,7 @@
                 <gmd:MD_AggregateInformation>
                     <gmd:aggregateDataSetIdentifier>
                         <gmd:MD_Identifier>
-                            <gmd:code><gco:CharacterString>Basic climate at Doñana LTSER Platform (2011-2012)</gco:CharacterString></gmd:code>
+                            <gmd:code><gco:CharacterString>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=60d7eda2-864f-11e2-b534-005056ab003f</gco:CharacterString></gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:aggregateDataSetIdentifier>
                     <gmd:associationType/>

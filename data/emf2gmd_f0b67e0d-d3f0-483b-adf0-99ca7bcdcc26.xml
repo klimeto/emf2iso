@@ -6,15 +6,11 @@
 				  </gmd:characterSet>
 				  <gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -27,20 +23,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -53,20 +42,13 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
 					 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:organisationName>
+					</gmd:individualName><gmd:organisationName>
 						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName>
-					 <gmd:contactInfo>
+					 </gmd:organisationName><gmd:contactInfo>
 						<gmd:CI_Contact>
 						 <gmd:address>
 						  <gmd:CI_Address>
@@ -79,13 +61,10 @@
 						  <gco:CharacterString/>
 						 </gmd:contactInstructions>
 						</gmd:CI_Contact>
-					   </gmd:contactInfo>
-					 <gmd:role>
+					   </gmd:contactInfo><gmd:role>
 						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-06</gco:Date>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-12</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -104,85 +83,64 @@
 							<gco:CharacterString>https://data.lter-europe.net/deims/f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26</gco:CharacterString>
 						 </gmd:code>
 					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>This protected area is located at the ecotones between the boreal forest and the subarctic tundra. The park was established as early as in 1909. In this year, the first nature conservation law in Sweden was created. The mountainous park has a surface of 77 km2 and covers an altitudinal gradient between 341 and 1191 m asl. The limits of the park are defined by mountain ranges and by the Tornetraesk lake. Since 2007, the Natura 2000 site Nissuntjårro is connected to Abisko National Park in the Southeast. This reserve covers additional 250 km2. The Park and the Natura 2000 sites at Abisko are close to the larger “Laponian Area” which is protected since 1996 as World Heritage by the UNESCO. The landscape and ecosystems in the area are mainly driven by natural ecological processes such as permafrost. The topography is reflecting the glacial history. Most famous example is the U-shaped glacial valley Lapporten close to Abisko. The famous Abiskokanjon, a natural canyon that discharges into the Tornetraesk Lake, is the habitat of rare birds and it was a major cause for installing the national park. The vegetation is dominated by birch forest and dwarf shrub vegetation. It is rich in bryophytes and lichens. Here, at the oceanic margin of the boreal zone, deciduous trees (Betula pubescens ssp. czerepanovi) are replacing the dominance of conifers. Depressions in lowlands are typically covered by mires and bogs. Above the tree line and especially at the mountain Noulja och Slåttatjåkka outstanding species diversity is recorded, for such a northern ecosystem. This is one of the most species-rich places in the Scandes even hosting endemic species, which is quire rare up north. The fauna in the park is characterised by reindeer and moose. Small herbivores such as lemmings are frequent, too. Main predators are golden eagles, brown bears, polar fox, lynx and wolverine. The location of the Abisko National Park at the ecotones between two major biomes (boreal forest and tundra) in combination with the strong impact of permafrost makes this landscape very sensitive to climatic changes. One important biotic interaction is the regular outbreak of moth populations (approx. every 10 years) causing total defoliation and even above-ground die-off of birch at the landscape scale. Such gradations may increase in the future as a consequence of less frost control on the insect populations. If thresholds / tipping points would be surpassed, such warming effects could cause as a paradox the southward shift of the tree line and further negative implications for carbon pools and ecosystem services. On the other side an upward and north-ward expansion of birch is also recorded. The future trends of ecosystem development are unclear and protected areas will serve as a natural laboratory to investigate ongoing changes that are relevant for the whole subarctic biome. The fact that Abisko is the place of one of the most active and well-known ecological research stations. The whole region is sparsely settled by man. Local Saami (or Lapp people) population’s economy is traditionally based on reindeer herding. Abisko National Park is located in the centre of the largest area in the world with an ancestral way of life based on the seasonal movement of livestock. Only few cities exist in the far north so that light pollution is low. This favours the observation of the frequent auroras in this place, 195 km north of the Arctic Circle. Abisko National Park is of eminent importance for tourism in this peripheral region. The most famous Swedish hiking trail, the Kungsleden, starts at “Abisko Turiststation”. The major ecosystem services of the park are related to the aesthetic value of the landscape with picturesque lakes, waterfalls and mountains. Tourism is an important economic factor. The pastoral land use based on reindeer by the local Saami people is a traditional and still important factor as well. Finally, the contribution of the subarctic ecosystems to carbon sequestration must be mentioned. The Abisko Scientific Research Station (ANS), managed by the Swedish Polar Research Secretariat, is one of the most important boreal and arctic ecological research sites. Here, researchers from many countries unite. Long-term data sets have been recorded and also EO approaches have been implemented (Jonasson et al. 2012). The first station dates back to 1903! Jonasson, C.; Sonesson, M.; Christensen, T. R.; Callaghan, T. V. (2012). Environmental Monitoring and Research in the Abisko Area—An Overview. AMBIO 41: 178–186</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>carl.beierkuhnlein@uni-bayreuth.de</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>carl.beierkuhnlein@uni-bayreuth.de</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:pointOfContact>
-					  <gmd:CI_ResponsibleParty>
-						<gmd:individualName>
-						 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
-						</gmd:individualName>
-						 <gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName>
-						 <gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>carl.beierkuhnlein@uni-bayreuth.de</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString/>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>This protected area is located at the ecotones between the boreal forest and the subarctic tundra. The park was established as early as in 1909. In this year, the first nature conservation law in Sweden was created. The mountainous park has a surface of 77 km2 and covers an altitudinal gradient between 341 and 1191 m asl. The limits of the park are defined by mountain ranges and by the Tornetraesk lake. Since 2007, the Natura 2000 site Nissuntjårro is connected to Abisko National Park in the Southeast. This reserve covers additional 250 km2. The Park and the Natura 2000 sites at Abisko are close to the larger “Laponian Area” which is protected since 1996 as World Heritage by the UNESCO. The landscape and ecosystems in the area are mainly driven by natural ecological processes such as permafrost. The topography is reflecting the glacial history. Most famous example is the U-shaped glacial valley Lapporten close to Abisko. The famous Abiskokanjon, a natural canyon that discharges into the Tornetraesk Lake, is the habitat of rare birds and it was a major cause for installing the national park. The vegetation is dominated by birch forest and dwarf shrub vegetation. It is rich in bryophytes and lichens. Here, at the oceanic margin of the boreal zone, deciduous trees (Betula pubescens ssp. czerepanovi) are replacing the dominance of conifers. Depressions in lowlands are typically covered by mires and bogs. Above the tree line and especially at the mountain Noulja och Slåttatjåkka outstanding species diversity is recorded, for such a northern ecosystem. This is one of the most species-rich places in the Scandes even hosting endemic species, which is quire rare up north. The fauna in the park is characterised by reindeer and moose. Small herbivores such as lemmings are frequent, too. Main predators are golden eagles, brown bears, polar fox, lynx and wolverine. The location of the Abisko National Park at the ecotones between two major biomes (boreal forest and tundra) in combination with the strong impact of permafrost makes this landscape very sensitive to climatic changes. One important biotic interaction is the regular outbreak of moth populations (approx. every 10 years) causing total defoliation and even above-ground die-off of birch at the landscape scale. Such gradations may increase in the future as a consequence of less frost control on the insect populations. If thresholds / tipping points would be surpassed, such warming effects could cause as a paradox the southward shift of the tree line and further negative implications for carbon pools and ecosystem services. On the other side an upward and north-ward expansion of birch is also recorded. The future trends of ecosystem development are unclear and protected areas will serve as a natural laboratory to investigate ongoing changes that are relevant for the whole subarctic biome. The fact that Abisko is the place of one of the most active and well-known ecological research stations. The whole region is sparsely settled by man. Local Saami (or Lapp people) population’s economy is traditionally based on reindeer herding. Abisko National Park is located in the centre of the largest area in the world with an ancestral way of life based on the seasonal movement of livestock. Only few cities exist in the far north so that light pollution is low. This favours the observation of the frequent auroras in this place, 195 km north of the Arctic Circle. Abisko National Park is of eminent importance for tourism in this peripheral region. The most famous Swedish hiking trail, the Kungsleden, starts at “Abisko Turiststation”. The major ecosystem services of the park are related to the aesthetic value of the landscape with picturesque lakes, waterfalls and mountains. Tourism is an important economic factor. The pastoral land use based on reindeer by the local Saami people is a traditional and still important factor as well. Finally, the contribution of the subarctic ecosystems to carbon sequestration must be mentioned. The Abisko Scientific Research Station (ANS), managed by the Swedish Polar Research Secretariat, is one of the most important boreal and arctic ecological research sites. Here, researchers from many countries unite. Long-term data sets have been recorded and also EO approaches have been implemented (Jonasson et al. 2012). The first station dates back to 1903! Jonasson, C.; Sonesson, M.; Christensen, T. R.; Callaghan, T. V. (2012). Environmental Monitoring and Research in the Abisko Area—An Overview. AMBIO 41: 178–186</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>carl.beierkuhnlein@uni-bayreuth.de</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>carl.beierkuhnlein@uni-bayreuth.de</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+					 <gco:CharacterString>Carl Beierkuhnlein</gco:CharacterString>
+					</gmd:individualName><gmd:organisationName>
+						<gco:CharacterString>LTER Europe</gco:CharacterString>
+					 </gmd:organisationName><gmd:contactInfo>
+						<gmd:CI_Contact>
+						 <gmd:address>
+						  <gmd:CI_Address>
+						   <gmd:electronicMailAddress>
+							<gco:CharacterString>carl.beierkuhnlein@uni-bayreuth.de</gco:CharacterString>
+						   </gmd:electronicMailAddress>
+						  </gmd:CI_Address>
+						 </gmd:address>
+						 <gmd:contactInstructions>
+						  <gco:CharacterString/>
+						 </gmd:contactInstructions>
+						</gmd:CI_Contact>
+					   </gmd:contactInfo><gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 						  <gco:CharacterString>Terrestrial</gco:CharacterString>
 					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
@@ -258,7 +216,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26'amp;outputFormat=SHAPE-ZIP</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
@@ -274,7 +232,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26'amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
@@ -290,7 +248,7 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFSamp;version=2.0.0amp;request=GetFeatureamp;typeName=deims:lter_all_formalamp;CQL_FILTER=uuid='f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26'amp;outputFormat=application%2Fjson</gmd:URL>
+									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f0b67e0d-d3f0-483b-adf0-99ca7bcdcc26'&amp;outputFormat=application%2Fjson</gmd:URL>
 								</gmd:linkage>
 								<gmd:name>
 								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
@@ -301,7 +259,7 @@
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
 				 <gmd:DQ_ConformanceResult>
 					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
 						 <gmd:CI_Citation>
@@ -333,4 +291,4 @@
 					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
 				   </gmd:statement>
 				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:MD_Metadata>
+			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>
