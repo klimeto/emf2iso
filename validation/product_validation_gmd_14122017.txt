@@ -1,0 +1,648 @@
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_f5b5d666-e7cd-4c73-b031-bfd80ebbc40d.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_f5b5d666-e7cd-4c73-b031-bfd80ebbc40d.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_cb4d05cd-96e1-4ef1-85e1-210cbe105ee7.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_cb4d05cd-96e1-4ef1-85e1-210cbe105ee7.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_ca3a98c7-82ac-43a5-b72d-b45ce2817bec.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_ca3a98c7-82ac-43a5-b72d-b45ce2817bec.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_c67e88ad-84c1-41d2-ba8c-23619585bb14.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_c67e88ad-84c1-41d2-ba8c-23619585bb14.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_c8e9c31e-20c6-4104-9854-55803cfef0e4.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_c8e9c31e-20c6-4104-9854-55803cfef0e4.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_1102375e-8a5e-4971-9915-8f3c54eee71e.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_1102375e-8a5e-4971-9915-8f3c54eee71e.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '1102375e-8a5e-4971-9915-8f3c54eee71e' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_1102375e-8a5e-4971-9915-8f3c54eee71e.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_1102375e-8a5e-4971-9915-8f3c54eee71e.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '1102375e-8a5e-4971-9915-8f3c54eee71e' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_932158a9-42a9-47f8-ada4-543a5f3a52d9.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_932158a9-42a9-47f8-ada4-543a5f3a52d9.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_854109f3-e03f-4a2b-b0fc-bacdcf13cade.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_854109f3-e03f-4a2b-b0fc-bacdcf13cade.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '854109f3-e03f-4a2b-b0fc-bacdcf13cade' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_854109f3-e03f-4a2b-b0fc-bacdcf13cade.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_854109f3-e03f-4a2b-b0fc-bacdcf13cade.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '854109f3-e03f-4a2b-b0fc-bacdcf13cade' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_646613b6-e71b-4d53-99d0-9c392e913243.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_646613b6-e71b-4d53-99d0-9c392e913243.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_103578d4-9fe6-4899-bee6-8e61a5cf665c.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_103578d4-9fe6-4899-bee6-8e61a5cf665c.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_55149f82-563b-4386-a445-b81e5eb9cba1.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_55149f82-563b-4386-a445-b81e5eb9cba1.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_53060e05-356e-49ee-8233-5fec7b883b8b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_53060e05-356e-49ee-8233-5fec7b883b8b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_47861c47-ad4a-4111-9968-2315b6304d75.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_47861c47-ad4a-4111-9968-2315b6304d75.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '47861c47-ad4a-4111-9968-2315b6304d75' is not a valid value for 'NCName'.
+Start location: 87:12
+End location: 87:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_47861c47-ad4a-4111-9968-2315b6304d75.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_47861c47-ad4a-4111-9968-2315b6304d75.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '47861c47-ad4a-4111-9968-2315b6304d75' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 87:34
+End location: 87:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_8022d5a9-1e22-4d94-b353-ced9fa88adab.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_8022d5a9-1e22-4d94-b353-ced9fa88adab.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '8022d5a9-1e22-4d94-b353-ced9fa88adab' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_8022d5a9-1e22-4d94-b353-ced9fa88adab.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_8022d5a9-1e22-4d94-b353-ced9fa88adab.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '8022d5a9-1e22-4d94-b353-ced9fa88adab' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_6038c371-6e8f-4e7d-9e23-d78e79ab5107.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_6038c371-6e8f-4e7d-9e23-d78e79ab5107.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_946c3b13-bb5a-49bd-9432-c1627248138c.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_946c3b13-bb5a-49bd-9432-c1627248138c.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '946c3b13-bb5a-49bd-9432-c1627248138c' is not a valid value for 'NCName'.
+Start location: 86:12
+End location: 86:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_946c3b13-bb5a-49bd-9432-c1627248138c.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_946c3b13-bb5a-49bd-9432-c1627248138c.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '946c3b13-bb5a-49bd-9432-c1627248138c' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 86:34
+End location: 86:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_923b1c40-a40d-4353-9bd6-5d63f2d59180.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_923b1c40-a40d-4353-9bd6-5d63f2d59180.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '923b1c40-a40d-4353-9bd6-5d63f2d59180' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_923b1c40-a40d-4353-9bd6-5d63f2d59180.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_923b1c40-a40d-4353-9bd6-5d63f2d59180.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '923b1c40-a40d-4353-9bd6-5d63f2d59180' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_153c505a-444d-4cd3-b810-d72e71ecf74f.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_153c505a-444d-4cd3-b810-d72e71ecf74f.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '153c505a-444d-4cd3-b810-d72e71ecf74f' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_153c505a-444d-4cd3-b810-d72e71ecf74f.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_153c505a-444d-4cd3-b810-d72e71ecf74f.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '153c505a-444d-4cd3-b810-d72e71ecf74f' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_95d48f5b-6ec4-47b3-9267-65799c7b69c3.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_95d48f5b-6ec4-47b3-9267-65799c7b69c3.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '95d48f5b-6ec4-47b3-9267-65799c7b69c3' is not a valid value for 'NCName'.
+Start location: 83:12
+End location: 83:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_95d48f5b-6ec4-47b3-9267-65799c7b69c3.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_95d48f5b-6ec4-47b3-9267-65799c7b69c3.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '95d48f5b-6ec4-47b3-9267-65799c7b69c3' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 83:34
+End location: 83:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_79e0bf2c-376a-48ea-a868-38f1a9ddc6fe.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_79e0bf2c-376a-48ea-a868-38f1a9ddc6fe.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '79e0bf2c-376a-48ea-a868-38f1a9ddc6fe' is not a valid value for 'NCName'.
+Start location: 87:12
+End location: 87:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_79e0bf2c-376a-48ea-a868-38f1a9ddc6fe.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_79e0bf2c-376a-48ea-a868-38f1a9ddc6fe.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '79e0bf2c-376a-48ea-a868-38f1a9ddc6fe' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 87:34
+End location: 87:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_47a5db6e-ab73-4d1b-a617-ce2f13f4736b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_47a5db6e-ab73-4d1b-a617-ce2f13f4736b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '47a5db6e-ab73-4d1b-a617-ce2f13f4736b' is not a valid value for 'NCName'.
+Start location: 87:12
+End location: 87:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_47a5db6e-ab73-4d1b-a617-ce2f13f4736b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_47a5db6e-ab73-4d1b-a617-ce2f13f4736b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '47a5db6e-ab73-4d1b-a617-ce2f13f4736b' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 87:34
+End location: 87:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: 'Biotop mapping: Data.gv.at' is not a valid value for 'anyURI'.
+Start location: 110:42
+End location: 110:68
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-type.3.1.3: The value 'Biotop mapping: Data.gv.at' of element 'gmd:URL' is not valid.
+Start location: 110:42
+End location: 110:68
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_44a81d47-bf02-46df-af74-00b11f9fe69c.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_44a81d47-bf02-46df-af74-00b11f9fe69c.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Engine name: oXygen
+Severity: error
+Description: There is no schema or DTD associated with the document. You can create an association either with the Associate Schema action or configuring in the Options the Preferences/Document Type Association list, or by creating a Validation Scenario.
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Engine name: Xerces
+Severity: fatal
+Description: Premature end of file.
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_9f44f6c7-33b6-461e-a0c8-7792e1965394.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_9f44f6c7-33b6-461e-a0c8-7792e1965394.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '9f44f6c7-33b6-461e-a0c8-7792e1965394' is not a valid value for 'NCName'.
+Start location: 87:12
+End location: 87:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_9f44f6c7-33b6-461e-a0c8-7792e1965394.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_9f44f6c7-33b6-461e-a0c8-7792e1965394.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '9f44f6c7-33b6-461e-a0c8-7792e1965394' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 87:34
+End location: 87:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_8e7420a8-f46a-4ebe-b445-6c2d3f3e4aff.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_8e7420a8-f46a-4ebe-b445-6c2d3f3e4aff.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.isotc211.org/2005/gmd":dateStamp}'. One of '{"http://www.isotc211.org/2005/gmd":hierarchyLevelName, "http://www.isotc211.org/2005/gmd":contact}' is expected.
+Start location: 14:32
+End location: 14:45
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_8b1a0517-b359-4a65-8d09-c0f155821735.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_8b1a0517-b359-4a65-8d09-c0f155821735.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '8b1a0517-b359-4a65-8d09-c0f155821735' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_8b1a0517-b359-4a65-8d09-c0f155821735.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_8b1a0517-b359-4a65-8d09-c0f155821735.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '8b1a0517-b359-4a65-8d09-c0f155821735' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_7d4fde96-3310-408b-a7cd-63e8b266fd79.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_7d4fde96-3310-408b-a7cd-63e8b266fd79.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '7d4fde96-3310-408b-a7cd-63e8b266fd79' is not a valid value for 'NCName'.
+Start location: 87:12
+End location: 87:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_7d4fde96-3310-408b-a7cd-63e8b266fd79.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_7d4fde96-3310-408b-a7cd-63e8b266fd79.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '7d4fde96-3310-408b-a7cd-63e8b266fd79' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 87:34
+End location: 87:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_5df4f2b2-6f2b-4376-970e-b29fb31bb77e.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_5df4f2b2-6f2b-4376-970e-b29fb31bb77e.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '5df4f2b2-6f2b-4376-970e-b29fb31bb77e' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_5df4f2b2-6f2b-4376-970e-b29fb31bb77e.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_5df4f2b2-6f2b-4376-970e-b29fb31bb77e.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '5df4f2b2-6f2b-4376-970e-b29fb31bb77e' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_005f1703-0cc7-4bc3-bb09-3991558a0056.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_005f1703-0cc7-4bc3-bb09-3991558a0056.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '005f1703-0cc7-4bc3-bb09-3991558a0056' is not a valid value for 'NCName'.
+Start location: 82:12
+End location: 82:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_005f1703-0cc7-4bc3-bb09-3991558a0056.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_005f1703-0cc7-4bc3-bb09-3991558a0056.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '005f1703-0cc7-4bc3-bb09-3991558a0056' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 82:34
+End location: 82:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_4c7eadaf-c2fe-466e-a996-aa4aebec1b9d.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_4c7eadaf-c2fe-466e-a996-aa4aebec1b9d.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '4c7eadaf-c2fe-466e-a996-aa4aebec1b9d' is not a valid value for 'NCName'.
+Start location: 86:12
+End location: 86:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_4c7eadaf-c2fe-466e-a996-aa4aebec1b9d.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_4c7eadaf-c2fe-466e-a996-aa4aebec1b9d.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '4c7eadaf-c2fe-466e-a996-aa4aebec1b9d' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 86:34
+End location: 86:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_2e016ef1-9dbc-4b6d-aa13-26732656c03a.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_2e016ef1-9dbc-4b6d-aa13-26732656c03a.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '2e016ef1-9dbc-4b6d-aa13-26732656c03a' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_2e016ef1-9dbc-4b6d-aa13-26732656c03a.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_2e016ef1-9dbc-4b6d-aa13-26732656c03a.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '2e016ef1-9dbc-4b6d-aa13-26732656c03a' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_2af0f7cb-9340-42fc-b916-fe6e0fa24da3.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_2af0f7cb-9340-42fc-b916-fe6e0fa24da3.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '2af0f7cb-9340-42fc-b916-fe6e0fa24da3' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_2af0f7cb-9340-42fc-b916-fe6e0fa24da3.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_2af0f7cb-9340-42fc-b916-fe6e0fa24da3.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '2af0f7cb-9340-42fc-b916-fe6e0fa24da3' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_0e1274a4-04e3-4020-b722-7001dc42dc50.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_0e1274a4-04e3-4020-b722-7001dc42dc50.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: '0e1274a4-04e3-4020-b722-7001dc42dc50' is not a valid value for 'NCName'.
+Start location: 85:12
+End location: 85:26
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_0e1274a4-04e3-4020-b722-7001dc42dc50.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_0e1274a4-04e3-4020-b722-7001dc42dc50.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-attribute.3: The value '0e1274a4-04e3-4020-b722-7001dc42dc50' of attribute 'gml:id' on element 'gml:TimePeriod' is not valid with respect to its type, 'ID'.
+Start location: 85:34
+End location: 85:72
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-attribute
+
