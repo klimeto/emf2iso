@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Ancient irrigation channels</gco:CharacterString>
 					</gmd:title>
@@ -84,7 +84,7 @@
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="ef8d741f-36ac-4e31-b09c-92ed6a195b1f">
+										<gml:TimePeriod gml:id="deims_data_product_ef8d741f-36ac-4e31-b09c-92ed6a195b1f">
 											<gml:beginPosition>2016-07-01</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

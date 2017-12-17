@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Tatra National Park (Poland) - forest types</gco:CharacterString>
 					</gmd:title>
@@ -82,7 +82,7 @@
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="5df4f2b2-6f2b-4376-970e-b29fb31bb77e">
+										<gml:TimePeriod gml:id="deims_data_product_5df4f2b2-6f2b-4376-970e-b29fb31bb77e">
 											<gml:beginPosition>2016-08-30</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

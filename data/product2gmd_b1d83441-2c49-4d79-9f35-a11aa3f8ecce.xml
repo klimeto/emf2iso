@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Kalkalpen National Park (Austria) - Geology and geomorphology</gco:CharacterString>
 					</gmd:title>
@@ -82,7 +82,7 @@
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="b1d83441-2c49-4d79-9f35-a11aa3f8ecce">
+										<gml:TimePeriod gml:id="deims_data_product_b1d83441-2c49-4d79-9f35-a11aa3f8ecce">
 											<gml:beginPosition>2016-09-26</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

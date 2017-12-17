@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Grazing</gco:CharacterString>
 					</gmd:title>
@@ -84,7 +84,7 @@
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="47a5db6e-ab73-4d1b-a617-ce2f13f4736b">
+										<gml:TimePeriod gml:id="deims_data_product_47a5db6e-ab73-4d1b-a617-ce2f13f4736b">
 											<gml:beginPosition>1956-01-01</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

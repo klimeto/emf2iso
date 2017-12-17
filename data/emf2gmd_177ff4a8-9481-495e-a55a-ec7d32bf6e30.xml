@@ -1,42 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_177ff4a8-9481-495e-a55a-ec7d32bf6e30</gco:CharacterString></gmd:fileIdentifier><gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
-				  </gmd:language><gmd:parentIdentifier>
-						<gmx:Anchor xlink:href="https://data.lter-europe.net/deims/node/9663/emf" xlink:title="Facility_e83a90a3-2fb4-49bc-8991-a1d5b017ae19"/>
-					</gmd:parentIdentifier><gmd:characterSet>
+				  </gmd:language>
+				  <gmd:characterSet>
 					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
-				  </gmd:characterSet>
-				  <gmd:hierarchyLevel>
+				  </gmd:characterSet><gmd:parentIdentifier>
+						<gmx:Anchor xlink:href="https://data.lter-europe.net/deims/node/9663/emf" xlink:title="Facility_e83a90a3-2fb4-49bc-8991-a1d5b017ae19"/>
+					</gmd:parentIdentifier><gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
-					 <gco:CharacterString>Dre Cattrijsse</gco:CharacterString>
-					</gmd:individualName><gmd:organisationName>
-						<gco:CharacterString>Flanders Marine Institute</gco:CharacterString>
-					 </gmd:organisationName><gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString>andre.cattrijsse@vliz.be</gco:CharacterString>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString/>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo><gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
-						<gco:CharacterString>Flanders Marine Insitute</gco:CharacterString>
-					 </gmd:organisationName><gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
-						<gco:CharacterString>Flanders Marine Insitute</gco:CharacterString>
-					 </gmd:organisationName><gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+				  </gmd:hierarchyLevel>
+				  <gmd:hierarchyLevelName>
+						<gco:CharacterString>Research site</gco:CharacterString>
+					</gmd:hierarchyLevelName><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+						 <gco:CharacterString>Dre Cattrijsse</gco:CharacterString>
+						</gmd:individualName><gmd:organisationName>
+							<gco:CharacterString>Flanders Marine Institute</gco:CharacterString>
+						 </gmd:organisationName><gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>andre.cattrijsse@vliz.be</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString/>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo><gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+							<gco:CharacterString>Flanders Marine Insitute</gco:CharacterString>
+						 </gmd:organisationName><gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+							<gco:CharacterString>Flanders Marine Insitute</gco:CharacterString>
+						 </gmd:organisationName><gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:referenceSystemInfo>
 					  <gmd:MD_ReferenceSystem>
 						 <gmd:referenceSystemIdentifier>
@@ -49,7 +52,7 @@
 					  </gmd:MD_ReferenceSystem>
 				   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>VLIZ Thornton Bouy</gco:CharacterString>
-					</gmd:title><gmd:identifier>
+					</gmd:title><gmd:date/><gmd:identifier>
 					  <gmd:MD_Identifier>
 						 <gmd:code>
 							<gco:CharacterString>https://data.lter-europe.net/deims/177ff4a8-9481-495e-a55a-ec7d32bf6e30</gco:CharacterString>

@@ -1,8 +1,8 @@
 <?php
 ini_set('implicit_flush',1);
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 $now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
 $url2 = 'http://klimeto.com/projects/2017/uba/app/lib/productjson2isoxml.php';

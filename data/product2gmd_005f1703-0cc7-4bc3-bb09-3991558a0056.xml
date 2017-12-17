@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Tatra National Park (Poland) - PLANNED nature monitoring - PLANTS</gco:CharacterString>
 					</gmd:title>
@@ -79,7 +79,7 @@ For the purpose of the Park's Protection Plan, nature inventory and assessment o
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="005f1703-0cc7-4bc3-bb09-3991558a0056">
+										<gml:TimePeriod gml:id="deims_data_product_005f1703-0cc7-4bc3-bb09-3991558a0056">
 											<gml:beginPosition>2016-08-31</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

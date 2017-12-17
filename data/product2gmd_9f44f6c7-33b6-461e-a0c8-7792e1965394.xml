@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Kalkalpen National Park (Austria) - Soil</gco:CharacterString>
 					</gmd:title>
@@ -84,7 +84,7 @@
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="9f44f6c7-33b6-461e-a0c8-7792e1965394">
+										<gml:TimePeriod gml:id="deims_data_product_9f44f6c7-33b6-461e-a0c8-7792e1965394">
 											<gml:beginPosition>2004-01-01</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

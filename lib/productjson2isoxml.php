@@ -57,7 +57,7 @@ if ($json){
 		C.2.25 Metadata point of contact
 		***/
 	$product_reporter = $json->{'nodes'}[0]->{'node'}->{'reporter'};
-	if($product_reporter){
+	if(!empty($product_reporter)){
 		$gmdXML .= '<gmd:contact>
 				  <gmd:CI_ResponsibleParty>
 					<gmd:individualName>
@@ -68,6 +68,9 @@ if ($json){
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact>';
+	}
+	else{
+		$gmdXML .= '<gmd:contact/>';
 	}
 	/***
 		C.2.26 Metadata date
@@ -379,7 +382,7 @@ if ($product_paramsArray || $product_kwdsArray){
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="'.$gmlId.'">
+										<gml:TimePeriod gml:id="deims_data_product_'.$gmlId.'">
 											<gml:beginPosition>'.$product_date_range_array[0].'</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>

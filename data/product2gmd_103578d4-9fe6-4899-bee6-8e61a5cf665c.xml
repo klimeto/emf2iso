@@ -11,8 +11,8 @@
 					</gmd:hierarchyLevel>
 					<gmd:hierarchyLevelName>
 						<gco:CharacterString>Data product</gco:CharacterString>
-					</gmd:hierarchyLevelName><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					</gmd:hierarchyLevelName><gmd:contact/><gmd:dateStamp>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Hardangervidda (Norway) Reindeer Hunting Data</gco:CharacterString>
 					</gmd:title>

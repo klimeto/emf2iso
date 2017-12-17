@@ -33,64 +33,72 @@ if ($json){
 		***/
 	$gmdXML .= '<gmd:language>
 					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
-				  </gmd:language>';
+				  </gmd:language>
+				  <gmd:characterSet>
+					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+				  </gmd:characterSet>';
 				  
 	/*** 
 		Parent identifier == ef:broader
 		***/
 	$ef_broader = $json->{'EnvironmentalMonitoringFacility'}->{'ef:broader'};
-	if($ef_broader){
+	if(!empty($ef_broader)){
 		$gmdXML .= '<gmd:parentIdentifier>
 						<gmx:Anchor xlink:href="'.$ef_broader->{'@xlink:href'}.'" xlink:title="'.$ef_broader->{'ef:Hierarchy'}->{'@gml:id'}.'"/>
 					</gmd:parentIdentifier>';
 	} 
-		$gmdXML.='<gmd:characterSet>
-					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
-				  </gmd:characterSet>
-				  <gmd:hierarchyLevel>
+		$gmdXML.='<gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel>';
+				  </gmd:hierarchyLevel>
+				  <gmd:hierarchyLevelName>
+						<gco:CharacterString>Research site</gco:CharacterString>
+					</gmd:hierarchyLevelName>';
 	/*** 
 		C.2.25 Metadata point of contact
 		***/
 	$ef_responsiblePartyArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:responsibleParty'};
-	foreach($ef_responsiblePartyArray as $contact){
-		$individualName = $contact->{'base2:RelatedParty'}->{'base2:individualName'}->{'gco:CharacterString'};
-		$organisationName = $contact->{'base2:RelatedParty'}->{'base2:organisationName'}->{'gco:CharacterString'};
-		$contactInstructions = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:contactInstructions'}->{'gco:CharacterString'};
-		$contactRole = $contact->{'base2:RelatedParty'}->{'base2:role'}->{'@xlink:role'};
-		$contactEmail = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:electronicMailAddress'};
-		$gmdXML .= '<gmd:contact><gmd:CI_ResponsibleParty>';
-		if(!empty($individualName)){
-			$gmdXML .= '<gmd:individualName>
-					 <gco:CharacterString>'.$individualName.'</gco:CharacterString>
-					</gmd:individualName>';
+	if(!empty($ef_responsiblePartyArray)){
+		foreach($ef_responsiblePartyArray as $contact){
+			$individualName = $contact->{'base2:RelatedParty'}->{'base2:individualName'}->{'gco:CharacterString'};
+			$organisationName = $contact->{'base2:RelatedParty'}->{'base2:organisationName'}->{'gco:CharacterString'};
+			$contactInstructions = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:contactInstructions'}->{'gco:CharacterString'};
+			$contactRole = $contact->{'base2:RelatedParty'}->{'base2:role'}->{'@xlink:role'};
+			$contactEmail = $contact->{'base2:RelatedParty'}->{'base2:contact'}->{'base2:Contact'}->{'base2:electronicMailAddress'};
+			$gmdXML .= '<gmd:contact><gmd:CI_ResponsibleParty>';
+			if(!empty($individualName)){
+				$gmdXML .= '<gmd:individualName>
+						 <gco:CharacterString>'.$individualName.'</gco:CharacterString>
+						</gmd:individualName>';
+			}
+			if(!empty($organisationName)){
+				$gmdXML .= '<gmd:organisationName>
+							<gco:CharacterString>'.$organisationName.'</gco:CharacterString>
+						 </gmd:organisationName>';
+			}
+			if(!empty($contactEmail) || !empty($contactInstructions)){
+				$gmdXML .='<gmd:contactInfo>
+							<gmd:CI_Contact>
+							 <gmd:address>
+							  <gmd:CI_Address>
+							   <gmd:electronicMailAddress>
+								<gco:CharacterString>'.$contactEmail.'</gco:CharacterString>
+							   </gmd:electronicMailAddress>
+							  </gmd:CI_Address>
+							 </gmd:address>
+							 <gmd:contactInstructions>
+							  <gco:CharacterString>'.$contactInstructions.'</gco:CharacterString>
+							 </gmd:contactInstructions>
+							</gmd:CI_Contact>
+						   </gmd:contactInfo>';
+			}
+			$gmdXML .= '<gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+						 </gmd:role>';
+			$gmdXML .= '</gmd:CI_ResponsibleParty></gmd:contact>';
 		}
-		if(!empty($organisationName)){
-			$gmdXML .= '<gmd:organisationName>
-						<gco:CharacterString>'.$organisationName.'</gco:CharacterString>
-					 </gmd:organisationName>';
-		}
-		if(!empty($contactEmail) || !empty($contactInstructions)){
-			$gmdXML .='<gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString>'.$contactEmail.'</gco:CharacterString>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString>'.$contactInstructions.'</gco:CharacterString>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo>';
-		}
-		$gmdXML .= '<gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
-					 </gmd:role>';
-		$gmdXML .= '</gmd:CI_ResponsibleParty></gmd:contact>';
+	}
+	else{
+		$gmdXML .= '<gmd:contact/>';
 	}
 	/***
 		C.2.26 Metadata date
@@ -131,12 +139,13 @@ if ($json){
 		C.2.1 Resource title
 		***/
 	$ef_name = $json->{'EnvironmentalMonitoringFacility'}->{'ef:name'};
-	if($ef_name){
+	if(!empty($ef_name)){
 		$gmdXML .= "<gmd:title>
 						 <gco:CharacterString>".$ef_name."</gco:CharacterString>
 					</gmd:title>";
 	}
-	
+	/*** DATE - added empty element to be valid, but TBD!!!! ***/
+	$gmdXML .= "<gmd:date/>";
 	/***
 		C.2.5 Unique resource identifier
 		***/
@@ -157,7 +166,13 @@ if ($json){
 		C.2.2 Resource abstract
 		***/
 	$ef_additionalDescription = $json->{'EnvironmentalMonitoringFacility'}->{'ef:additionalDescription'};
-	$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",str_replace("&","and",$ef_additionalDescription)) .'</gco:CharacterString></gmd:abstract>';
+	if(!empty($ef_additionalDescription)){
+		$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",str_replace("&","and",$ef_additionalDescription)) .'</gco:CharacterString></gmd:abstract>';
+	}
+	else{
+		$gmdXML .= '<gmd:abstract/>';
+	}
+	
 	/***
 		C.2.23 Responsible party
 		***/
@@ -216,7 +231,7 @@ if ($json){
 	}
 	/**** MEDIA MONITORED ****/
 	$ef_mediaMonitored = $json->{'EnvironmentalMonitoringFacility'}->{'ef:mediaMonitored'};
-	if($ef_mediaMonitored){
+	if(!empty($ef_mediaMonitored)){
 		$gmdXML .= '<gmd:descriptiveKeywords><gmd:MD_Keywords>';
 		foreach($ef_mediaMonitored as $media){
 			$gmdXML .= '<gmd:keyword>
@@ -228,7 +243,7 @@ if ($json){
 	}
 	/**** MEASUREMENT REGIME AND MOBILE *****/
 	$ef_measurementRegime = $json->{'EnvironmentalMonitoringFacility'}->{'ef:measurementRegime'}->{'@xlink:href'};
-	if($ef_measurementRegime){
+	if(!empty($ef_measurementRegime)){
 		$gmdXML .= '<gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
 					 <gmx:Anchor xlink:href="'.$ef_measurementRegime.'">'.explode("/MeasurementRegimeValue/",$ef_measurementRegime)[1].'</gmx:Anchor>
 					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords>';
@@ -320,9 +335,9 @@ if ($json){
 	$ef_representativePointId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@gml:id'};
 	$ef_representativePointSrs = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@srsName'};
 	$ef_representativePointGmlPos = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'gml:pos'}->{'$'};
-	if($ef_geometry_gmlMultiGeomArray){
+	if(!empty($ef_geometry_gmlMultiGeomArray)){
 		foreach ($ef_geometry_gmlMultiGeomArray as $geometry){
-			if ($geometry->{'gml:Polygon'}){
+			if (!empty($geometry->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'})){
 				$posList = $geometry->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'};
 				$posListArray = explode(" ", $posList);
 				$lats = array();
@@ -362,7 +377,7 @@ if ($json){
 			}
 		}
 	}
-	if($ef_representativePointGmlPos){
+	if(!empty($ef_representativePointGmlPos)){
 		$gmlPosArray = explode(" ",$ef_representativePointGmlPos);
 		$wblon = $gmlPosArray[1];
 		$eblon = $gmlPosArray[1];
@@ -398,7 +413,7 @@ if ($json){
 	$ef_operationalActivityEnd = $json->{'EnvironmentalMonitoringFacility'}->{'ef:operationalActivityPeriod'}->{'ef:OperationalActivityPeriod'}->{'ef:activityTime'}->{'gml:TimePeriod'}->{'gml:endPosition'};
 	$ef_operationalActivityEndIndeterminate = $json->{'EnvironmentalMonitoringFacility'}->{'ef:operationalActivityPeriod'}->{'ef:OperationalActivityPeriod'}->{'ef:activityTime'}->{'gml:TimePeriod'}->{'gml:endPosition'}->{'@indeterminatePosition'};
 	//var_dump($ef_operationalActivityEndIndeterminate). '<br>'; 
-	if($ef_operationalActivityBegin){
+	if(!empty($ef_operationalActivityBegin)){
 		$gmdXML .= '<gmd:extent>
 						<gmd:EX_Extent>
 							<gmd:temporalElement>
@@ -410,7 +425,7 @@ if ($json){
 												$gmdXML .= '<gml:endPosition indeterminatePosition="'.$ef_operationalActivityEndIndeterminate.'"/>';
 											}
 											else if ($ef_operationalActivityEnd){
-												$gmdXML .= '<gml:endPosition>'+$ef_operationalActivityEnd+'</gml:endPosition>';
+												$gmdXML .= '<gml:endPosition>'.$ef_operationalActivityEnd.'</gml:endPosition>';
 											}
 		$gmdXML .= '</gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent>';
 	}
@@ -426,7 +441,7 @@ if ($json){
 		C.4.2 Resource locator
 		***/
 	$ef_onlineResourceArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:onlineResource'};
-	if($ef_onlineResourceArray){
+	if(!empty($ef_onlineResourceArray)){
 		$gmdXML .='<gmd:distributionInfo><gmd:MD_Distribution>';
 		foreach($ef_onlineResourceArray as $linkage){
 			$gmdXML .= '<gmd:transferOptions>
@@ -445,7 +460,7 @@ if ($json){
 	/**** WMS GET MAP ****/
 	
 	/**** WFS GET FEATURE SHP ****/
-	if($base_localId){
+	if(!empty($base_localId)){
 		$gmdXML .= "<gmd:transferOptions>
 					<gmd:MD_DigitalTransferOptions>
 						<gmd:onLine>
@@ -465,7 +480,7 @@ if ($json){
 				</gmd:transferOptions>";
 	}
 	/**** WFS GET FEATURE GML 3.2 ****/
-	if($base_localId){
+	if(!empty($base_localId)){
 		$gmdXML .= "<gmd:transferOptions>
 					<gmd:MD_DigitalTransferOptions>
 						<gmd:onLine>
@@ -485,7 +500,7 @@ if ($json){
 				</gmd:transferOptions>";
 	}
 	/**** WFS GET FEATURE GEOJSON ****/
-	if($base_localId){
+	if(!empty($base_localId)){
 		$gmdXML .= "<gmd:transferOptions>
 					<gmd:MD_DigitalTransferOptions>
 						<gmd:onLine>
@@ -506,7 +521,7 @@ if ($json){
 	}
 	/**** LINKS TO RELATED DATASET (CSW GETRECORDBYID) ****/
 	$ef_hasObservationArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:hasObservation'}; 
-	if($ef_hasObservationArray && count($ef_hasObservationArray) > 1){
+	if(!empty($ef_hasObservationArray) && count($ef_hasObservationArray) > 1){
 		foreach($ef_hasObservationArray as $dataset){
 			$datasetGmdArray = xmlToArray(simplexml_load_file($dataset->{'@xlink:href'}));
 			$datasetGmdJSON = json_encode($datasetGmdArray);
@@ -579,7 +594,7 @@ if ($json){
 			</gmd:transferOptions>';
 	}
 	$ef_belongsToArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:belongsTo'};
-	if($ef_belongsToArray){
+	if(!empty($ef_belongsToArray)){
 		foreach($ef_belongsToArray as $belongsTo){
 			if($belongsTo->{'@xlink:href'}){
 				$gmdXML .= '<gmd:transferOptions>
@@ -603,7 +618,7 @@ if ($json){
 		}
 	}
 	$ef_involvedInArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:involvedIn'};
-	if($ef_involvedInArray){
+	if(!empty($ef_involvedInArray)){
 		foreach($ef_involvedInArray as $involvedIn){
 			if($involvedIn->{'ef:EnvironmentalMonitoringActivity'}->{'ef:onlineResource'}){
 				$gmdXML .= '<gmd:transferOptions>

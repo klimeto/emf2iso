@@ -21,7 +21,7 @@
 					 </gmd:role>
 				  </gmd:CI_ResponsibleParty>
 			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2017-12-13</gco:Date>
+					  <gco:Date>2017-12-17</gco:Date>
 				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 						 <gco:CharacterString>Tatra National Park (Poland) - human activity (tourism, infrastructure, land mgmnt. etc.)</gco:CharacterString>
 					</gmd:title>
@@ -83,7 +83,7 @@ Also, data on anthropogenic pressure: environmental impact and damage of human a
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
 									<gmd:extent>
-										<gml:TimePeriod gml:id="4c7eadaf-c2fe-466e-a996-aa4aebec1b9d">
+										<gml:TimePeriod gml:id="deims_data_product_4c7eadaf-c2fe-466e-a996-aa4aebec1b9d">
 											<gml:beginPosition>2016-08-30</gml:beginPosition>
 											<gml:endPosition indeterminatePosition="now"/>
 										</gml:TimePeriod>
