@@ -1,0 +1,60 @@
+System ID: D:\klimeto\UBA_2017\app\data\emf2gmd_9dd45aa6-ed7a-49d2-bea4-7750351c55d0.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\emf2gmd_9dd45aa6-ed7a-49d2-bea4-7750351c55d0.xml
+Engine name: oXygen
+Severity: error
+Description: There is no schema or DTD associated with the document. You can create an association either with the Associate Schema action or configuring in the Options the Preferences/Document Type Association list, or by creating a Validation Scenario.
+
+System ID: D:\klimeto\UBA_2017\app\data\emf2gmd_9dd45aa6-ed7a-49d2-bea4-7750351c55d0.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\emf2gmd_9dd45aa6-ed7a-49d2-bea4-7750351c55d0.xml
+Engine name: Xerces
+Severity: fatal
+Description: Premature end of file.
+
+System ID: D:\klimeto\UBA_2017\app\data\emf2gmd_9fe5a5d1-ccc0-41ab-b555-5ca44da24cd8.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\emf2gmd_9fe5a5d1-ccc0-41ab-b555-5ca44da24cd8.xml
+Engine name: oXygen
+Severity: error
+Description: There is no schema or DTD associated with the document. You can create an association either with the Associate Schema action or configuring in the Options the Preferences/Document Type Association list, or by creating a Validation Scenario.
+
+System ID: D:\klimeto\UBA_2017\app\data\emf2gmd_9fe5a5d1-ccc0-41ab-b555-5ca44da24cd8.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\emf2gmd_9fe5a5d1-ccc0-41ab-b555-5ca44da24cd8.xml
+Engine name: Xerces
+Severity: fatal
+Description: Premature end of file.
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Engine name: oXygen
+Severity: error
+Description: There is no schema or DTD associated with the document. You can create an association either with the Associate Schema action or configuring in the Options the Preferences/Document Type Association list, or by creating a Validation Scenario.
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_21d441a9-9230-4d83-bcf8-d1eaae6b817a.xml
+Engine name: Xerces
+Severity: fatal
+Description: Premature end of file.
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-datatype-valid.1.2.1: 'Biotop mapping: Data.gv.at' is not a valid value for 'anyURI'.
+Start location: 110:42
+End location: 110:68
+URL: http://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid
+
+System ID: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Main validation file: D:\klimeto\UBA_2017\app\data\product2gmd_45cd080e-2661-4a71-9648-fd8196501a9b.xml
+Schemas: 
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd
+http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd
+Engine name: Xerces
+Severity: error
+Description: cvc-type.3.1.3: The value 'Biotop mapping: Data.gv.at' of element 'gmd:URL' is not valid.
+Start location: 110:42
+End location: 110:68
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-type
+
