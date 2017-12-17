@@ -44,7 +44,7 @@ if ($json){
 	$ef_broader = $json->{'EnvironmentalMonitoringFacility'}->{'ef:broader'};
 	if(!empty($ef_broader)){
 		$gmdXML .= '<gmd:parentIdentifier>
-						<gmx:Anchor xlink:href="'.$ef_broader->{'@xlink:href'}.'" xlink:title="'.$ef_broader->{'ef:Hierarchy'}->{'@gml:id'}.'"/>
+						<gmx:Anchor xlink:href="'.$getRecById.str_replace("Facility_","emf2gmd_",$ef_broader->{'ef:Hierarchy'}->{'@gml:id'}).'"/>
 					</gmd:parentIdentifier>';
 	} 
 		$gmdXML.='<gmd:hierarchyLevel>

@@ -5,7 +5,7 @@
 				  <gmd:characterSet>
 					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
 				  </gmd:characterSet><gmd:parentIdentifier>
-						<gmx:Anchor xlink:href="https://data.lter-europe.net/deims/node/9202/emf" xlink:title="Facility_2828cadf-0ba2-4376-a185-cd1c5fc784da"/>
+						<gmx:Anchor xlink:href="https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=emf2gmd_2828cadf-0ba2-4376-a185-cd1c5fc784da"/>
 					</gmd:parentIdentifier><gmd:hierarchyLevel>
 					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 				  </gmd:hierarchyLevel>

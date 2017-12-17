@@ -43,7 +43,7 @@ if ($json){
 	$product_related_site_uuid = $json->{'nodes'}[0]->{'node'}->{'related_site_uuid'};
 	if($product_related_site_uuid){
 		$gmdXML .= '<gmd:parentIdentifier>
-						<gmx:Anchor xlink:href="'.$getRecById.$product_related_site_uuid.'" xlink:title="'.$product_related_site_title.'"/>
+						<gmx:Anchor xlink:href="'.$getRecById.'emf2gmd_'.$product_related_site_uuid.'" xlink:title="'.$product_related_site_title.'"/>
 					</gmd:parentIdentifier>';
 	} 
 		$gmdXML.= '<gmd:hierarchyLevel>
@@ -229,7 +229,9 @@ if ($product_paramsArray || $product_kwdsArray){
                             <gmd:code><gco:CharacterString>'.$getRecById.$product_related_dataset_uuid.'</gco:CharacterString></gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:aggregateDataSetIdentifier>
-                    <gmd:associationType/>
+                    <gmd:associationType>
+						<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+					</gmd:associationType>
                 </gmd:MD_AggregateInformation>
             </gmd:aggregationInfo>';
 	}

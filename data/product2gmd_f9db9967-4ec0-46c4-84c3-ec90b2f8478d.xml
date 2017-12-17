@@ -5,7 +5,7 @@
 				  <gmd:characterSet>
 					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
 				  </gmd:characterSet><gmd:parentIdentifier>
-						<gmx:Anchor xlink:href="https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=10e6a0e2-a593-43d0-b915-31ec6e2d840e" xlink:title="Montado in Alentejo Natura 2000 sites - Portugal"/>
+						<gmx:Anchor xlink:href="https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=emf2gmd_10e6a0e2-a593-43d0-b915-31ec6e2d840e" xlink:title="Montado in Alentejo Natura 2000 sites - Portugal"/>
 					</gmd:parentIdentifier><gmd:hierarchyLevel>
 						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
 					</gmd:hierarchyLevel>
