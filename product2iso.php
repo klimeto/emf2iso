@@ -5,7 +5,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 $now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
-$url2 = 'http://klimeto.com/projects/2017/uba/app/lib/productjson2isoxml.php';
+$urlTrans = $_SERVER['HTTP_REFERER'] .'lib/productjson2isoxml.php';
+//print_r($_SERVER);
 //$xml = simplexml_load_file($url) or die("feed not loading");
 $json = file_get_contents($url);
 $arr = json_decode($json, true);
@@ -26,9 +27,9 @@ foreach($arr['nodes'] as $key => $value){
 	echo("<li>");
 	echo("EXTRACT FROM: ". $mdURL."<br>");
 	// get current directory
-	$file_name = __DIR__ . "/data/product2gmd_".$mdUUID.".xml";
-	$product2iso_xml_file = file_get_contents($url2 . '?url=' . $mdURL);
-	echo("TRANSFORM WITH: " . $url2 . "?url=" . $mdURL."<br>");
+	$file_name = __DIR__ . "/data/product2iso/product2gmd_".$mdUUID.".xml";
+	$product2iso_xml_file = file_get_contents($urlTrans . '?url=' . $mdURL);
+	echo("TRANSFORM WITH: " . $urlTrans . "?url=" . $mdURL."<br>");
 	file_put_contents($file_name, $product2iso_xml_file);
 	echo("LOAD TO: ".$file_name ."<br>");
 	echo("</li>");
