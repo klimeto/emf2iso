@@ -12,3 +12,4 @@ $emfXMLUrl = $_GET['url'];
 $siteEmfArray = xmlToArray(simplexml_load_file($emfXMLUrl));
 $siteEmfJSON = json_encode($siteEmfArray);
 echo $siteEmfJSON;
+?>
