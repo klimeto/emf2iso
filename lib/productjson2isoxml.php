@@ -7,23 +7,15 @@
 //error_reporting(E_ALL);
 ini_set('date.timezone','Europe/Belgrade');
 header('Content-Type: text/xml');
-if (empty($_GET['url'])){
-	$productJsonUrl = "https://data.lter-europe.net/deims/node/10038/json";
-}
-else{
-	$productJsonUrl = $_GET['url'];
-}
+$productJsonUrl = $_GET['url'];
 $cswApi = 'https://data.lter-europe.net/pycsw?';
 $getRecById = $cswApi . 'service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=';
-
 $json = json_decode(file_get_contents($productJsonUrl));
-
 if ($json){
 	$gmdXML = '<?xml version="1.0" encoding="UTF-8"?><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd">';
 	/***
 		Metadata identifier 
 		***/
-	
 	$gmlId = $json->{'nodes'}[0]->{'node'}->{'uuid'};
 	$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. $gmlId . '</gco:CharacterString></gmd:fileIdentifier>';
 	/*** 
