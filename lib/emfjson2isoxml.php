@@ -8,14 +8,17 @@
 ini_set('date.timezone','Europe/Belgrade');
 include_once 'xml2json.php';
 header('Content-Type: text/xml');
+$emfXMLUrl = $_GET['url'];
 $cswApi = 'https://data.lter-europe.net/pycsw?';
 $getRecById = $cswApi . 'service=CSW&version=3.0.0&request=GetRecordById&ElementSetName=full&outputSchema=http://www.isotc211.org/2005/gmd&outputFormat=application/json&id=';
+/*
 if (empty($_GET['url'])){
 	$emfXMLUrl = "https://data.lter-europe.net/deims/node/8611/emf";
 }
 else{
 	$emfXMLUrl = $_GET['url'];
 }
+*/
 $siteEmfArray = xmlToArray(simplexml_load_file($emfXMLUrl));
 $siteEmfJSON = json_encode($siteEmfArray);
 //echo $siteEmfJSON;
