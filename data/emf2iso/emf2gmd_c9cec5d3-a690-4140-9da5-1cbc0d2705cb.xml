@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_c9cec5d3-a690-4140-9da5-1cbc0d2705cb</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+							  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+						  </gmd:language>
+						  <gmd:characterSet>
+							  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+						  </gmd:characterSet><gmd:hierarchyLevel>
+							  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+						  </gmd:hierarchyLevel>
+						  <gmd:hierarchyLevelName>
+								<gco:CharacterString>Research site</gco:CharacterString>
+							</gmd:hierarchyLevelName><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Albertina Pimentel Lima</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>lima@inpa.gov.br</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Leandro Lacerda Giacomin</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>giacomin.leandro@gmail.com</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Amanda Frederico Mortati</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>amortati@gmail.com</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Programa de Pesquisa em Biodiversidade</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>ppbiosantarem@gmail.com</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+									<gco:CharacterString>Sistema de Informação sobre a Biodiversidade Brasileira</gco:CharacterString>
+								 </gmd:organisationName><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+							  <gco:Date>2018-01-03</gco:Date>
+						   </gmd:dateStamp><gmd:referenceSystemInfo>
+							  <gmd:MD_ReferenceSystem>
+								 <gmd:referenceSystemIdentifier>
+									<gmd:RS_Identifier>
+									   <gmd:code>
+										   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+									   </gmd:code>
+									</gmd:RS_Identifier>
+								 </gmd:referenceSystemIdentifier>
+							  </gmd:MD_ReferenceSystem>
+						   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+								 <gco:CharacterString>PELD DO OESTE DO PARÁ (POPA)</gco:CharacterString>
+							</gmd:title><gmd:date/><gmd:identifier>
+							  <gmd:MD_Identifier>
+								 <gmd:code>
+									<gco:CharacterString>https://data.lter-europe.net/deims/c9cec5d3-a690-4140-9da5-1cbc0d2705cb</gco:CharacterString>
+								 </gmd:code>
+							  </gmd:MD_Identifier>
+						   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Na região de Santarém, próximo à vila de Alter do Chão (comunidade de São Pedro e áreas próximas existe uma área única de vegetação de savana (enclave de Savana Arborizada e Savana Parque, segundo a classificação do IBGE 2012). Esse enclave de savana faz parte de uma vegetação única, pois está isolada há pelo menos 2000 anos (Sanaiotti et. al, 2002). Dentro dessa matriz, existem fragmentos florestais isolados, mas que são semelhantes às florestas das terras baixas das margens do rio Tapajós, também estabelecidos sobre areias quartzosas. A vegetação de savana ocorrente no município de Santarém (Savanas Florestadas e Arborizadas) é floristicamente mais relacionada com às fitofisionomias de Cerrado do Brasil central que as formações savânicas (Savanas Arborizadas, Savanas Parque e Gramíneo-lenhosa) ocorrentes no estado de Roraima e na Venezuela (Ratter et al. 2002). Inseridos nessas manchas, existem fragmentos florestais com mais de 200 anos de isolamento (Bates, 1892). Todas estas áreas citadas fazem parte da APA municipal de Alter do Chão. Nessa região, foram implantadas parcelas permanentes, sendo 35 destas em áreas de savana e 26 em áreas de floresta sobre areia. Ambos os conjuntos de parcelas somam 4,2 hectares cada. Nessas parcelas foi iniciado o monitoramento de várias espécies, e também conduzidos estudos de curto prazo, principalmente inventários de espécies de alguns grupos da fauna (coleópteros, formigas, lagartos, anuros, pequenos mamíferos, aves etc.). Algumas das questões envolvendo o efeito do fogo sobre a biodiversidade nas savanas foram respondidas (Farias, Lima and Magnusson, 2004; Cintra and Sanaiotti, 2005; Vasconcelos et al., 2008; Fadini and Lima, 2012, entre outros). Apenas um estudo de longo prazo envolvendo a espécie de roedor Nectomys lasiurus (Muridae: Rodentia) foi conduzido até o momento (Magnusson, Layme and Lima, 2010), esse estudo indicou que as flutuações na população estão associadas ao índice de Oscilação Sul e à extensão regional do fogo, mas não diretamente com chuvas locais. Mais ao sul desta região está localizada a FLONA do Tapajós, que compreende cerca de 500.000 hectares, num mosaico de florestas ombrófilas de fisionomias distintas, distribuídas ao longo de uma sequência topográfica típica de florestas amazônicas de terra firme: platôs (áreas localizadas em maiores cotas altitudinais da sequência topográfica), vertentes (zonas de transição) e baixios (menores cotas de altitude, geralmente integradas à rede de drenagem) (MMA, 2004). Estudos de monitoramento de espécies arbóreas, principalmente aquelas de interesse comercial, são conduzidos na FLONA desde 1975 por pesquisadores da Embrapa Amazônia Oriental, sendo estes disseminados em boletins da empresa (p.ex.: Carvalho 1981). Mais tarde, este monitoramento envolveu pesquisadores que hoje compõem o corpo docente da UFOPA, e que mantém unidades amostrais na FLONA (p. ex. Oliveira et al. 2005). Estes estudos concentram-se em espécies de interesse madeireiro e não contemplam a variação ambiental observada na FLONA pois foram essencialmente desenvolvidos em áreas de platô, sob latossolos. A utilidade do monitoramento é também limitada, uma vez que não foram produzidos materiais testemunho de todas as espécies, além do que o desenho experimental não foi replicado. Entre 2010 e 2012, foram implementados cinco módulos do tipo PPBio/RAPELD na FLONA. Os módulos estabelecidos têm forma retangular, com 5 e 1 km de lado, respectivamente. Ao longo dos lados mais longos são estabelecidas cinco parcelas num mesmo sentido (sul-norte ou oeste-leste, de acordo com a disposição do módulo), seguindo curvas de nível, perfazendo o total de 10 parcelas por módulo (cinco em cada um dos lados mais longos). Os lados do módulo são usados como trilhas de deslocamento, e as parcelas contam com largura variável (1 a 40 m), dependendo do critério de inclusão, sendo seu maior eixo de 250 metros. O inventário das espécies de plantas arbóreas e arbustivo/herbáceas não pôde ser conduzido até o presente momento devido a carência de recursos para execução dos protocolos de amostragem. Para o proposito desse PELD, iniciaremos utilizando os módulos localizados nas proximidades dos km 67 e 134 da BR-163. Em relação à fauna, dados sobre a distribuição da ictiofauna de pequenos igarapés de até terceira ordem, por exemplo, colocam a FLONA do Tapajós entre os maiores recordes amazônicos para registros de número de espécies de peixes de pequeno porte por trecho de amostragem pontual a partir do protocolo de coleta PPBio/RAPELD (Silva-Oliveira et al. 2015). Neste estudo, a drenagem presente na área da FLONA foi dividida em 3 sub-bacias para a distribuição das parcelas aquáticas, totalizando 22 unidades de amostragem. A maioria destas parcelas está localizada fora dos módulos PPBio pré-existentes na FLONA, pois os módulos estão localizados em áreas de platô ou com drenagem escassa, e, portanto, carecem de dados estruturantes geralmente levantados nos sítios PPBio como a caracterização: do solo, da estrutura da vegetação e da comunidade de herbáceas. Como tais parcelas estão localizadas em áreas de baixio, são uma excelente oportunidade para integrar este compartimento florestal ao monitoramento da biodiversidade na região. Para isto, propomos a implementação de mais dois módulos, que se sobreponham à sub-bacia da FLONA do Tapajós, onde existe grande influência e atuação comunitária, localizada à margem direita do rio Tapajós entre as bacias de drenagem do igarapé Maguari e a do igarapé Cachoeirinha. Cada módulo deverá compreender 10 parcelas de 1 ha, totalizando 20 parcelas (sendo cinco delas ripárias), e uma área de 20 ha para os estudos no componente florestal ombrófilo de terras baixas do PELD aqui proposto.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Albertina Pimentel Lima</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>lima@inpa.gov.br</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Leandro Lacerda Giacomin</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>giacomin.leandro@gmail.com</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Amanda Frederico Mortati</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>amortati@gmail.com</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Programa de Pesquisa em Biodiversidade</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>ppbiosantarem@gmail.com</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+								<gco:CharacterString>Sistema de Informação sobre a Biodiversidade Brasileira</gco:CharacterString>
+							 </gmd:organisationName><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species richness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abiotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+								  <gco:CharacterString>Terrestrial</gco:CharacterString>
+							   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+							 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+							</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				 <gmd:keyword>
+					<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+				 </gmd:keyword>
+				 <gmd:thesaurusName>
+				 <gmd:CI_Citation>
+					 <gmd:title>
+						<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+					 </gmd:title>
+					 <gmd:date>
+						 <gmd:CI_Date>
+							 <gmd:date>
+								<gco:Date>2008-06-01</gco:Date>
+							 </gmd:date>
+							 <gmd:dateType>
+								 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							 </gmd:dateType>
+						 </gmd:CI_Date>
+					 </gmd:date>
+				 </gmd:CI_Citation>
+				 </gmd:thesaurusName>
+			</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>-54.905555600000</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>-54.905555600000</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>-2.531388900000</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>-2.531388900000</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent><gmd:extent>
+								<gmd:EX_Extent>
+									<gmd:temporalElement>
+										<gmd:EX_TemporalExtent>
+											<gmd:extent>
+												<gml:TimePeriod gml:id="timePeriod_c9cec5d3-a690-4140-9da5-1cbc0d2705cb">
+													<gml:beginPosition>1970-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c9cec5d3-a690-4140-9da5-1cbc0d2705cb'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c9cec5d3-a690-4140-9da5-1cbc0d2705cb'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c9cec5d3-a690-4140-9da5-1cbc0d2705cb'&amp;outputFormat=application%2Fjson</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/deims/node/229</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>Brazil (LTER Program)</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+						 <gmd:DQ_ConformanceResult>
+							 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+								 <gmd:CI_Citation>
+									 <gmd:title>
+									 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									 </gmd:title>
+									 <gmd:date>
+										 <gmd:CI_Date>
+											 <gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											 </gmd:date>
+											 <gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											 </gmd:dateType>
+										 </gmd:CI_Date>
+									 </gmd:date>
+								 </gmd:CI_Citation>
+							 </gmd:specification>
+							 <gmd:explanation>
+								<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:explanation>
+							 <gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							 </gmd:pass>
+						 </gmd:DQ_ConformanceResult>
+						</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+						<gmd:LI_Lineage>
+						   <gmd:statement>
+							  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+						   </gmd:statement>
+						</gmd:LI_Lineage>
+					 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

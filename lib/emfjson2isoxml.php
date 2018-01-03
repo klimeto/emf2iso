@@ -2,6 +2,7 @@
 /*
 ** PHP SCRIPT TO GENERATE JSON ENCODING FROM XML ENVIRONMENTAL MONITORING FACILTY DATASET
 */
+error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 function emfXml2isoXml($emfXMLUrl){
 	include_once 'xml2json.php';
 	//header('Content-Type: text/xml');

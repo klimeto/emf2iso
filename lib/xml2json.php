@@ -1,5 +1,4 @@
 <?php
-
 function xmlToArray($xml, $options = array()) {
 	try{
 		if ($xml !== false){

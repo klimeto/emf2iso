@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_c74174af-63ea-4783-9748-cabf980cdc22</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+							  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+						  </gmd:language>
+						  <gmd:characterSet>
+							  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+						  </gmd:characterSet><gmd:hierarchyLevel>
+							  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+						  </gmd:hierarchyLevel>
+						  <gmd:hierarchyLevelName>
+								<gco:CharacterString>Research site</gco:CharacterString>
+							</gmd:hierarchyLevelName><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Jonathan Walsh</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>walshjcaryinstitute@gmail.com</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+									<gco:CharacterString>National Science Foundation</gco:CharacterString>
+								 </gmd:organisationName><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+							  <gco:Date>2018-01-03</gco:Date>
+						   </gmd:dateStamp><gmd:referenceSystemInfo>
+							  <gmd:MD_ReferenceSystem>
+								 <gmd:referenceSystemIdentifier>
+									<gmd:RS_Identifier>
+									   <gmd:code>
+										   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+									   </gmd:code>
+									</gmd:RS_Identifier>
+								 </gmd:referenceSystemIdentifier>
+							  </gmd:MD_ReferenceSystem>
+						   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+								 <gco:CharacterString>Baltimore Ecosystem Study</gco:CharacterString>
+							</gmd:title><gmd:date/><gmd:identifier>
+							  <gmd:MD_Identifier>
+								 <gmd:code>
+									<gco:CharacterString>https://data.lter-europe.net/deims/c74174af-63ea-4783-9748-cabf980cdc22</gco:CharacterString>
+								 </gmd:code>
+							  </gmd:MD_Identifier>
+						   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The Gwynns Falls watershed (39.724847 N, -77.314183 W; 38.708367 N, -76.012008 W and approximately 17,150 hectares: site map) lies in Baltimore City and Baltimore County, Maryland and drains into the Chesapeake Bay. It contains 16 sub-watersheds, which range in size from 465 hectares to 1,855 hectares. The watershed’s resident population in 1990 was approximately 356,000 people. Total population and population density varied between sub-watersheds (from 18,360 to 109,187 people, and 2.5 persons / hectare to 19.8 persons / hectare in 1990) with the lower sub-watersheds of the Gwynns Falls being the most densely populated. During the last 40 years (1950 - 1990), total population and population density changed significantly in the Baltimore region because of movement of residents from the City and into the County (Baltimore City’s total population declined from a high of approximately 1.4 to 0.75 million). In the case of the Gwynns Falls watershed, total resident population declined in from 406,000 in 1970 to 356,000 in 1990; yet the percentage of urban areas increased from 66.3% in 1973 to 74.3% in 1990. Land use varies in the Gwynns Falls watershed: the lower sub-watersheds contained predominantly residential / commercial / industrial areas (90.4%) and the upper sub-watersheds contained primarily agricultural / forested / open space areas (90.8%) in 1990. The socioeconomic characteristics of residents in the watershed vary as well. For instance, the averaged median family income in 1990 was $18,598 in the lower sub-watersheds and $49,133 in the upper sub-watersheds.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Jonathan Walsh</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>walshjcaryinstitute@gmail.com</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+								<gco:CharacterString>National Science Foundation</gco:CharacterString>
+							 </gmd:organisationName><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+							 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+							</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				 <gmd:keyword>
+					<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+				 </gmd:keyword>
+				 <gmd:thesaurusName>
+				 <gmd:CI_Citation>
+					 <gmd:title>
+						<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+					 </gmd:title>
+					 <gmd:date>
+						 <gmd:CI_Date>
+							 <gmd:date>
+								<gco:Date>2008-06-01</gco:Date>
+							 </gmd:date>
+							 <gmd:dateType>
+								 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							 </gmd:dateType>
+						 </gmd:CI_Date>
+					 </gmd:date>
+				 </gmd:CI_Citation>
+				 </gmd:thesaurusName>
+			</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>-76.845245361328</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>-76.389312744141</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>39.104915102049</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>39.457826664564</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent><gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>-76.663096000000</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>-76.663096000000</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>39.216607000000</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>39.216607000000</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent><gmd:extent>
+								<gmd:EX_Extent>
+									<gmd:temporalElement>
+										<gmd:EX_TemporalExtent>
+											<gmd:extent>
+												<gml:TimePeriod gml:id="timePeriod_c74174af-63ea-4783-9748-cabf980cdc22">
+													<gml:beginPosition>-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+						<gmd:MD_DigitalTransferOptions>
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://data.lter-europe.net/deims/site/c74174af-63ea-4783-9748-cabf980cdc22</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:transferOptions><gmd:transferOptions>
+						<gmd:MD_DigitalTransferOptions>
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://bes.lternet.edu/</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c74174af-63ea-4783-9748-cabf980cdc22'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c74174af-63ea-4783-9748-cabf980cdc22'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='c74174af-63ea-4783-9748-cabf980cdc22'&amp;outputFormat=application%2Fjson</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/deims/node/232</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>United States (US LTER)</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+						 <gmd:DQ_ConformanceResult>
+							 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+								 <gmd:CI_Citation>
+									 <gmd:title>
+									 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									 </gmd:title>
+									 <gmd:date>
+										 <gmd:CI_Date>
+											 <gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											 </gmd:date>
+											 <gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											 </gmd:dateType>
+										 </gmd:CI_Date>
+									 </gmd:date>
+								 </gmd:CI_Citation>
+							 </gmd:specification>
+							 <gmd:explanation>
+								<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:explanation>
+							 <gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							 </gmd:pass>
+						 </gmd:DQ_ConformanceResult>
+						</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+						<gmd:LI_Lineage>
+						   <gmd:statement>
+							  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+						   </gmd:statement>
+						</gmd:LI_Lineage>
+					 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_f1f3bc3b-ae91-4730-aa74-529ae097a0e1</gco:CharacterString></gmd:fileIdentifier><gmd:language>
+							  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+						  </gmd:language>
+						  <gmd:characterSet>
+							  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+						  </gmd:characterSet><gmd:hierarchyLevel>
+							  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+						  </gmd:hierarchyLevel>
+						  <gmd:hierarchyLevelName>
+								<gco:CharacterString>Research site</gco:CharacterString>
+							</gmd:hierarchyLevelName><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Lina Dikšaitė</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>lina.diksaite@nerija.lt</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+									<gco:CharacterString>Administration of the Curonian Spit National Park</gco:CharacterString>
+								 </gmd:organisationName><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:organisationName>
+									<gco:CharacterString>Administration of the Curonian Spit National Park</gco:CharacterString>
+								 </gmd:organisationName><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Artūras Razinkovas-Baziukas</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>arturas.razinkovas-baziukas@ku.lt</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Rasa Morkūnė</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>rasa.morkune@apc.ku.lt</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString/>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+							  <gco:Date>2018-01-03</gco:Date>
+						   </gmd:dateStamp><gmd:referenceSystemInfo>
+							  <gmd:MD_ReferenceSystem>
+								 <gmd:referenceSystemIdentifier>
+									<gmd:RS_Identifier>
+									   <gmd:code>
+										   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+									   </gmd:code>
+									</gmd:RS_Identifier>
+								 </gmd:referenceSystemIdentifier>
+							  </gmd:MD_ReferenceSystem>
+						   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+								 <gco:CharacterString>Curonian Spit National Park</gco:CharacterString>
+							</gmd:title><gmd:date/><gmd:identifier>
+							  <gmd:MD_Identifier>
+								 <gmd:code>
+									<gco:CharacterString>https://data.lter-europe.net/deims/f1f3bc3b-ae91-4730-aa74-529ae097a0e1</gco:CharacterString>
+								 </gmd:code>
+							  </gmd:MD_Identifier>
+						   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Kuršių nerija, the Curonian Spit, is a narrow strip of sand stretching 98 kilometres along the Baltic Sea in western Lithuania. The Curonian Spit is a unique and vulnerable, sandy and wooded cultural landscape on a coastal spit which features small Curonian lagoon settlements. The Spit was formed by the sea, wind and human activity and continues to be shaped by them. Rich with an abundance of unique natural and cultural features, it has retained its social and cultural importance. Local communities adapted to the changes in the natural environment in order to survive. This interaction between humans and nature shaped the Curonian Spit cultural landscape. The history of the Curonian Spit is dramatic: 5,000 years ago, a narrow peninsula (98 km in length and 0.4-3.8 km in width), the Great Dune Ridge separating the Baltic Sea from the Curonian Lagoon, was formed on moraine islands from sand transported by currents, and later covered by forest. After intensive logging in the 17th and 18th centuries, the dunes began moving towards the Curonian Lagoon, burying the oldest settlements. At the turn of the 19th century, it became evident that human habitation would no longer be possible in the area without immediate action. Dune stabilisation work began, and has continued ever since. By the end of the 19th century, a protective dune ridge was formed along the seashore to prevent inland sand migration, and the Great Dune Ridge was reinforced using trees and brushwood hedges. Currently, forests and sands dominate the Curonian Spit. Urbanised areas (eight small settlements) cover just about 6% of the land. One part of the 50 kilometres long Curonian Spit belongs to the Republic of Lithuania. The other to the Russian Federation. With its still drifting sand dunes, the sea side forests cherishing the hundred-years-old pine trees, dunes covered by a mountain pines’ carpet planted by hand, white sand beaches and the old fishermen villages.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Lina Dikšaitė</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>lina.diksaite@nerija.lt</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+								<gco:CharacterString>Administration of the Curonian Spit National Park</gco:CharacterString>
+							 </gmd:organisationName><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:organisationName>
+								<gco:CharacterString>Administration of the Curonian Spit National Park</gco:CharacterString>
+							 </gmd:organisationName><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Artūras Razinkovas-Baziukas</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>arturas.razinkovas-baziukas@ku.lt</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Rasa Morkūnė</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>rasa.morkune@apc.ku.lt</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString/>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diversity measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>floristic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>changes in population size over time</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species list</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>faunistic diversity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>trophic structure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of benthic invertebrates</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>insects (arachnids)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species group abundance</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species presence measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>insects (arachnids)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>presence of birds</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ecosystem structures</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biotic environment</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>disturbance property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>fire severity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hurricane damage</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>global change</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biological measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree height</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree age</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree diameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>tree distribution</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>duration of sunshine</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>daylight</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>diffuse solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>net solar radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>reflected radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total radiation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dew point</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>CO2 concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>frosting</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air water vapour concentration</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>air specific humidity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>throughfall</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow water equivalence</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>precipitation intensity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>rain</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>snow thickness</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmosphere stability parameter</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>atmospheric pressure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>weather</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind direction (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>wind speed (mean and gust)</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>landscape measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>elevation</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>topography</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>chlorophyll content of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>secchi depth</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>hydrological property</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>runoff</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>soil water content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water salinity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water level</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water quality</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString/></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+								  <gco:CharacterString>Coastal</gco:CharacterString>
+							   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+							 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+							</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				 <gmd:keyword>
+					<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+				 </gmd:keyword>
+				 <gmd:thesaurusName>
+				 <gmd:CI_Citation>
+					 <gmd:title>
+						<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+					 </gmd:title>
+					 <gmd:date>
+						 <gmd:CI_Date>
+							 <gmd:date>
+								<gco:Date>2008-06-01</gco:Date>
+							 </gmd:date>
+							 <gmd:dateType>
+								 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							 </gmd:dateType>
+						 </gmd:CI_Date>
+					 </gmd:date>
+				 </gmd:CI_Citation>
+				 </gmd:thesaurusName>
+			</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>21.102075000000</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>21.102075000000</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>55.518591000000</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>55.518591000000</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent><gmd:extent>
+								<gmd:EX_Extent>
+									<gmd:temporalElement>
+										<gmd:EX_TemporalExtent>
+											<gmd:extent>
+												<gml:TimePeriod gml:id="timePeriod_f1f3bc3b-ae91-4730-aa74-529ae097a0e1">
+													<gml:beginPosition>1991-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+						<gmd:MD_DigitalTransferOptions>
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://data.lter-europe.net/deims/site/f1f3bc3b-ae91-4730-aa74-529ae097a0e1</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:transferOptions><gmd:transferOptions>
+						<gmd:MD_DigitalTransferOptions>
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.nerija.am.lt</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f1f3bc3b-ae91-4730-aa74-529ae097a0e1'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f1f3bc3b-ae91-4730-aa74-529ae097a0e1'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='f1f3bc3b-ae91-4730-aa74-529ae097a0e1'&amp;outputFormat=application%2Fjson</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/deims/node/224</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>Lithuania (LTER-Lithuania)</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+						 <gmd:DQ_ConformanceResult>
+							 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+								 <gmd:CI_Citation>
+									 <gmd:title>
+									 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									 </gmd:title>
+									 <gmd:date>
+										 <gmd:CI_Date>
+											 <gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											 </gmd:date>
+											 <gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											 </gmd:dateType>
+										 </gmd:CI_Date>
+									 </gmd:date>
+								 </gmd:CI_Citation>
+							 </gmd:specification>
+							 <gmd:explanation>
+								<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:explanation>
+							 <gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							 </gmd:pass>
+						 </gmd:DQ_ConformanceResult>
+						</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+						<gmd:LI_Lineage>
+						   <gmd:statement>
+							  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+						   </gmd:statement>
+						</gmd:LI_Lineage>
+					 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

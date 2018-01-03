@@ -1,35 +1,27 @@
 <?php
-//ini_set('implicit_flush',1);
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
 include_once 'lib/emfjson2isoxml.php';
-//error_reporting(E_ALL);
-$now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/emf/harvest_list';
-//$urlTrans = $_SERVER['HTTP_REFERER'] . 'lib/emfjson2isoxml.php';
 $xml = simplexml_load_file($url) or die("feed not loading");
 $arr = json_decode(json_encode($xml), true);
 $zwischen_var = $arr["site"];
-echo("<h2>EMF2ISO START ON ".date("h:i:s")."</h2>");
-echo("<p>RECORDS TO BE PROCESSED: " . count($zwischen_var));
-echo("<ol>");
+$start = microtime(true);
+echo("EMF2ISO START ON " . $start );
+echo "\r\n";
+echo("RECORDS TO BE PROCESSED: " . count($arr['site']));
+echo "\r\n";
 for ($x = 0; $x < count($zwischen_var); $x++) {
-	echo("<li>");
     $temp_record = $zwischen_var[$x];
-	echo("EXTRACT FROM: ". $temp_record["path"]."<br>");
-	// get current directory
+	echo("EXTRACT FROM: ". $temp_record["path"]."\r\n");
 	$file_name = __DIR__ . "/data/emf2iso/emf2gmd_".$temp_record["UUID"].".xml";
-	//$emf2iso_xml_file = file_get_contents($urlTrans . '?url=' . $temp_record["path"]);
 	$emf2iso_xml_file = emfXml2isoXml($temp_record["path"]);
-	//$emf2iso_xml_file  = emfXml2isoXml("https://data.lter-europe.net/deims/node/8079/emf");
-	//echo("TRANSFORM WITH: " . $urlTrans . "?url=" . $temp_record["path"]."<br>");
 	file_put_contents($file_name, $emf2iso_xml_file);
-	echo("LOAD TO: ".$file_name ."<br>");
-	echo("</li>");
-	ob_flush();
-    flush();
-    sleep(2);
+	echo("LOAD TO: ".$file_name ."\r\n");
 }
-echo("</ol>");
-echo("<h2>EMF2ISO END ON ".date("h:i:s")."</h2>");
+$end = microtime(true);
+echo "\r\n";
+echo "\r\n";
+echo("EMF2ISO END ON ".$end);
+echo "\r\n";
+echo("PROCESS DURATION: " . round(($end - $start),2) . "s");
+echo "\r\n";
 ?>

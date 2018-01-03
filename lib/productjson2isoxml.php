@@ -4,7 +4,7 @@
 */
 function productJson2isoXml($productJsonUrl){
 	ini_set('date.timezone','Europe/Belgrade');
-	header('Content-Type: text/xml');
+	//header('Content-Type: text/xml');
 	//$productJsonUrl = $_GET['url'];
 	$cswApi = 'https://data.lter-europe.net/pycsw?';
 	$getRecById = $cswApi . 'service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=';

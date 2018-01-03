@@ -1,23 +1,13 @@
 <?php
-ini_set('implicit_flush',1);
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 include_once 'lib/productjson2isoxml.php';
-$now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
-//$urlTrans = $_SERVER['HTTP_REFERER'] .'lib/productjson2isoxml.php';
-//print_r($_SERVER);
-//$xml = simplexml_load_file($url) or die("feed not loading");
 $json = file_get_contents($url);
 $arr = json_decode($json, true);
-//print_r($arr['nodes']);
-//$zwischen_var = $arr['nodes']['data_product'];
-echo("<h2>PRODUCT2ISO START ON ".date("h:i:s")."</h2>");
-echo("<p>RECORDS TO BE PROCESSED: " . count($arr['nodes']) . "</p>");
-echo("<ol>");
-//count($zwischen_var)
-
+$start = microtime(true);
+echo("PRODUCT2ISO START ON " . $start );
+echo "\r\n";
+echo("RECORDS TO BE PROCESSED: " . count($arr['nodes']));
+echo "\r\n";
 foreach($arr['nodes'] as $key => $value){
 	$mdURL = $value['data_product']['url'];
 	$mdTitle = $value['data_product']['title'];
@@ -25,19 +15,19 @@ foreach($arr['nodes'] as $key => $value){
 	$getJSON = file_get_contents($mdURL);
 	$mdJSON = json_decode($getJSON);
 	$mdUUID = $mdJSON->{'nodes'}[0]->{'node'}->{'uuid'};
-	echo("<li>");
-	echo("EXTRACT FROM: ". $mdURL."<br>");
-	// get current directory
+	echo("EXTRACT FROM: ". $mdURL);
+	echo "\r\n";
 	$file_name = __DIR__ . "/data/product2iso/product2gmd_".$mdUUID.".xml";
 	$product2iso_xml_file = productJson2isoXml($mdURL);
 	file_put_contents($file_name, $product2iso_xml_file);
-	echo("LOAD TO: ".$file_name ."<br>");
-	echo("</li>");
-	ob_flush();
-	flush();
-	sleep(2);
+	echo("LOAD TO: ".$file_name);
+	echo "\r\n";
 }
-
-echo("</ol>");
-echo("<h2>PRODUCT2ISO END ON ".date("h:i:s")."</h2>");
+$end = microtime(true);
+echo "\r\n";
+echo "\r\n";
+echo("PRODUCT2ISO END ON ".$end);
+echo "\r\n";
+echo("PROCESS DURATION: " . round(($end - $start),2) . "s");
+echo "\r\n";
 ?>
