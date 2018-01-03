@@ -3,9 +3,10 @@ ini_set('implicit_flush',1);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+include_once 'lib/productjson2isoxml.php';
 $now = date("Y-m-dTh:m:s");
 $url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
-$urlTrans = $_SERVER['HTTP_REFERER'] .'lib/productjson2isoxml.php';
+//$urlTrans = $_SERVER['HTTP_REFERER'] .'lib/productjson2isoxml.php';
 //print_r($_SERVER);
 //$xml = simplexml_load_file($url) or die("feed not loading");
 $json = file_get_contents($url);
@@ -28,8 +29,7 @@ foreach($arr['nodes'] as $key => $value){
 	echo("EXTRACT FROM: ". $mdURL."<br>");
 	// get current directory
 	$file_name = __DIR__ . "/data/product2iso/product2gmd_".$mdUUID.".xml";
-	$product2iso_xml_file = file_get_contents($urlTrans . '?url=' . $mdURL);
-	echo("TRANSFORM WITH: " . $urlTrans . "?url=" . $mdURL."<br>");
+	$product2iso_xml_file = productJson2isoXml($mdURL);
 	file_put_contents($file_name, $product2iso_xml_file);
 	echo("LOAD TO: ".$file_name ."<br>");
 	echo("</li>");

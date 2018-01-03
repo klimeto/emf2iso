@@ -1,110 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>0d50693b-3d5e-4513-89fb-98187dbc38cb</gco:CharacterString></gmd:fileIdentifier><gmd:language>
-					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
-				  </gmd:language>
-				  <gmd:characterSet>
-					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
-				  </gmd:characterSet><gmd:parentIdentifier>
-						<gmx:Anchor xlink:href="https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=emf2gmd_e33c983a-19ad-4f40-a6fd-1210ee0b3a4b" xlink:title="Gran Paradiso National Park - Italy"/>
-					</gmd:parentIdentifier><gmd:hierarchyLevel>
-						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
-					</gmd:hierarchyLevel>
-					<gmd:hierarchyLevelName>
-						<gco:CharacterString>Data product</gco:CharacterString>
-					</gmd:hierarchyLevelName><gmd:contact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString>Antonello Provenzale, Ilaria Baneschi</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:contact><gmd:dateStamp>
-					  <gco:Date>2018-01-02</gco:Date>
-				   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
-						 <gco:CharacterString>Water chemistry and ecological dynamics</gco:CharacterString>
-					</gmd:title>
-					<gmd:date/><gmd:identifier>
-					  <gmd:MD_Identifier>
-						 <gmd:code>
-							<gco:CharacterString>https://data.lter-europe.net/deims/0d50693b-3d5e-4513-89fb-98187dbc38cb</gco:CharacterString>
-						 </gmd:code>
-					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The major threats to the biodiversity of mountain lakes are growth in tourism, rapid urbanization, pollution, land use intensification, water uptake, progressive eutrophication, introduction of alien species and climate change, with variable weight in different Protected Areas. Typical phenological responses to changing conditions include shifts in timing, magnitude and duration of phytoplankton blooms, as well as altered community composition, nutrient load and pollutants.
+						  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+					  </gmd:language>
+					  <gmd:characterSet>
+						  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+					  </gmd:characterSet><gmd:parentIdentifier>
+							<gmx:Anchor xlink:href="https://data.lter-europe.net/pycsw?service=CSW&amp;amp;version=3.0.0&amp;amp;request=GetRecordById&amp;amp;ElementSetName=full&amp;amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;amp;outputFormat=application/json&amp;amp;id=emf2gmd_e33c983a-19ad-4f40-a6fd-1210ee0b3a4b" xlink:title="Gran Paradiso National Park - Italy"/>
+						</gmd:parentIdentifier><gmd:hierarchyLevel>
+							<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+						</gmd:hierarchyLevel>
+						<gmd:hierarchyLevelName>
+							<gco:CharacterString>Data product</gco:CharacterString>
+						</gmd:hierarchyLevelName><gmd:contact>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Antonello Provenzale, Ilaria Baneschi</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+				   </gmd:contact><gmd:dateStamp>
+						  <gco:Date>2018-01-03</gco:Date>
+					   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+							 <gco:CharacterString>Water chemistry and ecological dynamics</gco:CharacterString>
+						</gmd:title>
+						<gmd:date/><gmd:identifier>
+						  <gmd:MD_Identifier>
+							 <gmd:code>
+								<gco:CharacterString>https://data.lter-europe.net/deims/0d50693b-3d5e-4513-89fb-98187dbc38cb</gco:CharacterString>
+							 </gmd:code>
+						  </gmd:MD_Identifier>
+					   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>The major threats to the biodiversity of mountain lakes are growth in tourism, rapid urbanization, pollution, land use intensification, water uptake, progressive eutrophication, introduction of alien species and climate change, with variable weight in different Protected Areas. Typical phenological responses to changing conditions include shifts in timing, magnitude and duration of phytoplankton blooms, as well as altered community composition, nutrient load and pollutants.
 Waters samples for physical and chemical parameters (major and minor ions, organic carbon, nitrogen, phosphorous, pH, conductivity) and population dynamics (phytoplankton, zooplankton) have been collected since 2008 from alpine lakes, following a depth-integrated sampling. Measurements are carried out two times for year.</gco:CharacterString></gmd:abstract><gmd:pointOfContact>
-				  <gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-					 <gco:CharacterString>Antonello Provenzale, Ilaria Baneschi</gco:CharacterString>
-					</gmd:individualName>
-					 <gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role>
-				  </gmd:CI_ResponsibleParty>
-			   </gmd:pointOfContact><gmd:resourceMaintenance>
-						<gmd:MD_MaintenanceInformation>
-							<gmd:maintenanceAndUpdateFrequency>
-								<gmd:MD_MaintenanceFrequencyCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy/temporal_resolution_data_products_" codeListValue="single measurement, bi-annual">single measurement, bi-annual</gmd:MD_MaintenanceFrequencyCode>
-							</gmd:maintenanceAndUpdateFrequency>
-						</gmd:MD_MaintenanceInformation>
-					</gmd:resourceMaintenance><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
-					 <gco:CharacterString>Standing water (Lakes)</gco:CharacterString>
-					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biomass of phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biomass of zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved oxygen</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total nitrogen</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Alpine lakes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>high mountain lake</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water chemistry</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>food webs</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anions</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>cations</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrate</gco:CharacterString></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
-					 <gco:CharacterString>Digital data</gco:CharacterString>
-					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
-					 <gco:CharacterString>Ecopotential project</gco:CharacterString>
-					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
-		<gmd:MD_Keywords>
-		 <gmd:keyword>
-			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
-		 </gmd:keyword>
-		 <gmd:thesaurusName>
-		 <gmd:CI_Citation>
-			 <gmd:title>
-				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
-			 </gmd:title>
-			 <gmd:date>
-				 <gmd:CI_Date>
-					 <gmd:date>
-						<gco:Date>2008-06-01</gco:Date>
-					 </gmd:date>
-					 <gmd:dateType>
-						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
-					 </gmd:dateType>
-				 </gmd:CI_Date>
-			 </gmd:date>
-		 </gmd:CI_Citation>
-		 </gmd:thesaurusName>
-	</gmd:MD_Keywords>
-	</gmd:descriptiveKeywords><gmd:spatialRepresentationType>
-							<gmd:MD_SpatialRepresentationTypeCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy_manager/voc/spatial_resolution_data_products_" codeListValue="vertical profile">vertical profile</gmd:MD_SpatialRepresentationTypeCode>
-						</gmd:spatialRepresentationType><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
-						<gmd:EX_Extent>
-							<gmd:temporalElement>
-								<gmd:EX_TemporalExtent>
-									<gmd:extent>
-										<gml:TimePeriod gml:id="deims_data_product_0d50693b-3d5e-4513-89fb-98187dbc38cb">
-											<gml:beginPosition>2008-07-01</gml:beginPosition>
-											<gml:endPosition>2017-09-30</gml:endPosition>
-										</gml:TimePeriod>
-									</gmd:extent>
-								</gmd:EX_TemporalExtent>
-							</gmd:temporalElement>
-						</gmd:EX_Extent>
-					</gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
-                <gmd:MD_DigitalTransferOptions>
-                    <gmd:onLine>
-                        <gmd:CI_OnlineResource>
-                            <gmd:linkage>
-                                <gmd:URL>https://data.lter-europe.net/deims/activity/0d50693b-3d5e-4513-89fb-98187dbc38cb</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onLine>
-                </gmd:MD_DigitalTransferOptions>
-            </gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>
-					<gmd:LI_Lineage>
-					   <gmd:statement>
-						  <gco:CharacterString>Data product is based on requirements defined by research projects (e.g. EcoPotential) as well as target stakeholder groups (e.g. LTER) in order to allow a summarised description of a series of data.</gco:CharacterString>
-					   </gmd:statement>
-					</gmd:LI_Lineage>
-				 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>
+					  <gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+						 <gco:CharacterString>Antonello Provenzale, Ilaria Baneschi</gco:CharacterString>
+						</gmd:individualName>
+						 <gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						 </gmd:role>
+					  </gmd:CI_ResponsibleParty>
+				   </gmd:pointOfContact><gmd:resourceMaintenance>
+							<gmd:MD_MaintenanceInformation>
+								<gmd:maintenanceAndUpdateFrequency>
+									<gmd:MD_MaintenanceFrequencyCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy/temporal_resolution_data_products_" codeListValue="single measurement, bi-annual">single measurement, bi-annual</gmd:MD_MaintenanceFrequencyCode>
+								</gmd:maintenanceAndUpdateFrequency>
+							</gmd:MD_MaintenanceInformation>
+						</gmd:resourceMaintenance><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						 <gco:CharacterString>Standing water (Lakes)</gco:CharacterString>
+						</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword><gco:CharacterString>ecosystem measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>ammonium nitrogen content</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>population and community properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>community composition</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>species abundance measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>abundance of zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biomass of phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>biomass of zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water measure</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>acidity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>alkalinity of water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>specific conductivity</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved organic carbon in water</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>dissolved oxygen</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total nitrogen</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total organic carbon</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>total phosphorus</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>lake temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>Alpine lakes</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>high mountain lake</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phenology</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water temperature</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water properties</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>water chemistry</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>phytoplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>zooplankton</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>food webs</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>anions</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>cations</gco:CharacterString></gmd:keyword><gmd:keyword><gco:CharacterString>nitrate</gco:CharacterString></gmd:keyword><gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						 <gco:CharacterString>Digital data</gco:CharacterString>
+						</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+						 <gco:CharacterString>Ecopotential project</gco:CharacterString>
+						</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+			<gmd:MD_Keywords>
+			 <gmd:keyword>
+				<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+			 </gmd:keyword>
+			 <gmd:thesaurusName>
+			 <gmd:CI_Citation>
+				 <gmd:title>
+					<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+				 </gmd:title>
+				 <gmd:date>
+					 <gmd:CI_Date>
+						 <gmd:date>
+							<gco:Date>2008-06-01</gco:Date>
+						 </gmd:date>
+						 <gmd:dateType>
+							 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+						 </gmd:dateType>
+					 </gmd:CI_Date>
+				 </gmd:date>
+			 </gmd:CI_Citation>
+			 </gmd:thesaurusName>
+		</gmd:MD_Keywords>
+		</gmd:descriptiveKeywords><gmd:spatialRepresentationType>
+								<gmd:MD_SpatialRepresentationTypeCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy_manager/voc/spatial_resolution_data_products_" codeListValue="vertical profile">vertical profile</gmd:MD_SpatialRepresentationTypeCode>
+							</gmd:spatialRepresentationType><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+							<gmd:EX_Extent>
+								<gmd:temporalElement>
+									<gmd:EX_TemporalExtent>
+										<gmd:extent>
+											<gml:TimePeriod gml:id="deims_data_product_0d50693b-3d5e-4513-89fb-98187dbc38cb">
+												<gml:beginPosition>2008-07-01</gml:beginPosition>
+												<gml:endPosition>2017-09-30</gml:endPosition>
+											</gml:TimePeriod>
+										</gmd:extent>
+									</gmd:EX_TemporalExtent>
+								</gmd:temporalElement>
+							</gmd:EX_Extent>
+						</gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>https://data.lter-europe.net/deims/activity/0d50693b-3d5e-4513-89fb-98187dbc38cb</gmd:URL>
+								</gmd:linkage>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>
+						<gmd:LI_Lineage>
+						   <gmd:statement>
+							  <gco:CharacterString>Data product is based on requirements defined by research projects (e.g. EcoPotential) as well as target stakeholder groups (e.g. LTER) in order to allow a summarised description of a series of data.</gco:CharacterString>
+						   </gmd:statement>
+						</gmd:LI_Lineage>
+					 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>

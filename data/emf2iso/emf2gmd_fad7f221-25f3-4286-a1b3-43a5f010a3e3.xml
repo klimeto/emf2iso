@@ -1,319 +1,319 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd"><gmd:fileIdentifier><gco:CharacterString>Facility_fad7f221-25f3-4286-a1b3-43a5f010a3e3</gco:CharacterString></gmd:fileIdentifier><gmd:language>
-					  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
-				  </gmd:language>
-				  <gmd:characterSet>
-					  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
-				  </gmd:characterSet><gmd:hierarchyLevel>
-					  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-				  </gmd:hierarchyLevel>
-				  <gmd:hierarchyLevelName>
-						<gco:CharacterString>Research site</gco:CharacterString>
-					</gmd:hierarchyLevelName><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
-						 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
-						</gmd:individualName><gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName><gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Array</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo><gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
-						 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
-						</gmd:individualName><gmd:organisationName>
-							<gco:CharacterString>LTER Europe</gco:CharacterString>
-						 </gmd:organisationName><gmd:contactInfo>
-							<gmd:CI_Contact>
-							 <gmd:address>
-							  <gmd:CI_Address>
-							   <gmd:electronicMailAddress>
-								<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
-							   </gmd:electronicMailAddress>
-							  </gmd:CI_Address>
-							 </gmd:address>
-							 <gmd:contactInstructions>
-							  <gco:CharacterString>Array</gco:CharacterString>
-							 </gmd:contactInstructions>
-							</gmd:CI_Contact>
-						   </gmd:contactInfo><gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-						 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
-					  <gco:Date>2018-01-02</gco:Date>
-				   </gmd:dateStamp><gmd:referenceSystemInfo>
-					  <gmd:MD_ReferenceSystem>
-						 <gmd:referenceSystemIdentifier>
-							<gmd:RS_Identifier>
-							   <gmd:code>
-								   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
-							   </gmd:code>
-							</gmd:RS_Identifier>
-						 </gmd:referenceSystemIdentifier>
-					  </gmd:MD_ReferenceSystem>
-				   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
-						 <gco:CharacterString>Aukstaitija Integrated Monitoring Station</gco:CharacterString>
-					</gmd:title><gmd:date/><gmd:identifier>
-					  <gmd:MD_Identifier>
-						 <gmd:code>
-							<gco:CharacterString>https://data.lter-europe.net/deims/fad7f221-25f3-4286-a1b3-43a5f010a3e3</gco:CharacterString>
-						 </gmd:code>
-					  </gmd:MD_Identifier>
-				   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Monitoring stations in Aukštaitija NP started functioning in 1993. Aukstaitija station (LT01) was founded in strict reserve zone of Aukstaitija national park in Ažvinčių old forest, Versminis river closed basin. The area of the basin is 101.5 ha. The lowest place is at 159.5 m, the highest - 188.6 m above sea level. Geographical co-ordinates of the basin are: longitude - 26*03*20* - 26*04*50*, latitude - 55*26*00* - 55*26*53*. The climate is characterised as average cold with high humidity and abundant precipitation. The average air temperature is 5.8 C, average precipitation - 682 mm. Length of vegetation period - 189 days. Side glavioacvalic accumulation forms with sand, gravel and stones are typical for river basin and in the western part of the basin, with the decrease of surface altitude transfers into fliuvioglacial terrace delta plain with fine sand, and at the source- into marsh accumulation forms with organic sediments. At the eastern side of the basin, which has higher altitudes, the typical for this basin glavioacvalic accumulation forms transfer into gravel sand. Carbonates start foaming at 45 cm depth (Gulbinas et al., 1996). The saturation of the river water with the oxygen is very weak. The average yearly oxygen concentration equals to 2.9 mg/l (minimal allowable concentration – 6 mg/l). The pH value of the water fluctuates from 7.10-7.75 mg/l, which indicates the alkalisation of the water. Concentration of hydro-carbonate ions varies in the intervals of 148-224 mg/l. Concentrations of sulphates and chlorides are very small. Calcium and magnesium ions are dominating in the media of cations. Concentration of natrium ions is insignificant – 2 mg/l 9DLK=120 mg/l), concentration of kalium ions reaches only tenths of mg/l (DLK=50 mg/l). According to the size of mineralisation the river water could be described as having average mineralisation levels. Concentrations of nitrogen materials (ammonium nitrogen, nitrates) are small, compared to maximum allowable concentrations (DLK) set for surface waters. Concentrations of phosphates are small. Silicium concentrations fluctuate from 2 mg/l to 9 mg/l (Čeponienė, 1997). Main ecosystems Coniferous multi-layered forest stands are prevailing in the basin, which are mainly pine trees with a mixture of spruce. Those stands usually have a second and third tree layer with abundant under layer vegetation. Spruce stands are also of complicated structure. The second and third spruce layer with abundant under layer vegetation are common. Remarkable amounts of territory are occupied by mixed conifer-deciduous or mixed conifer forests. Pure birch stands in more wet habitats in the vicinity of Versminis river source can also be found. According to the forest stand age they are old pure overmature or with accompanying forest stands of several age classes. It is mainly multi-aged and multi-layered over mature pine and spruce stands. In addition The study was based on monitoring data on crown defoliation of more than 3000 Scots pine (Pinus sylvestris L.) trees from 20 permanent observation stands (POS) annually obtained between 1994 and 2009 in Aukstaitija national park (ANP), located in the eastern part of Lithuania (Fig. 1). Over 16yr period mean values of crown defoliation of every sample pine stand were computed annually. Therefore the total number of treatments made N=320. These stands were classified according to stand maturity: 4 sapling stands (45 to 50 years – Table 1, section “Stand maturity”, group 1), 5 middle aged stands (61 – 80 years – group 2), 4 premature stands (81-100 years – group 3), 3 mature stands (101-120 years – group 4) and 4 over mature stands (&gt; 121 years – group 5). Main characteristics of the considered stands are compiled in table 1. All stands represent the prevailing in Lithuania Pinetum vaccinio-myrtilosum forest type.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
-					 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
-					</gmd:individualName><gmd:organisationName>
-						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName><gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString>Array</gco:CharacterString>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo><gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
-					 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
-					</gmd:individualName><gmd:organisationName>
-						<gco:CharacterString>LTER Europe</gco:CharacterString>
-					 </gmd:organisationName><gmd:contactInfo>
-						<gmd:CI_Contact>
-						 <gmd:address>
-						  <gmd:CI_Address>
-						   <gmd:electronicMailAddress>
-							<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
-						   </gmd:electronicMailAddress>
-						  </gmd:CI_Address>
-						 </gmd:address>
-						 <gmd:contactInstructions>
-						  <gco:CharacterString>Array</gco:CharacterString>
-						 </gmd:contactInstructions>
-						</gmd:CI_Contact>
-					   </gmd:contactInfo><gmd:role>
-						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
-					 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
-						  <gco:CharacterString>Terrestrial</gco:CharacterString>
-					   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
-					 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
-					</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
-		<gmd:MD_Keywords>
-		 <gmd:keyword>
-			<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
-		 </gmd:keyword>
-		 <gmd:thesaurusName>
-		 <gmd:CI_Citation>
-			 <gmd:title>
-				<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
-			 </gmd:title>
-			 <gmd:date>
-				 <gmd:CI_Date>
+							  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
+						  </gmd:language>
+						  <gmd:characterSet>
+							  <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+						  </gmd:characterSet><gmd:hierarchyLevel>
+							  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+						  </gmd:hierarchyLevel>
+						  <gmd:hierarchyLevelName>
+								<gco:CharacterString>Research site</gco:CharacterString>
+							</gmd:hierarchyLevelName><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString>Array</gco:CharacterString>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:contact><gmd:CI_ResponsibleParty><gmd:individualName>
+								 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
+								</gmd:individualName><gmd:organisationName>
+									<gco:CharacterString>LTER Europe</gco:CharacterString>
+								 </gmd:organisationName><gmd:contactInfo>
+									<gmd:CI_Contact>
+									 <gmd:address>
+									  <gmd:CI_Address>
+									   <gmd:electronicMailAddress>
+										<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
+									   </gmd:electronicMailAddress>
+									  </gmd:CI_Address>
+									 </gmd:address>
+									 <gmd:contactInstructions>
+									  <gco:CharacterString>Array</gco:CharacterString>
+									 </gmd:contactInstructions>
+									</gmd:CI_Contact>
+								   </gmd:contactInfo><gmd:role>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
+							  <gco:Date>2018-01-03</gco:Date>
+						   </gmd:dateStamp><gmd:referenceSystemInfo>
+							  <gmd:MD_ReferenceSystem>
+								 <gmd:referenceSystemIdentifier>
+									<gmd:RS_Identifier>
+									   <gmd:code>
+										   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+									   </gmd:code>
+									</gmd:RS_Identifier>
+								 </gmd:referenceSystemIdentifier>
+							  </gmd:MD_ReferenceSystem>
+						   </gmd:referenceSystemInfo><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
+								 <gco:CharacterString>Aukstaitija Integrated Monitoring Station</gco:CharacterString>
+							</gmd:title><gmd:date/><gmd:identifier>
+							  <gmd:MD_Identifier>
+								 <gmd:code>
+									<gco:CharacterString>https://data.lter-europe.net/deims/fad7f221-25f3-4286-a1b3-43a5f010a3e3</gco:CharacterString>
+								 </gmd:code>
+							  </gmd:MD_Identifier>
+						   </gmd:identifier></gmd:CI_Citation></gmd:citation><gmd:abstract><gco:CharacterString>Monitoring stations in Aukštaitija NP started functioning in 1993. Aukstaitija station (LT01) was founded in strict reserve zone of Aukstaitija national park in Ažvinčių old forest, Versminis river closed basin. The area of the basin is 101.5 ha. The lowest place is at 159.5 m, the highest - 188.6 m above sea level. Geographical co-ordinates of the basin are: longitude - 26*03*20* - 26*04*50*, latitude - 55*26*00* - 55*26*53*. The climate is characterised as average cold with high humidity and abundant precipitation. The average air temperature is 5.8 C, average precipitation - 682 mm. Length of vegetation period - 189 days. Side glavioacvalic accumulation forms with sand, gravel and stones are typical for river basin and in the western part of the basin, with the decrease of surface altitude transfers into fliuvioglacial terrace delta plain with fine sand, and at the source- into marsh accumulation forms with organic sediments. At the eastern side of the basin, which has higher altitudes, the typical for this basin glavioacvalic accumulation forms transfer into gravel sand. Carbonates start foaming at 45 cm depth (Gulbinas et al., 1996). The saturation of the river water with the oxygen is very weak. The average yearly oxygen concentration equals to 2.9 mg/l (minimal allowable concentration – 6 mg/l). The pH value of the water fluctuates from 7.10-7.75 mg/l, which indicates the alkalisation of the water. Concentration of hydro-carbonate ions varies in the intervals of 148-224 mg/l. Concentrations of sulphates and chlorides are very small. Calcium and magnesium ions are dominating in the media of cations. Concentration of natrium ions is insignificant – 2 mg/l 9DLK=120 mg/l), concentration of kalium ions reaches only tenths of mg/l (DLK=50 mg/l). According to the size of mineralisation the river water could be described as having average mineralisation levels. Concentrations of nitrogen materials (ammonium nitrogen, nitrates) are small, compared to maximum allowable concentrations (DLK) set for surface waters. Concentrations of phosphates are small. Silicium concentrations fluctuate from 2 mg/l to 9 mg/l (Čeponienė, 1997). Main ecosystems Coniferous multi-layered forest stands are prevailing in the basin, which are mainly pine trees with a mixture of spruce. Those stands usually have a second and third tree layer with abundant under layer vegetation. Spruce stands are also of complicated structure. The second and third spruce layer with abundant under layer vegetation are common. Remarkable amounts of territory are occupied by mixed conifer-deciduous or mixed conifer forests. Pure birch stands in more wet habitats in the vicinity of Versminis river source can also be found. According to the forest stand age they are old pure overmature or with accompanying forest stands of several age classes. It is mainly multi-aged and multi-layered over mature pine and spruce stands. In addition The study was based on monitoring data on crown defoliation of more than 3000 Scots pine (Pinus sylvestris L.) trees from 20 permanent observation stands (POS) annually obtained between 1994 and 2009 in Aukstaitija national park (ANP), located in the eastern part of Lithuania (Fig. 1). Over 16yr period mean values of crown defoliation of every sample pine stand were computed annually. Therefore the total number of treatments made N=320. These stands were classified according to stand maturity: 4 sapling stands (45 to 50 years – Table 1, section “Stand maturity”, group 1), 5 middle aged stands (61 – 80 years – group 2), 4 premature stands (81-100 years – group 3), 3 mature stands (101-120 years – group 4) and 4 over mature stands (&gt; 121 years – group 5). Main characteristics of the considered stands are compiled in table 1. All stands represent the prevailing in Lithuania Pinetum vaccinio-myrtilosum forest type.</gco:CharacterString></gmd:abstract><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString>Array</gco:CharacterString>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:pointOfContact><gmd:CI_ResponsibleParty><gmd:individualName>
+							 <gco:CharacterString>Algirdas Augustaitis</gco:CharacterString>
+							</gmd:individualName><gmd:organisationName>
+								<gco:CharacterString>LTER Europe</gco:CharacterString>
+							 </gmd:organisationName><gmd:contactInfo>
+								<gmd:CI_Contact>
+								 <gmd:address>
+								  <gmd:CI_Address>
+								   <gmd:electronicMailAddress>
+									<gco:CharacterString>algirdas.augustaitis@asu.lt</gco:CharacterString>
+								   </gmd:electronicMailAddress>
+								  </gmd:CI_Address>
+								 </gmd:address>
+								 <gmd:contactInstructions>
+								  <gco:CharacterString>Array</gco:CharacterString>
+								 </gmd:contactInstructions>
+								</gmd:CI_Contact>
+							   </gmd:contactInfo><gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+							 </gmd:role></gmd:CI_ResponsibleParty></gmd:pointOfContact><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+								  <gco:CharacterString>Terrestrial</gco:CharacterString>
+							   </gmd:keyword><gmd:thesaurusName xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue" xlink:title="Media"/></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+							 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/codeList/MeasurementRegimeValue/continuousDataCollection">continuousDataCollection</gmx:Anchor>
+							</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				 <gmd:keyword>
+					<gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>
+				 </gmd:keyword>
+				 <gmd:thesaurusName>
+				 <gmd:CI_Citation>
+					 <gmd:title>
+						<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+					 </gmd:title>
 					 <gmd:date>
-						<gco:Date>2008-06-01</gco:Date>
-					 </gmd:date>
-					 <gmd:dateType>
-						 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
-					 </gmd:dateType>
-				 </gmd:CI_Date>
-			 </gmd:date>
-		 </gmd:CI_Citation>
-		 </gmd:thesaurusName>
-	</gmd:MD_Keywords>
-	</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
-						<gmd:EX_Extent>
-						   <gmd:geographicElement>
-							  <gmd:EX_GeographicBoundingBox>
-								 <gmd:westBoundLongitude>
-									<gco:Decimal>26.03</gco:Decimal>
-								 </gmd:westBoundLongitude>
-								 <gmd:eastBoundLongitude>
-									<gco:Decimal>26.05</gco:Decimal>
-								 </gmd:eastBoundLongitude>
-								 <gmd:southBoundLatitude>
-									<gco:Decimal>55.26</gco:Decimal>
-								 </gmd:southBoundLatitude>
-								 <gmd:northBoundLatitude>
-									<gco:Decimal>55.27</gco:Decimal>
-								 </gmd:northBoundLatitude>
-							  </gmd:EX_GeographicBoundingBox>
-						   </gmd:geographicElement>
-						</gmd:EX_Extent>
-					 </gmd:extent><gmd:extent>
-						<gmd:EX_Extent>
-						   <gmd:geographicElement>
-							  <gmd:EX_GeographicBoundingBox>
-								 <gmd:westBoundLongitude>
-									<gco:Decimal>26.030000000000</gco:Decimal>
-								 </gmd:westBoundLongitude>
-								 <gmd:eastBoundLongitude>
-									<gco:Decimal>26.030000000000</gco:Decimal>
-								 </gmd:eastBoundLongitude>
-								 <gmd:southBoundLatitude>
-									<gco:Decimal>55.260000000000</gco:Decimal>
-								 </gmd:southBoundLatitude>
-								 <gmd:northBoundLatitude>
-									<gco:Decimal>55.260000000000</gco:Decimal>
-								 </gmd:northBoundLatitude>
-							  </gmd:EX_GeographicBoundingBox>
-						   </gmd:geographicElement>
-						</gmd:EX_Extent>
-					 </gmd:extent><gmd:extent>
-						<gmd:EX_Extent>
-							<gmd:temporalElement>
-								<gmd:EX_TemporalExtent>
-									<gmd:extent>
-										<gml:TimePeriod gml:id="timePeriod_fad7f221-25f3-4286-a1b3-43a5f010a3e3">
-											<gml:beginPosition>1993-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='fad7f221-25f3-4286-a1b3-43a5f010a3e3'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
-								</gmd:linkage>
-								<gmd:name>
-								<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='fad7f221-25f3-4286-a1b3-43a5f010a3e3'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
-								</gmd:linkage>
-								<gmd:name>
-								<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='fad7f221-25f3-4286-a1b3-43a5f010a3e3'&amp;outputFormat=application%2Fjson</gmd:URL>
-								</gmd:linkage>
-								<gmd:name>
-								<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=e9118514-9b9b-11e2-b534-005056ab003f</gmd:URL>
-								</gmd:linkage>
-								<gmd:protocol>
-									<gco:CharacterString>HTTP</gco:CharacterString>
-								</gmd:protocol>
-								 <gmd:applicationProfile>
-									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
-								</gmd:applicationProfile>
-								<gmd:name>
-								<gco:CharacterString>Chemistry Aukstaitijs IMS</gco:CharacterString>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=40cbbaa6-9866-11e2-b534-005056ab003f</gmd:URL>
-								</gmd:linkage>
-								<gmd:protocol>
-									<gco:CharacterString>HTTP</gco:CharacterString>
-								</gmd:protocol>
-								 <gmd:applicationProfile>
-									<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
-								</gmd:applicationProfile>
-								<gmd:name>
-								<gco:CharacterString>Forest ecosystems of Aukstaitija national park</gco:CharacterString>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/node/224</gmd:URL>
-								</gmd:linkage>
-								<gmd:name>
-								<gco:CharacterString>Lithuania (LTER-Lithuania)</gco:CharacterString>
-								</gmd:name>
-								<gmd:function>
-									<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
-								</gmd:function>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
-				 <gmd:DQ_ConformanceResult>
-					 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
-						 <gmd:CI_Citation>
-							 <gmd:title>
-							 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
-							 </gmd:title>
+						 <gmd:CI_Date>
 							 <gmd:date>
-								 <gmd:CI_Date>
-									 <gmd:date>
-										<gco:Date>2010-12-08</gco:Date>
-									 </gmd:date>
-									 <gmd:dateType>
-										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-									 </gmd:dateType>
-								 </gmd:CI_Date>
+								<gco:Date>2008-06-01</gco:Date>
 							 </gmd:date>
-						 </gmd:CI_Citation>
-					 </gmd:specification>
-					 <gmd:explanation>
-						<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
-					 </gmd:explanation>
-					 <gmd:pass>
-						<gco:Boolean>false</gco:Boolean>
-					 </gmd:pass>
-				 </gmd:DQ_ConformanceResult>
-				</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
-				<gmd:LI_Lineage>
-				   <gmd:statement>
-					  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
-				   </gmd:statement>
-				</gmd:LI_Lineage>
-			 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>
+							 <gmd:dateType>
+								 <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							 </gmd:dateType>
+						 </gmd:CI_Date>
+					 </gmd:date>
+				 </gmd:CI_Citation>
+				 </gmd:thesaurusName>
+			</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords><gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language><gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory><gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>26.03</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>26.05</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>55.26</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>55.27</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent><gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>26.030000000000</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>26.030000000000</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>55.260000000000</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>55.260000000000</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent><gmd:extent>
+								<gmd:EX_Extent>
+									<gmd:temporalElement>
+										<gmd:EX_TemporalExtent>
+											<gmd:extent>
+												<gml:TimePeriod gml:id="timePeriod_fad7f221-25f3-4286-a1b3-43a5f010a3e3">
+													<gml:beginPosition>1993-01-01</gml:beginPosition><gml:endPosition indeterminatePosition="now"/></gml:TimePeriod></gmd:extent></gmd:EX_TemporalExtent></gmd:temporalElement></gmd:EX_Extent></gmd:extent></gmd:MD_DataIdentification></gmd:identificationInfo><gmd:distributionInfo><gmd:MD_Distribution><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='fad7f221-25f3-4286-a1b3-43a5f010a3e3'&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in SHP format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='fad7f221-25f3-4286-a1b3-43a5f010a3e3'&amp;outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GML 3.2 format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/geoserver/deims/ows?service=WFS&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=deims:lter_all_formal&amp;CQL_FILTER=uuid='fad7f221-25f3-4286-a1b3-43a5f010a3e3'&amp;outputFormat=application%2Fjson</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>WFS GetFeature request for downloading the data set in GeoJSON format</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=e9118514-9b9b-11e2-b534-005056ab003f</gmd:URL>
+										</gmd:linkage>
+										<gmd:protocol>
+											<gco:CharacterString>HTTP</gco:CharacterString>
+										</gmd:protocol>
+										 <gmd:applicationProfile>
+											<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+										</gmd:applicationProfile>
+										<gmd:name>
+										<gco:CharacterString>Chemistry Aukstaitijs IMS</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/pycsw?service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=40cbbaa6-9866-11e2-b534-005056ab003f</gmd:URL>
+										</gmd:linkage>
+										<gmd:protocol>
+											<gco:CharacterString>HTTP</gco:CharacterString>
+										</gmd:protocol>
+										 <gmd:applicationProfile>
+											<gco:CharacterString>Catalogue Service for the Web (CSW)</gco:CharacterString>
+										</gmd:applicationProfile>
+										<gmd:name>
+										<gco:CharacterString>Forest ecosystems of Aukstaitija national park</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions><gmd:transferOptions>
+							<gmd:MD_DigitalTransferOptions>
+								<gmd:onLine>
+									<gmd:CI_OnlineResource>
+										<gmd:linkage>
+											<gmd:URL>https://data.lter-europe.net/deims/node/224</gmd:URL>
+										</gmd:linkage>
+										<gmd:name>
+										<gco:CharacterString>Lithuania (LTER-Lithuania)</gco:CharacterString>
+										</gmd:name>
+										<gmd:function>
+											<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+										</gmd:function>
+									</gmd:CI_OnlineResource>
+								</gmd:onLine>
+							</gmd:MD_DigitalTransferOptions>
+						</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:report><gmd:DQ_DomainConsistency><gmd:result>
+						 <gmd:DQ_ConformanceResult>
+							 <gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+								 <gmd:CI_Citation>
+									 <gmd:title>
+									 <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									 </gmd:title>
+									 <gmd:date>
+										 <gmd:CI_Date>
+											 <gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											 </gmd:date>
+											 <gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											 </gmd:dateType>
+										 </gmd:CI_Date>
+									 </gmd:date>
+								 </gmd:CI_Citation>
+							 </gmd:specification>
+							 <gmd:explanation>
+								<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+							 </gmd:explanation>
+							 <gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							 </gmd:pass>
+						 </gmd:DQ_ConformanceResult>
+						</gmd:result></gmd:DQ_DomainConsistency></gmd:report><gmd:lineage>
+						<gmd:LI_Lineage>
+						   <gmd:statement>
+							  <gco:CharacterString>Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form.</gco:CharacterString>
+						   </gmd:statement>
+						</gmd:LI_Lineage>
+					 </gmd:lineage></gmd:DQ_DataQuality></gmd:dataQualityInfo></gmd:MD_Metadata>
