@@ -33,7 +33,7 @@
 								   </gmd:contactInfo><gmd:role>
 									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
 								 </gmd:role></gmd:CI_ResponsibleParty></gmd:contact><gmd:dateStamp>
-							  <gco:Date>2018-01-03</gco:Date>
+							  <gco:Date>2018-01-04</gco:Date>
 						   </gmd:dateStamp><gmd:referenceSystemInfo>
 							  <gmd:MD_ReferenceSystem>
 								 <gmd:referenceSystemIdentifier>

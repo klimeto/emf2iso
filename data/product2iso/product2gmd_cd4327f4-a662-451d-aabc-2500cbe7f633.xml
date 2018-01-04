@@ -21,7 +21,7 @@
 						 </gmd:role>
 					  </gmd:CI_ResponsibleParty>
 				   </gmd:contact><gmd:dateStamp>
-						  <gco:Date>2018-01-03</gco:Date>
+						  <gco:Date>2018-01-04</gco:Date>
 					   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 							 <gco:CharacterString>Portuguese Land Cover Map </gco:CharacterString>
 						</gmd:title>
@@ -109,9 +109,10 @@ There are several levels of detail, concerning land occupation. For the moment, 
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/Portuguese%20General%20Directorate%20for%20th...</gmd:URL>
-								</gmd:linkage>
-							</gmd:CI_OnlineResource>
+									<gmd:URL>https://data.lter-europe.net/deims/Portuguese%20General%20Directorate%20for%20the%20Territory</gmd:URL>
+								</gmd:linkage><gmd:name>
+													<gco:CharacterString>https://data.lter-europe.net/deims/Portuguese%20General%20Directorate%20for%20th...</gco:CharacterString>
+												</gmd:name></gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>

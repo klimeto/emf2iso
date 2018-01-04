@@ -12,7 +12,7 @@
 						<gmd:hierarchyLevelName>
 							<gco:CharacterString>Data product</gco:CharacterString>
 						</gmd:hierarchyLevelName><gmd:contact/><gmd:dateStamp>
-						  <gco:Date>2018-01-03</gco:Date>
+						  <gco:Date>2018-01-04</gco:Date>
 					   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 							 <gco:CharacterString>Hardangervidda (Norway) DEM</gco:CharacterString>
 						</gmd:title>
@@ -89,9 +89,10 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://kartkatalog.geonorge.no/metadata/kartverket/dtm-10/dddbb667-1303-4ac5-86...</gmd:URL>
-								</gmd:linkage>
-							</gmd:CI_OnlineResource>
+									<gmd:URL>https://kartkatalog.geonorge.no/metadata/kartverket/dtm-10/dddbb667-1303-4ac5-8640-7ec04c0e3918</gmd:URL>
+								</gmd:linkage><gmd:name>
+													<gco:CharacterString>https://kartkatalog.geonorge.no/metadata/kartverket/dtm-10/dddbb667-1303-4ac5-86...</gco:CharacterString>
+												</gmd:name></gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>

@@ -12,7 +12,7 @@
 						<gmd:hierarchyLevelName>
 							<gco:CharacterString>Data product</gco:CharacterString>
 						</gmd:hierarchyLevelName><gmd:contact/><gmd:dateStamp>
-						  <gco:Date>2018-01-03</gco:Date>
+						  <gco:Date>2018-01-04</gco:Date>
 					   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 							 <gco:CharacterString>Hardangervidda (Norway) Snow data</gco:CharacterString>
 						</gmd:title>
@@ -88,9 +88,10 @@
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>The Norwegian Water Resources and Energy Directorate</gmd:URL>
-								</gmd:linkage>
-							</gmd:CI_OnlineResource>
+									<gmd:URL>https://www.nve.no/Media/3206/2015-weatherandsnowdata_en.pdf</gmd:URL>
+								</gmd:linkage><gmd:name>
+													<gco:CharacterString>The Norwegian Water Resources and Energy Directorate</gco:CharacterString>
+												</gmd:name></gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>

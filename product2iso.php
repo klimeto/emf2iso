@@ -18,9 +18,15 @@ foreach($arr['nodes'] as $key => $value){
 	echo("EXTRACT FROM: ". $mdURL);
 	echo "\r\n";
 	$file_name = __DIR__ . "/data/product2iso/product2gmd_".$mdUUID.".xml";
+	//$product2iso_xml_file = productJson2isoXml("https://data.lter-europe.net/deims/node/10170/json");
 	$product2iso_xml_file = productJson2isoXml($mdURL);
-	file_put_contents($file_name, $product2iso_xml_file);
-	echo("LOAD TO: ".$file_name);
+	if(empty($product2iso_xml_file)){
+		echo("The conversion process failed for record: " . $mdUUID . " URL: " . $mdURL ."\r\n");
+	}
+	else{
+		file_put_contents($file_name, $product2iso_xml_file);
+		echo("LOADED TO: ".$file_name ."\r\n");
+	}
 	echo "\r\n";
 }
 $end = microtime(true);

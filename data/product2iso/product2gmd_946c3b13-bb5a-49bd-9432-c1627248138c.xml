@@ -21,7 +21,7 @@
 						 </gmd:role>
 					  </gmd:CI_ResponsibleParty>
 				   </gmd:contact><gmd:dateStamp>
-						  <gco:Date>2018-01-03</gco:Date>
+						  <gco:Date>2018-01-04</gco:Date>
 					   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 							 <gco:CharacterString>Tatra National Park (Poland) - hydrographic data</gco:CharacterString>
 						</gmd:title>
@@ -97,16 +97,6 @@
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
 									<gmd:URL>https://data.lter-europe.net/deims/activity/946c3b13-bb5a-49bd-9432-c1627248138c</gmd:URL>
-								</gmd:linkage>
-							</gmd:CI_OnlineResource>
-						</gmd:onLine>
-					</gmd:MD_DigitalTransferOptions>
-				</gmd:transferOptions><gmd:transferOptions>
-					<gmd:MD_DigitalTransferOptions>
-						<gmd:onLine>
-							<gmd:CI_OnlineResource>
-								<gmd:linkage>
-									<gmd:URL>Tatra National Park data repository</gmd:URL>
 								</gmd:linkage>
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>

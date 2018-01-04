@@ -407,16 +407,22 @@ function productJson2isoXml($productJsonUrl){
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions>';
-		$product_source = $json->{'nodes'}[0]->{'node'}->{'source'};
-		if($product_source){
+		$product_source_url = $json->{'nodes'}[0]->{'node'}->{'source_url'};
+		$product_source_title = $json->{'nodes'}[0]->{'node'}->{'source_title'};
+		if(!empty($product_source_url)){
 			$gmdXML .= '<gmd:transferOptions>
 					<gmd:MD_DigitalTransferOptions>
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>'.$product_source.'</gmd:URL>
-								</gmd:linkage>
-							</gmd:CI_OnlineResource>
+									<gmd:URL>'.$product_source_url.'</gmd:URL>
+								</gmd:linkage>';
+								if (!empty($product_source_title) && $product_source_url != $product_source_title){
+									$gmdXML .= '<gmd:name>
+													<gco:CharacterString>'.$product_source_title.'</gco:CharacterString>
+												</gmd:name>';
+								}
+			$gmdXML .= '</gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions>';

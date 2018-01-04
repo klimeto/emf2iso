@@ -21,7 +21,7 @@
 						 </gmd:role>
 					  </gmd:CI_ResponsibleParty>
 				   </gmd:contact><gmd:dateStamp>
-						  <gco:Date>2018-01-03</gco:Date>
+						  <gco:Date>2018-01-04</gco:Date>
 					   </gmd:dateStamp><gmd:identificationInfo><gmd:MD_DataIdentification><gmd:citation><gmd:CI_Citation><gmd:title>
 							 <gco:CharacterString>Shrub cover</gco:CharacterString>
 						</gmd:title>
@@ -106,8 +106,7 @@
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
 									<gmd:URL>https://data.lter-europe.net/deims/Instituto%20Superior%20T%C3%A9cnico</gmd:URL>
-								</gmd:linkage>
-							</gmd:CI_OnlineResource>
+								</gmd:linkage></gmd:CI_OnlineResource>
 						</gmd:onLine>
 					</gmd:MD_DigitalTransferOptions>
 				</gmd:transferOptions></gmd:MD_Distribution></gmd:distributionInfo><gmd:dataQualityInfo><gmd:DQ_DataQuality><gmd:scope/><gmd:lineage>
