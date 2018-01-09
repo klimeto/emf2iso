@@ -37,7 +37,7 @@ function productJson2isoXml($productJsonUrl){
 						</gmd:parentIdentifier>';
 		} 
 			$gmdXML.= '<gmd:hierarchyLevel>
-							<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+							<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
 						</gmd:hierarchyLevel>
 						<gmd:hierarchyLevelName>
 							<gco:CharacterString>Data product</gco:CharacterString>
@@ -136,6 +136,11 @@ function productJson2isoXml($productJsonUrl){
 		/***
 			C.2.10 Keyword value
 			***/
+		/**** DATA PRODUCT KEYWORD ****/
+			$gmdXML .= '<gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
+							 <gco:CharacterString>data product</gco:CharacterString>
+							</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords>';
+			
 		/**** DATA PRODUCT TYPE ****/
 		/* NOTE: SHALL WE ADD LINK TO DEIMS PRODUCT TYPE TAXONOMY? IT IS AVAILABLE ONLY FOR REGISTERED USERS? */
 		$product_type = $json->{'nodes'}[0]->{'node'}->{'data_product_type'};
