@@ -388,8 +388,8 @@ function emfXml2isoXml($emfXMLUrl){
 					}
 				}
 			}
-			/*
-			if(!empty($ef_representativePointGmlPos)){
+			
+			else if(!empty($ef_representativePointGmlPos)){
 				$gmlPosArray = explode(" ",$ef_representativePointGmlPos);
 				$wblon = $gmlPosArray[1];
 				$eblon = $gmlPosArray[1];
@@ -416,7 +416,6 @@ function emfXml2isoXml($emfXMLUrl){
 								</gmd:EX_Extent>
 							 </gmd:extent>';
 			}
-			*/
 			/***
 				C.2.13 Temporal extent
 				***/
