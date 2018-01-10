@@ -346,10 +346,10 @@ function emfXml2isoXml($emfXMLUrl){
 			$ef_representativePointId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@gml:id'};
 			$ef_representativePointSrs = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@srsName'};
 			$ef_representativePointGmlPos = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'gml:pos'}->{'$'};
-			if(!empty($ef_geometry_gmlMultiGeomArray)){
-				foreach ($ef_geometry_gmlMultiGeomArray as $geometry){
-					if (!empty($geometry->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'})){
-						$posList = $geometry->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'};
+			if(is_array($ef_geometry_gmlMultiGeomArray)){
+				//foreach ($ef_geometry_gmlMultiGeomArray as $geometry){
+					if (!empty($ef_geometry_gmlMultiGeomArray[0]->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'})){
+						$posList = $ef_geometry_gmlMultiGeomArray[0]->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'};
 						$posListArray = explode(" ", $posList);
 						$lats = array();
 						$longs = array();
@@ -386,7 +386,61 @@ function emfXml2isoXml($emfXMLUrl){
 								</gmd:EX_Extent>
 							 </gmd:extent>';
 					}
-				}
+					else if(!empty($ef_geometry_gmlMultiGeomArray[0]->{'gml:Point'}->{'gml:pos'}->{'$'})){
+						$gmlPosArray = explode(" ",$ef_geometry_gmlMultiGeomArray[0]->{'gml:Point'}->{'gml:pos'}->{'$'});
+						$wblon = $gmlPosArray[1];
+						$eblon = $gmlPosArray[1];
+						$sblat = $gmlPosArray[0];
+						$nblat = $gmlPosArray[0];
+						$gmdXML .= '<gmd:extent>
+										<gmd:EX_Extent>
+										   <gmd:geographicElement>
+											  <gmd:EX_GeographicBoundingBox>
+												 <gmd:westBoundLongitude>
+													<gco:Decimal>'. $wblon .'</gco:Decimal>
+												 </gmd:westBoundLongitude>
+												 <gmd:eastBoundLongitude>
+													<gco:Decimal>'. $eblon .'</gco:Decimal>
+												 </gmd:eastBoundLongitude>
+												 <gmd:southBoundLatitude>
+													<gco:Decimal>'. $sblat .'</gco:Decimal>
+												 </gmd:southBoundLatitude>
+												 <gmd:northBoundLatitude>
+													<gco:Decimal>'. $nblat .'</gco:Decimal>
+												 </gmd:northBoundLatitude>
+											  </gmd:EX_GeographicBoundingBox>
+										   </gmd:geographicElement>
+										</gmd:EX_Extent>
+									 </gmd:extent>';
+						}
+				//}
+			}
+			else if (is_object($ef_geometry_gmlMultiGeomArray)){
+				$gmlPosArray = explode(" ",$ef_geometry_gmlMultiGeomArray->{'gml:Point'}->{'gml:pos'}->{'$'});
+						$wblon = $gmlPosArray[1];
+						$eblon = $gmlPosArray[1];
+						$sblat = $gmlPosArray[0];
+						$nblat = $gmlPosArray[0];
+						$gmdXML .= '<gmd:extent>
+										<gmd:EX_Extent>
+										   <gmd:geographicElement>
+											  <gmd:EX_GeographicBoundingBox>
+												 <gmd:westBoundLongitude>
+													<gco:Decimal>'. $wblon .'</gco:Decimal>
+												 </gmd:westBoundLongitude>
+												 <gmd:eastBoundLongitude>
+													<gco:Decimal>'. $eblon .'</gco:Decimal>
+												 </gmd:eastBoundLongitude>
+												 <gmd:southBoundLatitude>
+													<gco:Decimal>'. $sblat .'</gco:Decimal>
+												 </gmd:southBoundLatitude>
+												 <gmd:northBoundLatitude>
+													<gco:Decimal>'. $nblat .'</gco:Decimal>
+												 </gmd:northBoundLatitude>
+											  </gmd:EX_GeographicBoundingBox>
+										   </gmd:geographicElement>
+										</gmd:EX_Extent>
+									 </gmd:extent>';
 			}
 			
 			else if(!empty($ef_representativePointGmlPos)){
@@ -711,6 +765,7 @@ function emfXml2isoXml($emfXMLUrl){
 			
 			$gmdXML .= '</gmd:MD_Metadata>';
 			$gmdXML = str_replace("&","&amp;",$gmdXML);
+			//echo $gmdXML;
 			$xml = new SimpleXMLElement($gmdXML);
 			return $xml->asXML();
 		}
