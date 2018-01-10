@@ -175,6 +175,10 @@ function emfXml2isoXml($emfXMLUrl){
 				$gmdXML .= '<gmd:abstract/>';
 			}
 			
+			/**** CREDIT TO DEIMS SDR ****/
+			$gmdXML .= '<gmd:credit><gco:CharacterString>The original metadata record was created using DEIMS-SDR, the Dynamic Ecological Information Management System - Site and dataset registry</gco:CharacterString></gmd:credit>';
+
+			
 			/***
 				C.2.23 Responsible party
 				***/

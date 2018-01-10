@@ -105,6 +105,10 @@ function productJson2isoXml($productJsonUrl){
 			***/
 		$product_abstract = $json->{'nodes'}[0]->{'node'}->{'abstract'};
 		$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",str_replace("&","and",$product_abstract)) .'</gco:CharacterString></gmd:abstract>';
+		
+		/**** CREDIT TO DEIMS SDR ****/
+		$gmdXML .= '<gmd:credit><gco:CharacterString>The original metadata record was created using DEIMS-SDR, the Dynamic Ecological Information Management System - Site and dataset registry</gco:CharacterString></gmd:credit>';
+
 		/***
 			C.2.23 Responsible party
 			***/
