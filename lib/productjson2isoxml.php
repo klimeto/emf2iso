@@ -244,15 +244,16 @@ function productJson2isoXml($productJsonUrl){
 		
 		/*** RELATED DATASETS AggregatedInfo https://geo-ide.noaa.gov/wiki/index.php?title=ISO_AggregationInformation ***/
 		$length = count($json->{'nodes'});
-		$product_related_dataset_uuid = $json->{'nodes'}[0]->{'node'}->{'related_dataset_uuid'};
-		//print_r($product_related_datasetArray);
-		//print_r($json->{'nodes'}[0]->{'node'});
-		if($product_related_dataset_uuid && $length == 1){
+		$product_related_datasets = $json->{'nodes'}[0]->{'node'}->{'related_datasets'};
+		$product_datasets_ids = explode(", ",$product_related_datasets);
+		if(!empty($product_related_datasets)){
+			foreach ($product_datasets_ids as $aggregateDataSetIdentifier){
+				$jsonDataset = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$aggregateDataSetIdentifier."/json"));
 				$gmdXML .= ' <gmd:aggregationInfo>
 					<gmd:MD_AggregateInformation>
 						<gmd:aggregateDataSetIdentifier>
 							<gmd:MD_Identifier>
-								<gmd:code><gco:CharacterString>'.$getRecById.$product_related_dataset_uuid.'</gco:CharacterString></gmd:code>
+								<gmd:code><gco:CharacterString>'.$getRecById.$jsonDataset->{'nodes'}[0]->{'node'}->{'uuid'}.'</gco:CharacterString></gmd:code>
 							</gmd:MD_Identifier>
 						</gmd:aggregateDataSetIdentifier>
 						<gmd:associationType>
@@ -260,24 +261,8 @@ function productJson2isoXml($productJsonUrl){
 						</gmd:associationType>
 					</gmd:MD_AggregateInformation>
 				</gmd:aggregationInfo>';
-		}
-		else if($length > 1){
-			foreach($json->{'nodes'} as $node){
-				$gmdXML .= ' <gmd:aggregationInfo>
-					<gmd:MD_AggregateInformation>
-						<gmd:aggregateDataSetIdentifier>
-							<gmd:MD_Identifier>
-								<gmd:code><gco:CharacterString>'.$getRecById.$node->{'node'}->{'related_dataset_uuid'}.'</gco:CharacterString></gmd:code>
-							</gmd:MD_Identifier>
-						</gmd:aggregateDataSetIdentifier>
-						<gmd:associationType/>
-					</gmd:MD_AggregateInformation>
-				</gmd:aggregationInfo>';
 			}
 		}
-		
-		
-		
 		/***
 			C.2.21 Conditions applying to access and use - TO BE DISCUSSED!
 			***/
@@ -498,7 +483,7 @@ function productJson2isoXml($productJsonUrl){
 		
 		
 		$gmdXML .= '</gmd:MD_Metadata>';
-		$gmdXML = str_replace("&","&amp;",$gmdXML);
+		//$gmdXML = str_replace("&","&amp;",$gmdXML);
 		$xml = new SimpleXMLElement($gmdXML);
 		return $xml->asXML();
 	}
