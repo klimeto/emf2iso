@@ -47,12 +47,25 @@ function productJson2isoXml($productJsonUrl){
 			C.2.25 Metadata point of contact
 			***/
 		$product_reporter = $json->{'nodes'}[0]->{'node'}->{'reporter'};
+		$product_reporter_ids = explode(", ",$product_reporter);
 		if(!empty($product_reporter)){
+			$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$product_reporter_ids[0]."/json"));
 			$gmdXML .= '<gmd:contact>
 					  <gmd:CI_ResponsibleParty>
 						<gmd:individualName>
-						 <gco:CharacterString>'.$product_reporter.'</gco:CharacterString>
+						 <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
 						</gmd:individualName>
+						<gmd:contactInfo>
+						<gmd:CI_Contact>
+						<gmd:address>
+						<gmd:CI_Address>
+						<gmd:electronicMailAddress>
+						<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
+						</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+						</gmd:address>
+						</gmd:CI_Contact>
+						</gmd:contactInfo>
 						 <gmd:role>
 							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
 						 </gmd:role>
@@ -112,17 +125,31 @@ function productJson2isoXml($productJsonUrl){
 		/***
 			C.2.23 Responsible party
 			***/
-		if($product_reporter){
-			$gmdXML .= '<gmd:pointOfContact>
+		if(!empty($product_reporter)){
+			foreach ($product_reporter_ids as $pointOfContactNid){
+				$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$pointOfContactNid."/json"));
+				$gmdXML .= '<gmd:pointOfContact>
 					  <gmd:CI_ResponsibleParty>
 						<gmd:individualName>
-						 <gco:CharacterString>'.$product_reporter.'</gco:CharacterString>
+						 <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
 						</gmd:individualName>
+						<gmd:contactInfo>
+						<gmd:CI_Contact>
+						<gmd:address>
+						<gmd:CI_Address>
+						<gmd:electronicMailAddress>
+						<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
+						</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+						</gmd:address>
+						</gmd:CI_Contact>
+						</gmd:contactInfo>
 						 <gmd:role>
 							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
 						 </gmd:role>
 					  </gmd:CI_ResponsibleParty>
 				   </gmd:pointOfContact>';
+			}
 		}
 		/*** DATA PRODUCT TEMPORAL RESOLUTION ***/
 		$product_temp_res = $json->{'nodes'}[0]->{'node'}->{'temporal_resolution'};
