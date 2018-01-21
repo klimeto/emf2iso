@@ -55,6 +55,7 @@ function productJson2isoXml($productJsonUrl){
 						<gmd:individualName>
 						 <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
 						</gmd:individualName>';
+			// IF PERSON REFERENCED EXTRACT TITLE AND EMAIL
 			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
 				$gmdXML .= '<gmd:contactInfo>
 								<gmd:CI_Contact>
@@ -68,6 +69,7 @@ function productJson2isoXml($productJsonUrl){
 								</gmd:CI_Contact>
 								</gmd:contactInfo>';
 			}
+			// IF ORGANIZATION REFERENCED EXTRACT TITLE AND URL ADDRESS
 			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Organization' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'organization_url'})){
 				$gmdXML .= '<gmd:contactInfo>
 								<gmd:CI_Contact>
