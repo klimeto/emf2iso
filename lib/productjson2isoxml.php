@@ -15,7 +15,7 @@ function productJson2isoXml($productJsonUrl){
 			Metadata identifier 
 			***/
 		$gmlId = $json->{'nodes'}[0]->{'node'}->{'uuid'};
-		$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. $gmlId . '</gco:CharacterString></gmd:fileIdentifier>';
+		$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>product2iso_'. $gmlId . '</gco:CharacterString></gmd:fileIdentifier>';
 		/*** 
 			C.2.27 Metadata language + C.3.4 Character Encoding + 3.1.1.1 Resource type
 			***/
@@ -31,7 +31,7 @@ function productJson2isoXml($productJsonUrl){
 			***/
 		$product_related_site_title = $json->{'nodes'}[0]->{'node'}->{'related_site_title'};
 		$product_related_site_uuid = $json->{'nodes'}[0]->{'node'}->{'related_site_uuid'};
-		if($product_related_site_uuid){
+		if(!empty($product_related_site_uuid)){
 			$gmdXML .= '<gmd:parentIdentifier>
 							<gmx:Anchor xlink:href="'.$getRecById.'emf2gmd_'.$product_related_site_uuid.'" xlink:title="'.$product_related_site_title.'"/>
 						</gmd:parentIdentifier>';
@@ -54,23 +54,37 @@ function productJson2isoXml($productJsonUrl){
 					  <gmd:CI_ResponsibleParty>
 						<gmd:individualName>
 						 <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
-						</gmd:individualName>
-						<gmd:contactInfo>
-						<gmd:CI_Contact>
-						<gmd:address>
-						<gmd:CI_Address>
-						<gmd:electronicMailAddress>
-						<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
-						</gmd:electronicMailAddress>
-						</gmd:CI_Address>
-						</gmd:address>
-						</gmd:CI_Contact>
-						</gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-				   </gmd:contact>';
+						</gmd:individualName>';
+			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
+				$gmdXML .= '<gmd:contactInfo>
+								<gmd:CI_Contact>
+								<gmd:address>
+								<gmd:CI_Address>
+								<gmd:electronicMailAddress>
+								<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
+								</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+								</gmd:address>
+								</gmd:CI_Contact>
+								</gmd:contactInfo>';
+			}
+			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Organization' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'organization_url'})){
+				$gmdXML .= '<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'organization_url'}.'</gmd:URL>
+											</gmd:linkage>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>';
+			}
+			$gmdXML .= '<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+						</gmd:role>
+						</gmd:CI_ResponsibleParty>
+						</gmd:contact>';
 		}
 		else{
 			$gmdXML .= '<gmd:contact/>';
@@ -292,82 +306,48 @@ function productJson2isoXml($productJsonUrl){
 		/***
 			C.2.12 Geographic bounding box
 			***/
-		/*
-		$ef_geometry_gmlMultiGeomArrayId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:geometry'}->{'gml:MultiGeometry'}->{'@gml:id'};
-		$ef_geometry_gmlMultiGeomArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:geometry'}->{'gml:MultiGeometry'}->{'gml:geometryMember'};
-		$ef_representativePointId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@gml:id'};
-		$ef_representativePointSrs = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@srsName'};
-		$ef_representativePointGmlPos = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'gml:pos'}->{'$'};
-		if($ef_geometry_gmlMultiGeomArray){
-			foreach ($ef_geometry_gmlMultiGeomArray as $geometry){
-				if ($geometry->{'gml:Polygon'}){
-					$posList = $geometry->{'gml:Polygon'}->{'gml:exterior'}->{'gml:LinearRing'}->{'gml:posList'};
-					$posListArray = explode(" ", $posList);
-					$lats = array();
-					$longs = array();
-					foreach ($posListArray as $k => $v) {
-						if ($k % 2 == 0) {
-							$lats[] = $v;
-						}
-						else {
-							$longs[] = $v;
-						}
-					}
-					$wblon = min($longs);
-					$eblon = max($longs);
-					$sblat = min($lats);
-					$nblat = max($lats);
-					$gmdXML .= '<gmd:extent>
-							<gmd:EX_Extent>
-							   <gmd:geographicElement>
-								  <gmd:EX_GeographicBoundingBox>
-									 <gmd:westBoundLongitude>
-										<gco:Decimal>'. $wblon .'</gco:Decimal>
-									 </gmd:westBoundLongitude>
-									 <gmd:eastBoundLongitude>
-										<gco:Decimal>'. $eblon .'</gco:Decimal>
-									 </gmd:eastBoundLongitude>
-									 <gmd:southBoundLatitude>
-										<gco:Decimal>'. $sblat .'</gco:Decimal>
-									 </gmd:southBoundLatitude>
-									 <gmd:northBoundLatitude>
-										<gco:Decimal>'. $nblat .'</gco:Decimal>
-									 </gmd:northBoundLatitude>
-								  </gmd:EX_GeographicBoundingBox>
-							   </gmd:geographicElement>
-							</gmd:EX_Extent>
-						 </gmd:extent>';
-				}
+			
+			
+		if(!empty($product_related_site_uuid)){
+			$jsonCSWSite = json_decode(file_get_contents($getRecById . $product_related_site_uuid,false,
+				stream_context_create(
+					array(
+						'http' => array(
+							'ignore_errors' => true
+						)
+					)
+				)));
+			if(!empty($jsonCSWSite->{'ows20:ExceptionReport'})){
+				echo("Exception in CSW GetRecordsById for: emf2iso_" . $product_related_site_uuid . "\r\n");
+			}
+			else{
+				$wblon = $jsonCSWSite->{'gmd:MD_Metadata'}->{'gmd:identificationInfo'}->{'gmd:MD_DataIdentification'}->{'gmd:extent'}[0]->{'gmd:EX_Extent'}->{'gmd:geographicElement'}->{'gmd:EX_GeographicBoundingBox'}->{'gmd:westBoundLongitude'}->{'gco:Decimal'};
+				$eblon = $jsonCSWSite->{'gmd:MD_Metadata'}->{'gmd:identificationInfo'}->{'gmd:MD_DataIdentification'}->{'gmd:extent'}[0]->{'gmd:EX_Extent'}->{'gmd:geographicElement'}->{'gmd:EX_GeographicBoundingBox'}->{'gmd:eastBoundLongitude'}->{'gco:Decimal'};
+				$sblat = $jsonCSWSite->{'gmd:MD_Metadata'}->{'gmd:identificationInfo'}->{'gmd:MD_DataIdentification'}->{'gmd:extent'}[0]->{'gmd:EX_Extent'}->{'gmd:geographicElement'}->{'gmd:EX_GeographicBoundingBox'}->{'gmd:southBoundLatitude'}->{'gco:Decimal'};
+				$nblat = $jsonCSWSite->{'gmd:MD_Metadata'}->{'gmd:identificationInfo'}->{'gmd:MD_DataIdentification'}->{'gmd:extent'}[0]->{'gmd:EX_Extent'}->{'gmd:geographicElement'}->{'gmd:EX_GeographicBoundingBox'}->{'gmd:northBoundLatitude'}->{'gco:Decimal'};
+				$gmdXML .= '<gmd:extent>
+								<gmd:EX_Extent>
+								   <gmd:geographicElement>
+									  <gmd:EX_GeographicBoundingBox>
+										 <gmd:westBoundLongitude>
+											<gco:Decimal>'. $wblon .'</gco:Decimal>
+										 </gmd:westBoundLongitude>
+										 <gmd:eastBoundLongitude>
+											<gco:Decimal>'. $eblon .'</gco:Decimal>
+										 </gmd:eastBoundLongitude>
+										 <gmd:southBoundLatitude>
+											<gco:Decimal>'. $sblat .'</gco:Decimal>
+										 </gmd:southBoundLatitude>
+										 <gmd:northBoundLatitude>
+											<gco:Decimal>'. $nblat .'</gco:Decimal>
+										 </gmd:northBoundLatitude>
+									  </gmd:EX_GeographicBoundingBox>
+								   </gmd:geographicElement>
+								</gmd:EX_Extent>
+							 </gmd:extent>';
 			}
 		}
-		if($ef_representativePointGmlPos){
-			$gmlPosArray = explode(" ",$ef_representativePointGmlPos);
-			$wblon = $gmlPosArray[1];
-			$eblon = $gmlPosArray[1];
-			$sblat = $gmlPosArray[0];
-			$nblat = $gmlPosArray[0];
-			$gmdXML .= '<gmd:extent>
-							<gmd:EX_Extent>
-							   <gmd:geographicElement>
-								  <gmd:EX_GeographicBoundingBox>
-									 <gmd:westBoundLongitude>
-										<gco:Decimal>'. $wblon .'</gco:Decimal>
-									 </gmd:westBoundLongitude>
-									 <gmd:eastBoundLongitude>
-										<gco:Decimal>'. $eblon .'</gco:Decimal>
-									 </gmd:eastBoundLongitude>
-									 <gmd:southBoundLatitude>
-										<gco:Decimal>'. $sblat .'</gco:Decimal>
-									 </gmd:southBoundLatitude>
-									 <gmd:northBoundLatitude>
-										<gco:Decimal>'. $nblat .'</gco:Decimal>
-									 </gmd:northBoundLatitude>
-								  </gmd:EX_GeographicBoundingBox>
-							   </gmd:geographicElement>
-							</gmd:EX_Extent>
-						 </gmd:extent>';
-		}
-		*/
+
 		/***
 			C.2.13 Temporal extent
 			***/
@@ -483,7 +463,7 @@ function productJson2isoXml($productJsonUrl){
 		
 		
 		$gmdXML .= '</gmd:MD_Metadata>';
-		//$gmdXML = str_replace("&","&amp;",$gmdXML);
+		$gmdXML = str_replace(" & ","&amp;",$gmdXML);
 		$xml = new SimpleXMLElement($gmdXML);
 		return $xml->asXML();
 	}

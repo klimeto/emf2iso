@@ -29,7 +29,7 @@ function emfXml2isoXml($emfXMLUrl){
 				***/
 			
 			$gmlId = $json->{'EnvironmentalMonitoringFacility'}->{'@gml:id'};
-			$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. $gmlId . '</gco:CharacterString></gmd:fileIdentifier>';
+			$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. str_replace("Facility_","emf2gmd_",$gmlId). '</gco:CharacterString></gmd:fileIdentifier>';
 			/*** 
 				C.2.27 Metadata language + C.3.4 Character Encoding + 3.1.1.1 Resource type
 				***/
