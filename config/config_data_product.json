@@ -1,0 +1,44 @@
+{
+	"data_product": {
+		"metadataFiles": [{
+					"content_type": "Data Product",
+					"type": "JSON",
+					"pattern": "node/{nid}/json"
+				},
+				{
+					"content_type": "Organization",
+					"type": "JSON",
+					"pattern": "node/{nid}/json"
+				},
+				{
+					"content_type": "Person",
+					"type": "JSON",
+					"pattern": "node/{nid}/json"
+				},
+				{
+					"content_type": "Dataset",
+					"type": "JSON",
+					"pattern": "node/{nid}/json"
+				}],
+		"schema": {
+			"namespace":"gmd",
+			"uri":"http://www.isotc211.org/2005/gmd",
+			"schemaLocation":"http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd",
+			"mapping":
+			[{
+				"name": "title",
+				"type": "string",
+				"mdf": "Data Product",
+				"element":"title",
+				"xpath":"/MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/title/CharacterString",
+				"callback": ""
+			},
+			{
+				"name": "filepath",
+				"memberOf": "metadata",
+				"type": "string",
+				"INLINE_VALUE": ""
+			}
+		]}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"data_product": {
+		"metadataFiles": [{
+					"name": "emf",
+					"type": "XML",
+					"pattern": "node/{nid}/emf"
+				},
+				{
+					"name": "Organization",
+					"type": "JSON",
+					"pattern": "node/{nid}/json"
+				}],
+		"schema": {
+			"namespace":"gmd",
+			"uri":"http://www.isotc211.org/2005/gmd",
+			"schemaLocation":"http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd",
+			"mapping":
+			[{
+				"name": "title",
+				"type": "string",
+				"mdf": "emf",
+				"element":"title",
+				"xpath":"/MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/title/CharacterString",
+				"callback": ""
+			},
+			{
+				"name": "filepath",
+				"memberOf": "metadata",
+				"type": "string",
+				"INLINE_VALUE": ""
+			}
+		]}
+	}
+}
