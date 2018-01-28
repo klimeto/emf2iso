@@ -1,44 +1,286 @@
 {
-	"data_product": {
-		"metadataFiles": [{
-					"content_type": "Data Product",
-					"type": "JSON",
-					"pattern": "node/{nid}/json"
-				},
-				{
-					"content_type": "Organization",
-					"type": "JSON",
-					"pattern": "node/{nid}/json"
-				},
-				{
-					"content_type": "Person",
-					"type": "JSON",
-					"pattern": "node/{nid}/json"
-				},
-				{
-					"content_type": "Dataset",
-					"type": "JSON",
-					"pattern": "node/{nid}/json"
-				}],
-		"schema": {
-			"namespace":"gmd",
-			"uri":"http://www.isotc211.org/2005/gmd",
-			"schemaLocation":"http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd",
-			"mapping":
-			[{
-				"name": "title",
-				"type": "string",
-				"mdf": "Data Product",
-				"element":"title",
-				"xpath":"/MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/title/CharacterString",
-				"callback": ""
-			},
-			{
-				"name": "filepath",
-				"memberOf": "metadata",
-				"type": "string",
-				"INLINE_VALUE": ""
+	"data_product" : {
+		"metadataFiles" : [{
+				"name" : "data_collection_activity",
+				"type" : "JSON",
+				"pattern" : "node/{nid}/json"
+			}, {
+				"name" : "organization",
+				"type" : "JSON",
+				"pattern" : "node/{nid}/json"
+			}, {
+				"name" : "person",
+				"type" : "JSON",
+				"pattern" : "node/{nid}/json"
+			}, {
+				"name" : "dataset",
+				"type" : "JSON",
+				"pattern" : "node/{nid}/json"
 			}
-		]}
+		],
+		"schema" : {
+			"namespace" : "gmd",
+			"uri" : "http://www.isotc211.org/2005/gmd",
+			"schemaLocation" : "http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd",
+			"mapping" :
+			[{
+					"name" : "title",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "title",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/title/CharacterString",
+					"callback" : ""
+				}, {
+					"name" : "abstract",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "abstract",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/abstract/gco:CharacterString",
+					"callback" : ""
+				}, {
+					"name" : "data_product_type",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "keyword",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword/gco:CharacterString",
+					"callback" : ""
+				}, {
+					"name" : "keywords",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "keyword",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword/gco:CharacterString",
+					"callback" : ""
+				}, {
+					"name" : "parameters",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "keyword",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword/gco:CharacterString",
+					"callback" : ""
+				}, {
+					"name" : "related_site_title",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "parentIdentifier",
+					"xpath" : "/MD_Metadata/parentIdentifier/gmx:Anchor/@*[namespace-uri()='http://www.w3.org/1999/xlink' and local-name()='href']",
+					"callback" : ""
+				}, {
+					"name" : "related_site_uuid",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "parentIdentifier",
+					"xpath" : "/MD_Metadata/parentIdentifier/gmx:Anchor/@*[namespace-uri()='http://www.w3.org/1999/xlink' and local-name()='title']",
+					"callback" : ""
+				}, {
+					"name" : "spatial_resolution",
+					"type" : "codelist",
+					"mdf" : "data_collection_activity",
+					"element" : "spatialRepresentationType",
+					"xpath" : {
+						"codelist" : "/MD_Metadata/identificationInfo/MD_DataIdentification/spatialRepresentationType/MD_SpatialRepresentationTypeCode/@codeList",
+						"value" : "/MD_Metadata/identificationInfo/MD_DataIdentification/spatialRepresentationType/MD_SpatialRepresentationTypeCode/@codeListValue"
+					},
+					"callback" : ""
+				}, {
+					"name" : "temporal_resolution",
+					"type" : "codelist",
+					"mdf" : "data_collection_activity",
+					"element" : "maintenanceAndUpdateFrequency",
+					"xpath" : {
+						"codelist" : "/MD_Metadata/identificationInfo/MD_DataIdentification/resourceMaintenance/MD_MaintenanceInformation/maintenanceAndUpdateFrequency",
+						"value" : "/MD_Metadata/identificationInfo/MD_DataIdentification/resourceMaintenance/MD_MaintenanceInformation/maintenanceAndUpdateFrequency/MD_MaintenanceFrequencyCode/@codeListValue"
+					},
+					"callback" : ""
+				}, {
+					"name" : "date_range",
+					"type" : "date",
+					"mdf" : "data_collection_activity",
+					"element" : "TimePeriod",
+					"xpath" : {
+						"beginPosition" : "/MD_Metadata/identificationInfo/MD_DataIdentification/extent/EX_Extent/temporalElement/EX_TemporalExtent/extent/gml:TimePeriod/gml:beginPosition",
+						"endPosition" : "/MD_Metadata/identificationInfo/MD_DataIdentification/extent/EX_Extent/temporalElement/EX_TemporalExtent/extent/gml:TimePeriod/gml:endPosition"
+					},
+					"callback" : "data_range_array"
+				}, {
+					"name" : "available_for_ecopotential",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "keyword",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword/gco:CharacterString",
+					"INLINE_VALUE" : "Ecopotential project",
+					"callback" : "checkValue"
+				}, {
+					"name" : "data_digitally_available",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "keyword",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword/gco:CharacterString",
+					"INLINE_VALUE" : "Digital data",
+					"callback" : "checkValue"
+				}, {
+					"name" : "data_notes",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "lineage",
+					"xpath" : "/MD_Metadata/dataQualityInfo/DQ_DataQuality/lineage/LI_Lineage/statement/gco:CharacterString",
+					"callback" : ""
+				}, {
+					"name" : "open_data",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "keyword",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword/gco:CharacterString",
+					"INLINE_VALUE" : "Open data",
+					"callback" : "checkValue"
+				}, {
+					"name" : "source_title",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "name",
+					"xpath" : "/MD_Metadata/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource/name/gco:CharacterString"
+				}, {
+					"name" : "source_url",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "URL",
+					"xpath" : "/MD_Metadata/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource/linkage/URL"
+				}, {
+					"name" : "uuid",
+					"type" : "string",
+					"mdf" : "data_collection_activity",
+					"element" : "MD_Identifier",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/identifier/MD_Identifier/code/gco:CharacterString",
+					"callback" : "concatValues"
+				}, {
+					"name" : "reporter",
+					"type" : "nid",
+					"element" : "contact",
+					"mdf" : {
+						"person" : [{
+								"name" : "title",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/individualName/gco:CharacterString"
+							}, {
+								"name" : "person_email",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/contactInfo/CI_Contact/address/CI_Address/electronicMailAddress/gco:CharacterString"
+							}
+						],
+						"organization" : [{
+								"name" : "title",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/organisationName/gco:CharacterString"
+							}, {
+								"name" : "organization_url",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/contactInfo/CI_Contact/onlineResource/CI_OnlineResource/linkage/URL"
+							}
+						]
+					},
+					"callback" : "getContentType"
+				}, {
+					"name" : "reporter",
+					"type" : "nid",
+					"element" : "pointOfContact",
+					"mdf" : {
+						"person" : [{
+								"name" : "title",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/pointOfContact/CI_ResponsibleParty/individualName/gco:CharacterString"
+							}, {
+								"name" : "person_email",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/pointOfContact/CI_ResponsibleParty/contactInfo/CI_Contact/address/CI_Address/electronicMailAddress/gco:CharacterString"
+							}
+						],
+						"organization" : [{
+								"name" : "title",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/pointOfContact/CI_ResponsibleParty/organisationName/gco:CharacterString"
+							}, {
+								"name" : "organization_url",
+								"type" : "string",
+								"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/pointOfContact/CI_ResponsibleParty/contactInfo/CI_Contact/onlineResource/CI_OnlineResource/linkage/URL"
+							}
+						]
+					},
+					"callback" : "getContentType"
+				}, {
+					"name" : "reporter",
+					"type" : "nid",
+					"element" : "contact",
+					"mdf" : [{
+							"person" : [{
+									"name" : "title",
+									"type" : "string",
+									"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/individualName/gco:CharacterString"
+								}, {
+									"name" : "person_email",
+									"type" : "string",
+									"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/contactInfo/CI_Contact/address/CI_Address/electronicMailAddress/gco:CharacterString"
+								}
+							],
+							"organization" : [{
+									"name" : "title",
+									"type" : "string",
+									"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/organisationName/gco:CharacterString"
+								}, {
+									"name" : "organization_url",
+									"type" : "string",
+									"xpath" : "/MD_Metadata/contact/CI_ResponsibleParty/contactInfo/CI_Contact/onlineResource/CI_OnlineResource/linkage/URL"
+								}
+							]
+						}
+					],
+					"callback" : "getContentType"
+				}, {
+					"name" : "related_datasets",
+					"type" : "nid",
+					"element" : "aggregateDataSetIdentifier",
+					"mdf" : [{
+							"dataset" : [{
+									"name" : "title",
+									"type" : "string",
+									"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/aggregationInfo/MD_AggregateInformation/aggregateDataSetIdentifier/MD_Identifier/code/gmx:Anchor/@*[namespace-uri()='http://www.w3.org/1999/xlink' and local-name()='title']"
+								}, {
+									"name" : "uuid",
+									"type" : "string",
+									"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/aggregationInfo/MD_AggregateInformation/aggregateDataSetIdentifier/MD_Identifier/code/gmx:Anchor/@*[namespace-uri()='http://www.w3.org/1999/xlink' and local-name()='href']",
+									"callback" : "GetRecordById"
+								}
+							]
+						}
+					],
+					"callback" : "getContentType"
+				}, {
+					"name" : "inspire_topicCategory",
+					"type" : "string",
+					"element" : "topicCategory",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/topicCategory/MD_TopicCategoryCode",
+					"INLINE_VALUE" : "environment"
+				}, {
+					"name" : "inspire_themeKeyword",
+					"type" : "string",
+					"element" : "descriptiveKeywords",
+					"INLINE_VALUE" : "Environmental monitoring facilities",
+					"callback" : "inspireThemeKeyword"
+				}, {
+					"name" : "inspire_resourceMetadataLanguage",
+					"type" : "string",
+					"element" : "language",
+					"INLINE_VALUE" : "English",
+					"xpath" : "/MD_Metadata/language/LanguageCode",
+					"callback" : "LanguageCode"
+				}, {
+					"name" : "inspire_resourceLanguage",
+					"type" : "string",
+					"element" : "language",
+					"INLINE_VALUE" : "English",
+					"xpath" : "/MD_Metadata/identificationInfo/MD_DataIdentification/language/LanguageCode",
+					"callback" : "LanguageCode"
+				}
+			]
+		}
 	}
 }
