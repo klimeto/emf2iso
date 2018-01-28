@@ -50,28 +50,37 @@ function productJson2isoXml($productJsonUrl){
 		$product_reporter_ids = explode(", ",$product_reporter);
 		if(!empty($product_reporter)){
 			$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$product_reporter_ids[0]."/json"));
-			$gmdXML .= '<gmd:contact>
+			// IF PERSON REFERENCED EXTRACT TITLE AND EMAIL
+			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
+				$gmdXML .= '<gmd:contact>
 					  <gmd:CI_ResponsibleParty>
 						<gmd:individualName>
 						 <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
-						</gmd:individualName>';
-			// IF PERSON REFERENCED EXTRACT TITLE AND EMAIL
-			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
-				$gmdXML .= '<gmd:contactInfo>
-								<gmd:CI_Contact>
-								<gmd:address>
-								<gmd:CI_Address>
-								<gmd:electronicMailAddress>
-								<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
-								</gmd:electronicMailAddress>
-								</gmd:CI_Address>
-								</gmd:address>
-								</gmd:CI_Contact>
-								</gmd:contactInfo>';
+						</gmd:individualName>
+						<gmd:contactInfo>
+						 <gmd:CI_Contact>
+						  <gmd:address>
+						    <gmd:CI_Address>
+							 <gmd:electronicMailAddress>
+							  <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
+							 </gmd:electronicMailAddress>
+						     </gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+						</gmd:contactInfo>
+						<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+						</gmd:role>
+						</gmd:CI_ResponsibleParty>
+						</gmd:contact>';
 			}
 			// IF ORGANIZATION REFERENCED EXTRACT TITLE AND URL ADDRESS
 			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Organization' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'organization_url'})){
-				$gmdXML .= '<gmd:contactInfo>
+				$gmdXML .= '<gmd:contact>
+							<gmd:CI_ResponsibleParty>
+								<gmd:organisationName>
+									<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
+								</gmd:organisationName>
+								<gmd:contactInfo>
 								<gmd:CI_Contact>
 									<gmd:onlineResource>
 										<gmd:CI_OnlineResource>
@@ -81,12 +90,11 @@ function productJson2isoXml($productJsonUrl){
 										</gmd:CI_OnlineResource>
 									</gmd:onlineResource>
 								</gmd:CI_Contact>
-							</gmd:contactInfo>';
-			}
-			$gmdXML .= '<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+							</gmd:contactInfo><gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
 						</gmd:role>
 						</gmd:CI_ResponsibleParty>
 						</gmd:contact>';
+			}
 		}
 		else{
 			$gmdXML .= '<gmd:contact/>';
@@ -141,31 +149,57 @@ function productJson2isoXml($productJsonUrl){
 		/***
 			C.2.23 Responsible party
 			***/
+			
 		if(!empty($product_reporter)){
-			foreach ($product_reporter_ids as $pointOfContactNid){
-				$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$pointOfContactNid."/json"));
+			$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$product_reporter_ids[0]."/json"));
+			// IF PERSON REFERENCED EXTRACT TITLE AND EMAIL
+			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
 				$gmdXML .= '<gmd:pointOfContact>
 					  <gmd:CI_ResponsibleParty>
 						<gmd:individualName>
 						 <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
 						</gmd:individualName>
 						<gmd:contactInfo>
-						<gmd:CI_Contact>
-						<gmd:address>
-						<gmd:CI_Address>
-						<gmd:electronicMailAddress>
-						<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
-						</gmd:electronicMailAddress>
-						</gmd:CI_Address>
-						</gmd:address>
+						 <gmd:CI_Contact>
+						  <gmd:address>
+						    <gmd:CI_Address>
+							 <gmd:electronicMailAddress>
+							  <gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'}.'</gco:CharacterString>
+							 </gmd:electronicMailAddress>
+						     </gmd:CI_Address>
+							</gmd:address>
 						</gmd:CI_Contact>
 						</gmd:contactInfo>
-						 <gmd:role>
-							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
-						 </gmd:role>
-					  </gmd:CI_ResponsibleParty>
-				   </gmd:pointOfContact>';
+						<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+						</gmd:role>
+						</gmd:CI_ResponsibleParty>
+						</gmd:pointOfContact>';
 			}
+			// IF ORGANIZATION REFERENCED EXTRACT TITLE AND URL ADDRESS
+			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Organization' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'organization_url'})){
+				$gmdXML .= '<gmd:pointOfContact>
+							<gmd:CI_ResponsibleParty>
+								<gmd:organisationName>
+									<gco:CharacterString>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'title'}.'</gco:CharacterString>
+								</gmd:organisationName>
+								<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>'.$jsonPerson->{'nodes'}[0]->{'node'}->{'organization_url'}.'</gmd:URL>
+											</gmd:linkage>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo><gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+						</gmd:role>
+						</gmd:CI_ResponsibleParty>
+						</gmd:pointOfContact>';
+			}
+		}
+		else{
+			$gmdXML .= '<gmd:pointOfContact/>';
 		}
 		/*** DATA PRODUCT TEMPORAL RESOLUTION ***/
 		$product_temp_res = $json->{'nodes'}[0]->{'node'}->{'temporal_resolution'};
@@ -265,6 +299,7 @@ function productJson2isoXml($productJsonUrl){
 		if(!empty($product_related_datasets)){
 			foreach ($product_datasets_ids as $aggregateDataSetIdentifier){
 				$jsonDataset = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$aggregateDataSetIdentifier."/json"));
+				/*
 				$gmdXML .= ' <gmd:aggregationInfo>
 					<gmd:MD_AggregateInformation>
 						<gmd:aggregateDataSetIdentifier>
@@ -275,6 +310,21 @@ function productJson2isoXml($productJsonUrl){
 						<gmd:associationType>
 							<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
 						</gmd:associationType>
+					</gmd:MD_AggregateInformation>
+				</gmd:aggregationInfo>';
+				*/
+				$gmdXML .= '<gmd:aggregationInfo>
+                <gmd:MD_AggregateInformation>
+                    <gmd:aggregateDataSetIdentifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gmx:Anchor xlink:title="'.$jsonDataset->{'nodes'}[0]->{'node'}->{'title'}.'" xlink:href="'.$getRecById.$jsonDataset->{'nodes'}[0]->{'node'}->{'uuid'}.'"/>
+                            </gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:aggregateDataSetIdentifier>
+                    <gmd:associationType>
+                        <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+                    </gmd:associationType>
 					</gmd:MD_AggregateInformation>
 				</gmd:aggregationInfo>';
 			}
