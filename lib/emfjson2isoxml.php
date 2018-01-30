@@ -26,13 +26,13 @@ function emfXml2isoXml($emfXMLUrl){
 			$gmdXML = '<?xml version="1.0" encoding="UTF-8"?><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/apiso-inspire/apiso-inspire.xsd http://www.isotc211.org/2005/srv http://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas/srv/1.0/srv.xsd">';
 			/***
 				Metadata identifier 
-				***/
+			***/
 			
 			$gmlId = $json->{'EnvironmentalMonitoringFacility'}->{'@gml:id'};
 			$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. str_replace("Facility_","emf2gmd_",$gmlId). '</gco:CharacterString></gmd:fileIdentifier>';
 			/*** 
 				C.2.27 Metadata language + C.3.4 Character Encoding + 3.1.1.1 Resource type
-				***/
+			***/
 			$gmdXML .= '<gmd:language>
 							  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode>
 						  </gmd:language>
@@ -42,7 +42,7 @@ function emfXml2isoXml($emfXMLUrl){
 						  
 			/*** 
 				Parent identifier == ef:broader
-				***/
+			***/
 			$ef_broader = $json->{'EnvironmentalMonitoringFacility'}->{'ef:broader'};
 			if(!empty($ef_broader)){
 				$gmdXML .= '<gmd:parentIdentifier>
@@ -57,7 +57,7 @@ function emfXml2isoXml($emfXMLUrl){
 							</gmd:hierarchyLevelName>';
 			/*** 
 				C.2.25 Metadata point of contact
-				***/
+			***/
 			$ef_responsiblePartyArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:responsibleParty'};
 			if(!empty($ef_responsiblePartyArray)){
 				foreach($ef_responsiblePartyArray as $contact){
@@ -104,13 +104,13 @@ function emfXml2isoXml($emfXMLUrl){
 			}
 			/***
 				C.2.26 Metadata date
-				***/
+			***/
 			$gmdXML .=  '<gmd:dateStamp>
 							  <gco:Date>'. date("Y-m-d") . '</gco:Date>
 						   </gmd:dateStamp>';
 			/*** 
 				C.3.1 Coordinate Reference System
-				***/
+			***/
 			//<gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/3045">EPSG:3045</gmx:Anchor>
 			$ef_representativePointId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@gml:id'};
 			//var_dump($ef_representativePointId). '<br>'; 
@@ -139,7 +139,7 @@ function emfXml2isoXml($emfXMLUrl){
 			
 			/***
 				C.2.1 Resource title
-				***/
+			***/
 			$ef_name = $json->{'EnvironmentalMonitoringFacility'}->{'ef:name'};
 			if(!empty($ef_name)){
 				$gmdXML .= "<gmd:title>
@@ -150,7 +150,7 @@ function emfXml2isoXml($emfXMLUrl){
 			$gmdXML .= "<gmd:date/>";
 			/***
 				C.2.5 Unique resource identifier
-				***/
+			***/
 			$base_localId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:inspireId'}->{'base:Identifier'}->{'base:localId'};
 			$base_namespace = $json->{'EnvironmentalMonitoringFacility'}->{'ef:inspireId'}->{'base:Identifier'}->{'base:namespace'};
 			if ($base_localId){
@@ -166,7 +166,7 @@ function emfXml2isoXml($emfXMLUrl){
 			$gmdXML .= '</gmd:CI_Citation></gmd:citation>';
 			/***
 				C.2.2 Resource abstract
-				***/
+			***/
 			$ef_additionalDescription = $json->{'EnvironmentalMonitoringFacility'}->{'ef:additionalDescription'};
 			if(!empty($ef_additionalDescription)){
 				$gmdXML .= '<gmd:abstract><gco:CharacterString>'. str_replace("<","smaller than",str_replace("&","and",$ef_additionalDescription)) .'</gco:CharacterString></gmd:abstract>';
@@ -181,7 +181,7 @@ function emfXml2isoXml($emfXMLUrl){
 			
 			/***
 				C.2.23 Responsible party
-				***/
+			***/
 			foreach($ef_responsiblePartyArray as $contact){
 				$individualName = $contact->{'base2:RelatedParty'}->{'base2:individualName'}->{'gco:CharacterString'};
 				$organisationName = $contact->{'base2:RelatedParty'}->{'base2:organisationName'}->{'gco:CharacterString'};
@@ -222,7 +222,7 @@ function emfXml2isoXml($emfXMLUrl){
 			}
 			/***
 				C.2.10 Keyword value
-				***/
+			***/
 				
 			/**** SITE KEYWORD ****/
 			$gmdXML .= '<gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
@@ -320,27 +320,27 @@ function emfXml2isoXml($emfXMLUrl){
 			
 			/***
 				C.2.21 Conditions applying to access and use - TO BE DISCUSSED!
-				***/
+			***/
 			
 			/***
 				C.2.22 Limitations on public access - TO BE DISCUSSED!
-				***/
+			***/
 			/***
 				C.2.18 Spatial resolution - TO BE DISCUSSED!
-				***/
+			***/
 			/***
 				C.2.7 Resource language - TO BE DISCUSSED! ENGLISH AS DEFAULT
-				***/
+			***/
 			//$euLanguages = array('Bulgarian' => 'bul','Irish' => 'gle','Croatian' => 'hrv','Italian' => 'ita','Czech' => 'cze','Latvian' => 'lav','Danish' => 'dan','Lithuanian' => 'lit','Dutch' => 'dut','Maltese' => 'mlt','English' => 'eng','Polish' => 'pol','Estonian' => 'est','Portuguese' => 'por','Finnish' => 'fin','Romanian' => 'rum','French' => 'fre','Slovak' => 'slo','German' => 'ger','Slovenian' => 'slv','Greek' => 'gre','Spanish' => 'spa','Hungarian' => 'hun','Swedish' => 'swe');
 			$gmdXML .= '<gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">English</gmd:LanguageCode></gmd:language>';
 			/***
 				C.2.8 Topic category - http://inspire.ec.europa.eu/metadata-codelist/TopicCategory
-				***/
+			***/
 			$gmdXML .= '<gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory>';
 			
 			/***
 				C.2.12 Geographic bounding box
-				***/
+			***/
 			$ef_geometry_gmlMultiGeomArrayId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:geometry'}->{'gml:MultiGeometry'}->{'@gml:id'};
 			$ef_geometry_gmlMultiGeomArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:geometry'}->{'gml:MultiGeometry'}->{'gml:geometryMember'};
 			$ef_representativePointId = $json->{'EnvironmentalMonitoringFacility'}->{'ef:representativePoint'}->{'gml:Point'}->{'@gml:id'};
@@ -505,7 +505,7 @@ function emfXml2isoXml($emfXMLUrl){
 			***/
 			/***
 				C.4.2 Resource locator
-				***/
+			***/
 			$ef_onlineResourceArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:onlineResource'};
 			if(!empty($ef_onlineResourceArray)){
 				$gmdXML .='<gmd:distributionInfo><gmd:MD_Distribution>';
@@ -757,17 +757,20 @@ function emfXml2isoXml($emfXMLUrl){
 				DATA QUALITY INFO METADATA SECTION END 
 			***/
 			
-			
-			
 			/*** ELEMENTS NOT MAPPED YET ***/
 			$ef_legalBacgroundArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:legalBackground'};
 			$ef_purpose = $json->{'EnvironmentalMonitoringFacility'}->{'ef:purpose'}->{'@xlink:href'};
 			
 			$gmdXML .= '</gmd:MD_Metadata>';
 			$gmdXML = str_replace("&","&amp;",$gmdXML);
-			//echo $gmdXML;
+			
+			// create formatted XML object 
 			$xml = new SimpleXMLElement($gmdXML);
-			return $xml->asXML();
+			$dom = new DOMDocument('1.0');
+			$dom->preserveWhiteSpace = false;
+			$dom->formatOutput = true;
+			$dom->loadXML($xml->asXML());
+			return $dom;
 		}
 	}
 	catch(Exception $e) {

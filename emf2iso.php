@@ -1,30 +1,38 @@
 <?php
-include_once 'lib/emfjson2isoxml.php';
-$url = 'https://data.lter-europe.net/deims/emf/harvest_list';
-$xml = simplexml_load_file($url) or die("feed not loading");
-$arr = json_decode(json_encode($xml), true);
+// include actual transformation file
+include_once 'lib/emfjson2isoxml.php';							
+
+$url = 'https://data.lter-europe.net/deims/emf/harvest_list';	// harvest list url
+$xml = simplexml_load_file($url) or die("feed not loading"); 	
+$arr = json_decode(json_encode($xml), true);					
 $md_records = $arr["site"];
 $start = microtime(true);
 
+// set up of status messages of script
 echo("RECORDS TO BE PROCESSED: " . count($arr['site']));
 echo "\r\n";
 echo "PROCESSING ... \r\n";
 $log_summary = [];
+
+// parse 
 for ($x = 0; $x < count($md_records); $x++) {
     $temp_record = $md_records[$x];
 	$file_name = __DIR__ . "/data/emf2iso/emf2gmd_".$temp_record["UUID"].".xml";
 
+	// call transformation function
 	$emf2iso_xml_file = emfXml2isoXml($temp_record["path"]);
 	
-	// progress bar
+	// render progress bar when function is called in console
 	show_status($x, count($md_records));
 	usleep(100000);
 	
-	if(empty($emf2iso_xml_file)){
+	if (empty($emf2iso_xml_file)){
+		// if generated xml is empty, print error message
 		$log_summary[] = "The conversion process failed for record: " . $temp_record["UUID"] . " URL: " . $temp_record["path"] ."\r\n";
 	}
-	else{
-		file_put_contents($file_name, $emf2iso_xml_file);
+	else {
+		// save generated XML record
+		$emf2iso_xml_file->save($file_name);
 	}
 }
 $end = microtime(true);
@@ -34,13 +42,14 @@ if (empty($log_summary)) {
 	echo("*** Script successfully executed.");
 }
 else {
+	// if process failed on items, print each error messages
 	foreach($log_summary as $item) {
 		echo $item;
 	}	
 }
 
 
-// function to provide progress of conversion process
+// function to provide progress of conversion process; copied from:
 // http://snipplr.com/view/29548/
 function show_status($done, $total, $size=30) {
  
