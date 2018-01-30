@@ -39,9 +39,6 @@ else {
 	}	
 }
 
-echo "\r\n";
-echo("PROCESS DURATION: " . round(($end - $start),2) . "s");
-echo "\r\n";
 
 // function to provide progress of conversion process
 // http://snipplr.com/view/29548/
