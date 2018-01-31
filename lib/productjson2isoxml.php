@@ -516,8 +516,15 @@ function productJson2isoXml($productJsonUrl){
 		
 		$gmdXML .= '</gmd:MD_Metadata>';
 		$gmdXML = str_replace(" & ","&amp;",$gmdXML);
+		
+		// create formatted XML object 
 		$xml = new SimpleXMLElement($gmdXML);
-		return $xml->asXML();
+		$dom = new DOMDocument('1.0');
+		$dom->preserveWhiteSpace = false;
+		$dom->formatOutput = true;
+		$dom->loadXML($xml->asXML());
+		return $dom;
+		
 	}
 }
 ?>
