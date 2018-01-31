@@ -1,13 +1,21 @@
 <?php
 include_once 'lib/productjson2isoxml.php';
 $url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
-$json = file_get_contents($url);
+$json = file_get_contents($url) or exit("Can't connect to harvest list");
+
 $arr = json_decode($json, true);
 $start = microtime(true);
 
 echo("RECORDS TO BE PROCESSED: " . count($arr['nodes']));
 echo "\r\n";
 echo "PROCESSING ... \r\n";
+
+// empty folder before new files are put there; only executed when harvest list was successfully loaded
+$files = glob(__DIR__ . "/data//product2iso/*"); // get all file names
+foreach($files as $file){ // iterate files
+  if(is_file($file))
+    unlink($file); // delete file
+}
 
 foreach($arr['nodes'] as $key => $value){
 	$mdURL = $value['data_product']['url'];
@@ -24,8 +32,8 @@ foreach($arr['nodes'] as $key => $value){
 		echo("The conversion process failed for record: " . $mdUUID . " URL: " . $mdURL ."\r\n");
 	}
 	else{
-		file_put_contents($file_name, $product2iso_xml_file);
-
+		//file_put_contents($file_name, $product2iso_xml_file);
+		$product2iso_xml_file->save($file_name);
 	}
 
 }
