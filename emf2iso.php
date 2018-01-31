@@ -14,6 +14,13 @@ echo "\r\n";
 echo "PROCESSING ... \r\n";
 $log_summary = [];
 
+// empty folder before new files are put there; only executed when harvest list was successfully loaded
+$files = glob(__DIR__ . "/data/emf2iso/*"); // get all file names
+foreach($files as $file){ // iterate files
+  if(is_file($file))
+    unlink($file); // delete file
+}
+
 // parse 
 for ($x = 0; $x < count($md_records); $x++) {
     $temp_record = $md_records[$x];
