@@ -127,11 +127,10 @@ function productJson2isoXml($productJsonUrl){
 			***/
 		$product_uuid = $json->{'nodes'}[0]->{'node'}->{'uuid'};
 		if ($product_uuid){
-			//<gmx:Anchor xlink:href="http://data.demlas.geof.unizg.hr/'. $resIden .'">'. $resIden .'</gmx:Anchor>
 			$gmdXML .= '<gmd:identifier>
 						  <gmd:MD_Identifier>
 							 <gmd:code>
-								<gco:CharacterString>https://data.lter-europe.net/deims/'. $product_uuid .'</gco:CharacterString>
+								<gco:CharacterString>https://data.lter-europe.net/deims/activity/'. $product_uuid .'</gco:CharacterString>
 							 </gmd:code>
 						  </gmd:MD_Identifier>
 					   </gmd:identifier>';
