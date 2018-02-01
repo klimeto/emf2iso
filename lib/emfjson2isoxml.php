@@ -225,9 +225,16 @@ function emfXml2isoXml($emfXMLUrl){
 			***/
 				
 			/**** SITE KEYWORD ****/
-			$gmdXML .= '<gmd:descriptiveKeywords><gmd:MD_Keywords><gmd:keyword>
-							 <gco:CharacterString>site</gco:CharacterString>
-							</gmd:keyword></gmd:MD_Keywords></gmd:descriptiveKeywords>';
+			$gmdXML .= '<gmd:descriptiveKeywords>
+							<gmd:MD_Keywords>
+								<gmd:keyword>
+									<gco:CharacterString>site</gco:CharacterString>
+								</gmd:keyword>
+								<gmd:keyword>
+									<gco:CharacterString>emf2iso_pointer_record</gco:CharacterString>
+								</gmd:keyword>
+							</gmd:MD_Keywords>
+						</gmd:descriptiveKeywords>';
 			/**** OBSERVED PROPERTIES ****/ 
 			$ef_observingCapabilityArray = $json->{'EnvironmentalMonitoringFacility'}->{'ef:observingCapability'};
 			
