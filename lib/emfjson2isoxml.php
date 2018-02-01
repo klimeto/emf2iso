@@ -158,7 +158,7 @@ function emfXml2isoXml($emfXMLUrl){
 				$gmdXML .= '<gmd:identifier>
 							  <gmd:MD_Identifier>
 								 <gmd:code>
-									<gco:CharacterString>'.$base_namespace.'/'. $base_localId .'</gco:CharacterString>
+									<gco:CharacterString>'.$base_namespace.'/site/'. $base_localId .'</gco:CharacterString>
 								 </gmd:code>
 							  </gmd:MD_Identifier>
 						   </gmd:identifier>';
