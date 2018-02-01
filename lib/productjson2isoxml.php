@@ -225,8 +225,8 @@ function productJson2isoXml($productJsonUrl){
 								<gmd:keyword>
 									<gco:CharacterString>product2iso_pointer_record</gco:CharacterString>
 								</gmd:keyword>
-							</gmd:MD_Keywords><
-						/gmd:descriptiveKeywords>';
+							</gmd:MD_Keywords>
+						</gmd:descriptiveKeywords>';
 			
 		/**** DATA PRODUCT TYPE ****/
 		/* NOTE: SHALL WE ADD LINK TO DEIMS PRODUCT TYPE TAXONOMY? IT IS AVAILABLE ONLY FOR REGISTERED USERS? */
