@@ -248,7 +248,7 @@ function productJson2isoXml($productJsonUrl){
 			foreach ($product_kwdsArray as $kwd){
 				$gmdXML .= '<gmd:keyword><gco:CharacterString>'. $kwd .'</gco:CharacterString></gmd:keyword>';
 			}
-			$gmdXML .= '<gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/>';
+			$gmdXML .= '<gmd:thesaurusName xlink:href="http://vocabs.lter-europe.net/EnvThes/10000" xlink:title="EnvThes"/>';
 			$gmdXML .= '</gmd:MD_Keywords></gmd:descriptiveKeywords>';
 		}
 		/**** OPEN DATA *****/
@@ -367,7 +367,7 @@ function productJson2isoXml($productJsonUrl){
 			
 			
 		if(!empty($product_related_site_uuid)){
-			$jsonCSWSite = json_decode(file_get_contents($getRecById . $product_related_site_uuid,false,
+			$jsonCSWSite = json_decode(file_get_contents($getRecById . "emf2gmd_" . $product_related_site_uuid,false,
 				stream_context_create(
 					array(
 						'http' => array(
@@ -376,7 +376,7 @@ function productJson2isoXml($productJsonUrl){
 					)
 				)));
 			if(!empty($jsonCSWSite->{'ows20:ExceptionReport'})){
-				echo("Exception in CSW GetRecordsById for: emf2iso_" . $product_related_site_uuid . "\r\n");
+				echo("Exception in CSW GetRecordsById for: emf2gmd_" . $product_related_site_uuid . "\r\n");
 			}
 			else{
 				$wblon = $jsonCSWSite->{'gmd:MD_Metadata'}->{'gmd:identificationInfo'}->{'gmd:MD_DataIdentification'}->{'gmd:extent'}[0]->{'gmd:EX_Extent'}->{'gmd:geographicElement'}->{'gmd:EX_GeographicBoundingBox'}->{'gmd:westBoundLongitude'}->{'gco:Decimal'};

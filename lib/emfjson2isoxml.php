@@ -244,7 +244,7 @@ function emfXml2isoXml($emfXMLUrl){
 					$observedProperty = $observingCapability->{'ef:ObservingCapability'}->{'ef:observedProperty'}->{'@_text'};
 					$gmdXML .= '<gmd:keyword><gco:CharacterString>'. $observedProperty .'</gco:CharacterString></gmd:keyword>';
 				}
-				$gmdXML .= '<gmd:thesaurusName xlink:href="http://vocabs.ceh.ac.uk/evn/tbl/envthes.evn#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10000" xlink:title="EnvThes"/>';
+				$gmdXML .= '<gmd:thesaurusName xlink:href="http://vocabs.lter-europe.net/EnvThes/10000" xlink:title="EnvThes"/>';
 				$gmdXML .= '</gmd:MD_Keywords></gmd:descriptiveKeywords>';
 			}
 			/**** MEDIA MONITORED ****/
