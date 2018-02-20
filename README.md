@@ -5,3 +5,4 @@ PHP scripts that load Inspire EF records and json records for data products from
 
 - Currently require harvest lists for both sites and data products
 - Meant to be called in console
+- works with php 7.2
