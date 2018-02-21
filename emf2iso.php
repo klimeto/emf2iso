@@ -24,7 +24,7 @@ foreach($files as $file){ // iterate files
 // parse 
 for ($x = 0; $x < count($md_records); $x++) {
     $temp_record = $md_records[$x];
-	$file_name = __DIR__ . "/data/emf2iso/emf2gmd_".$temp_record["UUID"].".xml";
+	$file_name = __DIR__ . "/data/emf2iso/".$temp_record["UUID"].".xml";
 
 	// call transformation function
 	$emf2iso_xml_file = emfXml2isoXml($temp_record["path"]);
