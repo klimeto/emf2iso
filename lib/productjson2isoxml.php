@@ -33,7 +33,7 @@ function productJson2isoXml($productJsonUrl){
 		$product_related_site_uuid = $json->{'nodes'}[0]->{'node'}->{'related_site_uuid'};
 		if(!empty($product_related_site_uuid)){
 			$gmdXML .= '<gmd:parentIdentifier>
-							<gmx:Anchor xlink:href="'.$getRecById.'emf2gmd_'.$product_related_site_uuid.'" xlink:title="'.$product_related_site_title.'"/>
+							<gmx:Anchor xlink:href="'.$getRecById.$product_related_site_uuid.'" xlink:title="'.$product_related_site_title.'"/>
 						</gmd:parentIdentifier>';
 		} 
 			$gmdXML.= '<gmd:hierarchyLevel>
