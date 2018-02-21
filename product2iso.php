@@ -11,7 +11,7 @@ echo "\r\n";
 echo "PROCESSING ... \r\n";
 
 // empty folder before new files are put there; only executed when harvest list was successfully loaded
-$files = glob(__DIR__ . "/data//product2iso/*"); // get all file names
+$files = glob(__DIR__ . "/data/product2iso/*"); // get all file names
 foreach($files as $file){ // iterate files
   if(is_file($file))
     unlink($file); // delete file
