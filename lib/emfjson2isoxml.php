@@ -29,7 +29,7 @@ function emfXml2isoXml($emfXMLUrl){
 			***/
 			
 			$gmlId = $json->{'EnvironmentalMonitoringFacility'}->{'@gml:id'};
-			$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. str_replace("Facility_","emf2gmd_",$gmlId). '</gco:CharacterString></gmd:fileIdentifier>';
+			$gmdXML .= '<gmd:fileIdentifier><gco:CharacterString>'. str_replace("Facility_","",$gmlId). '</gco:CharacterString></gmd:fileIdentifier>';
 			/*** 
 				C.2.27 Metadata language + C.3.4 Character Encoding + 3.1.1.1 Resource type
 			***/
@@ -46,7 +46,7 @@ function emfXml2isoXml($emfXMLUrl){
 			$ef_broader = $json->{'EnvironmentalMonitoringFacility'}->{'ef:broader'};
 			if(!empty($ef_broader)){
 				$gmdXML .= '<gmd:parentIdentifier>
-								<gmx:Anchor xlink:href="'.$getRecById.str_replace("Facility_","emf2gmd_",$ef_broader->{'ef:Hierarchy'}->{'@gml:id'}).'"/>
+								<gmx:Anchor xlink:href="'.$getRecById.str_replace("Facility_","",$ef_broader->{'ef:Hierarchy'}->{'@gml:id'}).'"/>
 							</gmd:parentIdentifier>';
 			} 
 				$gmdXML.='<gmd:hierarchyLevel>
