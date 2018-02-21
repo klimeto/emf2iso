@@ -367,7 +367,7 @@ function productJson2isoXml($productJsonUrl){
 			
 			
 		if(!empty($product_related_site_uuid)){
-			$jsonCSWSite = json_decode(file_get_contents($getRecById . "emf2gmd_" . $product_related_site_uuid,false,
+			$jsonCSWSite = json_decode(file_get_contents($getRecById . $product_related_site_uuid,false,
 				stream_context_create(
 					array(
 						'http' => array(
@@ -376,7 +376,7 @@ function productJson2isoXml($productJsonUrl){
 					)
 				)));
 			if(!empty($jsonCSWSite->{'ows20:ExceptionReport'})){
-				echo("Exception in CSW GetRecordsById for: emf2gmd_" . $product_related_site_uuid . "\r\n");
+				echo("Exception in CSW GetRecordsById for: " . $product_related_site_uuid . "\r\n");
 			}
 			else{
 				$wblon = $jsonCSWSite->{'gmd:MD_Metadata'}->{'gmd:identificationInfo'}->{'gmd:MD_DataIdentification'}->{'gmd:extent'}[0]->{'gmd:EX_Extent'}->{'gmd:geographicElement'}->{'gmd:EX_GeographicBoundingBox'}->{'gmd:westBoundLongitude'}->{'gco:Decimal'};
