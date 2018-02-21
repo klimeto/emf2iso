@@ -25,7 +25,7 @@ foreach($arr['nodes'] as $key => $value){
 	$mdJSON = json_decode($getJSON);
 	$mdUUID = $mdJSON->{'nodes'}[0]->{'node'}->{'uuid'};
 	
-	$file_name = __DIR__ . "/data/product2iso/product2gmd_".$mdUUID.".xml";
+	$file_name = __DIR__ . "/data/product2iso/".$mdUUID.".xml";
 
 	$product2iso_xml_file = productJson2isoXml($mdURL);
 	if(empty($product2iso_xml_file)){
