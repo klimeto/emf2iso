@@ -94,7 +94,7 @@ function emfXml2isoXml($emfXMLUrl){
 								   </gmd:contactInfo>';
 					}
 					$gmdXML .= '<gmd:role>
-									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
+									<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>
 								 </gmd:role>';
 					$gmdXML .= '</gmd:CI_ResponsibleParty></gmd:contact>';
 				}
