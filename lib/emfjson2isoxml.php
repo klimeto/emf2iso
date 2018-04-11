@@ -50,7 +50,7 @@ function emfXml2isoXml($emfXMLUrl){
 							</gmd:parentIdentifier>';
 			} 
 				$gmdXML.='<gmd:hierarchyLevel>
-							  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+							  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 						  </gmd:hierarchyLevel>
 						  <gmd:hierarchyLevelName>
 								<gco:CharacterString>Research site</gco:CharacterString>
