@@ -1,6 +1,6 @@
 <?php
 include_once 'lib/productjson2isoxml.php';
-$url = 'https://data.lter-europe.net/deims/data_product/harvesting_json';
+$url = 'https://deims.org/data_product/harvesting_json';
 $json = file_get_contents($url) or exit("Can't connect to harvest list");
 
 $arr = json_decode($json, true);
