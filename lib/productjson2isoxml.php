@@ -6,7 +6,7 @@ function productJson2isoXml($productJsonUrl){
 	ini_set('date.timezone','Europe/Belgrade');
 	//header('Content-Type: text/xml');
 	//$productJsonUrl = $_GET['url'];
-	$cswApi = 'https://data.lter-europe.net/pycsw?';
+	$cswApi = 'https://deims.org/pycsw?';
 	$getRecById = $cswApi . 'service=CSW&amp;version=3.0.0&amp;request=GetRecordById&amp;ElementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;outputFormat=application/json&amp;id=';
 	$json = json_decode(file_get_contents($productJsonUrl));
 	if ($json){
@@ -49,7 +49,7 @@ function productJson2isoXml($productJsonUrl){
 		$product_reporter = $json->{'nodes'}[0]->{'node'}->{'reporter'};
 		$product_reporter_ids = explode(", ",$product_reporter);
 		if(!empty($product_reporter)){
-			$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$product_reporter_ids[0]."/json"));
+			$jsonPerson = json_decode(file_get_contents("https://deims.org/node/".$product_reporter_ids[0]."/json"));
 			// IF PERSON REFERENCED EXTRACT TITLE AND EMAIL
 			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
 				$gmdXML .= '<gmd:contact>
@@ -130,7 +130,7 @@ function productJson2isoXml($productJsonUrl){
 			$gmdXML .= '<gmd:identifier>
 						  <gmd:MD_Identifier>
 							 <gmd:code>
-								<gco:CharacterString>https://data.lter-europe.net/deims/activity/'. $product_uuid .'</gco:CharacterString>
+								<gco:CharacterString>https://deims.org/activity/'. $product_uuid .'</gco:CharacterString>
 							 </gmd:code>
 						  </gmd:MD_Identifier>
 					   </gmd:identifier>';
@@ -304,7 +304,7 @@ function productJson2isoXml($productJsonUrl){
 		$product_datasets_ids = explode(", ",$product_related_datasets);
 		if(!empty($product_related_datasets)){
 			foreach ($product_datasets_ids as $aggregateDataSetIdentifier){
-				$jsonDataset = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$aggregateDataSetIdentifier."/json"));
+				$jsonDataset = json_decode(file_get_contents("https://deims.org/node/".$aggregateDataSetIdentifier."/json"));
 				/*
 				$gmdXML .= ' <gmd:aggregationInfo>
 					<gmd:MD_AggregateInformation>
@@ -460,7 +460,7 @@ function productJson2isoXml($productJsonUrl){
 						<gmd:onLine>
 							<gmd:CI_OnlineResource>
 								<gmd:linkage>
-									<gmd:URL>https://data.lter-europe.net/deims/activity/'.$gmlId.'</gmd:URL>
+									<gmd:URL>https://deims.org/activity/'.$gmlId.'</gmd:URL>
 								</gmd:linkage>
 							</gmd:CI_OnlineResource>
 						</gmd:onLine>
