@@ -206,7 +206,7 @@ function productJson2isoXml($productJsonUrl){
 			$gmdXML .= '<gmd:resourceMaintenance>
 							<gmd:MD_MaintenanceInformation>
 								<gmd:maintenanceAndUpdateFrequency>
-									<gmd:MD_MaintenanceFrequencyCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy/temporal_resolution_data_products_" codeListValue="'.$product_temp_res.'">'.$product_temp_res.'</gmd:MD_MaintenanceFrequencyCode>
+									<gmd:MD_MaintenanceFrequencyCode codeList="https://deims.org/admin/structure/taxonomy/temporal_resolution_data_products_" codeListValue="'.$product_temp_res.'">'.$product_temp_res.'</gmd:MD_MaintenanceFrequencyCode>
 								</gmd:maintenanceAndUpdateFrequency>
 							</gmd:MD_MaintenanceInformation>
 						</gmd:resourceMaintenance>';
