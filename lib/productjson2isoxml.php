@@ -150,7 +150,7 @@ function productJson2isoXml($productJsonUrl){
 			***/
 			
 		if(!empty($product_reporter)){
-			$jsonPerson = json_decode(file_get_contents("https://data.lter-europe.net/deims/node/".$product_reporter_ids[0]."/json"));
+			$jsonPerson = json_decode(file_get_contents("https://deims.org/node/".$product_reporter_ids[0]."/json"));
 			// IF PERSON REFERENCED EXTRACT TITLE AND EMAIL
 			if($jsonPerson->{'nodes'}[0]->{'node'}->{'content_type'} == 'Person' && !empty($jsonPerson->{'nodes'}[0]->{'node'}->{'person_email'})){
 				$gmdXML .= '<gmd:pointOfContact>
