@@ -348,7 +348,7 @@ function productJson2isoXml($productJsonUrl){
 			$product_spatial_resolution = $json->{'nodes'}[0]->{'node'}->{'spatial_resolution'};
 			if($product_spatial_resolution){
 				$gmdXML .= '<gmd:spatialRepresentationType>
-								<gmd:MD_SpatialRepresentationTypeCode codeList="https://data.lter-europe.net/deims/admin/structure/taxonomy_manager/voc/spatial_resolution_data_products_" codeListValue="'.$product_spatial_resolution.'">'.$product_spatial_resolution.'</gmd:MD_SpatialRepresentationTypeCode>
+								<gmd:MD_SpatialRepresentationTypeCode codeList="https://deims.org/admin/structure/taxonomy_manager/voc/spatial_resolution_data_products_" codeListValue="'.$product_spatial_resolution.'">'.$product_spatial_resolution.'</gmd:MD_SpatialRepresentationTypeCode>
 							</gmd:spatialRepresentationType>';
 			}
 		/***
